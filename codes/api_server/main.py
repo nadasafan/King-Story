@@ -551,6 +551,9 @@ def generate_story_pdf(
 
     print("### images on disk:", len(all_stems), flush=True)
     print("### usable images (no _try):", len(images_dict), flush=True)
+    # ✅ keep original dims BEFORE any resize (w, h)
+    original_dims_dict = {k: (v.shape[1], v.shape[0]) for k, v in images_dict.items()}
+    print("### original dims sample:", list(original_dims_dict.items())[:3], flush=True)
 
     if not images_dict:
         raise HTTPException(status_code=400, detail="No usable images found (after skipping _tryN).")
@@ -605,7 +608,7 @@ def generate_story_pdf(
         images_with_text = apply_text_to_images(
             images_dict=images_dict,
             text_data=text_data,
-            original_dims_dict={},   # IMPORTANT: prevent extra scaling
+            original_dims_dict=original_dims_dict,   # ✅ correct scaling for text positions,   # IMPORTANT: prevent extra scaling
             app=None,
             fonts_loaded=fonts_loaded,
             language=language,
