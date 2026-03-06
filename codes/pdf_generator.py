@@ -31,7 +31,7 @@ def create_pdf_from_images(images_list, output_path, use_parallel=None):
         return False
     
     print("\nCreating PDF...")
-# تحويل OpenCV images إلى PIL Images
+    # تحويل OpenCV images إلى PIL Images
     pil_images = []
     
     for idx, img in enumerate(images_list, 1):

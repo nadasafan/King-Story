@@ -427,13 +427,33 @@ def _render_html_to_qimage(
     scene = QGraphicsScene()
     scene.addItem(item)
 
-    img = QImage(int(w), int(h), QImage.Format_ARGB32_Premultiplied)
+    # ✅ احسب الارتفاع الحقيقي المطلوب للنص
+    doc_h = int(doc.size().height())
+
+    # ✅ padding إضافي خصوصًا للعربي + الشادو
+    extra_bottom = 30
+    extra_top = 8
+
+    if shadow:
+        extra_bottom += abs(int(shadow_offset[1])) + int(blur_radius)
+        extra_top += int(blur_radius) // 2
+
+    final_h = max(int(h), doc_h + extra_top + extra_bottom)
+
+    img = QImage(int(w), int(final_h), QImage.Format_ARGB32_Premultiplied)
     img.fill(Qt.transparent)
 
     p = QPainter(img)
     p.setRenderHint(QPainter.Antialiasing, True)
     p.setRenderHint(QPainter.TextAntialiasing, True)
-    scene.render(p, QRectF(0, 0, w, h), QRectF(0, 0, w, h))
+
+    # ✅ نرسم مع مساحة أكبر لتجنب قص آخر السطر
+    scene.render(
+        p,
+        QRectF(0, 0, w, final_h),
+        QRectF(0, 0, w, final_h)
+    )
+
     p.end()
 
     return img
