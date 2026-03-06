@@ -571,13 +571,33 @@ def render_image(
 
             sx, sy, sw, sh = _scale_rect(x, y, ww, hh, rx, ry)
 
-            # ✅ Mirror X because the base is flipped (Arabic only)
-
+            
             html2 = html
+
+    # ✅ حافظ على السطور كما هي
+            html2 = html2.replace("\r\n", "\n").replace("\r", "\n")
+            html2 = html2.replace("\n", "<br>")
+
+    # ✅ اتجاه النص حسب اللغة
+            direction = "rtl" if language == "ar" else "ltr"
+            align = "center"
+
+    # ✅ امنع تكسير الكلمات وحافظ على شكل السطور
+            html2 = (
+                f'<div dir="{direction}" style="'
+                f'white-space: pre-line; '
+                f'word-break: keep-all; '
+                f'overflow-wrap: normal; '
+                f'text-align: {align};'
+                f'">{html2}</div>'
+    )
+
             if font_family:
                 html2 = inject_font_family(html2, font_family)
+
             if gf != 0:
                 html2 = scale_font_sizes(html2, gf)
+
             html2 = make_waw_transparent(html2)
 
             label_img = _render_html_to_qimage(
@@ -588,15 +608,15 @@ def render_image(
                 blur_radius=int(SHADOW_BLUR_RADIUS),
                 shadow_color_rgba=tuple(SHADOW_COLOR),
                 shadow_offset=(int(SHADOW_OFFSET_X), int(SHADOW_OFFSET_Y)),
-            )
+    )
 
-            painter.drawImage(int(sx), int(sy), label_img)
+        painter.drawImage(int(sx), int(sy), label_img)
 
-        painter.end()
+    painter.end()
 
-        out_bgr = _qimage_to_bgr(out_img)
+    out_bgr = _qimage_to_bgr(out_img)
 
-        return out_bgr
+    return out_bgr
 
 
 # =========================
