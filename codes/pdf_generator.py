@@ -31,16 +31,6 @@ def create_pdf_from_images(images_list, output_path, use_parallel=None):
         return False
     
     print("\nCreating PDF...")
-
-# ✅ safety: force all pages to same size as the first page
-    ref_h, ref_w = images_list[0].shape[:2]
-    fixed = []
-    for img in images_list:
-        if img.shape[:2] != (ref_h, ref_w):
-            img = cv2.resize(img, (ref_w, ref_h), interpolation=cv2.INTER_LANCZOS4)
-        fixed.append(img)
-    images_list = fixed
-
 # تحويل OpenCV images إلى PIL Images
     pil_images = []
     
