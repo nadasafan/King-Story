@@ -242,11 +242,22 @@ def scale_font_sizes(html_text: str, global_font: float) -> str:
 
     gf = _clamp(global_font, 0.1, 10.0)
 
+    # ✅ قيم ثابتة داخل الكود (مناسبة للأطفال)
+    boost = 1.25      # جرّبي 1.2 أو 1.35 لو لسه صغير
+    min_pt = 26       # حد أدنى لو unit=pt
+    min_px = 34       # حد أدنى لو unit=px
+
     def repl(match):
         original_size = float(match.group(1))
         unit = match.group(2) if match.group(2) else "pt"
-        new_size = int(original_size * gf)
-        new_size = max(1, new_size)
+
+        new_size = int(original_size * gf * boost)
+
+        if unit == "pt":
+            new_size = max(min_pt, new_size)
+        else:
+            new_size = max(min_px, new_size)
+
         return f"font-size:{new_size}{unit}"
 
     return re.sub(r"font-size:(\d+(?:\.\d+)?)(pt|px)?", repl, html_text)

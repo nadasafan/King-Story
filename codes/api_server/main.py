@@ -211,7 +211,9 @@ def _resize_to_resolution_map(images_dict: dict, resolution_slides: list) -> dic
             continue
 
         img = images_dict[name]
-        resized = cv2.resize(img, (w, h), interpolation=cv2.INTER_AREA)
+        # upscale/downscale wisely
+        interp = cv2.INTER_AREA if (w < img.shape[1] or h < img.shape[0]) else cv2.INTER_LANCZOS4
+        resized = cv2.resize(img, (w, h), interpolation=interp)
         out[name] = resized
 
     for k, v in images_dict.items():
@@ -659,14 +661,19 @@ def generate_story_pdf(
     pdf_path = (RESULT_DIR / pdf_filename).resolve()
     print("### pdf_path:", pdf_path, flush=True)
 
-    # 8) create pdf
+       # 8) create pdf
     try:
-        ok = create_pdf_from_images(final_images, str(pdf_path), use_parallel=False)
+        pdf_out_path = create_pdf_from_images(final_images, str(pdf_path), use_parallel=False)
     except TypeError:
-        ok = create_pdf_from_images(final_images, str(pdf_path), use_parallel=None)
+        pdf_out_path = create_pdf_from_images(final_images, str(pdf_path), use_parallel=None)
 
-    if not ok or not pdf_path.exists():
+    if not pdf_out_path:
         raise HTTPException(status_code=500, detail="Failed to generate PDF.")
+
+    pdf_out_path = Path(pdf_out_path).resolve()
+
+    if not pdf_out_path.exists():
+        raise HTTPException(status_code=500, detail=f"PDF not found after generation: {pdf_out_path}")
 
     print("### PDF OK ✅", flush=True)
 
@@ -675,8 +682,8 @@ def generate_story_pdf(
         "language": language,
         "user_name": user_name,
         "images_folder": str(img_dir.resolve()),
-        "pdf_path": str(pdf_path),
-        "pdf_url": _to_file_url(pdf_path),
+        "pdf_path": str(pdf_out_path),
+        "pdf_url": _to_file_url(pdf_out_path),
         "text_rendered": text_render_ok,
         "note": "Text rendered successfully." if text_render_ok else "Fallback SAFE MODE: PDF generated without text rendering.",
     }

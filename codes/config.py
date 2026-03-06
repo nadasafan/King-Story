@@ -30,17 +30,19 @@ GEMINI_IMAGE_SIZE = "2K"   # "1K" | "2K" | "4K"  (K لازم Capital) :contentRe
 SEGMIND_API_KEY = "SG_a86634f6eea7e457"
 SEGMIND_TIMEOUT = 580
 SEGMIND_SAFETY  = 3     
-SEGMIND_SEED    = 42   
+import time
+SEGMIND_SEED = int(time.time()) 
 
 # ================== ImgBB Configuration ==================
 IMGBB_API_KEY = "3b4cd701f4471dee2c2c67a0d13d711e"
 IMGBB_UPLOAD_URL = "https://api.imgbb.com/1/upload"
 
 # ================== Font Paths ==================
-EN_FIRST_SLIDE_FONT = os.path.join(BASE_DIR, "Fonts/english fonts/Irish_Grover/IrishGrover-Regular.ttf")
-EN_REST_SLIDES_FONT = os.path.join(BASE_DIR, "Fonts/english fonts/static/PlayfairDisplay-Bold.ttf")
-AR_FIRST_SLIDE_FONT = os.path.join(BASE_DIR, "Fonts/arabic fonts/alfont_com_KAF-GULZAR-PC.otf")
-AR_REST_SLIDES_FONT = os.path.join(BASE_DIR, "Fonts/arabic fonts/alfont_com_Al-Haroni-Mashnab-Salawat.ttf")
+EN_FIRST_SLIDE_FONT = os.path.join(BASE_DIR, "Fonts/english fonts/KidzhoodDEMO-Bold.otf")
+EN_REST_SLIDES_FONT = os.path.join(BASE_DIR, "Fonts/english fonts/KidzhoodDEMO-Medium.otf")
+
+AR_FIRST_SLIDE_FONT = os.path.join(BASE_DIR, "Fonts/arabic fonts/KidzhoodArabicDEMO-Light.otf")
+AR_REST_SLIDES_FONT = os.path.join(BASE_DIR, "Fonts/arabic fonts/KidzhoodArabicDEMO-Light.otf")
 
 #==================Openai Conf=====================
 

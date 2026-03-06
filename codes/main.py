@@ -48,7 +48,11 @@ def _resolve_text_file(translations_folder: str, language: str, en_story_name: s
     return text_file, pdf_name
 
 
-def _build_pdf_filename(pdf_name: str, language: str, user_name: str) -> str:
+from datetime import datetime
+import uuid
+
+def _build_pdf_filename(pdf_name: str, language: str, user_name: str):
+
     if language == "en":
         pdf_filename = (
             pdf_name.replace("Name", user_name)
@@ -61,7 +65,10 @@ def _build_pdf_filename(pdf_name: str, language: str, user_name: str) -> str:
             .replace("اسم", user_name)
         )
 
-    return f"{pdf_filename}.pdf"
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+    unique_key = uuid.uuid4().hex[:6]
+
+    return f"{pdf_filename}_{timestamp}_{unique_key}.pdf"
 
 
 def main():

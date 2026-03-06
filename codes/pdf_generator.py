@@ -6,6 +6,12 @@
 
 import cv2
 from PIL import Image
+from datetime import datetime
+import uuid
+import os
+from pathlib import Path
+from fastapi import HTTPException
+
 
 
 def create_pdf_from_images(images_list, output_path, use_parallel=None):
@@ -25,8 +31,17 @@ def create_pdf_from_images(images_list, output_path, use_parallel=None):
         return False
     
     print("\nCreating PDF...")
-    
-    # تحويل OpenCV images إلى PIL Images
+
+# ✅ safety: force all pages to same size as the first page
+    ref_h, ref_w = images_list[0].shape[:2]
+    fixed = []
+    for img in images_list:
+        if img.shape[:2] != (ref_h, ref_w):
+            img = cv2.resize(img, (ref_w, ref_h), interpolation=cv2.INTER_LANCZOS4)
+        fixed.append(img)
+    images_list = fixed
+
+# تحويل OpenCV images إلى PIL Images
     pil_images = []
     
     for idx, img in enumerate(images_list, 1):
@@ -54,16 +69,29 @@ def create_pdf_from_images(images_list, output_path, use_parallel=None):
     # حفظ كـ PDF
     print("Writing PDF...")
     try:
+
+    # توليد اسم PDF جديد
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+        unique_key = uuid.uuid4().hex[:6]
+
+        folder = os.path.dirname(output_path)
+        base = os.path.splitext(os.path.basename(output_path))[0]
+
+        new_pdf_name = f"{base}_{timestamp}_{unique_key}.pdf"
+        output_path = os.path.join(folder, new_pdf_name)
+
         pil_images[0].save(
-            output_path,
-            "PDF",
-            resolution=100.0,
-            save_all=True,
-            append_images=pil_images[1:] if len(pil_images) > 1 else None
-        )
-        
+        output_path,
+        "PDF",
+        resolution=100.0,
+        save_all=True,
+        append_images=pil_images[1:] if len(pil_images) > 1 else None
+    )
+
         print(f"Done: {output_path}")
-        return True
+        return output_path
+    
+
         
     except Exception as e:
         print(f"ERROR: Failed to create PDF - {e}")

@@ -20,10 +20,13 @@ import os
 import cv2
 import time
 import shutil
+from datetime import datetime
+import uuid
 from pathlib import Path
 
+
 from config import HEAD_SWAP_DELAY
-from api_segmiod import perform_head_swap
+from api_segmiod import perform_head_swap, upload_to_segmind_storage
 from text_handler import render_image
 from utils import get_image_dimensions
 
@@ -57,10 +60,38 @@ def resize_image_to_resolution(image, target_width, target_height):
 
 
 def apply_resolution_to_images(images_dict, resolution_slides, use_parallel=None):
+    """
+    Uses resolution_slides from info.txt:
+      [["slide_01", 2048, 2048], ["slide_02", 2048, 1024], ...]
+    Returns a LIST of images resized in correct slide order.
+    """
+    if not images_dict:
+        return []
+
+    # build map: slide_name -> (w,h)
+    res_map = {}
+    if resolution_slides:
+        for item in resolution_slides:
+            try:
+                name, w, h = item
+                res_map[str(name)] = (int(w), int(h))
+            except Exception:
+                continue
+
+    # order slides
+    slide_keys = sorted(images_dict.keys(), key=lambda x: int(x.split("_")[1]))
+
     resized_images = []
-    for slide_name, target_w, target_h in resolution_slides:
-        if slide_name in images_dict:
-            resized_images.append(resize_image_to_resolution(images_dict[slide_name], target_w, target_h))
+    for slide_name in slide_keys:
+        img = images_dict[slide_name]
+        tw, th = res_map.get(slide_name, (img.shape[1], img.shape[0]))
+
+        if (img.shape[1], img.shape[0]) != (tw, th):
+            interp = cv2.INTER_AREA if (tw < img.shape[1] or th < img.shape[0]) else cv2.INTER_LANCZOS4
+            img = cv2.resize(img, (tw, th), interpolation=interp)
+
+        resized_images.append(img)
+
     return resized_images
 
 
@@ -281,15 +312,21 @@ def _clear_single_attempt_env() -> None:
     os.environ.pop("SEGMIND_ATTEMPT_INDEX", None)
 
 
-def _generate_single_attempt(scene_path: str, face_image_path: str, final_out_path: str, attempt_idx: int) -> str | None:
+def _generate_single_attempt(
+    scene_path: str,
+    face_image_path: str,
+    final_out_path: str,
+    attempt_idx: int,
+    face_url_cached: str | None = None,
+) -> str | None:
     _set_single_attempt_env(attempt_idx)
     try:
         preview_path = perform_head_swap(
-            target_image_path=scene_path,
-            face_image_path=face_image_path,
-            output_filename=final_out_path,
-            face_url_cached=None,
-        )
+        target_image_path=scene_path,
+        face_image_path=face_image_path,
+        output_filename=final_out_path,
+        face_url_cached=face_url_cached,   # ✅ Solution A
+)
         if preview_path and os.path.exists(preview_path):
             _ensure_same_dims_as_original(scene_path, preview_path)
             return preview_path
@@ -418,6 +455,11 @@ def process_head_swap(clean_images_folder, character_image_path, character_name,
     all_images = sorted(api_images + normal_images)
     if not all_images:
         return None, None
+    # ✅ Solution A: upload face ONCE and reuse URL for all slides
+    face_url_cached = upload_to_segmind_storage(character_image_path)
+
+    if not face_url_cached:
+        print("⚠️ [WARN] Face upload failed - will fallback to uploading per slide.")
 
     processed_images_dict = {}
     original_dims_dict = {}
@@ -431,7 +473,14 @@ def process_head_swap(clean_images_folder, character_image_path, character_name,
         src_path = os.path.join(api_images_folder if is_api else normal_images_folder, filename)
 
         src_ext = Path(src_path).suffix.lower() or ".jpg"
+
+        # 🔥 generate unique filename
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+        unique_key = uuid.uuid4().hex[:6]
+
+        # الاسم ثابت: slide_01.jpg
         out_path = os.path.join(char_output_folder, f"{name_no_ext}{src_ext}")
+
 
         dims = get_image_dimensions(src_path)
         if dims:
@@ -456,7 +505,13 @@ def process_head_swap(clean_images_folder, character_image_path, character_name,
             continue
 
         print(f"\n🧩 Generating (batch attempt_1): {filename}")
-        cand = _generate_single_attempt(src_path, character_image_path, out_path, 1)
+        cand = _generate_single_attempt(
+            src_path,
+            character_image_path,
+            out_path,
+            1,
+            face_url_cached=face_url_cached
+)
 
         if cand and os.path.exists(cand):
             shutil.copyfile(cand, out_path)
