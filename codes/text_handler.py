@@ -555,6 +555,7 @@ def render_image(
         painter.drawImage(0, 0, qimg)
 
         # ✅ choose font family for this slide
+                # ✅ choose font family for this slide
         font_family = None
         if is_first_slide and "first" in fonts_loaded:
             font_family = fonts_loaded["first"]
@@ -571,26 +572,11 @@ def render_image(
 
             sx, sy, sw, sh = _scale_rect(x, y, ww, hh, rx, ry)
 
-            
             html2 = html
 
-    # ✅ حافظ على السطور كما هي
+            # ✅ حافظ على السطور كما هي لو وُجدت \n خام
             html2 = html2.replace("\r\n", "\n").replace("\r", "\n")
             html2 = html2.replace("\n", "<br>")
-
-    # ✅ اتجاه النص حسب اللغة
-            direction = "rtl" if language == "ar" else "ltr"
-            align = "center"
-
-    # ✅ امنع تكسير الكلمات وحافظ على شكل السطور
-            html2 = (
-                f'<div dir="{direction}" style="'
-                f'white-space: pre-line; '
-                f'word-break: keep-all; '
-                f'overflow-wrap: normal; '
-                f'text-align: {align};'
-                f'">{html2}</div>'
-    )
 
             if font_family:
                 html2 = inject_font_family(html2, font_family)
@@ -608,15 +594,15 @@ def render_image(
                 blur_radius=int(SHADOW_BLUR_RADIUS),
                 shadow_color_rgba=tuple(SHADOW_COLOR),
                 shadow_offset=(int(SHADOW_OFFSET_X), int(SHADOW_OFFSET_Y)),
-    )
+            )
 
-        painter.drawImage(int(sx), int(sy), label_img)
+            painter.drawImage(int(sx), int(sy), label_img)
 
-    painter.end()
+        painter.end()
 
-    out_bgr = _qimage_to_bgr(out_img)
+        out_bgr = _qimage_to_bgr(out_img)
 
-    return out_bgr
+        return out_bgr
 
 
 # =========================
