@@ -474,6 +474,23 @@ async def regenerate_slide(
     if not preview_path or not Path(preview_path).exists():
         raise HTTPException(status_code=500, detail="Regenerate failed (no preview produced).")
 
+# ✅ FIX: force retry image to same size as original scene
+    try:
+        orig = cv2.imread(str(scene_path))
+        new_img = cv2.imread(str(preview_path))
+
+        if orig is not None and new_img is not None:
+            oh, ow = orig.shape[:2]
+            nh, nw = new_img.shape[:2]
+
+            if (ow, oh) != (nw, nh):
+                interp = cv2.INTER_AREA if (ow < nw or oh < nh) else cv2.INTER_LANCZOS4
+                new_img = cv2.resize(new_img, (ow, oh), interpolation=interp)
+                cv2.imwrite(str(preview_path), new_img)
+                print(f"### [RETRY RESIZE] fixed retry image size from {(nw, nh)} to {(ow, oh)}", flush=True)
+    except Exception as e:
+        print(f"### [RETRY RESIZE] skipped due to error: {e}", flush=True)
+
     new_p = Path(preview_path).resolve()
 
     return {
