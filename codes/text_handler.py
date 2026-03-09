@@ -19,7 +19,7 @@ import os
 import json
 import re
 import threading
-from pathlib import Path
+# from pathlib import Path
 
 import cv2
 import numpy as np
@@ -96,49 +96,49 @@ def _ensure_qt_app():
 
 
 
-def _find_info_txt() -> str | None:
-    # 1) ENV override
-    envp = os.environ.get("TEXT_INFO_PATH")
-    if envp and os.path.exists(envp):
-        return envp
+# def _find_info_txt() -> str | None:
+#     # 1) ENV override
+#     envp = os.environ.get("TEXT_INFO_PATH")
+#     if envp and os.path.exists(envp):
+#         return envp
 
-    # 2) Try next to this file
-    here = Path(__file__).resolve().parent
-    p1 = here / "info.txt"
-    if p1.exists():
-        return str(p1)
+#     # 2) Try next to this file
+#     here = Path(__file__).resolve().parent
+#     p1 = here / "info.txt"
+#     if p1.exists():
+#         return str(p1)
 
-    # 3) Try project root (one/two levels up)
-    for up in [here.parent, here.parent.parent, Path.cwd()]:
-        p = up / "info.txt"
-        if p.exists():
-            return str(p)
+#     # 3) Try project root (one/two levels up)
+#     for up in [here.parent, here.parent.parent, Path.cwd()]:
+#         p = up / "info.txt"
+#         if p.exists():
+#             return str(p)
 
-    return None
+#     return None
 
 
-def _load_resolution_map() -> dict[str, tuple[int, int]]:
+# def _load_resolution_map() -> dict[str, tuple[int, int]]:
     
-    res_map: dict[str, tuple[int, int]] = {}
-    info_path = _find_info_txt()
+#     res_map: dict[str, tuple[int, int]] = {}
+#     info_path = _find_info_txt()
     
-    if not info_path:
+#     if not info_path:
         
-        _dprint("[Info] info.txt not found -> no autoscale map")
-        return res_map
+#         _dprint("[Info] info.txt not found -> no autoscale map")
+#         return res_map
 
-    try:
-        info = json.loads(open(info_path, "r", encoding="utf-8").read())
-        for name, w, h in info.get("resolution_slides", []):
+#     try:
+#         info = json.loads(open(info_path, "r", encoding="utf-8").read())
+#         for name, w, h in info.get("resolution_slides", []):
             
-            res_map[str(name)] = (int(w), int(h))
+#             res_map[str(name)] = (int(w), int(h))
 
-        _dprint(f"[Info] Loaded resolution map from: {info_path} ({len(res_map)} slides)")
-        return res_map
-    except Exception as e:
+#         _dprint(f"[Info] Loaded resolution map from: {info_path} ({len(res_map)} slides)")
+#         return res_map
+#     except Exception as e:
         
-        _dprint(f"[Info] Failed to read info.txt: {e}")
-        return {}
+#         _dprint(f"[Info] Failed to read info.txt: {e}")
+#         return {}
 
 
 # =========================
@@ -529,11 +529,11 @@ def render_image(
 
         # ✅ language + flip flag
         language = (kwargs.get("language") or "en").strip().lower()
-        do_flip_ar = (language == "ar") and (not is_first_slide) and (image_name != "slide_01")
+        do_flip_ar = (language == "ar") and (base_w != base_h)
 
         # Determine design resolution for this slide from info.txt
-        res_map = _load_resolution_map()
-        design_w, design_h = res_map.get(image_name, (base_w, base_h))
+        # res_map = _load_resolution_map()
+        # design_w, design_h = res_map.get(image_name, (base_w, base_h))
         rx = 1.0
         ry = 1.0
 
