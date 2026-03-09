@@ -41,8 +41,8 @@ IMGBB_UPLOAD_URL = "https://api.imgbb.com/1/upload"
 EN_FIRST_SLIDE_FONT = os.path.join(BASE_DIR, "Fonts/english fonts/KidzhoodDEMO-Bold.otf")
 EN_REST_SLIDES_FONT = os.path.join(BASE_DIR, "Fonts/english fonts/KidzhoodDEMO-Medium.otf")
 
-AR_FIRST_SLIDE_FONT = os.path.join(BASE_DIR, "Fonts/arabic fonts/KidzhoodArabicDEMO-Light.otf")
-AR_REST_SLIDES_FONT = os.path.join(BASE_DIR, "Fonts/arabic fonts/KidzhoodArabicDEMO-Light.otf")
+AR_FIRST_SLIDE_FONT = os.path.join(BASE_DIR, "Fonts/arabic fonts/KidzhoodDEMO-Bold.otf")
+AR_REST_SLIDES_FONT = os.path.join(BASE_DIR, "Fonts/arabic fonts/KidzhoodDEMO-Medium.otf")
 
 #==================Openai Conf=====================
 
