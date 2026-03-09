@@ -93,7 +93,7 @@ def _ensure_qt_app():
 # =========================
 # Auto-load design resolutions from info.txt
 # =========================
-_RES_MAP_CACHE = None
+
 
 
 def _find_info_txt() -> str | None:
@@ -118,28 +118,27 @@ def _find_info_txt() -> str | None:
 
 
 def _load_resolution_map() -> dict[str, tuple[int, int]]:
-    global _RES_MAP_CACHE
-    if _RES_MAP_CACHE is not None:
-        return _RES_MAP_CACHE
-
+    
     res_map: dict[str, tuple[int, int]] = {}
     info_path = _find_info_txt()
+    
     if not info_path:
-        _RES_MAP_CACHE = res_map
+        
         _dprint("[Info] info.txt not found -> no autoscale map")
-        return _RES_MAP_CACHE
+        return res_map
 
     try:
         info = json.loads(open(info_path, "r", encoding="utf-8").read())
         for name, w, h in info.get("resolution_slides", []):
+            
             res_map[str(name)] = (int(w), int(h))
-        _RES_MAP_CACHE = res_map
+
         _dprint(f"[Info] Loaded resolution map from: {info_path} ({len(res_map)} slides)")
-        return _RES_MAP_CACHE
+        return res_map
     except Exception as e:
-        _RES_MAP_CACHE = {}
+        
         _dprint(f"[Info] Failed to read info.txt: {e}")
-        return _RES_MAP_CACHE
+        return {}
 
 
 # =========================
@@ -556,6 +555,7 @@ def render_image(
 
         # ✅ choose font family for this slide
                 # ✅ choose font family for this slide
+                # ✅ choose font family for this slide
         font_family = None
         if is_first_slide and "first" in fonts_loaded:
             font_family = fonts_loaded["first"]
@@ -574,7 +574,6 @@ def render_image(
 
             html2 = html
 
-            # ✅ حافظ على السطور كما هي لو وُجدت \n خام
             html2 = html2.replace("\r\n", "\n").replace("\r", "\n")
             html2 = html2.replace("\n", "<br>")
 
