@@ -31,18 +31,18 @@
     {
       "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'> ,فى غرفتهاالهادئة </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'><strong> فتحت الأميرة [*الاسم*]</strong></span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'> .صندوقًا خشبيًا محفورًا بالأسرار</span></p></body></html>",
       "global_font": 2.24,
-      "x": 1860,
-      "y": 1404,
-      "width": 488,
-      "height": 198
+      "x": 1926,
+      "y": 1402,
+      "width": 414,
+      "height": 188
     },
     {
       "html": "<html><head/><body><p style='text-align: right ;'><span style='color:#ffffff;font-size:14px;'> ,كان بداخله فستان الغابة </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'> ,أخضر كلون الحياة </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>  .يحكي عن حبها للطبيعة</span></p><p style='text-align:right ;'><span style='color:#ffffff;font-size:14px;'> ,وفوقه بهدوء</span></p><p style='text-align:right ;'><span style='color:#ffffff;font-size:14px;'> استقر  مفتاح ذهبي</span></p></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>    .يحمل  ذكرى أول شجاعة</span></p></body></html>",
-      "global_font": 2.13,
-      "x": 240,
-      "y": 1292,
-      "width": 525,
-      "height": 342
+      "global_font": 2.43,
+      "x": 308,
+      "y": 1217,
+      "width": 482,
+      "height": 372
     }
   ],
   "slide_04": [
@@ -433,26 +433,26 @@
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>...تستمر الحكاية  </span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>حين تعود الأميرة <strong>[*الاسم*]</strong></span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>.حاملة مفتاحها المتوهج</span></p></body></html>",
       "global_font": 2.87,
-      "x": 450,
-      "y": 216,
+      "x": 488,
+      "y": 214,
       "width": 668,
       "height": 234
     },
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>,تناديها الغابة من جديد</span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>فلا يدخلها</span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>إلا أصحاب القلوب الطيبة</span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>.والأرواح الشجاعة</span></p></body></html>",
       "global_font": 3.31,
-      "x": 474,
-      "y": 460,
+      "x": 503,
+      "y": 459,
       "width": 648,
       "height": 332
     },
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>,ضع بصمتكِ هنا</span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>,وأعلني شجاعتكِ</span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>.لتصبحي حارسة الغابة</span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>فالقوة الحقيقية</span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>تبدأ دائمًا</span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>.بالإيمان بالنفس</span></p></body></html>",
-      "global_font": 2.97,
-      "x": 470,
-      "y": 801,
-      "width": 657,
-      "height": 438
+      "global_font": 3.01,
+      "x": 503,
+      "y": 794,
+      "width": 701,
+      "height": 444
     }
   ]
 }
