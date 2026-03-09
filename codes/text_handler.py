@@ -582,8 +582,8 @@ def render_image(
             if font_family:
                 html2 = inject_font_family(html2, font_family)
 
-            # if gf != 0:
-            #     html2 = scale_font_sizes(html2, gf)
+            if gf != 0:
+                html2 = scale_font_sizes(html2, gf)
 
             html2 = make_waw_transparent(html2)
 
