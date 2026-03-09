@@ -408,7 +408,7 @@ def _render_html_to_qimage(
     html = html or ""
 
     doc = QTextDocument()
-    doc.setDocumentMargin(0)   # ✅ مهم جدًا: يمنع نزول النص لتحت
+    doc.setDocumentMargin(0)   # ✅ يمنع نزول النص لتحت
     doc.setHtml(html)
     doc.setTextWidth(max(1, int(w)))
     doc.adjustSize()
@@ -427,11 +427,11 @@ def _render_html_to_qimage(
 
     scene = QGraphicsScene()
     scene.addItem(item)
-
+    
 
     doc_h = int(doc.size().height())
 
-    # ✅ زيادة من تحت فقط لتجنب قص آخر السطر
+    # ✅ مساحة صغيرة فقط من تحت حتى لا يقص آخر السطر
     extra_bottom = 12
     if shadow:
         extra_bottom += abs(int(shadow_offset[1])) + int(blur_radius)
@@ -582,8 +582,8 @@ def render_image(
             if font_family:
                 html2 = inject_font_family(html2, font_family)
 
-            if gf != 0:
-                html2 = scale_font_sizes(html2, gf)
+            # if gf != 0:
+            #     html2 = scale_font_sizes(html2, gf)
 
             html2 = make_waw_transparent(html2)
 
