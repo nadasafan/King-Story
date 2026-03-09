@@ -408,12 +408,15 @@ def _render_html_to_qimage(
     html = html or ""
 
     doc = QTextDocument()
+    doc.setDocumentMargin(0)   # ✅ مهم جدًا: يمنع نزول النص لتحت
     doc.setHtml(html)
     doc.setTextWidth(max(1, int(w)))
+    doc.adjustSize()
 
     item = QGraphicsTextItem()
     item.setDocument(doc)
     item.setDefaultTextColor(QColor(255, 255, 255, 255))
+    item.setPos(0, 0)   # ✅ يبدأ من أعلى الصندوق
 
     if shadow:
         eff = QGraphicsDropShadowEffect()
@@ -425,18 +428,17 @@ def _render_html_to_qimage(
     scene = QGraphicsScene()
     scene.addItem(item)
 
-    # ✅ احسب الارتفاع الحقيقي المطلوب للنص
+
     doc_h = int(doc.size().height())
 
-    # ✅ padding إضافي خصوصًا للعربي + الشادو
-    extra_bottom = 30
-    extra_top = 8
-
+    # ✅ زيادة من تحت فقط لتجنب قص آخر السطر
+    extra_bottom = 12
     if shadow:
         extra_bottom += abs(int(shadow_offset[1])) + int(blur_radius)
-        extra_top += int(blur_radius) // 2
 
-    final_h = max(int(h), doc_h + extra_top + extra_bottom)
+    final_h = max(int(h), doc_h + extra_bottom)
+
+    scene.setSceneRect(0, 0, int(w), int(final_h))
 
     img = QImage(int(w), int(final_h), QImage.Format_ARGB32_Premultiplied)
     img.fill(Qt.transparent)
@@ -445,16 +447,17 @@ def _render_html_to_qimage(
     p.setRenderHint(QPainter.Antialiasing, True)
     p.setRenderHint(QPainter.TextAntialiasing, True)
 
-    # ✅ نرسم مع مساحة أكبر لتجنب قص آخر السطر
+
     scene.render(
         p,
         QRectF(0, 0, w, final_h),
-        QRectF(0, 0, w, final_h)
+        scene.sceneRect()
     )
 
     p.end()
 
     return img
+
 
 
 def _qimage_to_bgr(img: QImage) -> np.ndarray:
