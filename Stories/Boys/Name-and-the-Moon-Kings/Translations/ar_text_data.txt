@@ -3,8 +3,8 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:24pt; font-weight:700; color:#fdb0d6;'> [*الاسم*] </span></p><p align='center'><span style=' font-size:24pt; font-weight:700; color:#fdb0d6;'>و</span></p><p align='center'><span style=' font-size:24pt; font-weight:700; color:#fdb0d6;'>الملوك</span></p><p align='center'><span style=' font-size:24pt; font-weight:700; color:#fdb0d6;'>القمرية</span></p></body></html>",
       "global_font": 2.36,
-      "x": 1205,
-      "y": 148,
+      "x": 1209,
+      "y": 106,
       "width": 351,
       "height": 474
     }
@@ -13,8 +13,8 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>كان </span><span style=' font-size:14pt; color:#ffffff;'> &nbsp; [*الاسم*] &nbsp;</span><span style=' font-size:10pt; color:#deddda;'> .فتىً فضوليًا ذو خيال واسع</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>,في إحدى الليالي, كان يبحث بين بعض الكتب القديمة ووجد قصة مغبرة</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>قديمة عن </span><span style=' font-size:14pt; color:#ffffff;'>ملكة القمر</span><span style=' font-size:10pt; color:#deddda;'> الغامضة المسماة </span><span style=' font-size:10pt; color:#ffffff;'>سيلين</span><span style=' font-size:10pt; color:#deddda;'>.</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>,وتقول القصة إن أي شخص شجاع بما يكفي ليزور القمر</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>!يمكنه اكتساب قوى سحرية</span></p></body></html>",
       "global_font": 1.88,
-      "x": 463,
-      "y": 240,
+      "x": 403,
+      "y": 192,
       "width": 721,
       "height": 276
     }
