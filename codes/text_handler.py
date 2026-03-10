@@ -29,6 +29,9 @@ import numpy as np
 os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
 os.environ.setdefault("QT_OPENGL", "software")
 os.environ.setdefault("QT_LOGGING_RULES", "*.debug=false;qt.qpa.*=false")
+os.environ.setdefault("QT_AUTO_SCREEN_SCALE_FACTOR", "0")
+os.environ.setdefault("QT_ENABLE_HIGHDPI_SCALING", "0")
+os.environ.setdefault("QT_SCALE_FACTOR", "1")
 
 from PySide6.QtWidgets import (
     QApplication,
@@ -80,6 +83,16 @@ def _short(s: str, n: int = 180) -> str:
 def _ensure_qt_app():
     app = QApplication.instance()
     if app is None:
+        # Force stable, pixel-based rendering across environments (server vs local).
+        # These attributes must be set before creating the QApplication.
+        try:
+            QApplication.setAttribute(Qt.AA_DisableHighDpiScaling, True)
+        except Exception:
+            pass
+        try:
+            QApplication.setAttribute(Qt.AA_Use96Dpi, True)
+        except Exception:
+            pass
         app = QApplication([])
     return app
 
@@ -276,6 +289,53 @@ def replace_name_in_html(html_text: str, user_name: str, is_first_slide: bool = 
     return html_text
 
 
+def _normalize_html_for_qt(html_text: str, language: str) -> str:
+    """
+    Make HTML rendering stable across Qt/PySide versions and OS environments.
+
+    Goals:
+      - No default paragraph/body margins (these vary and can shift text).
+      - Avoid pt -> px DPI dependence: treat declared sizes as pixels.
+      - Ensure RTL direction for Arabic without flipping the whole page.
+    """
+    html_text = html_text or ""
+
+    # Treat "pt" sizes as pixels to avoid device DPI differences (server vs local).
+    html_text = re.sub(r"font-size:\s*(\d+(?:\.\d+)?)pt", r"font-size:\1px", html_text, flags=re.IGNORECASE)
+
+    # Ensure consistent zero margins/padding regardless of Qt defaults.
+    css_reset = (
+        "html,body{margin:0;padding:0;}"
+        "p,div,span{margin:0;padding:0;}"
+    )
+    direction_css = ""
+    if (language or "").strip().lower() == "ar":
+        # Keep page orientation; only control text direction.
+        direction_css = "body{direction:rtl;unicode-bidi:plaintext;}"
+
+    # Avoid duplicating our reset if called twice.
+    marker = "/*qt-reset*/"
+    if marker in html_text:
+        return html_text
+
+    style_tag = f"<style>{marker}{css_reset}{direction_css}</style>"
+
+    # Handle Qt-exported `<head/>` (self-closing) explicitly.
+    if re.search(r"(?i)<head\s*/\s*>", html_text):
+        html_text = re.sub(r"(?i)<head\s*/\s*>", f"<head>{style_tag}</head>", html_text, count=1)
+        return html_text
+
+    if re.search(r"(?i)<head[^>]*>", html_text):
+        # Insert right after <head...>
+        html_text = re.sub(r"(?i)(<head[^>]*>)", r"\1" + style_tag, html_text, count=1)
+        return html_text
+
+    # Create a minimal head if missing.
+    html_text = f"<html><head>{style_tag}</head><body>{html_text}</body></html>"
+
+    return html_text
+
+
 # =========================
 # JSON text reader
 # =========================
@@ -383,14 +443,17 @@ def _render_html_to_qimage(
     blur_radius: int,
     shadow_color_rgba: tuple,
     shadow_offset: tuple[int, int],
+    language: str,
 ) -> QImage:
     html = html or ""
+    html = _normalize_html_for_qt(html, language=language)
 
     doc = QTextDocument()
     doc.setDocumentMargin(0)
+    # Keep document layout stable (Qt's default stylesheet can differ by version/platform).
+    doc.setDefaultStyleSheet("html,body,p,div,span{margin:0;padding:0;}")
     doc.setHtml(html)
     doc.setTextWidth(max(1, int(w)))
-    doc.adjustSize()
 
     item = QGraphicsTextItem()
     item.setDocument(doc)
@@ -407,17 +470,14 @@ def _render_html_to_qimage(
     scene = QGraphicsScene()
     scene.addItem(item)
 
-    doc_h = int(doc.size().height())
+    # Render into the exact requested label box size (no auto-grow that can vary by environment).
+    scene.setSceneRect(0, 0, int(w), int(h))
 
-    extra_bottom = 12
-    if shadow:
-        extra_bottom += abs(int(shadow_offset[1])) + int(blur_radius)
-
-    final_h = max(int(h), doc_h + extra_bottom)
-
-    scene.setSceneRect(0, 0, int(w), int(final_h))
-
-    img = QImage(int(w), int(final_h), QImage.Format_ARGB32_Premultiplied)
+    img = QImage(int(w), int(h), QImage.Format_ARGB32_Premultiplied)
+    try:
+        img.setDevicePixelRatio(1.0)
+    except Exception:
+        pass
     img.fill(Qt.transparent)
 
     p = QPainter(img)
@@ -426,7 +486,7 @@ def _render_html_to_qimage(
 
     scene.render(
         p,
-        QRectF(0, 0, w, final_h),
+        QRectF(0, 0, w, h),
         scene.sceneRect()
     )
 
@@ -450,7 +510,13 @@ def _qimage_to_bgr(img: QImage) -> np.ndarray:
 
 
 def _scale_rect(x, y, w, h, rx, ry):
-    return int(x * rx), int(y * ry), int(w * rx), int(h * ry)
+    # Round (not floor) to keep scaled coordinates as faithful as possible.
+    return (
+        int(round(x * rx)),
+        int(round(y * ry)),
+        int(round(w * rx)),
+        int(round(h * ry)),
+    )
 
 
 # =========================
@@ -554,9 +620,18 @@ def render_image(
 
         # Convert base_cv -> QImage
         rgb = cv2.cvtColor(base_cv, cv2.COLOR_BGR2RGB)
-        qimg = QImage(rgb.data, base_w, base_h, 3 * base_w, QImage.Format_RGB888)
+        rgb = np.ascontiguousarray(rgb)
+        qimg = QImage(rgb.data, base_w, base_h, int(rgb.strides[0]), QImage.Format_RGB888)
+        try:
+            qimg.setDevicePixelRatio(1.0)
+        except Exception:
+            pass
 
         out_img = QImage(base_w, base_h, QImage.Format_ARGB32_Premultiplied)
+        try:
+            out_img.setDevicePixelRatio(1.0)
+        except Exception:
+            pass
         out_img.fill(Qt.transparent)
 
         painter = QPainter(out_img)
@@ -582,33 +657,18 @@ def render_image(
             # ✅ تطبيق الـ scaling على الإحداثيات والأبعاد
             sx, sy, sw, sh = _scale_rect(x, y, ww, hh, rx, ry)
 
-            # ✅ تصحيح: لو y سالب، نبدأ من 0 مع تعديل الارتفاع
-            # (y سالب يعني النص مصمم ليبدأ فوق الصورة - نتجاهل الجزء فوق الصورة)
-            if sy < 0:
-                # نقلص الارتفاع بمقدار ما كان سالباً ثم نبدأ من 0
-                sh = max(1, sh + sy)
-                sy = 0
-
-            # ✅ تصحيح: لو x سالب، نبدأ من 0
-            if sx < 0:
-                sw = max(1, sw + sx)
-                sx = 0
-
-            # ✅ ضمان أن الـ label لا يتجاوز حدود الصورة
-            if sx >= base_w or sy >= base_h:
-                _dprint(f"[Render] Label {idx} ({image_name}): SKIPPED (out of bounds: sx={sx}, sy={sy}, img={base_w}×{base_h})")
-                continue
-
-            # تحديد العرض الفعلي بحيث لا يتجاوز حدود الصورة
-            sw = min(sw, base_w - sx)
-            sh = min(sh, base_h - sy)
-
+            # Keep coordinates EXACT: do not clamp/shift the placement rectangle.
+            # If a rectangle is fully outside the canvas, skip it; otherwise let Qt clip naturally.
             if sw <= 0 or sh <= 0:
+                continue
+            if (sx >= base_w) or (sy >= base_h) or ((sx + sw) <= 0) or ((sy + sh) <= 0):
+                _dprint(f"[Render] Label {idx} ({image_name}): SKIPPED (fully out of bounds: rect=({sx},{sy},{sw},{sh}) img={base_w}×{base_h})")
                 continue
 
             html2 = html
             html2 = html2.replace("\r\n", "\n").replace("\r", "\n")
             html2 = html2.replace("\n", "<br>")
+            html2 = _normalize_html_for_qt(html2, language=language)
 
             if font_family:
                 html2 = inject_font_family(html2, font_family)
@@ -634,6 +694,7 @@ def render_image(
                 blur_radius=int(SHADOW_BLUR_RADIUS),
                 shadow_color_rgba=tuple(SHADOW_COLOR),
                 shadow_offset=(int(SHADOW_OFFSET_X), int(SHADOW_OFFSET_Y)),
+                language=language,
             )
 
             painter.drawImage(int(sx), int(sy), label_img)
