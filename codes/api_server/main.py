@@ -195,10 +195,31 @@ def _resize_to_resolution_map(images_dict: dict, resolution_slides: list) -> dic
       [["slide_01", 1024, 1024], ["slide_03", 1448, 720], ...]
     Returns dict keyed by slide_name with resized images.
     """
-    if not resolution_slides:
-        return images_dict
+    # The text layout coordinates assume exact, fixed pixel canvases.
+    # Enforce deterministic pixel sizes with a non-filtering resize (NEAREST).
+    REQUIRED_FIRST_LAST = (2048, 2048)
+    REQUIRED_MIDDLE = (2048, 1024)
+
+    def _slide_num(stem: str) -> int:
+        try:
+            return int(str(stem).split("_")[1])
+        except Exception:
+            return 0
+
+    def _fallback_target_for(name: str) -> tuple[int, int]:
+        keys = sorted(images_dict.keys(), key=_slide_num)
+        if not keys:
+            return REQUIRED_MIDDLE
+        first = keys[0]
+        last = keys[-1]
+        if name == first or name == last:
+            return REQUIRED_FIRST_LAST
+        return REQUIRED_MIDDLE
 
     out = {}
+
+    # Prefer per-slide targets from info.txt when available.
+    res_map = {}
     for item in resolution_slides:
         try:
             name, w, h = item
@@ -206,19 +227,21 @@ def _resize_to_resolution_map(images_dict: dict, resolution_slides: list) -> dic
             w = int(w); h = int(h)
         except Exception:
             continue
+        res_map[name] = (w, h)
 
-        if name not in images_dict:
+    # Resize every loaded slide to an exact target (from map or fallback rules).
+    for name, img in images_dict.items():
+        if img is None:
             continue
 
-        img = images_dict[name]
-        # upscale/downscale wisely
-        interp = cv2.INTER_AREA if (w < img.shape[1] or h < img.shape[0]) else cv2.INTER_LANCZOS4
-        resized = cv2.resize(img, (w, h), interpolation=interp)
-        out[name] = resized
+        tw, th = res_map.get(name) or _fallback_target_for(name)
+        cw, ch = int(img.shape[1]), int(img.shape[0])
 
-    for k, v in images_dict.items():
-        if k not in out:
-            out[k] = v
+        if (cw, ch) == (tw, th):
+            out[name] = img
+            continue
+
+        out[name] = cv2.resize(img, (int(tw), int(th)), interpolation=cv2.INTER_NEAREST)
 
     return out
 

@@ -55,8 +55,8 @@ def resize_image_to_resolution(image, target_width, target_height):
     current_h, current_w = image.shape[:2]
     if current_w == target_width and current_h == target_height:
         return image
-    interpolation = cv2.INTER_AREA if (target_width < current_w or target_height < current_h) else cv2.INTER_CUBIC
-    return cv2.resize(image, (target_width, target_height), interpolation=interpolation)
+    # Deterministic, non-filtering resize to keep pixel mapping stable for text coordinates.
+    return cv2.resize(image, (int(target_width), int(target_height)), interpolation=cv2.INTER_NEAREST)
 
 
 def apply_resolution_to_images(images_dict, resolution_slides, use_parallel=None):
@@ -78,17 +78,36 @@ def apply_resolution_to_images(images_dict, resolution_slides, use_parallel=None
             except Exception:
                 continue
 
-    # order slides
-    slide_keys = sorted(images_dict.keys(), key=lambda x: int(x.split("_")[1]))
+    # order slides (be tolerant of unexpected keys)
+    def _slide_num(k: str) -> int:
+        try:
+            return int(str(k).split("_")[1])
+        except Exception:
+            return 10**9
+
+    slide_keys = sorted(images_dict.keys(), key=_slide_num)
+
+    # Deterministic fallback sizes if info.txt is missing/incomplete or has unexpected values.
+    REQUIRED_FIRST_LAST = (2048, 2048)
+    REQUIRED_MIDDLE = (2048, 1024)
+    slide_only = [k for k in slide_keys if _slide_num(k) != 10**9]
+    last_key = (slide_only[-1] if slide_only else (slide_keys[-1] if slide_keys else None))
 
     resized_images = []
     for slide_name in slide_keys:
         img = images_dict[slide_name]
-        tw, th = res_map.get(slide_name, (img.shape[1], img.shape[0]))
+
+        # Prefer explicit per-slide sizes, but only allow the required canvases.
+        tw, th = res_map.get(slide_name, (0, 0))
+        if (tw, th) not in (REQUIRED_FIRST_LAST, REQUIRED_MIDDLE):
+            n = _slide_num(slide_name)
+            if slide_name == "slide_01" or n == 1 or (last_key and slide_name == last_key):
+                tw, th = REQUIRED_FIRST_LAST
+            else:
+                tw, th = REQUIRED_MIDDLE
 
         if (img.shape[1], img.shape[0]) != (tw, th):
-            interp = cv2.INTER_AREA if (tw < img.shape[1] or th < img.shape[0]) else cv2.INTER_LANCZOS4
-            img = cv2.resize(img, (tw, th), interpolation=interp)
+            img = cv2.resize(img, (int(tw), int(th)), interpolation=cv2.INTER_NEAREST)
 
         resized_images.append(img)
 
