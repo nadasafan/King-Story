@@ -1,60 +1,140 @@
 # -*- coding: utf-8 -*-
 """
-✍️ Text Handler Module
-================================================
-معالجة النصوص والخطوط وإضافتها على الصور
+Text Handler Module (FIXED - Coordinate Scaling)
+
+🔧 الإصلاح الرئيسي:
+- تفعيل الـ scaling للإحداثيات بناءً على resolution_slides في info.txt
+- النص كان مصمم على أبعاد محددة (مثلاً 2048×1024) لكن الصور الفعلية
+  قد تكون بأبعاد مختلفة → كان rx=1.0 دائماً = خطأ
+
+Debug env vars:
+    TEXT_DEBUG=1
+    TEXT_DEBUG_HTML=1
+Optional:
+    TEXT_INFO_PATH=/abs/path/to/info.txt
 """
 
 import os
 import json
 import re
-import math
+import threading
+from pathlib import Path
+
 import cv2
 import numpy as np
-from pathlib import Path
-from PySide6.QtWidgets import QLabel, QGraphicsDropShadowEffect
-from PySide6.QtGui import QPixmap, QPainter, QFontDatabase, QColor
-from PySide6.QtCore import Qt, QBuffer, QIODevice
+
+# =========================
+# MUST be set BEFORE PySide6 import
+# =========================
+os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
+os.environ.setdefault("QT_OPENGL", "software")
+os.environ.setdefault("QT_LOGGING_RULES", "*.debug=false;qt.qpa.*=false")
+
+from PySide6.QtWidgets import (
+    QApplication,
+    QGraphicsDropShadowEffect,
+    QGraphicsScene,
+    QGraphicsTextItem,
+)
+from PySide6.QtGui import (
+    QFontDatabase,
+    QColor,
+    QImage,
+    QPainter,
+    QTextDocument,
+)
+from PySide6.QtCore import Qt, QRectF
+
+from config import (
+    EN_FIRST_SLIDE_FONT, EN_REST_SLIDES_FONT,
+    AR_FIRST_SLIDE_FONT, AR_REST_SLIDES_FONT,
+    ENABLE_TEXT_SHADOW,
+    SHADOW_BLUR_RADIUS, SHADOW_COLOR, SHADOW_OFFSET_X, SHADOW_OFFSET_Y,
+)
+
+# =========================
+# Global lock
+# =========================
+_QT_LOCK = threading.Lock()
+
+# =========================
+# Debug helpers
+# =========================
+DEBUG = os.environ.get("TEXT_DEBUG", "0").strip().lower() in ("1", "true", "yes", "y")
+DEBUG_HTML = os.environ.get("TEXT_DEBUG_HTML", "0").strip().lower() in ("1", "true", "yes", "y")
 
 
-# =============================================================
-# ✅ Resolution map من info.txt (للـ scaling التلقائي)
-# =============================================================
+def _dprint(msg: str):
+    if DEBUG:
+        print(msg)
+
+
+def _short(s: str, n: int = 180) -> str:
+    s = (s or "").replace("\n", " ").replace("\r", " ").strip()
+    return s if len(s) <= n else s[:n] + "..."
+
+
+# =========================
+# Qt App
+# =========================
+def _ensure_qt_app():
+    app = QApplication.instance()
+    if app is None:
+        app = QApplication([])
+    return app
+
+
+# =========================
+# ✅ الجديد: تحميل resolution map من info.txt
+# =========================
 _RES_MAP_CACHE = None
 
 
-def _find_info_txt():
-    """ابحث عن info.txt في مجلد المشروع"""
+def _find_info_txt() -> str | None:
     envp = os.environ.get("TEXT_INFO_PATH")
     if envp and os.path.exists(envp):
         return envp
+
     here = Path(__file__).resolve().parent
-    for p in [here / "info.txt", here.parent / "info.txt",
-              here.parent.parent / "info.txt", Path.cwd() / "info.txt"]:
+    for p in [
+        here / "info.txt",
+        here.parent / "info.txt",
+        here.parent.parent / "info.txt",
+        Path.cwd() / "info.txt",
+    ]:
         if p.exists():
             return str(p)
     return None
 
 
-def _load_resolution_map():
-    """يقرأ resolution_slides من info.txt — مثال: {"slide_01": (2048,2048), ...}"""
+def _load_resolution_map() -> dict[str, tuple[int, int]]:
+    """
+    يقرأ resolution_slides من info.txt ويعمل cache.
+    مثال: {"slide_01": (2048, 2048), "slide_02": (2048, 1024), ...}
+    """
     global _RES_MAP_CACHE
     if _RES_MAP_CACHE is not None:
         return _RES_MAP_CACHE
-    res_map = {}
+
+    res_map: dict[str, tuple[int, int]] = {}
     info_path = _find_info_txt()
-    if info_path:
-        try:
-            info = json.loads(open(info_path, "r", encoding="utf-8").read())
-            for name, w, h in info.get("resolution_slides", []):
-                res_map[str(name)] = (int(w), int(h))
-            print(f"✅ [Scale] Loaded resolution map: {len(res_map)} slides from {info_path}")
-        except Exception as e:
-            print(f"⚠️ [Scale] Failed to read info.txt: {e}")
-    else:
-        print("⚠️ [Scale] info.txt not found — no auto-scaling")
-    _RES_MAP_CACHE = res_map
-    return _RES_MAP_CACHE
+
+    if not info_path:
+        _RES_MAP_CACHE = res_map
+        _dprint("[Info] info.txt not found -> no autoscale map")
+        return _RES_MAP_CACHE
+
+    try:
+        info = json.loads(open(info_path, "r", encoding="utf-8").read())
+        for name, w, h in info.get("resolution_slides", []):
+            res_map[str(name)] = (int(w), int(h))
+        _RES_MAP_CACHE = res_map
+        _dprint(f"[Info] Loaded resolution map: {len(res_map)} slides from {info_path}")
+        return _RES_MAP_CACHE
+    except Exception as e:
+        _RES_MAP_CACHE = {}
+        _dprint(f"[Info] Failed to read info.txt: {e}")
+        return _RES_MAP_CACHE
 
 
 def invalidate_resolution_cache():
@@ -62,729 +142,551 @@ def invalidate_resolution_cache():
     global _RES_MAP_CACHE
     _RES_MAP_CACHE = None
 
-from config import (
-    EN_FIRST_SLIDE_FONT, EN_REST_SLIDES_FONT,
-    AR_FIRST_SLIDE_FONT, AR_REST_SLIDES_FONT,
-    ENABLE_TEXT_SHADOW, TEXT_SHADOW_STYLE,
-    SHADOW_BLUR_RADIUS, SHADOW_COLOR, SHADOW_OFFSET_X, SHADOW_OFFSET_Y
-)
 
+# =========================
+# Fonts
+# =========================
+def load_custom_fonts(
+    language: str,
+    first_slide_font_path: str | None = None,
+    rest_slides_font_path: str | None = None,
+    base_dir: str | None = None
+) -> dict:
+    with _QT_LOCK:
+        _ensure_qt_app()
 
-def load_custom_fonts(language, first_slide_font_path=None, rest_slides_font_path=None, base_dir=None):
-    """
-    تحميل الخطوط المخصصة حسب اللغة
-    
-    Args:
-        language: اللغة (en أو ar)
-        first_slide_font_path: مسار خط السلايد الأول (من info.txt)
-        rest_slides_font_path: مسار خط باقي السلايدات (من info.txt)
-        base_dir: المسار الأساسي للمشروع (لتحويل المسارات النسبية إلى مطلقة)
-    
-    Returns:
-        dict: قاموس يحتوي على الخطوط المحملة
-    """
-    fonts_loaded = {}
-    
-    # إذا تم تمرير مسارات من info.txt، استخدمها
-    if first_slide_font_path and base_dir:
-        # تحويل المسار النسبي إلى مطلق
-        first_font = os.path.join(base_dir, first_slide_font_path)
-    elif language == 'en':
-        first_font = EN_FIRST_SLIDE_FONT
-    else:
-        first_font = AR_FIRST_SLIDE_FONT
-    
-    if rest_slides_font_path and base_dir:
-        # تحويل المسار النسبي إلى مطلق
-        rest_font = os.path.join(base_dir, rest_slides_font_path)
-    elif language == 'en':
-        rest_font = EN_REST_SLIDES_FONT
-    else:
-        rest_font = AR_REST_SLIDES_FONT
-    
-    # تحميل خط السلايد الأول
-    if os.path.exists(first_font):
-        font_id = QFontDatabase.addApplicationFont(first_font)
-        if font_id != -1:
-            families = QFontDatabase.applicationFontFamilies(font_id)
-            if families:
-                fonts_loaded['first'] = families[0]
-                print(f"✅ تم تحميل خط السلايد الأول: {families[0]} من {os.path.basename(first_font)}")
-        else:
-            print(f"⚠️ فشل تحميل خط السلايد الأول: {first_font}")
-    else:
-        print(f"⚠️ خط السلايد الأول غير موجود: {first_font}")
-    
-    # تحميل خط باقي السلايدات
-    if os.path.exists(rest_font):
-        font_id = QFontDatabase.addApplicationFont(rest_font)
-        if font_id != -1:
-            families = QFontDatabase.applicationFontFamilies(font_id)
-            if families:
-                fonts_loaded['rest'] = families[0]
-                print(f"✅ تم تحميل خط باقي السلايدات: {families[0]} من {os.path.basename(rest_font)}")
-        else:
-            print(f"⚠️ فشل تحميل خط باقي السلايدات: {rest_font}")
-    else:
-        print(f"⚠️ خط باقي السلايدات غير موجود: {rest_font}")
-    
-    return fonts_loaded
+        fonts_loaded: dict = {}
 
-
-def inject_font_family(html_text, font_family):
-    """حقن اسم الخط في HTML"""
-    if not font_family:
-        return html_text
-    
-    html_text = re.sub(r"font-family:\s*[^;'\"]+[;\"]", "", html_text)
-    html_text = re.sub(r"font-family:\s*'[^']+'[;\"]?", "", html_text)
-    html_text = re.sub(r'font-family:\s*"[^"]+"[;\"]?', "", html_text)
-    
-    def add_font_to_style(match):
-        style_content = match.group(1)
-        new_style = f"font-family: '{font_family}' !important; "
-        
-        new_style += style_content
-        return f'style="{new_style}"'
-    
-    html_text = re.sub(r'style="([^"]*)"', add_font_to_style, html_text)
-    
-    base_style = f"font-family: '{font_family}' !important;"
-    
-    html_text = re.sub(r'<p(\s|>)', f'<p style="{base_style}"\\1', html_text)
-    html_text = re.sub(r'<span(\s|>)', f'<span style="{base_style}"\\1', html_text)
-    html_text = re.sub(r'<div(\s|>)', f'<div style="{base_style}"\\1', html_text)
-    
-    return html_text
-
-
-def scale_font_sizes(html_text, global_font):
-    """تكبير أو تصغير كل أحجام الخطوط"""
-    if not global_font or global_font == 0:
-        return html_text
-    
-    def replace_font_size(match):
-        original_size = float(match.group(1))
-        unit = match.group(2)  # px or pt
-        new_size = int(original_size * global_font)
-        if new_size < 1:
-            new_size = 1
-        return f'font-size:{new_size}{unit}'
-    
-    # دعم pt و px
-    return re.sub(r'font-size:(\d+(?:\.\d+)?)(pt|px)', replace_font_size, html_text)
-
-
-def make_waw_transparent(html_text):
-    """
-    جعل حرف "و" المنفرد شفافاً للحفاظ على تنسيق النص العربي
-    
-    يبحث عن حرف "و" المنفرد الذي يكون لونه أسود (#000000 أو #000 أو black)
-    ويغير لونه إلى شفاف (transparent)
-    
-    Args:
-        html_text: النص HTML
-    
-    Returns:
-        str: النص بعد تعديل لون حرف "و"
-    """
-    # البحث عن pattern: <span style='...color:#000000;...'>و</span>
-    # أو <span style='...color:#000;...'>و</span>
-    # أو <span style='...color:black;...'>و</span>
-    
-    # Pattern 1: color:#000000
-    html_text = re.sub(
-        r"(<span[^>]*color:\s*#000000[^>]*>)\s*و\s*(</span>)",
-        lambda m: m.group(1).replace('color:#000000', 'color:transparent') + 'و' + m.group(2),
-        html_text
-    )
-    
-    # Pattern 2: color:#000
-    html_text = re.sub(
-        r"(<span[^>]*color:\s*#000(?![0-9a-fA-F])[^>]*>)\s*و\s*(</span>)",
-        lambda m: m.group(1).replace('color:#000', 'color:transparent') + 'و' + m.group(2),
-        html_text
-    )
-    
-    # Pattern 3: color:black
-    html_text = re.sub(
-        r"(<span[^>]*color:\s*black[^>]*>)\s*و\s*(</span>)",
-        lambda m: m.group(1).replace('color:black', 'color:transparent') + 'و' + m.group(2),
-        html_text
-    )
-    
-    return html_text
-
-
-def replace_name_in_html(html_text, user_name, is_first_slide=False, language='en'):
-    """استبدال [*NAME*] أو [*الاسم*] بالاسم المُدخل"""
-    
-    if language == 'en' and '[*NAME*]' in html_text:
-        if is_first_slide:
-            replacement_name = user_name.upper()
-        else:
-            replacement_name = user_name
-        html_text = html_text.replace('[*NAME*]', replacement_name)
-    
-    elif language == 'ar' and '[*الاسم*]' in html_text:
-        if is_first_slide:
-            replacement_name = user_name.upper()
-        else:
-            replacement_name = user_name
-        html_text = html_text.replace('[*الاسم*]', replacement_name)
-    
-    return html_text
-
-
-
-def detect_format_type(text_data):
-    """
-    كشف نوع التنسيق
-    Format 1: {"slide_01": [labels], "slide_02": [labels]}
-    Format 2: {"slide_01": [labels], "slide_02": [labels]} but with different structure
-    """
-    if not isinstance(text_data, dict):
-        return None
-    
-    # جرب أول key
-    first_key = list(text_data.keys())[0] if text_data else None
-    if not first_key:
-        return None
-    
-    first_value = text_data[first_key]
-    
-    # تحقق إنه list فيه objects
-    if isinstance(first_value, list) and len(first_value) > 0:
-        if isinstance(first_value[0], dict):
-            return "format_standard"  # كلا التنسيقين متشابهين في الهيكل
-    
-    return None
-
-
-def read_text_data(file_path, user_name='', language='en'):
-    """قراءة بيانات النص من الملف مع دعم التنسيقين واستبدال الاسم"""
-    try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            raw_content = f.read()
-            if not raw_content.strip():
-                return None
-            
-            # 🔥 Pre-processing: نصلح المشاكل الشائعة قبل JSON parsing
-            
-            # Strategy: نلف على كل character ونحدد متى نكون جوه HTML string
-            result = []
-            i = 0
-            
-            while i < len(raw_content):
-                # نشوف لو وصلنا لـ "html":
-                if raw_content[i:i+7] == '"html":':
-                    result.append(raw_content[i:i+7])
-                    i += 7
-                    
-                    # نتخطى المسافات
-                    while i < len(raw_content) and raw_content[i] in ' \t':
-                        result.append(raw_content[i])
-                        i += 1
-                    
-                    # لو بدأ بـ " يبقى ده HTML string
-                    if i < len(raw_content) and raw_content[i] == '"':
-                        result.append('"')
-                        i += 1
-                        
-                        # دلوقتي احنا جوه HTML string
-                        # نقرأ لحد ما نلاقي closing " (مش escaped)
-                        html_chars = []
-                        
-                        while i < len(raw_content):
-                            char = raw_content[i]
-                            
-                            # لو لقينا "
-                            if char == '"':
-                                # نشوف لو هي closing quote فعلاً
-                                # نتأكد من الـ context بعدها
-                                peek_ahead = raw_content[i+1:i+20].lstrip()
-                                
-                                # لو بعدها , أو } يبقى دي نهاية HTML
-                                if peek_ahead.startswith(',') or peek_ahead.startswith('}'):
-                                    # دي نهاية HTML string
-                                    # نحفظ الـ HTML ونكمل
-                                    cleaned_html = ''.join(html_chars)
-                                    
-                                    # 🔥 نظف الـ HTML من كل المشاكل
-                                    # 1. استبدل \" بـ '
-                                    cleaned_html = cleaned_html.replace('\\"', "'")
-                                    cleaned_html = cleaned_html.replace("\\'", "'")
-                                    
-                                    # 2. استبدل أي " بـ ' (ماعدا اللي في attributes)
-                                    # نستخدم regex ذكي
-                                    import re
-                                    # نستبدل " جوه النص (مش في attributes)
-                                    # Pattern: " اللي مش بعد = ومش قبل >
-                                    cleaned_html = re.sub(r'(?<!=)"(?![>\s])', "'", cleaned_html)
-                                    
-                                    # 3. نظف escape sequences تانية
-                                    cleaned_html = cleaned_html.replace('\\n', ' ')
-                                    cleaned_html = cleaned_html.replace('\\t', ' ')
-                                    cleaned_html = cleaned_html.replace('\\r', '')
-                                    cleaned_html = cleaned_html.replace('\\/', '/')
-                                    
-                                    # 4. إصلاح حالة خاصة: ," داخل النص
-                                    # نستبدلها بـ ,'
-                                    cleaned_html = cleaned_html.replace(',"', ",'")
-                                    cleaned_html = cleaned_html.replace('",', "',")
-                                    
-                                    result.append(cleaned_html)
-                                    result.append('"')
-                                    i += 1
-                                    break
-                                else:
-                                    # مش نهاية، دي " عادية جوه النص
-                                    html_chars.append("'")  # نحولها لـ '
-                                    i += 1
-                            
-                            elif char == '\\' and i + 1 < len(raw_content):
-                                next_char = raw_content[i + 1]
-                                if next_char == '"':
-                                    # \" نحولها لـ '
-                                    html_chars.append("'")
-                                    i += 2
-                                elif next_char == "'":
-                                    # \' نحولها لـ '
-                                    html_chars.append("'")
-                                    i += 2
-                                elif next_char == '\\':
-                                    # \\ نخليها \
-                                    html_chars.append('\\')
-                                    i += 2
-                                elif next_char in 'ntr':
-                                    # \n \t \r نحولهم لمسافة
-                                    html_chars.append(' ')
-                                    i += 2
-                                else:
-                                    # باقي الـ escapes نشيل الـ \
-                                    i += 1
-                            else:
-                                html_chars.append(char)
-                                i += 1
-                        
-                        continue
-                
-                # لو مش HTML، نكتب عادي
-                result.append(raw_content[i])
-                i += 1
-            
-            content = ''.join(result)
-            
-            # Parse as JSON
-            data = json.loads(content)
-            
-            # استبدال الاسم (User Name)
-            if user_name:
-                slide_index = 0
-                for image_name, labels_list in data.items():
-                    if isinstance(labels_list, list):
-                        for label in labels_list:
-                            if 'html' in label:
-                                is_first = (slide_index == 0)
-                                label['html'] = replace_name_in_html(label['html'], user_name, is_first, language)
-                    slide_index += 1
-            
-            return data
-                
-    except FileNotFoundError:
-        print(f"❌ الملف غير موجود: {file_path}")
-        return None
-    except json.JSONDecodeError as e:
-        print(f"⚠️ خطأ في تنسيق JSON: {e}")
-        # محاولة طباعة معلومات الخطأ للمساعدة
-        if hasattr(e, 'lineno'):
-             print(f"   السطر {e.lineno}, العمود {e.colno}, الموقع {e.pos}")
-        return None
-    except Exception as e:
-        print(f"⚠️ خطأ في قراءة الملف: {e}")
-        import traceback
-        traceback.print_exc()
-        return None
-
-
-def scale_text_positions(labels_list, ratio_x, ratio_y):
-    """
-    تطبيق النسب على مواضع النصوص
-    
-    Args:
-        labels_list: قائمة النصوص
-        ratio_x: نسبة التغيير في العرض
-        ratio_y: نسبة التغيير في الارتفاع
-    
-    Returns:
-        list: النصوص المعدلة
-    """
-    scaled_list = []
-    
-    # حساب العامل المشترك لتغيير حجم الخط
-    # نستخدم الجذر التربيعي (geometric mean) بدلاً من المتوسط الحسابي
-    # لأنه يعطي نتيجة أفضل عند تصغير/تكبير الصور
-    # مثال: لو ratio_x = ratio_y = 0.25
-    #   - المتوسط الحسابي = 0.25 (الخط يصغر جداً!)
-    #   - الجذر التربيعي = sqrt(0.25 * 0.25) = 0.25 (نفس النتيجة في هذه الحالة)
-    # لكن لو ratio_x = 0.5 و ratio_y = 0.5
-    #   - المتوسط الحسابي = 0.5
-    #   - الجذر التربيعي = sqrt(0.5 * 0.5) = 0.5 (نفس النتيجة)
-    # 
-    # في الواقع، الفرق يظهر لما النسب تكون مختلفة
-    # لكن الأهم هو إننا نستخدم نسبة معقولة تحافظ على قراءة الخط
-    import math
-    font_ratio = math.sqrt(ratio_x * ratio_y)
-    
-    for item in labels_list:
-        new_item = item.copy()
-        
-        # تطبيق النسب على الإحداثيات والأبعاد
-        new_item['x'] = int(item.get('x', 0) * ratio_x)
-        new_item['y'] = int(item.get('y', 0) * ratio_y)
-        new_item['width'] = int(item.get('width', 400) * ratio_x)
-        new_item['height'] = int(item.get('height', 200) * ratio_y)
-        
-        # تطبيق النسبة على حجم الخط
-        original_global_font = item.get('global_font', 0)
-        if original_global_font != 0:
-            new_item['global_font'] = original_global_font * font_ratio
-            
-        scaled_list.append(new_item)
-        
-    return scaled_list
-
-
-def render_image(image_path=None, image_name="", text_data_list=None, app=None, fonts_loaded=None, is_first_slide=False, image_data=None, scale_x=1.0, scale_y=1.0, silent=False, **kwargs):
-    """
-    إضافة النصوص على الصورة
-    ✅ الإضافة: auto-scaling من info.txt + Arabic flip للصفحات الداخلية
-    """
-    if not silent:
-        print(f"\n🖼️  Rendering Text: {image_name}")
-
-    # ============================================================
-    # ✅ حساب rx, ry من info.txt
-    # ============================================================
-    res_map = _load_resolution_map()
-    rx, ry = 1.0, 1.0
-    _need_scale = image_name in res_map
-    if _need_scale:
-        design_w, design_h = res_map[image_name]
-
-    # ============================================================
-    # ✅ Arabic flip logic
-    # ============================================================
-    language = (kwargs.get("language") or "en").strip().lower()
-    slide_num = 1
-    if "_" in image_name:
-        try:
-            slide_num = int(image_name.split("_")[1])
-        except Exception:
-            slide_num = 1
-
-    text_keys = kwargs.get("text_data_keys", [])
-    all_nums = []
-    for k in text_keys:
-        if "_" in k:
-            try:
-                all_nums.append(int(k.split("_")[1]))
-            except Exception:
-                pass
-    last_slide = max(all_nums) if all_nums else slide_num
-    is_first_sl = (slide_num == 1)
-    is_last_sl  = (slide_num == last_slide)
-    do_flip_ar  = (language == "ar") and (not is_first_sl) and (not is_last_sl)
-
-    # ============================================================
-    # تحميل الصورة كـ numpy array
-    # ============================================================
-    if image_data is not None:
-        cv_img = image_data.copy()
-    elif image_path:
-        cv_img = cv2.imread(image_path)
-    else:
-        if not silent:
-            print("❌ Error: No image path or data provided")
-        return None
-
-    if cv_img is None:
-        if not silent:
-            print(f"   ❌ Failed to load image")
-        return None
-
-    # ✅ Flip للعربي قبل الرسم
-    if do_flip_ar:
-        cv_img = cv2.flip(cv_img, 1)
-
-    actual_h, actual_w = cv_img.shape[:2]
-
-    # ✅ حساب rx, ry بعد معرفة الأبعاد الفعلية
-    if _need_scale:
-        rx = actual_w / design_w
-        ry = actual_h / design_h
-        if not silent:
-            print(f"   📐 Scale: design=({design_w}×{design_h}) actual=({actual_w}×{actual_h}) rx={rx:.3f} ry={ry:.3f}")
-
-    # تحويل cv_img → QPixmap
-    rgb_image = cv2.cvtColor(cv_img, cv2.COLOR_BGR2RGB)
-    from PySide6.QtGui import QImage
-    bytes_per_line = 3 * actual_w
-    q_img = QImage(rgb_image.data, actual_w, actual_h, bytes_per_line, QImage.Format_RGB888)
-    pixmap = QPixmap.fromImage(q_img)
-
-    if pixmap.isNull():
-        if not silent:
-            print(f"   ❌ Failed to convert image to pixmap")
-        return None
-
-    font_family = None
-    if fonts_loaded:
-        if is_first_slide and 'first' in fonts_loaded:
-            font_family = fonts_loaded['first']
-        elif not is_first_slide and 'rest' in fonts_loaded:
-            font_family = fonts_loaded['rest']
-
-    final_pixmap = QPixmap(pixmap.size())
-    final_pixmap.fill(Qt.transparent)
-
-    painter = QPainter(final_pixmap)
-    painter.drawPixmap(0, 0, pixmap)
-
-    # ✅ حساب font_ratio (geometric mean من rx و ry)
-    font_ratio = math.sqrt(rx * ry)
-
-    for idx, item in enumerate(text_data_list, 1):
-        html        = item.get('html', '')
-        x           = item.get('x', 0)
-        y           = item.get('y', 0)
-        w           = item.get('width', 400)
-        h           = item.get('height', 200)
-        global_font = item.get('global_font', 0)
-
-        # ✅ تطبيق الـ scaling على الإحداثيات والأبعاد
-        sx = int(x * rx)
-        sy = int(y * ry)
-        sw = int(w * rx)
-        sh = int(h * ry)
-
-        # ✅ تصحيح إحداثيات سالبة
-        if sy < 0:
-            sh = max(1, sh + sy)
-            sy = 0
-        if sx < 0:
-            sw = max(1, sw + sx)
-            sx = 0
-
-        # ✅ ضمان عدم التجاوز
-        if sx >= actual_w or sy >= actual_h:
-            if not silent:
-                print(f"   ⚠️ Label {idx}: SKIPPED (out of bounds sx={sx}, sy={sy})")
-            continue
-        sw = min(sw, actual_w - sx)
-        sh = min(sh, actual_h - sy)
-        if sw <= 0 or sh <= 0:
-            continue
-
-        if font_family:
-            html = inject_font_family(html, font_family)
-
-        if global_font != 0:
-            scaled_gf = global_font * font_ratio if font_ratio < 1.0 else global_font
-            html = scale_font_sizes(html, scaled_gf)
-
-        # جعل حرف "و" المنفرد شفافاً
-        html = make_waw_transparent(html)
-
-        label = QLabel()
-        label.setText(html)
-        label.setWordWrap(True)
-        label.setStyleSheet("background: transparent;")
-        label.setGeometry(sx, sy, sw, sh)
-
-        if ENABLE_TEXT_SHADOW:
-            shadow = QGraphicsDropShadowEffect()
-            shadow.setBlurRadius(SHADOW_BLUR_RADIUS)
-            shadow.setColor(QColor(*SHADOW_COLOR))
-            shadow.setOffset(SHADOW_OFFSET_X, SHADOW_OFFSET_Y)
-            label.setGraphicsEffect(shadow)
-
-        # ✅ grab() للحفاظ على تأثير الظل — نفس الطريقة الأصلية
-        pix = label.grab()
-        painter.drawPixmap(sx, sy, pix)
-
-        if not silent:
-            print(f"   ✓ Label {idx}: ({sx}, {sy}) [{sw}x{sh}] FontScale: {global_font:.2f} (ratio={font_ratio:.3f})")
-
-    painter.end()
-
-    buffer = QBuffer()
-    buffer.open(QIODevice.WriteOnly)
-    final_pixmap.save(buffer, "PNG")
-    buffer.close()
-
-    arr = np.frombuffer(buffer.data(), dtype=np.uint8)
-    img = cv2.imdecode(arr, cv2.IMREAD_COLOR)
-
-    return img
-
-
-def render_image_worker(args):
-    """
-    Worker function للمعالجة المتوازية
-    تعمل في process منفصل - بدون طباعة رسائل
-    
-    Args:
-        args: tuple يحتوي على:
-            - image_name: اسم الصورة
-            - image_bytes: بيانات الصورة كـ bytes
-            - text_data_list: قائمة النصوص
-            - is_first_slide: هل هي الشريحة الأولى
-            - first_font_path: مسار خط السلايد الأول
-            - rest_font_path: مسار خط باقي السلايدات
-            - language: اللغة
-            - base_dir: المسار الأساسي
-    
-    Returns:
-        tuple: (image_name, image_bytes, status_message)
-    """
-    (image_name, image_bytes, text_data_list, is_first_slide,
-     first_font_path, rest_font_path, language, base_dir) = args
-    
-    try:
-        # إنشاء QApplication في كل process
-        from PySide6.QtWidgets import QApplication, QLabel, QGraphicsDropShadowEffect
-        from PySide6.QtGui import QPixmap, QPainter, QFontDatabase, QColor
-        from PySide6.QtCore import Qt, QBuffer, QIODevice
-        
-        app = QApplication.instance()
-        if app is None:
-            app = QApplication([])
-        
-        # تحميل الخطوط بدون طباعة رسائل
-        fonts_loaded = {}
-        
-        # تحديد مسارات الخطوط
-        if first_font_path and base_dir:
-            first_font = os.path.join(base_dir, first_font_path)
-        elif language == 'en':
-            from config import EN_FIRST_SLIDE_FONT
+        if first_slide_font_path and base_dir:
+            first_font = os.path.join(base_dir, first_slide_font_path)
+        elif language == "en":
             first_font = EN_FIRST_SLIDE_FONT
         else:
-            from config import AR_FIRST_SLIDE_FONT
             first_font = AR_FIRST_SLIDE_FONT
-        
-        if rest_font_path and base_dir:
-            rest_font = os.path.join(base_dir, rest_font_path)
-        elif language == 'en':
-            from config import EN_REST_SLIDES_FONT
+
+        if rest_slides_font_path and base_dir:
+            rest_font = os.path.join(base_dir, rest_slides_font_path)
+        elif language == "en":
             rest_font = EN_REST_SLIDES_FONT
         else:
-            from config import AR_REST_SLIDES_FONT
             rest_font = AR_REST_SLIDES_FONT
-        
-        # تحميل خط السلايد الأول
-        if os.path.exists(first_font):
+
+        if first_font and os.path.exists(first_font):
             font_id = QFontDatabase.addApplicationFont(first_font)
             if font_id != -1:
                 families = QFontDatabase.applicationFontFamilies(font_id)
                 if families:
-                    fonts_loaded['first'] = families[0]
-        
-        # تحميل خط باقي السلايدات
-        if os.path.exists(rest_font):
+                    fonts_loaded["first"] = families[0]
+                    _dprint(f"[Fonts] Loaded FIRST: {families[0]}")
+        else:
+            _dprint(f"[Fonts] FIRST font not found: {first_font}")
+
+        if rest_font and os.path.exists(rest_font):
             font_id = QFontDatabase.addApplicationFont(rest_font)
             if font_id != -1:
                 families = QFontDatabase.applicationFontFamilies(font_id)
                 if families:
-                    fonts_loaded['rest'] = families[0]
-        
-        # اختيار الخط المناسب
-        font_family = None
-        if is_first_slide and 'first' in fonts_loaded:
-            font_family = fonts_loaded['first']
-        elif not is_first_slide and 'rest' in fonts_loaded:
-            font_family = fonts_loaded['rest']
-        
-        # تحويل bytes إلى QPixmap
-        nparr = np.frombuffer(image_bytes, np.uint8)
-        img_cv = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
-        
-        if img_cv is None:
-            return (image_name, None, "فشل تحويل الصورة")
-        
-        # تحويل OpenCV إلى QPixmap
-        height, width, channel = img_cv.shape
-        bytes_per_line = 3 * width
-        rgb_image = cv2.cvtColor(img_cv, cv2.COLOR_BGR2RGB)
-        
-        from PySide6.QtGui import QImage
-        q_img = QImage(rgb_image.data, width, height, bytes_per_line, QImage.Format_RGB888)
-        base_pixmap = QPixmap.fromImage(q_img)
-        
-        if base_pixmap.isNull():
-            return (image_name, None, "فشل تحويل QPixmap")
-        
-        # إنشاء صورة جديدة
-        result_pixmap = QPixmap(base_pixmap.size())
-        result_pixmap.fill(Qt.transparent)
-        
-        painter = QPainter(result_pixmap)
-        painter.drawPixmap(0, 0, base_pixmap)
-        
-        # رسم النصوص
-        for element in text_data_list:
-            html = element.get('html', '')
-            x = element.get('x', 0)
-            y = element.get('y', 0)
-            width = element.get('width', 400)
-            height = element.get('height', 200)
-            global_font = element.get('global_font', 0)
-            
-            # حقن الخط في HTML
-            if font_family:
-                html = inject_font_family(html, font_family)
-            
-            # تعديل حجم الخط
-            if global_font != 0:
-                html = scale_font_sizes(html, global_font)
-            
-            # جعل حرف "و" المنفرد شفافاً للحفاظ على تنسيق النص العربي
-            html = make_waw_transparent(html)
-            
-            # إنشاء label
-            label = QLabel()
-            label.setText(html)
-            label.setWordWrap(True)
-            label.setStyleSheet("background: transparent;")
-            label.setGeometry(x, y, width, height)
-            
-            # إضافة تأثير الظل للنص
-            from config import ENABLE_TEXT_SHADOW, SHADOW_BLUR_RADIUS, SHADOW_COLOR, SHADOW_OFFSET_X, SHADOW_OFFSET_Y
-            if ENABLE_TEXT_SHADOW:
-                shadow = QGraphicsDropShadowEffect()
-                shadow.setBlurRadius(SHADOW_BLUR_RADIUS)
-                shadow.setColor(QColor(*SHADOW_COLOR))
-                shadow.setOffset(SHADOW_OFFSET_X, SHADOW_OFFSET_Y)
-                label.setGraphicsEffect(shadow)
-            
-            # رسم باستخدام grab() للحفاظ على الظل
-            pix = label.grab()
-            painter.drawPixmap(x, y, pix)
-        
-        painter.end()
-        
-        # تحويل لـ bytes
-        buffer = QBuffer()
-        buffer.open(QIODevice.WriteOnly)
-        result_pixmap.save(buffer, "PNG")
-        buffer.close()
-        
-        result_bytes = bytes(buffer.data())
-        
-        return (image_name, result_bytes, "✅")
-        
+                    fonts_loaded["rest"] = families[0]
+                    _dprint(f"[Fonts] Loaded REST: {families[0]}")
+        else:
+            _dprint(f"[Fonts] REST font not found: {rest_font}")
+
+        return fonts_loaded
+
+
+# =========================
+# HTML helpers
+# =========================
+def inject_font_family(html_text: str, font_family: str | None) -> str:
+    if not font_family:
+        return html_text
+
+    html_text = re.sub(r"font-family:\s*[^;'\"]+[;\"]", "", html_text)
+    html_text = re.sub(r"font-family:\s*'[^']+'[;\"]?", "", html_text)
+    html_text = re.sub(r'font-family:\s*"[^"]+"[;\"]?', "", html_text)
+
+    def add_font_to_style(match):
+        style_content = match.group(1)
+        new_style = f"font-family: '{font_family}' !important; " + style_content
+        return f'style="{new_style}"'
+
+    html_text = re.sub(r'style="([^"]*)"', add_font_to_style, html_text)
+
+    base_style = f"font-family: '{font_family}' !important;"
+    html_text = re.sub(r"<p(\s|>)", f'<p style="{base_style}"\\1', html_text)
+    html_text = re.sub(r"<span(\s|>)", f'<span style="{base_style}"\\1', html_text)
+    html_text = re.sub(r"<div(\s|>)", f'<div style="{base_style}"\\1', html_text)
+
+    return html_text
+
+
+def _clamp(v: float, lo: float, hi: float) -> float:
+    try:
+        return max(lo, min(hi, float(v)))
+    except Exception:
+        return lo
+
+
+def scale_font_sizes(html_text: str, global_font: float) -> str:
+    if not global_font or global_font == 0:
+        return html_text
+
+    gf = _clamp(global_font, 0.1, 10.0)
+
+    def repl(match):
+        original_size = float(match.group(1))
+        unit = match.group(2) if match.group(2) else "pt"
+        new_size = max(1, int(original_size * gf))
+        return f"font-size:{new_size}{unit}"
+
+    return re.sub(r"font-size:(\d+(?:\.\d+)?)(pt|px)?", repl, html_text)
+
+
+def make_waw_transparent(html_text: str) -> str:
+    html_text = re.sub(
+        r"(<span[^>]*color:\s*#000000[^>]*>)\s*و\s*(</span>)",
+        lambda m: m.group(1).replace("color:#000000", "color:transparent") + "و" + m.group(2),
+        html_text,
+    )
+    html_text = re.sub(
+        r"(<span[^>]*color:\s*#000(?![0-9a-fA-F])[^>]*>)\s*و\s*(</span>)",
+        lambda m: m.group(1).replace("color:#000", "color:transparent") + "و" + m.group(2),
+        html_text,
+    )
+    html_text = re.sub(
+        r"(<span[^>]*color:\s*black[^>]*>)\s*و\s*(</span>)",
+        lambda m: m.group(1).replace("color:black", "color:transparent") + "و" + m.group(2),
+        html_text,
+    )
+    return html_text
+
+
+def replace_name_in_html(html_text: str, user_name: str, is_first_slide: bool = False, language: str = "en") -> str:
+    if not user_name:
+        return html_text
+
+    repl = user_name.upper() if is_first_slide else user_name
+
+    if language == "en":
+        html_text = html_text.replace("[*NAME*]", repl)
+        html_text = html_text.replace("[*Name*]", repl)
+    elif language == "ar":
+        html_text = html_text.replace("[*الاسم*]", repl)
+
+    return html_text
+
+
+# =========================
+# JSON text reader
+# =========================
+def read_text_data(file_path: str, user_name: str = "", language: str = "en") -> dict | None:
+    if not os.path.exists(file_path):
+        print(f"[Text] File not found: {file_path}")
+        return None
+
+    try:
+        raw_content = open(file_path, "r", encoding="utf-8").read()
+        if not raw_content.strip():
+            return None
+
+        result = []
+        i = 0
+        while i < len(raw_content):
+            if raw_content[i:i + 7] == '"html":':
+                result.append(raw_content[i:i + 7])
+                i += 7
+
+                while i < len(raw_content) and raw_content[i] in " \t":
+                    result.append(raw_content[i])
+                    i += 1
+
+                if i < len(raw_content) and raw_content[i] == '"':
+                    result.append('"')
+                    i += 1
+
+                    html_chars = []
+                    while i < len(raw_content):
+                        ch = raw_content[i]
+
+                        if ch == '"':
+                            peek = raw_content[i + 1:i + 20].lstrip()
+                            if peek.startswith(",") or peek.startswith("}"):
+                                cleaned_html = "".join(html_chars)
+                                cleaned_html = cleaned_html.replace('\\"', "'").replace("\\'", "'")
+                                cleaned_html = re.sub(r'(?<!=)"(?![>\s])', "'", cleaned_html)
+                                cleaned_html = cleaned_html.replace("\\n", " ").replace("\\t", " ").replace("\\r", "")
+                                cleaned_html = cleaned_html.replace("\\/", "/")
+                                cleaned_html = cleaned_html.replace(',"', ",'").replace('",', "',")
+                                result.append(cleaned_html)
+                                result.append('"')
+                                i += 1
+                                break
+                            else:
+                                html_chars.append("'")
+                                i += 1
+
+                        elif ch == "\\" and i + 1 < len(raw_content):
+                            nxt = raw_content[i + 1]
+                            if nxt in ['"', "'"]:
+                                html_chars.append("'")
+                                i += 2
+                            elif nxt == "\\":
+                                html_chars.append("\\")
+                                i += 2
+                            elif nxt in "ntr":
+                                html_chars.append(" ")
+                                i += 2
+                            else:
+                                i += 1
+                        else:
+                            html_chars.append(ch)
+                            i += 1
+                    continue
+
+            result.append(raw_content[i])
+            i += 1
+
+        content = "".join(result)
+        data = json.loads(content)
+
+        if user_name:
+            slide_index = 0
+            for image_name, labels_list in data.items():
+                if isinstance(labels_list, list):
+                    for label in labels_list:
+                        if isinstance(label, dict) and "html" in label:
+                            label["html"] = replace_name_in_html(
+                                label["html"], user_name,
+                                is_first_slide=(slide_index == 0),
+                                language=language
+                            )
+                slide_index += 1
+
+        return data
+
+    except json.JSONDecodeError as e:
+        print(f"[Text] JSON parse error: {e}")
+        return None
     except Exception as e:
-        import traceback
-        error_msg = f"خطأ: {str(e)}\n{traceback.format_exc()}"
-        return (image_name, None, error_msg)
+        print(f"[Text] Error reading text data: {e}")
+        return None
+
+
+# =========================
+# Rendering core
+# =========================
+def _render_html_to_qimage(
+    html: str,
+    w: int,
+    h: int,
+    shadow: bool,
+    blur_radius: int,
+    shadow_color_rgba: tuple,
+    shadow_offset: tuple[int, int],
+) -> QImage:
+    html = html or ""
+
+    doc = QTextDocument()
+    doc.setDocumentMargin(0)
+    doc.setHtml(html)
+    doc.setTextWidth(max(1, int(w)))
+    doc.adjustSize()
+
+    item = QGraphicsTextItem()
+    item.setDocument(doc)
+    item.setDefaultTextColor(QColor(255, 255, 255, 255))
+    item.setPos(0, 0)
+
+    if shadow:
+        eff = QGraphicsDropShadowEffect()
+        eff.setBlurRadius(int(blur_radius))
+        eff.setColor(QColor(*shadow_color_rgba))
+        eff.setOffset(int(shadow_offset[0]), int(shadow_offset[1]))
+        item.setGraphicsEffect(eff)
+
+    scene = QGraphicsScene()
+    scene.addItem(item)
+
+    doc_h = int(doc.size().height())
+
+    extra_bottom = 12
+    if shadow:
+        extra_bottom += abs(int(shadow_offset[1])) + int(blur_radius)
+
+    final_h = max(int(h), doc_h + extra_bottom)
+
+    scene.setSceneRect(0, 0, int(w), int(final_h))
+
+    img = QImage(int(w), int(final_h), QImage.Format_ARGB32_Premultiplied)
+    img.fill(Qt.transparent)
+
+    p = QPainter(img)
+    p.setRenderHint(QPainter.Antialiasing, True)
+    p.setRenderHint(QPainter.TextAntialiasing, True)
+
+    scene.render(
+        p,
+        QRectF(0, 0, w, final_h),
+        scene.sceneRect()
+    )
+
+    p.end()
+
+    return img
+
+
+def _qimage_to_bgr(img: QImage) -> np.ndarray:
+    img = img.convertToFormat(QImage.Format_ARGB32_Premultiplied)
+    w = img.width()
+    h = img.height()
+    bpl = img.bytesPerLine()
+
+    raw = img.bits().tobytes()
+    arr = np.frombuffer(raw, dtype=np.uint8).reshape((h, bpl // 4, 4))
+    arr = arr[:, :w, :]
+    bgra = arr.copy()
+    bgr = cv2.cvtColor(bgra, cv2.COLOR_BGRA2BGR)
+    return bgr
+
+
+def _scale_rect(x, y, w, h, rx, ry):
+    return int(x * rx), int(y * ry), int(w * rx), int(h * ry)
+
+
+# =========================
+# ✅ الدالة الرئيسية - مع الإصلاح
+# =========================
+def render_image(
+    image_path: str | None = None,
+    image_name: str = "",
+    text_data_list: list | None = None,
+    fonts_loaded: dict | None = None,
+    is_first_slide: bool = False,
+    image_data=None,
+    silent: bool = False,
+    **kwargs,
+):
+    """
+    Render HTML labels onto image.
+    
+    🔧 الإصلاح: scaling الإحداثيات من أبعاد التصميم (info.txt) إلى أبعاد الصورة الفعلية.
+    
+    الإحداثيات في txt مصممة على resolution_slides في info.txt.
+    إذا كانت الصورة الفعلية بأبعاد مختلفة، نحسب rx و ry ونحوّل الإحداثيات.
+    """
+    if text_data_list is None:
+        text_data_list = []
+    if fonts_loaded is None:
+        fonts_loaded = {}
+
+    with _QT_LOCK:
+        _ensure_qt_app()
+
+        if not silent:
+            _dprint("=" * 80)
+            _dprint(f"[Render] Image: {image_name}")
+            _dprint(f"[Render] labels_count={len(text_data_list)}")
+
+        # تحميل الصورة
+        if image_data is not None:
+            base_cv = image_data
+        elif image_path:
+            base_cv = cv2.imread(image_path)
+        else:
+            if not silent:
+                print("[Render] No image_path or image_data provided.")
+            return None
+
+        if base_cv is None:
+            if not silent:
+                print("[Render] Failed to load base image.")
+            return None
+
+        base_h, base_w = base_cv.shape[:2]
+
+        # =========================
+        # Arabic flip logic
+        # =========================
+        language = (kwargs.get("language") or "en").strip().lower()
+
+        slide_num = 1
+        if "_" in image_name:
+            try:
+                slide_num = int(image_name.split("_")[1])
+            except:
+                slide_num = 1
+
+        text_keys = kwargs.get("text_data_keys", [])
+        all_nums = []
+        for k in text_keys:
+            if "_" in k:
+                try:
+                    all_nums.append(int(k.split("_")[1]))
+                except:
+                    pass
+
+        last_slide = max(all_nums) if all_nums else slide_num
+        is_first = (slide_num == 1)
+        is_last = (slide_num == last_slide)
+        do_flip_ar = (language == "ar") and (not is_first) and (not is_last)
+
+        # =========================
+        # ✅ الإصلاح الجوهري: حساب rx و ry
+        # =========================
+        res_map = _load_resolution_map()
+        
+        if image_name in res_map:
+            design_w, design_h = res_map[image_name]
+            rx = base_w / design_w
+            ry = base_h / design_h
+            if not silent or DEBUG:
+                _dprint(f"[Scale] {image_name}: design=({design_w}×{design_h}) actual=({base_w}×{base_h}) scale=({rx:.4f}, {ry:.4f})")
+        else:
+            # لو مش موجود في info.txt، استخدم 1.0 (السلوك القديم)
+            rx = 1.0
+            ry = 1.0
+            _dprint(f"[Scale] {image_name}: not in res_map, using rx=ry=1.0")
+
+        # Flip base before drawing text (Arabic only)
+        if do_flip_ar:
+            base_cv = cv2.flip(base_cv, 1)
+            base_h, base_w = base_cv.shape[:2]
+
+        # Convert base_cv -> QImage
+        rgb = cv2.cvtColor(base_cv, cv2.COLOR_BGR2RGB)
+        qimg = QImage(rgb.data, base_w, base_h, 3 * base_w, QImage.Format_RGB888)
+
+        out_img = QImage(base_w, base_h, QImage.Format_ARGB32_Premultiplied)
+        out_img.fill(Qt.transparent)
+
+        painter = QPainter(out_img)
+        painter.setRenderHint(QPainter.Antialiasing, True)
+        painter.setRenderHint(QPainter.TextAntialiasing, True)
+        painter.drawImage(0, 0, qimg)
+
+        # اختيار الخط
+        font_family = None
+        if is_first_slide and "first" in fonts_loaded:
+            font_family = fonts_loaded["first"]
+        elif (not is_first_slide) and "rest" in fonts_loaded:
+            font_family = fonts_loaded["rest"]
+
+        for idx, item in enumerate(text_data_list, 1):
+            html = item.get("html", "") or ""
+            x = int(item.get("x", 0) or 0)
+            y = int(item.get("y", 0) or 0)
+            ww = int(item.get("width", 400) or 400)
+            hh = int(item.get("height", 200) or 200)
+            gf = float(item.get("global_font", 0) or 0)
+
+            # ✅ تطبيق الـ scaling على الإحداثيات والأبعاد
+            sx, sy, sw, sh = _scale_rect(x, y, ww, hh, rx, ry)
+
+            # ✅ تصحيح: لو y سالب، نبدأ من 0 مع تعديل الارتفاع
+            # (y سالب يعني النص مصمم ليبدأ فوق الصورة - نتجاهل الجزء فوق الصورة)
+            if sy < 0:
+                # نقلص الارتفاع بمقدار ما كان سالباً ثم نبدأ من 0
+                sh = max(1, sh + sy)
+                sy = 0
+
+            # ✅ تصحيح: لو x سالب، نبدأ من 0
+            if sx < 0:
+                sw = max(1, sw + sx)
+                sx = 0
+
+            # ✅ ضمان أن الـ label لا يتجاوز حدود الصورة
+            if sx >= base_w or sy >= base_h:
+                _dprint(f"[Render] Label {idx} ({image_name}): SKIPPED (out of bounds: sx={sx}, sy={sy}, img={base_w}×{base_h})")
+                continue
+
+            # تحديد العرض الفعلي بحيث لا يتجاوز حدود الصورة
+            sw = min(sw, base_w - sx)
+            sh = min(sh, base_h - sy)
+
+            if sw <= 0 or sh <= 0:
+                continue
+
+            html2 = html
+            html2 = html2.replace("\r\n", "\n").replace("\r", "\n")
+            html2 = html2.replace("\n", "<br>")
+
+            if font_family:
+                html2 = inject_font_family(html2, font_family)
+
+            if gf != 0:
+                # ✅ scale the global_font مع الـ rx/ry
+                # global_font هو multiplier للخط، نضرب في min(rx,ry) لو الصورة أصغر
+                scale_factor = min(rx, ry)
+                gf_scaled = gf * scale_factor if scale_factor < 1.0 else gf
+                html2 = scale_font_sizes(html2, gf_scaled)
+
+            html2 = make_waw_transparent(html2)
+
+            _dprint(f"[Render] Label {idx} ({image_name}): pos=({sx},{sy}) size=({sw}×{sh}) gf={gf}")
+            if DEBUG_HTML:
+                _dprint(f"[Render] html: {_short(html2)}")
+
+            label_img = _render_html_to_qimage(
+                html=html2,
+                w=max(1, sw),
+                h=max(1, sh),
+                shadow=bool(ENABLE_TEXT_SHADOW),
+                blur_radius=int(SHADOW_BLUR_RADIUS),
+                shadow_color_rgba=tuple(SHADOW_COLOR),
+                shadow_offset=(int(SHADOW_OFFSET_X), int(SHADOW_OFFSET_Y)),
+            )
+
+            painter.drawImage(int(sx), int(sy), label_img)
+
+        painter.end()
+
+        out_bgr = _qimage_to_bgr(out_img)
+
+        return out_bgr
+    
+
+
+# =========================
+# Worker (parallel usage)
+# =========================
+def render_image_worker(args):
+    (image_name, image_bytes, text_data_list, is_first_slide,
+     first_font_path, rest_font_path, language, base_dir) = args
+
+    try:
+        with _QT_LOCK:
+            _ensure_qt_app()
+
+            fonts_loaded = load_custom_fonts(
+                language=language,
+                first_slide_font_path=first_font_path,
+                rest_slides_font_path=rest_font_path,
+                base_dir=base_dir,
+            )
+
+            nparr = np.frombuffer(image_bytes, np.uint8)
+            img_cv = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+            if img_cv is None:
+                return (image_name, None, "Failed to decode image bytes")
+
+            out_cv = render_image(
+                image_name=image_name,
+                text_data_list=text_data_list,
+                fonts_loaded=fonts_loaded,
+                is_first_slide=is_first_slide,
+                image_data=img_cv,
+                silent=True,
+                language=language,
+            )
+            if out_cv is None:
+                return (image_name, None, "Render failed")
+
+            ok, png = cv2.imencode(".png", out_cv)
+            if not ok:
+                return (image_name, None, "Failed to encode output PNG")
+
+            return (image_name, png.tobytes(), "OK")
+
+    except Exception as e:
+        return (image_name, None, f"Worker error: {e}")
+    
