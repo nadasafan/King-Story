@@ -218,12 +218,7 @@ def _apply_text_sequential(images_dict, text_data, original_dims_dict, app, font
 
         labels_list = text_data[image_name]
 
-        # ✅ IMPORTANT: ممنوع نعمل scaling لإحداثيات الكتابة
-        # (عايزين نفس x/y/width/height زي txt بالظبط)
-        # if image_name in original_dims_dict:
-        #     orig_w, orig_h = original_dims_dict[image_name]
-        #     if current_w != orig_w or current_h != orig_h:
-        #         labels_list = _scale_labels(labels_list, orig_w, orig_h, current_w, current_h)
+
 
         first_key = list(text_data.keys())[0] if text_data else image_name
         is_first = (image_name == "slide_01" or image_name == first_key)
@@ -234,7 +229,8 @@ def _apply_text_sequential(images_dict, text_data, original_dims_dict, app, font
             fonts_loaded=fonts_loaded,
             is_first_slide=is_first,
             image_data=img,
-            language=language,   # ✅ مهم عشان لو عربي يعمل flip جوّه text_handler
+            language=language, 
+            text_data_keys=list(text_data.keys())  # ✅ مهم عشان لو عربي يعمل flip جوّه text_handler
         )
 
         processed_images[image_name] = img_with_text if img_with_text is not None else img

@@ -528,8 +528,41 @@ def render_image(
 
 
         # ✅ language + flip flag
+
+        # =========================
+        # Arabic flip logic (correct)
+        # =========================
+
         language = (kwargs.get("language") or "en").strip().lower()
-        do_flip_ar = (language == "ar") and (base_w != base_h)
+
+        # استخراج رقم السلايد من الاسم مثل: slide_08 → 8
+        slide_num = 1
+        if "_" in image_name:
+            try:
+                slide_num = int(image_name.split("_")[1])
+            except:
+                slide_num = 1
+
+        # نحتاج جميع أسماء السلايد لمعرفة رقم آخر صفحة
+        text_keys = kwargs.get("text_data_keys", [])
+        all_nums = []
+        for k in text_keys:
+            if "_" in k:
+                try:
+                    all_nums.append(int(k.split("_")[1]))
+                except:
+                    pass
+
+        last_slide = max(all_nums) if all_nums else slide_num
+
+        # أول صفحة
+        is_first = (slide_num == 1)
+
+        # آخر صفحة
+        is_last = (slide_num == last_slide)
+
+        # flip فقط للصفحات الداخلية
+        do_flip_ar = (language == "ar") and (not is_first) and (not is_last)
 
         # use text positions exactly as stored in text data
         rx = 1.0
