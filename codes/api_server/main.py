@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import os
+import asyncio
+from concurrent.futures import ThreadPoolExecutor
 import re
 import uuid
 import shutil
@@ -32,6 +34,9 @@ print("### LOADED API SERVER FROM:", __file__, flush=True)
 os.environ.setdefault("QT_QPA_PLATFORM", os.getenv("QT_QPA_PLATFORM", "offscreen"))
 
 app = FastAPI(title="Stories Studio API", version="1.0.0")
+
+# Thread pool for blocking PDF generation tasks
+_executor = ThreadPoolExecutor(max_workers=4)
 
 # ---- folders ----
 STORIES_DIR = BASE_DIR / "Stories"
@@ -508,210 +513,213 @@ async def regenerate_slide(
 # 6) POST /generate-story/pdf  (RESIZE -> TEXT -> PDF)
 # =========================
 @app.post("/generate-story/pdf")
-def generate_story_pdf(
+async def generate_story_pdf(
     language: str = Form(...),
     user_name: str = Form(...),
     images_folder: str = Form(...),
 ):
-    print("\n### HIT /generate-story/pdf FROM:", __file__, flush=True)
-    print("### INPUT language:", language, "user_name:", user_name, flush=True)
-    print("### INPUT images_folder:", images_folder, flush=True)
+    def _blocking_generate():
+        print("\n### HIT /generate-story/pdf FROM:", __file__, flush=True)
+        print("### INPUT language:", language, "user_name:", user_name, flush=True)
+        print("### INPUT images_folder:", images_folder, flush=True)
 
-    language = (language or "").strip().lower()
-    if language not in ("en", "ar"):
-        raise HTTPException(status_code=400, detail="language must be 'en' or 'ar'.")
-    if not user_name.strip():
-        raise HTTPException(status_code=400, detail="user_name is required.")
+        language = (language or "").strip().lower()
+        if language not in ("en", "ar"):
+            raise HTTPException(status_code=400, detail="language must be 'en' or 'ar'.")
+        if not user_name.strip():
+            raise HTTPException(status_code=400, detail="user_name is required.")
 
-    img_dir = _guard_path_inside_base(images_folder)
-    if not img_dir.is_dir():
-        raise HTTPException(status_code=400, detail="images_folder must be a directory.")
+        img_dir = _guard_path_inside_base(images_folder)
+        if not img_dir.is_dir():
+            raise HTTPException(status_code=400, detail="images_folder must be a directory.")
 
-    story_root = _find_story_root_from_any_path(img_dir)
-    if story_root is None:
-        raise HTTPException(status_code=400, detail="Could not infer story root from images_folder.")
+        story_root = _find_story_root_from_any_path(img_dir)
+        if story_root is None:
+            raise HTTPException(status_code=400, detail="Could not infer story root from images_folder.")
 
-    print("### story_root:", story_root, flush=True)
+        print("### story_root:", story_root, flush=True)
 
-    # 1) read story info.json FROM story_root/info.txt (the one you mentioned)
-    story_info = _read_story_info_json(story_root)
-    res_map_list = story_info.get("resolution_slides") or []
+        # 1) read story info.json FROM story_root/info.txt (the one you mentioned)
+        story_info = _read_story_info_json(story_root)
+        res_map_list = story_info.get("resolution_slides") or []
 
-    # also read your existing helper (keeps name templates etc.)
-    (
-        en_story_name,
-        ar_story_name,
-        _unused_resolution_slides,
-        first_slide_font,
-        rest_slides_font,
-        ar_first_slide_font,
-        ar_rest_slides_font,
-    ) = read_info_file(str(story_root))
+        # also read your existing helper (keeps name templates etc.)
+        (
+            en_story_name,
+            ar_story_name,
+            _unused_resolution_slides,
+            first_slide_font,
+            rest_slides_font,
+            ar_first_slide_font,
+            ar_rest_slides_font,
+        ) = read_info_file(str(story_root))
 
-    pdf_name_tpl = (en_story_name or "Story_EN") if language == "en" else (ar_story_name or "Story_AR")
+        pdf_name_tpl = (en_story_name or "Story_EN") if language == "en" else (ar_story_name or "Story_AR")
 
-    # 2) load images (skip _try)
-    images_dict = {}
-    all_stems = []
+        # 2) load images (skip _try)
+        images_dict = {}
+        all_stems = []
 
-    for f in sorted(img_dir.iterdir()):
-        if not (f.is_file() and f.suffix.lower() in (".jpg", ".jpeg", ".png")):
-            continue
+        for f in sorted(img_dir.iterdir()):
+            if not (f.is_file() and f.suffix.lower() in (".jpg", ".jpeg", ".png")):
+                continue
 
-        all_stems.append(f.stem)
-        if _is_try_image(f.stem):
-            continue
+            all_stems.append(f.stem)
+            if _is_try_image(f.stem):
+                continue
 
-        img = cv2.imread(str(f))
-        if img is None:
-            continue
+            img = cv2.imread(str(f))
+            if img is None:
+                continue
 
-        images_dict[f.stem] = img
+            images_dict[f.stem] = img
 
-    print("### images on disk:", len(all_stems), flush=True)
-    print("### usable images (no _try):", len(images_dict), flush=True)
+        print("### images on disk:", len(all_stems), flush=True)
+        print("### usable images (no _try):", len(images_dict), flush=True)
 
 
-    if not images_dict:
-        raise HTTPException(status_code=400, detail="No usable images found (after skipping _tryN).")
+        if not images_dict:
+            raise HTTPException(status_code=400, detail="No usable images found (after skipping _tryN).")
 
-    # 3) Resize FIRST using story_root/info.txt resolution_slides
-    if res_map_list:
-        images_dict = _resize_to_resolution_map(images_dict, res_map_list)
-        print("### [RESIZE] applied info.txt resolution_slides ✅", flush=True)
-    else:
-        print("### [RESIZE] skipped (no resolution_slides found in info.txt)", flush=True)
-
-    # ✅ capture dims AFTER resize so text renderer uses the final story dimensions
-    original_dims_dict = {k: (v.shape[1], v.shape[0]) for k, v in images_dict.items()}
-    print("### resized dims sample:", list(original_dims_dict.items())[:3], flush=True)
-
-    # 4) choose text file + fonts
-    translations_folder = story_root / "Translations"
-    if not translations_folder.exists():
-        raise HTTPException(status_code=404, detail="Translations folder not found.")
-
-    if language == "en":
-        text_file = translations_folder / "en_text_data.txt"
-        if not text_file.exists():
-            raise HTTPException(status_code=404, detail="English translation file not found: en_text_data.txt")
-
-        selected_first_font = first_slide_font
-        selected_rest_font = rest_slides_font
-
-    else:
-        preferred_ar = translations_folder / "ar_text_data.txt"
-        if preferred_ar.exists():
-            text_file = preferred_ar
+        # 3) Resize FIRST using story_root/info.txt resolution_slides
+        if res_map_list:
+            images_dict = _resize_to_resolution_map(images_dict, res_map_list)
+            print("### [RESIZE] applied info.txt resolution_slides ✅", flush=True)
         else:
-            ar_files = sorted([p for p in translations_folder.iterdir() if p.is_file() and p.name.startswith("ar_")])
-            if not ar_files:
-                raise HTTPException(status_code=404, detail="No Arabic translation file found (ar_*.txt).")
-            text_file = ar_files[0]
+            print("### [RESIZE] skipped (no resolution_slides found in info.txt)", flush=True)
 
-        selected_first_font = ar_first_slide_font
-        selected_rest_font = ar_rest_slides_font
+        # ✅ capture dims AFTER resize so text renderer uses the final story dimensions
+        original_dims_dict = {k: (v.shape[1], v.shape[0]) for k, v in images_dict.items()}
+        print("### resized dims sample:", list(original_dims_dict.items())[:3], flush=True)
 
-    print("### text_file:", text_file, flush=True)
-    print("### fonts config first/rest:", selected_first_font, "|", selected_rest_font, flush=True)
+        # 4) choose text file + fonts
+        translations_folder = story_root / "Translations"
+        if not translations_folder.exists():
+            raise HTTPException(status_code=404, detail="Translations folder not found.")
 
-    # 5) render text
-    text_render_ok = False
-    images_with_text = images_dict
+        if language == "en":
+            text_file = translations_folder / "en_text_data.txt"
+            if not text_file.exists():
+                raise HTTPException(status_code=404, detail="English translation file not found: en_text_data.txt")
 
-    try:
-        print("### [TEXT] parsing text data ...", flush=True)
-        text_data = read_text_data(str(text_file), user_name=user_name, language=language)
-        if not text_data:
-            raise RuntimeError("read_text_data returned None/empty")
+            selected_first_font = first_slide_font
+            selected_rest_font = rest_slides_font
 
-        print("### [TEXT] load_custom_fonts ...", flush=True)
-        fonts_loaded = load_custom_fonts(
-            language=language,
-            first_slide_font_path=selected_first_font,
-            rest_slides_font_path=selected_rest_font,
-            base_dir=str(BASE_DIR),
-        )
-        print("### [TEXT] fonts_loaded:", fonts_loaded, flush=True)
+        else:
+            preferred_ar = translations_folder / "ar_text_data.txt"
+            if preferred_ar.exists():
+                text_file = preferred_ar
+            else:
+                ar_files = sorted([p for p in translations_folder.iterdir() if p.is_file() and p.name.startswith("ar_")])
+                if not ar_files:
+                    raise HTTPException(status_code=404, detail="No Arabic translation file found (ar_*.txt).")
+                text_file = ar_files[0]
 
-        print("### [TEXT] apply_text_to_images (sequential) ...", flush=True)
-        images_with_text = apply_text_to_images(
-            images_dict=images_dict,
-            text_data=text_data,
-            original_dims_dict=original_dims_dict,
-            app=None,
-            fonts_loaded=fonts_loaded,
-            language=language,
-            use_parallel=False,
-            first_slide_font=selected_first_font,
-            rest_slides_font=selected_rest_font,
-        )
+            selected_first_font = ar_first_slide_font
+            selected_rest_font = ar_rest_slides_font
 
-        if not images_with_text:
-            raise RuntimeError("apply_text_to_images returned None/empty")
+        print("### text_file:", text_file, flush=True)
+        print("### fonts config first/rest:", selected_first_font, "|", selected_rest_font, flush=True)
 
-        text_render_ok = True
-        print("### [TEXT] SUCCESS ✅", flush=True)
-
-    except Exception as e:
-        print("### [TEXT] FAILED ❌ reason:", repr(e), flush=True)
-        print("### [TEXT] FALLBACK SAFE MODE (no text).", flush=True)
-        images_with_text = images_dict
+        # 5) render text
         text_render_ok = False
+        images_with_text = images_dict
 
-    # 6) order slides for PDF
-    if res_map_list:
-        ordered_names = [str(x[0]) for x in res_map_list]
-        final_images = [images_with_text[n] for n in ordered_names if n in images_with_text]
-    else:
-        final_images = [images_with_text[name] for name in sorted(images_with_text.keys())]
+        try:
+            print("### [TEXT] parsing text data ...", flush=True)
+            text_data = read_text_data(str(text_file), user_name=user_name, language=language)
+            if not text_data:
+                raise RuntimeError("read_text_data returned None/empty")
 
-    print("### final_images count:", len(final_images), flush=True)
+            print("### [TEXT] load_custom_fonts ...", flush=True)
+            fonts_loaded = load_custom_fonts(
+                language=language,
+                first_slide_font_path=selected_first_font,
+                rest_slides_font_path=selected_rest_font,
+                base_dir=str(BASE_DIR),
+            )
+            print("### [TEXT] fonts_loaded:", fonts_loaded, flush=True)
 
-    if not final_images:
-        raise HTTPException(status_code=500, detail="No final images to build PDF.")
+            print("### [TEXT] apply_text_to_images (sequential) ...", flush=True)
+            images_with_text = apply_text_to_images(
+                images_dict=images_dict,
+                text_data=text_data,
+                original_dims_dict=original_dims_dict,
+                app=None,
+                fonts_loaded=fonts_loaded,
+                language=language,
+                use_parallel=False,
+                first_slide_font=selected_first_font,
+                rest_slides_font=selected_rest_font,
+            )
 
-    # 7) build pdf filename
-    pdf_filename = pdf_name_tpl
-    if language == "en":
-        pdf_filename = (
-            pdf_filename.replace("Name", user_name)
-            .replace("name", user_name)
-            .replace("NAME", user_name.upper())
-        )
-    else:
-        pdf_filename = (
-            pdf_filename.replace("الاسم", user_name)
-            .replace("اسم", user_name)
-        )
-    pdf_filename = f"{pdf_filename}.pdf"
+            if not images_with_text:
+                raise RuntimeError("apply_text_to_images returned None/empty")
 
-    pdf_path = (RESULT_DIR / pdf_filename).resolve()
-    print("### pdf_path:", pdf_path, flush=True)
+            text_render_ok = True
+            print("### [TEXT] SUCCESS ✅", flush=True)
 
-       # 8) create pdf
-    try:
-        pdf_out_path = create_pdf_from_images(final_images, str(pdf_path), use_parallel=False)
-    except TypeError:
-        pdf_out_path = create_pdf_from_images(final_images, str(pdf_path), use_parallel=None)
+        except Exception as e:
+            print("### [TEXT] FAILED ❌ reason:", repr(e), flush=True)
+            print("### [TEXT] FALLBACK SAFE MODE (no text).", flush=True)
+            images_with_text = images_dict
+            text_render_ok = False
 
-    if not pdf_out_path:
-        raise HTTPException(status_code=500, detail="Failed to generate PDF.")
+        # 6) order slides for PDF
+        if res_map_list:
+            ordered_names = [str(x[0]) for x in res_map_list]
+            final_images = [images_with_text[n] for n in ordered_names if n in images_with_text]
+        else:
+            final_images = [images_with_text[name] for name in sorted(images_with_text.keys())]
 
-    pdf_out_path = Path(pdf_out_path).resolve()
+        print("### final_images count:", len(final_images), flush=True)
 
-    if not pdf_out_path.exists():
-        raise HTTPException(status_code=500, detail=f"PDF not found after generation: {pdf_out_path}")
+        if not final_images:
+            raise HTTPException(status_code=500, detail="No final images to build PDF.")
 
-    print("### PDF OK ✅", flush=True)
+        # 7) build pdf filename
+        pdf_filename = pdf_name_tpl
+        if language == "en":
+            pdf_filename = (
+                pdf_filename.replace("Name", user_name)
+                .replace("name", user_name)
+                .replace("NAME", user_name.upper())
+            )
+        else:
+            pdf_filename = (
+                pdf_filename.replace("الاسم", user_name)
+                .replace("اسم", user_name)
+            )
+        pdf_filename = f"{pdf_filename}.pdf"
 
-    return {
-        "status": "success",
-        "language": language,
-        "user_name": user_name,
-        "images_folder": str(img_dir.resolve()),
-        "pdf_path": str(pdf_out_path),
-        "pdf_url": _to_file_url(pdf_out_path),
-        "text_rendered": text_render_ok,
-        "note": "Text rendered successfully." if text_render_ok else "Fallback SAFE MODE: PDF generated without text rendering.",
-    }
+        pdf_path = (RESULT_DIR / pdf_filename).resolve()
+        print("### pdf_path:", pdf_path, flush=True)
+
+           # 8) create pdf
+        try:
+            pdf_out_path = create_pdf_from_images(final_images, str(pdf_path), use_parallel=False)
+        except TypeError:
+            pdf_out_path = create_pdf_from_images(final_images, str(pdf_path), use_parallel=None)
+
+        if not pdf_out_path:
+            raise HTTPException(status_code=500, detail="Failed to generate PDF.")
+
+        pdf_out_path = Path(pdf_out_path).resolve()
+
+        if not pdf_out_path.exists():
+            raise HTTPException(status_code=500, detail=f"PDF not found after generation: {pdf_out_path}")
+
+        print("### PDF OK ✅", flush=True)
+
+        return {
+            "status": "success",
+            "language": language,
+            "user_name": user_name,
+            "images_folder": str(img_dir.resolve()),
+            "pdf_path": str(pdf_out_path),
+            "pdf_url": _to_file_url(pdf_out_path),
+            "text_rendered": text_render_ok,
+            "note": "Text rendered successfully." if text_render_ok else "Fallback SAFE MODE: PDF generated without text rendering.",
+        }
+    loop = asyncio.get_event_loop()
+    return await loop.run_in_executor(_executor, _blocking_generate)
