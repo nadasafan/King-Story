@@ -53,6 +53,7 @@ from config import (
     AR_FIRST_SLIDE_FONT, AR_REST_SLIDES_FONT,
     ENABLE_TEXT_SHADOW,
     SHADOW_BLUR_RADIUS, SHADOW_COLOR, SHADOW_OFFSET_X, SHADOW_OFFSET_Y,
+    BASE_DIR,
 )
 
 # =========================
@@ -100,10 +101,11 @@ def _ensure_qt_app():
 # =========================
 # ✅ الجديد: تحميل resolution map من info.txt
 # =========================
-_RES_MAP_CACHE = None
+_RES_MAP_CACHE: dict[str, dict[str, tuple[int, int]]] = {}
+_RES_MAP_LOCK = threading.Lock()
 
 
-def _find_info_txt() -> str | None:
+def _find_info_txt_nearby() -> str | None:
     envp = os.environ.get("TEXT_INFO_PATH")
     if envp and os.path.exists(envp):
         return envp
@@ -120,40 +122,124 @@ def _find_info_txt() -> str | None:
     return None
 
 
-def _load_resolution_map() -> dict[str, tuple[int, int]]:
+_RES_SLIDE_RE = re.compile(
+    r"""\[\s*["'](?P<name>slide_\d+)["']\s*,\s*(?P<w>\d+)\s*,\s*(?P<h>\d+)\s*\]""",
+    re.IGNORECASE,
+)
+
+
+def _extract_resolution_map_from_info_text(raw: str) -> dict[str, tuple[int, int]]:
+    """
+    Extract `resolution_slides` without requiring valid JSON (some info.txt files are JSON-like).
+    Expected entries look like: ["slide_02", 2048, 1024]
+    """
+    out: dict[str, tuple[int, int]] = {}
+    if not raw:
+        return out
+
+    for m in _RES_SLIDE_RE.finditer(raw):
+        name = str(m.group("name")).lower()
+        try:
+            out[name] = (int(m.group("w")), int(m.group("h")))
+        except Exception:
+            continue
+
+    return out
+
+
+def _best_story_info_from_slides(slide_names: list[str]) -> tuple[str | None, dict[str, tuple[int, int]]]:
+    """
+    Find the best matching story info.txt under `Stories/**/info.txt` by matching slide keys.
+    This makes server behavior deterministic even when CWD is different.
+    """
+    want = {str(s).strip().lower() for s in (slide_names or []) if str(s).strip()}
+    if not want:
+        return (None, {})
+
+    stories_dir = Path(BASE_DIR) / "Stories"
+    if not stories_dir.exists():
+        return (None, {})
+
+    best_path: str | None = None
+    best_map: dict[str, tuple[int, int]] = {}
+    best_score = -1_000_000
+
+    # In typical deployments this is a small set; keep it simple and deterministic.
+    for p in sorted(stories_dir.rglob("info.txt")):
+        try:
+            raw = p.read_text(encoding="utf-8", errors="ignore")
+        except Exception:
+            continue
+
+        res_map = _extract_resolution_map_from_info_text(raw)
+        if not res_map:
+            continue
+
+        have = set(res_map.keys())
+        inter = want & have
+        if not inter:
+            continue
+
+        full = (len(inter) == len(want))
+        len_diff = abs(len(have) - len(want))
+        # Prefer full matches; then prefer closer slide count; then higher overlap.
+        score = (10000 if full else 0) + (len(inter) * 100) - (len_diff * 5)
+
+        if score > best_score:
+            best_score = score
+            best_path = str(p)
+            best_map = res_map
+
+    return (best_path, best_map)
+
+
+def _load_resolution_map(slide_names: list[str] | None = None) -> dict[str, tuple[int, int]]:
     """
     يقرأ resolution_slides من info.txt ويعمل cache.
     مثال: {"slide_01": (2048, 2048), "slide_02": (2048, 1024), ...}
     """
-    global _RES_MAP_CACHE
-    if _RES_MAP_CACHE is not None:
-        return _RES_MAP_CACHE
+    cache_key = ""
+    if slide_names:
+        cache_key = "|".join(sorted({str(s).strip().lower() for s in slide_names if str(s).strip()}))
 
-    res_map: dict[str, tuple[int, int]] = {}
-    info_path = _find_info_txt()
+    with _RES_MAP_LOCK:
+        if cache_key and cache_key in _RES_MAP_CACHE:
+            return _RES_MAP_CACHE[cache_key]
 
-    if not info_path:
-        _RES_MAP_CACHE = res_map
-        _dprint("[Info] info.txt not found -> no autoscale map")
-        return _RES_MAP_CACHE
+        # 1) If an explicit info.txt is provided (or nearby file found), use it.
+        info_path = _find_info_txt_nearby()
+        if info_path:
+            try:
+                raw = Path(info_path).read_text(encoding="utf-8", errors="ignore")
+                res_map = _extract_resolution_map_from_info_text(raw)
+                if res_map:
+                    if cache_key:
+                        _RES_MAP_CACHE[cache_key] = res_map
+                    _dprint(f"[Info] Loaded resolution map: {len(res_map)} slides from {info_path}")
+                    return res_map
+            except Exception as e:
+                _dprint(f"[Info] Failed to read nearby info.txt: {e}")
 
-    try:
-        info = json.loads(open(info_path, "r", encoding="utf-8").read())
-        for name, w, h in info.get("resolution_slides", []):
-            res_map[str(name)] = (int(w), int(h))
-        _RES_MAP_CACHE = res_map
-        _dprint(f"[Info] Loaded resolution map: {len(res_map)} slides from {info_path}")
-        return _RES_MAP_CACHE
-    except Exception as e:
-        _RES_MAP_CACHE = {}
-        _dprint(f"[Info] Failed to read info.txt: {e}")
-        return _RES_MAP_CACHE
+        # 2) Otherwise, discover the best matching story info.txt under Stories/ using slide keys.
+        best_path, best_map = _best_story_info_from_slides(slide_names or [])
+        if best_map:
+            if cache_key:
+                _RES_MAP_CACHE[cache_key] = best_map
+            _dprint(f"[Info] Auto-selected info.txt: {best_path} ({len(best_map)} slides)")
+            return best_map
+
+        # 3) No map available.
+        if cache_key:
+            _RES_MAP_CACHE[cache_key] = {}
+        _dprint("[Info] info.txt not found/parsed -> no autoscale map")
+        return {}
 
 
 def invalidate_resolution_cache():
     """استدعيها لو غيّرت info.txt أثناء التشغيل"""
     global _RES_MAP_CACHE
-    _RES_MAP_CACHE = None
+    with _RES_MAP_LOCK:
+        _RES_MAP_CACHE = {}
 
 
 # =========================
@@ -599,10 +685,11 @@ def render_image(
         # =========================
         # ✅ الإصلاح الجوهري: حساب rx و ry
         # =========================
-        res_map = _load_resolution_map()
+        res_map = _load_resolution_map(slide_names=text_keys)
         
-        if image_name in res_map:
-            design_w, design_h = res_map[image_name]
+        key = (image_name or "").strip().lower()
+        if key in res_map:
+            design_w, design_h = res_map[key]
             rx = base_w / design_w
             ry = base_h / design_h
             if not silent or DEBUG:
