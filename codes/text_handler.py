@@ -615,10 +615,23 @@ def render_image(
 
             if gf != 0:
                 # ✅ scale the global_font مع الـ rx/ry
-                # global_font هو multiplier للخط، نضرب في min(rx,ry) لو الصورة أصغر
                 scale_factor = min(rx, ry)
                 gf_scaled = gf * scale_factor if scale_factor < 1.0 else gf
-                html2 = scale_font_sizes(html2, gf_scaled)
+
+                # ✅ Auto-shrink: لو النص مش هيعدي على الـ height المتاح، نقلّل الـ font
+                for _shrink_iter in range(8):
+                    html_test = scale_font_sizes(html2, gf_scaled)
+                    _doc_test = QTextDocument()
+                    _doc_test.setDocumentMargin(0)
+                    _doc_test.setHtml(html_test)
+                    _doc_test.setTextWidth(max(1, sw))
+                    _doc_test.adjustSize()
+                    if _doc_test.size().height() <= sh or gf_scaled < 0.3:
+                        html2 = html_test
+                        break
+                    gf_scaled *= 0.85
+                else:
+                    html2 = scale_font_sizes(html2, gf_scaled)
 
             html2 = make_waw_transparent(html2)
 
@@ -636,13 +649,20 @@ def render_image(
                 shadow_offset=(int(SHADOW_OFFSET_X), int(SHADOW_OFFSET_Y)),
             )
 
+            # ✅ Clip: لو الـ label_img أكبر من المساحة المتاحة، نقصّه
+            max_draw_w = base_w - int(sx)
+            max_draw_h = base_h - int(sy)
+            if label_img.width() > max_draw_w or label_img.height() > max_draw_h:
+                clip_w = min(label_img.width(), max_draw_w)
+                clip_h = min(label_img.height(), max_draw_h)
+                label_img = label_img.copy(0, 0, clip_w, clip_h)
+
             painter.drawImage(int(sx), int(sy), label_img)
 
         painter.end()
 
         out_bgr = _qimage_to_bgr(out_img)
         return out_bgr
-    
 
 
 # =========================
