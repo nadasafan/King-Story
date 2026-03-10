@@ -1,25 +1,24 @@
 # -*- coding: utf-8 -*-
 """
-Text Handler Module (FINAL - API SAFE)
+Text Handler Module (FIXED - Coordinate Scaling)
 
-✅ Fixes for FastAPI/uvicorn:
-- Forces Qt to run OFFSCREEN (no GUI) BEFORE importing PySide6
-- Ensures QApplication exists BEFORE using QFontDatabase
-- Uses a global lock because Qt painting is NOT thread-safe (prevents random hangs/crashes)
-- Stable HTML render using QTextDocument + QGraphicsScene (shadow supported)
+🔧 الإصلاح الرئيسي:
+- تفعيل الـ scaling للإحداثيات بناءً على resolution_slides في info.txt
+- النص كان مصمم على أبعاد محددة (مثلاً 2048×1024) لكن الصور الفعلية
+  قد تكون بأبعاد مختلفة → كان rx=1.0 دائماً = خطأ
 
 Debug env vars:
     TEXT_DEBUG=1
     TEXT_DEBUG_HTML=1
 Optional:
-    TEXT_INFO_PATH=/abs/path/to/info.txt   (for resolution_slides map)
+    TEXT_INFO_PATH=/abs/path/to/info.txt
 """
 
 import os
 import json
 import re
 import threading
-# from pathlib import Path
+from pathlib import Path
 
 import cv2
 import numpy as np
@@ -29,7 +28,6 @@ import numpy as np
 # =========================
 os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
 os.environ.setdefault("QT_OPENGL", "software")
-# optional: reduce warnings
 os.environ.setdefault("QT_LOGGING_RULES", "*.debug=false;qt.qpa.*=false")
 
 from PySide6.QtWidgets import (
@@ -55,7 +53,7 @@ from config import (
 )
 
 # =========================
-# Global lock (Qt is not thread-safe)
+# Global lock
 # =========================
 _QT_LOCK = threading.Lock()
 
@@ -80,10 +78,6 @@ def _short(s: str, n: int = 180) -> str:
 # Qt App
 # =========================
 def _ensure_qt_app():
-    """
-    MUST be called before any QFontDatabase usage.
-    In server mode, we create a single QApplication instance.
-    """
     app = QApplication.instance()
     if app is None:
         app = QApplication([])
@@ -91,54 +85,62 @@ def _ensure_qt_app():
 
 
 # =========================
-# Auto-load design resolutions from info.txt
+# ✅ الجديد: تحميل resolution map من info.txt
 # =========================
+_RES_MAP_CACHE = None
 
 
+def _find_info_txt() -> str | None:
+    envp = os.environ.get("TEXT_INFO_PATH")
+    if envp and os.path.exists(envp):
+        return envp
 
-# def _find_info_txt() -> str | None:
-#     # 1) ENV override
-#     envp = os.environ.get("TEXT_INFO_PATH")
-#     if envp and os.path.exists(envp):
-#         return envp
-
-#     # 2) Try next to this file
-#     here = Path(__file__).resolve().parent
-#     p1 = here / "info.txt"
-#     if p1.exists():
-#         return str(p1)
-
-#     # 3) Try project root (one/two levels up)
-#     for up in [here.parent, here.parent.parent, Path.cwd()]:
-#         p = up / "info.txt"
-#         if p.exists():
-#             return str(p)
-
-#     return None
+    here = Path(__file__).resolve().parent
+    for p in [
+        here / "info.txt",
+        here.parent / "info.txt",
+        here.parent.parent / "info.txt",
+        Path.cwd() / "info.txt",
+    ]:
+        if p.exists():
+            return str(p)
+    return None
 
 
-# def _load_resolution_map() -> dict[str, tuple[int, int]]:
-    
-#     res_map: dict[str, tuple[int, int]] = {}
-#     info_path = _find_info_txt()
-    
-#     if not info_path:
-        
-#         _dprint("[Info] info.txt not found -> no autoscale map")
-#         return res_map
+def _load_resolution_map() -> dict[str, tuple[int, int]]:
+    """
+    يقرأ resolution_slides من info.txt ويعمل cache.
+    مثال: {"slide_01": (2048, 2048), "slide_02": (2048, 1024), ...}
+    """
+    global _RES_MAP_CACHE
+    if _RES_MAP_CACHE is not None:
+        return _RES_MAP_CACHE
 
-#     try:
-#         info = json.loads(open(info_path, "r", encoding="utf-8").read())
-#         for name, w, h in info.get("resolution_slides", []):
-            
-#             res_map[str(name)] = (int(w), int(h))
+    res_map: dict[str, tuple[int, int]] = {}
+    info_path = _find_info_txt()
 
-#         _dprint(f"[Info] Loaded resolution map from: {info_path} ({len(res_map)} slides)")
-#         return res_map
-#     except Exception as e:
-        
-#         _dprint(f"[Info] Failed to read info.txt: {e}")
-#         return {}
+    if not info_path:
+        _RES_MAP_CACHE = res_map
+        _dprint("[Info] info.txt not found -> no autoscale map")
+        return _RES_MAP_CACHE
+
+    try:
+        info = json.loads(open(info_path, "r", encoding="utf-8").read())
+        for name, w, h in info.get("resolution_slides", []):
+            res_map[str(name)] = (int(w), int(h))
+        _RES_MAP_CACHE = res_map
+        _dprint(f"[Info] Loaded resolution map: {len(res_map)} slides from {info_path}")
+        return _RES_MAP_CACHE
+    except Exception as e:
+        _RES_MAP_CACHE = {}
+        _dprint(f"[Info] Failed to read info.txt: {e}")
+        return _RES_MAP_CACHE
+
+
+def invalidate_resolution_cache():
+    """استدعيها لو غيّرت info.txt أثناء التشغيل"""
+    global _RES_MAP_CACHE
+    _RES_MAP_CACHE = None
 
 
 # =========================
@@ -150,10 +152,6 @@ def load_custom_fonts(
     rest_slides_font_path: str | None = None,
     base_dir: str | None = None
 ) -> dict:
-    """
-    Returns: {"first": "FamilyName", "rest": "FamilyName"}
-    IMPORTANT: Ensures QApplication exists before QFontDatabase.
-    """
     with _QT_LOCK:
         _ensure_qt_app()
 
@@ -173,29 +171,23 @@ def load_custom_fonts(
         else:
             rest_font = AR_REST_SLIDES_FONT
 
-        # First slide font
         if first_font and os.path.exists(first_font):
             font_id = QFontDatabase.addApplicationFont(first_font)
             if font_id != -1:
                 families = QFontDatabase.applicationFontFamilies(font_id)
                 if families:
                     fonts_loaded["first"] = families[0]
-                    _dprint(f"[Fonts] Loaded FIRST: {families[0]} ({os.path.basename(first_font)})")
-            else:
-                _dprint(f"[Fonts] Failed to load FIRST font: {first_font}")
+                    _dprint(f"[Fonts] Loaded FIRST: {families[0]}")
         else:
             _dprint(f"[Fonts] FIRST font not found: {first_font}")
 
-        # Rest slides font
         if rest_font and os.path.exists(rest_font):
             font_id = QFontDatabase.addApplicationFont(rest_font)
             if font_id != -1:
                 families = QFontDatabase.applicationFontFamilies(font_id)
                 if families:
                     fonts_loaded["rest"] = families[0]
-                    _dprint(f"[Fonts] Loaded REST:  {families[0]} ({os.path.basename(rest_font)})")
-            else:
-                _dprint(f"[Fonts] Failed to load REST font: {rest_font}")
+                    _dprint(f"[Fonts] Loaded REST: {families[0]}")
         else:
             _dprint(f"[Fonts] REST font not found: {rest_font}")
 
@@ -241,21 +233,10 @@ def scale_font_sizes(html_text: str, global_font: float) -> str:
 
     gf = _clamp(global_font, 0.1, 10.0)
 
-    boost = 1.0
-    min_pt = 0
-    min_px = 0
-
     def repl(match):
         original_size = float(match.group(1))
         unit = match.group(2) if match.group(2) else "pt"
-
-        new_size = int(original_size * gf * boost)
-
-        if unit == "pt" and min_pt > 0:
-            new_size = max(min_pt, new_size)
-        elif unit != "pt" and min_px > 0:
-            new_size = max(min_px, new_size)
-
+        new_size = max(1, int(original_size * gf))
         return f"font-size:{new_size}{unit}"
 
     return re.sub(r"font-size:(\d+(?:\.\d+)?)(pt|px)?", repl, html_text)
@@ -265,17 +246,17 @@ def make_waw_transparent(html_text: str) -> str:
     html_text = re.sub(
         r"(<span[^>]*color:\s*#000000[^>]*>)\s*و\s*(</span>)",
         lambda m: m.group(1).replace("color:#000000", "color:transparent") + "و" + m.group(2),
-        html_text
+        html_text,
     )
     html_text = re.sub(
         r"(<span[^>]*color:\s*#000(?![0-9a-fA-F])[^>]*>)\s*و\s*(</span>)",
         lambda m: m.group(1).replace("color:#000", "color:transparent") + "و" + m.group(2),
-        html_text
+        html_text,
     )
     html_text = re.sub(
         r"(<span[^>]*color:\s*black[^>]*>)\s*و\s*(</span>)",
         lambda m: m.group(1).replace("color:black", "color:transparent") + "و" + m.group(2),
-        html_text
+        html_text,
     )
     return html_text
 
@@ -308,7 +289,6 @@ def read_text_data(file_path: str, user_name: str = "", language: str = "en") ->
         if not raw_content.strip():
             return None
 
-        # keep your "clean broken quotes inside html" logic
         result = []
         i = 0
         while i < len(raw_content):
@@ -369,7 +349,6 @@ def read_text_data(file_path: str, user_name: str = "", language: str = "en") ->
         content = "".join(result)
         data = json.loads(content)
 
-        # replace name placeholders
         if user_name:
             slide_index = 0
             for image_name, labels_list in data.items():
@@ -408,7 +387,7 @@ def _render_html_to_qimage(
     html = html or ""
 
     doc = QTextDocument()
-    doc.setDocumentMargin(0)   # ✅ يمنع نزول النص لتحت
+    doc.setDocumentMargin(0)
     doc.setHtml(html)
     doc.setTextWidth(max(1, int(w)))
     doc.adjustSize()
@@ -416,7 +395,7 @@ def _render_html_to_qimage(
     item = QGraphicsTextItem()
     item.setDocument(doc)
     item.setDefaultTextColor(QColor(255, 255, 255, 255))
-    item.setPos(0, 0)   # ✅ يبدأ من أعلى الصندوق
+    item.setPos(0, 0)
 
     if shadow:
         eff = QGraphicsDropShadowEffect()
@@ -427,11 +406,9 @@ def _render_html_to_qimage(
 
     scene = QGraphicsScene()
     scene.addItem(item)
-    
 
     doc_h = int(doc.size().height())
 
-    # ✅ مساحة صغيرة فقط من تحت حتى لا يقص آخر السطر
     extra_bottom = 12
     if shadow:
         extra_bottom += abs(int(shadow_offset[1])) + int(blur_radius)
@@ -447,7 +424,6 @@ def _render_html_to_qimage(
     p.setRenderHint(QPainter.Antialiasing, True)
     p.setRenderHint(QPainter.TextAntialiasing, True)
 
-
     scene.render(
         p,
         QRectF(0, 0, w, final_h),
@@ -459,7 +435,6 @@ def _render_html_to_qimage(
     return img
 
 
-
 def _qimage_to_bgr(img: QImage) -> np.ndarray:
     img = img.convertToFormat(QImage.Format_ARGB32_Premultiplied)
     w = img.width()
@@ -468,7 +443,7 @@ def _qimage_to_bgr(img: QImage) -> np.ndarray:
 
     raw = img.bits().tobytes()
     arr = np.frombuffer(raw, dtype=np.uint8).reshape((h, bpl // 4, 4))
-    arr = arr[:, :w, :]  # crop padding
+    arr = arr[:, :w, :]
     bgra = arr.copy()
     bgr = cv2.cvtColor(bgra, cv2.COLOR_BGRA2BGR)
     return bgr
@@ -478,6 +453,9 @@ def _scale_rect(x, y, w, h, rx, ry):
     return int(x * rx), int(y * ry), int(w * rx), int(h * ry)
 
 
+# =========================
+# ✅ الدالة الرئيسية - مع الإصلاح
+# =========================
 def render_image(
     image_path: str | None = None,
     image_name: str = "",
@@ -486,12 +464,15 @@ def render_image(
     is_first_slide: bool = False,
     image_data=None,
     silent: bool = False,
-    **kwargs,  # accept unexpected args safely
+    **kwargs,
 ):
     """
     Render HTML labels onto image.
-    Provide either image_path or image_data (OpenCV BGR numpy array).
-    Returns OpenCV BGR numpy array or None.
+    
+    🔧 الإصلاح: scaling الإحداثيات من أبعاد التصميم (info.txt) إلى أبعاد الصورة الفعلية.
+    
+    الإحداثيات في txt مصممة على resolution_slides في info.txt.
+    إذا كانت الصورة الفعلية بأبعاد مختلفة، نحسب rx و ry ونحوّل الإحداثيات.
     """
     if text_data_list is None:
         text_data_list = []
@@ -505,11 +486,8 @@ def render_image(
             _dprint("=" * 80)
             _dprint(f"[Render] Image: {image_name}")
             _dprint(f"[Render] labels_count={len(text_data_list)}")
-            _dprint(f"[Render] fonts_loaded={fonts_loaded}")
-            _dprint(f"[Render] shadow_enabled={ENABLE_TEXT_SHADOW} blur={SHADOW_BLUR_RADIUS} "
-                    f"off=({SHADOW_OFFSET_X},{SHADOW_OFFSET_Y}) color={tuple(SHADOW_COLOR)}")
 
-        # Load cv image
+        # تحميل الصورة
         if image_data is not None:
             base_cv = image_data
         elif image_path:
@@ -526,16 +504,11 @@ def render_image(
 
         base_h, base_w = base_cv.shape[:2]
 
-
-        # ✅ language + flip flag
-
         # =========================
-        # Arabic flip logic (correct)
+        # Arabic flip logic
         # =========================
-
         language = (kwargs.get("language") or "en").strip().lower()
 
-        # استخراج رقم السلايد من الاسم مثل: slide_08 → 8
         slide_num = 1
         if "_" in image_name:
             try:
@@ -543,7 +516,6 @@ def render_image(
             except:
                 slide_num = 1
 
-        # نحتاج جميع أسماء السلايد لمعرفة رقم آخر صفحة
         text_keys = kwargs.get("text_data_keys", [])
         all_nums = []
         for k in text_keys:
@@ -554,21 +526,28 @@ def render_image(
                     pass
 
         last_slide = max(all_nums) if all_nums else slide_num
-
-        # أول صفحة
         is_first = (slide_num == 1)
-
-        # آخر صفحة
         is_last = (slide_num == last_slide)
-
-        # flip فقط للصفحات الداخلية
         do_flip_ar = (language == "ar") and (not is_first) and (not is_last)
 
-        # use text positions exactly as stored in text data
-        rx = 1.0
-        ry = 1.0
+        # =========================
+        # ✅ الإصلاح الجوهري: حساب rx و ry
+        # =========================
+        res_map = _load_resolution_map()
+        
+        if image_name in res_map:
+            design_w, design_h = res_map[image_name]
+            rx = base_w / design_w
+            ry = base_h / design_h
+            if not silent or DEBUG:
+                _dprint(f"[Scale] {image_name}: design=({design_w}×{design_h}) actual=({base_w}×{base_h}) scale=({rx:.4f}, {ry:.4f})")
+        else:
+            # لو مش موجود في info.txt، استخدم 1.0 (السلوك القديم)
+            rx = 1.0
+            ry = 1.0
+            _dprint(f"[Scale] {image_name}: not in res_map, using rx=ry=1.0")
 
-        # ✅ Flip base before drawing text (Arabic only)
+        # Flip base before drawing text (Arabic only)
         if do_flip_ar:
             base_cv = cv2.flip(base_cv, 1)
             base_h, base_w = base_cv.shape[:2]
@@ -583,10 +562,9 @@ def render_image(
         painter = QPainter(out_img)
         painter.setRenderHint(QPainter.Antialiasing, True)
         painter.setRenderHint(QPainter.TextAntialiasing, True)
-
         painter.drawImage(0, 0, qimg)
 
-         # ✅ choose font family for this slide
+        # اختيار الخط
         font_family = None
         if is_first_slide and "first" in fonts_loaded:
             font_family = fonts_loaded["first"]
@@ -601,10 +579,34 @@ def render_image(
             hh = int(item.get("height", 200) or 200)
             gf = float(item.get("global_font", 0) or 0)
 
+            # ✅ تطبيق الـ scaling على الإحداثيات والأبعاد
             sx, sy, sw, sh = _scale_rect(x, y, ww, hh, rx, ry)
 
-            html2 = html
+            # ✅ تصحيح: لو y سالب، نبدأ من 0 مع تعديل الارتفاع
+            # (y سالب يعني النص مصمم ليبدأ فوق الصورة - نتجاهل الجزء فوق الصورة)
+            if sy < 0:
+                # نقلص الارتفاع بمقدار ما كان سالباً ثم نبدأ من 0
+                sh = max(1, sh + sy)
+                sy = 0
 
+            # ✅ تصحيح: لو x سالب، نبدأ من 0
+            if sx < 0:
+                sw = max(1, sw + sx)
+                sx = 0
+
+            # ✅ ضمان أن الـ label لا يتجاوز حدود الصورة
+            if sx >= base_w or sy >= base_h:
+                _dprint(f"[Render] Label {idx} ({image_name}): SKIPPED (out of bounds: sx={sx}, sy={sy}, img={base_w}×{base_h})")
+                continue
+
+            # تحديد العرض الفعلي بحيث لا يتجاوز حدود الصورة
+            sw = min(sw, base_w - sx)
+            sh = min(sh, base_h - sy)
+
+            if sw <= 0 or sh <= 0:
+                continue
+
+            html2 = html
             html2 = html2.replace("\r\n", "\n").replace("\r", "\n")
             html2 = html2.replace("\n", "<br>")
 
@@ -612,9 +614,17 @@ def render_image(
                 html2 = inject_font_family(html2, font_family)
 
             if gf != 0:
-                html2 = scale_font_sizes(html2, gf)
+                # ✅ scale the global_font مع الـ rx/ry
+                # global_font هو multiplier للخط، نضرب في min(rx,ry) لو الصورة أصغر
+                scale_factor = min(rx, ry)
+                gf_scaled = gf * scale_factor if scale_factor < 1.0 else gf
+                html2 = scale_font_sizes(html2, gf_scaled)
 
             html2 = make_waw_transparent(html2)
+
+            _dprint(f"[Render] Label {idx} ({image_name}): pos=({sx},{sy}) size=({sw}×{sh}) gf={gf}")
+            if DEBUG_HTML:
+                _dprint(f"[Render] html: {_short(html2)}")
 
             label_img = _render_html_to_qimage(
                 html=html2,
@@ -631,17 +641,14 @@ def render_image(
         painter.end()
 
         out_bgr = _qimage_to_bgr(out_img)
-
         return out_bgr
+    
 
 
 # =========================
-# Worker (parallel usage) - KEEP for offline only
+# Worker (parallel usage)
 # =========================
 def render_image_worker(args):
-    """
-    Offline usage only (NOT recommended in API server).
-    """
     (image_name, image_bytes, text_data_list, is_first_slide,
      first_font_path, rest_font_path, language, base_dir) = args
 
@@ -668,8 +675,7 @@ def render_image_worker(args):
                 is_first_slide=is_first_slide,
                 image_data=img_cv,
                 silent=True,
-                language=language,   # ✅ مهم
-
+                language=language,
             )
             if out_cv is None:
                 return (image_name, None, "Render failed")
@@ -682,3 +688,4 @@ def render_image_worker(args):
 
     except Exception as e:
         return (image_name, None, f"Worker error: {e}")
+    
