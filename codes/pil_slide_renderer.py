@@ -9,9 +9,11 @@ Entry point:
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import re
+import sys
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -211,22 +213,28 @@ def _fit_font_size(
     return font, _wrap_text(draw, text, font, max_width=box_w)
 
 
-def _resolve_slide_image(slide_name: str) -> Path:
-    img_dir = Path(os.environ.get("SLIDE_IMAGES_DIR", "")).expanduser()
-    if not img_dir:
-        raise FileNotFoundError("SLIDE_IMAGES_DIR is not set.")
+def _resolve_slide_image(slide_name: str, images_dir: Path | None) -> Path:
+    if images_dir is None:
+        env_dir = os.environ.get("SLIDE_IMAGES_DIR", "").strip()
+        if not env_dir:
+            raise FileNotFoundError("SLIDE_IMAGES_DIR is not set. Pass --images-dir or set SLIDE_IMAGES_DIR.")
+        images_dir = Path(env_dir).expanduser()
+
     for ext in (".png", ".jpg", ".jpeg"):
-        p = img_dir / f"{slide_name}{ext}"
+        p = images_dir / f"{slide_name}{ext}"
         if p.exists():
             return p
-    raise FileNotFoundError(f"Slide image not found for {slide_name} under {img_dir}")
+    raise FileNotFoundError(f"Slide image not found for {slide_name} under {images_dir}")
 
 
-def _load_layout() -> Dict[str, Any]:
-    layout_path = os.environ.get("SLIDE_LAYOUT_JSON", "").strip()
-    if not layout_path:
-        raise FileNotFoundError("SLIDE_LAYOUT_JSON is not set.")
-    p = Path(layout_path).expanduser()
+def _load_layout(meta_json: str | Path | None) -> Dict[str, Any]:
+    if meta_json is None:
+        layout_path = os.environ.get("SLIDE_LAYOUT_JSON", "").strip()
+        if not layout_path:
+            raise FileNotFoundError("SLIDE_LAYOUT_JSON is not set. Pass --meta-json or set SLIDE_LAYOUT_JSON.")
+        p = Path(layout_path).expanduser()
+    else:
+        p = Path(meta_json).expanduser()
     raw = p.read_text(encoding="utf-8")
     return json.loads(raw)
 
@@ -263,7 +271,14 @@ def _resolve_font_path(layout: Dict[str, Any], language: str, is_first: bool) ->
         raise FileNotFoundError(f"Could not resolve font path for {key}: {e}")
 
 
-def render_slide_from_txt(slide_name: str) -> Image.Image:
+def render_slide_from_txt(
+    slide_name: str,
+    images_dir: str | Path | None = None,
+    text_dir: str | Path | None = None,
+    meta_json: str | Path | None = None,
+    layout: Dict[str, Any] | None = None,
+    strict_txt: bool = True,
+) -> Image.Image:
     """
     Renders a single slide image using a layout JSON + optional per-slide/per-element .txt content.
 
@@ -276,13 +291,18 @@ def render_slide_from_txt(slide_name: str) -> Image.Image:
 
     If an element doesn't include `txt_file`, it falls back to `text` or `html` fields.
     """
-    layout = _load_layout()
-    elements = layout.get(slide_name)
+    if layout is None:
+        layout = _load_layout(meta_json)
+
+    # Support both: { "slide_01":[...], ... } and { "slides": { "slide_01":[...], ... }, ... }
+    slides_root: Dict[str, Any] = layout.get("slides") if isinstance(layout.get("slides"), dict) else layout
+    elements = slides_root.get(slide_name)
     if not isinstance(elements, list):
         raise KeyError(f"Slide layout not found or not a list: {slide_name}")
 
     # Load base slide image
-    slide_img_path = _resolve_slide_image(slide_name)
+    images_dir_path = Path(images_dir).expanduser() if images_dir is not None else None
+    slide_img_path = _resolve_slide_image(slide_name, images_dir=images_dir_path)
     img = Image.open(slide_img_path).convert("RGBA")
     draw = ImageDraw.Draw(img)
 
@@ -293,9 +313,12 @@ def render_slide_from_txt(slide_name: str) -> Image.Image:
         slide_num = 0
     is_first = (slide_num == 1)
 
-    text_dir = Path(os.environ.get("SLIDE_TEXT_DIR", "")).expanduser()
+    text_dir_path = Path(text_dir).expanduser() if text_dir is not None else None
+    if text_dir_path is None:
+        env_text_dir = os.environ.get("SLIDE_TEXT_DIR", "").strip()
+        text_dir_path = Path(env_text_dir).expanduser() if env_text_dir else None
 
-    for el in elements:
+    for box_idx, el in enumerate(elements, 1):
         if not isinstance(el, dict):
             continue
 
@@ -309,10 +332,22 @@ def render_slide_from_txt(slide_name: str) -> Image.Image:
         # Resolve content
         txt = ""
         txt_file = (el.get("txt_file") or el.get("text_file") or "").strip()
-        if txt_file and text_dir:
-            p = (text_dir / txt_file)
-            if p.exists():
-                txt = p.read_text(encoding="utf-8").replace("\r\n", "\n").replace("\r", "\n").strip()
+        if text_dir_path is not None:
+            if txt_file:
+                p = (text_dir_path / txt_file)
+                if p.exists():
+                    txt = p.read_text(encoding="utf-8").replace("\r\n", "\n").replace("\r", "\n").strip()
+                elif strict_txt:
+                    raise FileNotFoundError(f"Missing txt file for {slide_name} box#{box_idx}: {p}")
+            else:
+                # Deterministic fallback: slide_02 box 1 -> slide_02_1.txt
+                p = text_dir_path / f"{slide_name}_{box_idx}.txt"
+                if p.exists():
+                    txt = p.read_text(encoding="utf-8").replace("\r\n", "\n").replace("\r", "\n").strip()
+                elif strict_txt:
+                    raise FileNotFoundError(
+                        f"Missing txt_file in metadata and fallback not found for {slide_name} box#{box_idx}: {p}"
+                    )
         if not txt:
             if "text" in el and isinstance(el.get("text"), str):
                 txt = el.get("text", "").strip()
@@ -346,8 +381,25 @@ def render_slide_from_txt(slide_name: str) -> Image.Image:
         align = str(style.get("align") or el.get("align") or ("right" if lang == "ar" else "left")).lower()
         color = _parse_color(str(style.get("color") or el.get("color") or "#ffffff"))
         bold = bool(style.get("bold") or el.get("bold"))
+        italic = bool(style.get("italic") or el.get("italic"))
 
-        font_path = _resolve_font_path(layout, language=lang, is_first=is_first)
+        # Per-element override (if present), otherwise use top-level JSON keys.
+        per_font = (el.get("font_path") or "").strip()
+        if not per_font:
+            if lang == "ar":
+                per_font = (el.get("font_path_ar") or "").strip()
+            else:
+                per_font = (el.get("font_path_en") or "").strip()
+
+        if per_font:
+            fp = Path(per_font)
+            if not fp.is_absolute():
+                fp = (Path.cwd() / fp).resolve()
+            if not fp.exists():
+                raise FileNotFoundError(f"Font file not found: {fp}")
+            font_path = str(fp)
+        else:
+            font_path = _resolve_font_path(layout, language=lang, is_first=is_first)
 
         # Wrap + fit to box
         font, lines = _fit_font_size(draw, txt, font_path, base_size, w, h)
@@ -376,14 +428,66 @@ def render_slide_from_txt(slide_name: str) -> Image.Image:
             else:
                 cur_x = x
 
-            # Bold approximation if only a single font file is available.
-            if bold:
-                draw.text((cur_x + 1, cur_y), line, font=font, fill=color)
-            draw.text((cur_x, cur_y), line, font=font, fill=color)
+            if italic:
+                _draw_text_italic(img, (cur_x, cur_y), line, font, color, bold=bold)
+            else:
+                # Bold approximation if only a single font file is available.
+                if bold:
+                    draw.text((cur_x + 1, cur_y), line, font=font, fill=color)
+                draw.text((cur_x, cur_y), line, font=font, fill=color)
 
             cur_y += line_h
 
     return img
+
+
+def _iter_slide_names(layout: Dict[str, Any]) -> List[str]:
+    slides_root: Dict[str, Any] = layout.get("slides") if isinstance(layout.get("slides"), dict) else layout
+    names = [k for k, v in slides_root.items() if isinstance(k, str) and k.lower().startswith("slide_") and isinstance(v, list)]
+
+    def _slide_num(k: str) -> int:
+        try:
+            return int(str(k).split("_")[1])
+        except Exception:
+            return 10**9
+
+    return sorted(names, key=_slide_num)
+
+
+def main(argv: List[str] | None = None) -> int:
+    ap = argparse.ArgumentParser(description="Render slide images from per-box .txt files + JSON metadata (PIL).")
+    ap.add_argument("--images-dir", required=True, help="Folder containing slide_XX images (.png/.jpg).")
+    ap.add_argument("--text-dir", required=True, help="Folder containing .txt files referenced by metadata.")
+    ap.add_argument("--meta-json", required=True, help="JSON metadata with boxes (x,y,width,height,styles,txt_file).")
+    ap.add_argument("--out-dir", required=True, help="Output folder for rendered PNG slides.")
+    ap.add_argument("--slides", default="", help="Comma-separated slide names. Default: all in meta.")
+
+    args = ap.parse_args(argv)
+
+    layout = json.loads(Path(args.meta_json).read_text(encoding="utf-8"))
+    slide_names = [s.strip() for s in (args.slides or "").split(",") if s.strip()]
+    if not slide_names:
+        slide_names = _iter_slide_names(layout)
+
+    out_dir = Path(args.out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    for s in slide_names:
+        img = render_slide_from_txt(
+            s,
+            images_dir=args.images_dir,
+            text_dir=args.text_dir,
+            meta_json=None,
+            layout=layout,
+        )
+        out_path = out_dir / f"{s}.png"
+        img.save(out_path, format="PNG")
+
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main(sys.argv[1:]))
 
 
 def _text_width(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFont) -> float:
@@ -400,3 +504,52 @@ def _text_width(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFo
         return float(right - left)
     except Exception:
         return float(len(text) * 10)
+
+
+def _draw_text_italic(
+    base_img: Image.Image,
+    xy: Tuple[int, int],
+    text: str,
+    font: ImageFont.FreeTypeFont,
+    fill: Tuple[int, int, int, int],
+    *,
+    bold: bool,
+    shear: float = 0.25,
+) -> None:
+    """
+    Draw italic text by rendering to a temporary RGBA image then shearing it.
+    This is a best-effort approach when an italic font file is not provided.
+    """
+    x, y = int(xy[0]), int(xy[1])
+    if not text:
+        return
+
+    # Compute a conservative box for the rendered line.
+    tmp = Image.new("RGBA", (1, 1), (0, 0, 0, 0))
+    d = ImageDraw.Draw(tmp)
+    try:
+        left, top, right, bottom = d.textbbox((0, 0), text, font=font)
+        w = max(1, int(right - left) + 4)
+        h = max(1, int(bottom - top) + 4)
+    except Exception:
+        w, h = max(1, len(text) * 12), 32
+
+    # Add space for the shear so we don't clip the slant.
+    extra_w = int(abs(shear) * h) + 6
+    text_img = Image.new("RGBA", (w + extra_w, h), (0, 0, 0, 0))
+    td = ImageDraw.Draw(text_img)
+
+    if bold:
+        td.text((1, 0), text, font=font, fill=fill)
+    td.text((0, 0), text, font=font, fill=fill)
+
+    # Shear in X direction.
+    new_w = text_img.size[0] + int(abs(shear) * text_img.size[1])
+    sheared = text_img.transform(
+        (new_w, text_img.size[1]),
+        Image.AFFINE,
+        (1, shear, 0, 0, 1, 0),
+        resample=Image.BICUBIC,
+    )
+
+    base_img.alpha_composite(sheared, (x, y))
