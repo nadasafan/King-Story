@@ -68,16 +68,6 @@ def apply_resolution_to_images(images_dict, resolution_slides, use_parallel=None
     if not images_dict:
         return []
 
-    # build map: slide_name -> (w,h)
-    res_map = {}
-    if resolution_slides:
-        for item in resolution_slides:
-            try:
-                name, w, h = item
-                res_map[str(name)] = (int(w), int(h))
-            except Exception:
-                continue
-
     # order slides (be tolerant of unexpected keys)
     def _slide_num(k: str) -> int:
         try:
@@ -87,24 +77,22 @@ def apply_resolution_to_images(images_dict, resolution_slides, use_parallel=None
 
     slide_keys = sorted(images_dict.keys(), key=_slide_num)
 
-    # Deterministic fallback sizes if info.txt is missing/incomplete or has unexpected values.
+    # Enforce strict, deterministic canvas sizes regardless of resolution_slides.
     REQUIRED_FIRST_LAST = (2048, 2048)
     REQUIRED_MIDDLE = (2048, 1024)
-    slide_only = [k for k in slide_keys if _slide_num(k) != 10**9]
-    last_key = (slide_only[-1] if slide_only else (slide_keys[-1] if slide_keys else None))
+    first_key = slide_keys[0] if slide_keys else None
+    last_key = slide_keys[-1] if slide_keys else None
 
     resized_images = []
     for slide_name in slide_keys:
         img = images_dict[slide_name]
 
-        # Prefer explicit per-slide sizes, but only allow the required canvases.
-        tw, th = res_map.get(slide_name, (0, 0))
-        if (tw, th) not in (REQUIRED_FIRST_LAST, REQUIRED_MIDDLE):
-            n = _slide_num(slide_name)
-            if slide_name == "slide_01" or n == 1 or (last_key and slide_name == last_key):
-                tw, th = REQUIRED_FIRST_LAST
-            else:
-                tw, th = REQUIRED_MIDDLE
+        if first_key and slide_name == first_key:
+            tw, th = REQUIRED_FIRST_LAST
+        elif last_key and slide_name == last_key:
+            tw, th = REQUIRED_FIRST_LAST
+        else:
+            tw, th = REQUIRED_MIDDLE
 
         if (img.shape[1], img.shape[0]) != (tw, th):
             img = cv2.resize(img, (int(tw), int(th)), interpolation=cv2.INTER_NEAREST)
