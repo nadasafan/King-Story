@@ -531,9 +531,7 @@ def render_image(
         language = (kwargs.get("language") or "en").strip().lower()
         do_flip_ar = (language == "ar") and (base_w != base_h)
 
-        # Determine design resolution for this slide from info.txt
-        # res_map = _load_resolution_map()
-        # design_w, design_h = res_map.get(image_name, (base_w, base_h))
+        # use text positions exactly as stored in text data
         rx = 1.0
         ry = 1.0
 
@@ -555,9 +553,7 @@ def render_image(
 
         painter.drawImage(0, 0, qimg)
 
-        # ✅ choose font family for this slide
-                # ✅ choose font family for this slide
-                # ✅ choose font family for this slide
+         # ✅ choose font family for this slide
         font_family = None
         if is_first_slide and "first" in fonts_loaded:
             font_family = fonts_loaded["first"]

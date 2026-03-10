@@ -210,13 +210,7 @@ def _apply_text_sequential(images_dict, text_data, original_dims_dict, app, font
     for image_name, img in images_dict.items():
         current_h, current_w = img.shape[:2]
 
-        # (اختياري) رجّع الصورة لمقاسها الأصلي المسجّل
-        # مهم: لازم الـ txt يكون معمول على نفس المقاس ده
-        if image_name in original_dims_dict:
-            orig_w, orig_h = original_dims_dict[image_name]
-            if current_w != orig_w or current_h != orig_h:
-                img = resize_image_to_resolution(img, orig_w, orig_h)
-                current_h, current_w = img.shape[:2]
+
 
         if image_name not in text_data:
             processed_images[image_name] = img
