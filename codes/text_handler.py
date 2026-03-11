@@ -430,7 +430,7 @@ def _render_html_to_qimage(
     scene.addItem(item)
 
     # ❗❗ لا نحسب doc_h ولا extra_bottom ولا أي شيء ديناميكي
-    final_h =  int(h * 1.5)                 # ارتفاع ثابت لا يتغير أبداً
+    final_h =  int(h)                # ارتفاع ثابت لا يتغير أبداً
 
     scene.setSceneRect(0, 0, int(w), final_h)
 
@@ -569,7 +569,7 @@ def render_image(
             hh = int(item.get("height", 200) or 200)
             gf = float(item.get("global_font", 0) or 0)
 
-            sx, sy, sw, sh = _scale_rect(x, y, ww, hh, rx, ry)
+            sx, sy, sw, sh = x, y, ww, hh
 
             html2 = html
 
