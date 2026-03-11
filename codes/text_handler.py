@@ -408,15 +408,15 @@ def _render_html_to_qimage(
     html = html or ""
 
     doc = QTextDocument()
-    doc.setDocumentMargin(0)   # ✅ يمنع نزول النص لتحت
+    doc.setDocumentMargin(0)         # منع النزول للأسفل
     doc.setHtml(html)
-    doc.setTextWidth(max(1, int(w)))
-    doc.adjustSize()
+    doc.setTextWidth(max(1, int(w))) # نستخدم width فقط
+    # ❌ ممنوع: doc.adjustSize()
 
     item = QGraphicsTextItem()
     item.setDocument(doc)
     item.setDefaultTextColor(QColor(255, 255, 255, 255))
-    item.setPos(0, 0)   # ✅ يبدأ من أعلى الصندوق
+    item.setPos(0, 0)                # ثابت بدون إزاحة
 
     if shadow:
         eff = QGraphicsDropShadowEffect()
@@ -427,26 +427,18 @@ def _render_html_to_qimage(
 
     scene = QGraphicsScene()
     scene.addItem(item)
-    
 
-    doc_h = int(doc.size().height())
+    # ❗❗ لا نحسب doc_h ولا extra_bottom ولا أي شيء ديناميكي
+    final_h = int(h)                 # ارتفاع ثابت لا يتغير أبداً
 
-    # ✅ مساحة صغيرة فقط من تحت حتى لا يقص آخر السطر
-    extra_bottom = 12
-    if shadow:
-        extra_bottom += abs(int(shadow_offset[1])) + int(blur_radius)
+    scene.setSceneRect(0, 0, int(w), final_h)
 
-    final_h = max(int(h), doc_h + extra_bottom)
-
-    scene.setSceneRect(0, 0, int(w), int(final_h))
-
-    img = QImage(int(w), int(final_h), QImage.Format_ARGB32_Premultiplied)
+    img = QImage(int(w), final_h, QImage.Format_ARGB32_Premultiplied)
     img.fill(Qt.transparent)
 
     p = QPainter(img)
     p.setRenderHint(QPainter.Antialiasing, True)
     p.setRenderHint(QPainter.TextAntialiasing, True)
-
 
     scene.render(
         p,
@@ -455,7 +447,6 @@ def _render_html_to_qimage(
     )
 
     p.end()
-
     return img
 
 

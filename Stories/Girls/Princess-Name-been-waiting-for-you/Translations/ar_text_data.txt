@@ -432,27 +432,27 @@
   "slide_20": [
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>...تستمر الحكاية  </span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>حين تعود الأميرة <strong>[*الاسم*]</strong></span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>.حاملة مفتاحها المتوهج</span></p></body></html>",
-      "global_font": 2.87,
-      "x": 488,
-      "y": 214,
-      "width": 668,
-      "height": 234
+      "global_font": 2.95,
+      "x": 595,
+      "y": 114,
+      "width": 497,
+      "height": 237
     },
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>,تناديها الغابة من جديد</span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>فلا يدخلها</span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>إلا أصحاب القلوب الطيبة</span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>.والأرواح الشجاعة</span></p></body></html>",
       "global_font": 3.31,
-      "x": 503,
-      "y": 459,
-      "width": 648,
-      "height": 332
+      "x": 597,
+      "y": 370,
+      "width": 501,
+      "height": 322
     },
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>,ضع بصمتكِ هنا</span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>,وأعلني شجاعتكِ</span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>.لتصبحي حارسة الغابة</span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>فالقوة الحقيقية</span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>تبدأ دائمًا</span></p><p style='text-align:center;'><span style='color:hsl(0,0%,100%);font-size:14px;'>.بالإيمان بالنفس</span></p></body></html>",
-      "global_font": 3.01,
-      "x": 503,
-      "y": 794,
-      "width": 701,
-      "height": 444
+      "global_font": 2.95,
+      "x": 598,
+      "y": 711,
+      "width": 491,
+      "height": 438
     }
   ]
 }
