@@ -53,24 +53,24 @@
     {
       "html": "<html><head/><body><p align='center'><span style='font-size:14pt; color:#deddda;'>From far beyond the hills,</span></p></body></html>",
       "global_font": 1.95,
-      "x": 179,
-      "y": 688,
+      "x": 178,
+      "y": 749,
       "width": 442,
       "height": 86
     },
     {
       "html": "<html><head/><body><p align='center'><span style='font-size:14pt; color:#deddda;'>the Enchanted Forest</span></p></body></html>",
       "global_font": 1.99,
-      "x": 182,
-      "y": 797,
+      "x": 176,
+      "y": 894,
       "width": 372,
       "height": 86
     },
     {
       "html": "<html><head/><body><p align='center'><span style='font-size:14pt; color:#deddda;'>shimmered.</span></p></body></html>",
       "global_font": 2.16,
-      "x": 179,
-      "y": 893,
+      "x": 185,
+      "y": 994,
       "width": 244,
       "height": 92
     },
