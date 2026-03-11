@@ -429,7 +429,7 @@ def _render_html_to_qimage(
     scene.addItem(item)
 
     # ❗❗ لا نحسب doc_h ولا extra_bottom ولا أي شيء ديناميكي
-    final_h = int(h)                 # ارتفاع ثابت لا يتغير أبداً
+    final_h =  int(h * 1.5)                 # ارتفاع ثابت لا يتغير أبداً
 
     scene.setSceneRect(0, 0, int(w), final_h)
 
