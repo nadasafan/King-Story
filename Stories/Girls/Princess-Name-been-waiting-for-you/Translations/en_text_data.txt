@@ -47,8 +47,8 @@
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Inside her room,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>Princess[*NAME*]</strong></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;opened a carved wooden box.</span></p></body></html>",
       "global_font": 2.91,
-      "x": 914,
-      "y": 1382,
+      "x": 970,
+      "y": 1353,
       "width": 581,
       "height": 224
     },
@@ -117,18 +117,18 @@
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'><strong>Princess [*NAME*],</strong></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>if you're ready to discover,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>help others, and protect&nbsp;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>this wonderful place,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>place your hand right here.</span></p></body></html>",
       "global_font": 2.63,
-      "x": 497,
-      "y": 252,
-      "width": 644,
-      "height": 404
+      "x": 498,
+      "y": 231,
+      "width": 596,
+      "height": 394
     },
     {
       "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>Paint your hand with red color and press it gently on this page.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>Let your handprint be the mark of the forest's true guardian.</span></p></body></html>",
-      "global_font": 1.79,
-      "x": 179,
-      "y": 817,
-      "width": 933,
-      "height": 146
+      "global_font": 2.07,
+      "x": 86,
+      "y": 802,
+      "width": 1227,
+      "height": 160
     }
   ],
   "slide_07": [
@@ -447,7 +447,7 @@
   ],
   "slide_20": [
     {
-      "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>The adventure continues as Princess [*NAME*]</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>returns, holding the glowing key she found on her first journey.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>The adventure continues as Princess [*NAME*]</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>returns, holding the glowing key she found on her first journey.</span></p></body></html>",
       "global_font": 1.75,
       "x": 628,
       "y": 213,
@@ -455,7 +455,7 @@
       "height": 126
     },
     {
-      "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>A call echoes from the Enchanted Forest, a place only those with</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>kind and brave hearts like Name may enter.&nbsp;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>Before stepping inside, Princess [*NAME*],</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>you are invited to paint your own handprint on this page,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>a special mark that shows you have the courage</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>&nbsp;to become a true Guardian of the Forest.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>A call echoes from the Enchanted Forest, a place only those with</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>kind and brave hearts like Name may enter.&nbsp;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>Before stepping inside, Princess [*NAME*],</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>you are invited to paint your own handprint on this page,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>a special mark that shows you have the courage</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>&nbsp;to become a true Guardian of the Forest.</span></p></body></html>",
       "global_font": 1.5,
       "x": 519,
       "y": 426,
@@ -463,7 +463,7 @@
       "height": 290
     },
     {
-      "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>Inside, she meets a shy fox who's lost its confidence and</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>a pack of brave wolves searching for their missing Moonstone.&nbsp;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>With kindness in her heart and courage lighting her path,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>Princess Name unlocks a magical book that</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>transforms her into the protector of the forest,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>proving that true strength comes from believing in yourself.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>Inside, she meets a shy fox who's lost its confidence and</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>a pack of brave wolves searching for their missing Moonstone.&nbsp;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>With kindness in her heart and courage lighting her path,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>Princess Name unlocks a magical book that</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>transforms her into the protector of the forest,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>proving that true strength comes from believing in yourself.</span></p></body></html>",
       "global_font": 1.64,
       "x": 536,
       "y": 791,
