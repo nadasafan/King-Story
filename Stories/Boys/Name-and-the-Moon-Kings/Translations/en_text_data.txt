@@ -12,11 +12,11 @@
   "slide_02": [
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:14pt; color:#ffffff;'>[*NAME*]</span><span style=' font-size:10pt; color:#f6f5f4;'> was a curious boy with the biggest imagination.</span></p><p align='center'><span style=' font-size:10pt; color:#f6f5f4;'>One night, he was searching through some old books and found a dusty, </span></p><p align='center'><span style=' font-size:10pt; color:#f6f5f4;'>ancient tale about a mysterious </span><span style=' font-size:14pt; color:#ffffff;'>Moon Goddess</span><span style=' font-size:10pt; color:#ffffff;'/><span style=' font-size:10pt; color:#f6f5f4;'> named </span><span style=' font-size:14pt; color:#ffffff;'>Selene.</span></p><p align='center'><span style=' font-size:10pt; color:#f6f5f4;'>The tale said that anyone brave enough to visit the moon </span></p><p align='center'><span style=' font-size:10pt; color:#f6f5f4;'>could unlock magical powers!</span></p></body></html>",
-      "global_font": 3.25,
-      "x": 1850,
-      "y": 147,
-      "width": 1470,
-      "height": 430
+      "global_font": 2.48,
+      "x": 2102,
+      "y": 141,
+      "width": 1214,
+      "height": 345
     }
   ],
   "slide_03": [
@@ -196,21 +196,21 @@
     },
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>The Sea of Wonder wasn’t water—it was a sparkling desert of moon</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>crystals! </span><span style=' font-size:14pt; color:#ffffff;'>[*NAME*] </span><span style=' font-size:10pt; color:#deddda;'>made his way through shiny dunes and</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>avoided tricky traps. When he almost gave up, he saw a glowing</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'>moonstone</span><span style=' font-size:10pt; color:#deddda;'> in the distance!</span></p></body></html>",
-      "global_font": 2.8,
-      "x": 2138,
-      "y": 840,
-      "width": 1140,
-      "height": 314
+      "global_font": 1.99,
+      "x": 2411,
+      "y": 1071,
+      "width": 921,
+      "height": 248
     }
   ],
   "slide_11": [
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:14pt; color:#ffffff;'>[*NAME*]</span><span style=' font-size:10pt; color:#deddda;'> ran towards the glowing</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>stone, but the ground began to shake</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>again! The moon cracked open, and a</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>giant serpent slithered out!</span></p></body></html>",
-      "global_font": 2.8,
-      "x": 203,
-      "y": 411,
-      "width": 664,
-      "height": 294
+      "global_font": 2.55,
+      "x": 165,
+      "y": 227,
+      "width": 642,
+      "height": 279
     },
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:14pt; color:#ffffff;'>“You can’t pass</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'>without solving this </span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'>final riddle,”</span><span style=' font-size:10pt; font-style:italic; color:#deddda;'>it hissed.</span></p></body></html>",
@@ -242,11 +242,11 @@
   "slide_13": [
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>“I am always above you but never in sight,</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>I dance in the dark and disappear with the light.</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>What am I?”</span></p></body></html>",
-      "global_font": 2.9,
-      "x": 89,
-      "y": 142,
-      "width": 857,
-      "height": 218
+      "global_font": 2.35,
+      "x": 204,
+      "y": 102,
+      "width": 819,
+      "height": 198
     },
     {
       "html": "<html><head/><body><p><span style=' font-size:14pt; color:#ffffff;'>[*NAME*]</span><span style=' font-size:10pt; color:#deddda;'> thought hard...</span></p><p><span style=' font-size:10pt; color:#deddda;'>then smiled. </span><span style=' font-size:14pt; color:#ffffff;'>“The stars!”</span></p></body></html>",
@@ -330,19 +330,19 @@
   "slide_17": [
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:14pt; color:#ffffff;'>[*NAME*]</span><span style=' font-size:10pt; color:#deddda;'> is a curious boy with a big</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>imagination. When he discovers an old story about </span><span style=' font-size:14pt; color:#ffffff;'>the</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'>Moon Goddess,</span><span style=' font-size:10pt; color:#deddda;'> Selene, he decides to build a </span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>rocket and go on an adventure to the moon.</span></p></body></html>",
-      "global_font": 2.8,
-      "x": 516,
-      "y": 101,
-      "width": 950,
-      "height": 334
+      "global_font": 2.57,
+      "x": 495,
+      "y": 150,
+      "width": 902,
+      "height": 320
     },
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>Along the way, </span><span style=' font-size:14pt; color:#ffffff;'>[*NAME*]</span><span style=' font-size:10pt; color:#deddda;'> faces exciting</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>challenges and meets magical creatures. This is a story</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>about bravery, dreaming big, and discovering that the</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>greatest adventures are just the beginning.</span></p></body></html>",
-      "global_font": 2.8,
-      "x": 473,
-      "y": 730,
-      "width": 923,
-      "height": 294
+      "global_font": 2.53,
+      "x": 499,
+      "y": 715,
+      "width": 890,
+      "height": 279
     }
   ]
 }
