@@ -38,12 +38,12 @@ IMGBB_API_KEY = "3b4cd701f4471dee2c2c67a0d13d711e"
 IMGBB_UPLOAD_URL = "https://api.imgbb.com/1/upload"
 
 # ================== Font Paths ==================
-EN_FIRST_SLIDE_FONT = os.path.join(BASE_DIR, "Fonts/english fonts/KidzhoodDEMO-Bold.otf")
-EN_REST_SLIDES_FONT = os.path.join(BASE_DIR, "Fonts/english fonts/KidzhoodDEMO-Medium.otf")
 
-AR_FIRST_SLIDE_FONT = os.path.join(BASE_DIR, "Fonts/arabic fonts/KidzhoodArabicDEMO-Light.otf")
-AR_REST_SLIDES_FONT = os.path.join(BASE_DIR, "Fonts/arabic fonts/KidzhoodArabicDEMO-Light.otf")
+EN_FIRST_SLIDE_FONT = os.path.abspath(os.path.join(BASE_DIR, "Fonts/english fonts/KidzhoodDEMO-Bold.otf"))
+EN_REST_SLIDES_FONT = os.path.abspath(os.path.join(BASE_DIR, "Fonts/english fonts/KidzhoodDEMO-Medium.otf"))
 
+AR_FIRST_SLIDE_FONT = os.path.abspath(os.path.join(BASE_DIR, "Fonts/arabic fonts/KidzhoodArabicDEMO-Light.otf"))
+AR_REST_SLIDES_FONT = os.path.abspath(os.path.join(BASE_DIR, "Fonts/arabic fonts/KidzhoodArabicDEMO-Light.otf"))
 #==================Openai Conf=====================
 
 OPENAI_API_KEY = "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"

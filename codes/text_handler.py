@@ -621,7 +621,7 @@ def render_image_worker(args):
                 language=language,
                 first_slide_font_path=first_font_path,
                 rest_slides_font_path=rest_font_path,
-                base_dir=base_dir,
+                base_dir="",
             )
 
             nparr = np.frombuffer(image_bytes, np.uint8)
