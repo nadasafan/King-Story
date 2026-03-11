@@ -3,8 +3,8 @@
     {
       "html": "<html><head/><body><p><span style=' font-size:26pt; font-weight:700; color:#fdb0d6;'>[*NAME*]</span><span style=' font-size:12pt; font-weight:700; color:#fdb0d6;'><br/>AND THE<br/></span><span style=' font-size:26pt; font-weight:700; color:#fdb0d6;'>MOON</span><span style=' font-size:12pt; font-weight:700; color:#fdb0d6;'><br/>GODDESS</span></p></body></html>",
       "global_font": 3.5,
-      "x": 142,
-      "y": 108,
+      "x": 130,
+      "y": 118,
       "width": 598,
       "height": 510
     }
@@ -12,27 +12,27 @@
   "slide_02": [
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:14pt; color:#ffffff;'>[*NAME*]</span><span style=' font-size:10pt; color:#f6f5f4;'> was a curious boy with the biggest imagination.</span></p><p align='center'><span style=' font-size:10pt; color:#f6f5f4;'>One night, he was searching through some old books and found a dusty, </span></p><p align='center'><span style=' font-size:10pt; color:#f6f5f4;'>ancient tale about a mysterious </span><span style=' font-size:14pt; color:#ffffff;'>Moon Goddess</span><span style=' font-size:10pt; color:#ffffff;'/><span style=' font-size:10pt; color:#f6f5f4;'> named </span><span style=' font-size:14pt; color:#ffffff;'>Selene.</span></p><p align='center'><span style=' font-size:10pt; color:#f6f5f4;'>The tale said that anyone brave enough to visit the moon </span></p><p align='center'><span style=' font-size:10pt; color:#f6f5f4;'>could unlock magical powers!</span></p></body></html>",
-      "global_font": 2.8,
-      "x": 1877,
-      "y": 151,
-      "width": 1234,
-      "height": 376
+      "global_font": 3.25,
+      "x": 1850,
+      "y": 147,
+      "width": 1470,
+      "height": 430
     }
   ],
   "slide_03": [
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>The story told of amazing adventures and magical</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>moon creatures! But most of all, it said that Selene</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>was waiting for a brave soul to visit her.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 213,
-      "y": 203,
+      "x": 137,
+      "y": 202,
       "width": 858,
       "height": 212
     },
     {
       "html": "<html><head/><body><p><span style=' font-size:12pt; color:#ffffff;'>“I’ll be that brave soul!” [*NAME*] </span></p><p><span style=' font-size:10pt; color:#deddda;'>whispered. But how? He needed a plan—a rocket!</span></p></body></html>",
       "global_font": 2.8,
-      "x": 544,
-      "y": 521,
+      "x": 406,
+      "y": 688,
       "width": 850,
       "height": 159
     }
@@ -41,8 +41,8 @@
     {
       "html": "<html><head/><body><p><span style=' font-size:14pt; color:#ffffff;'>[*NAME*]</span><span style=' font-size:10pt; color:#deddda;'> spent days designing</span></p><p><span style=' font-size:10pt; color:#deddda;'>his rocket. He gathered everything he </span></p><p><span style=' font-size:10pt; color:#deddda;'>could find in the backyard: old boxes </span></p><p><span style=' font-size:10pt; color:#deddda;'>cans, even bits of metal!</span></p></body></html>",
       "global_font": 2.8,
-      "x": 121,
-      "y": 134,
+      "x": 147,
+      "y": 82,
       "width": 659,
       "height": 294
     },
@@ -67,16 +67,16 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:14pt; color:#ffffff;'>He</span><span style=' font-size:10pt; color:#deddda;'> packed some of his most favorite</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>snacks, a flashlight, and the inspirational</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>book about </span><span style=' font-size:14pt; color:#ffffff;'>Selene.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 2545,
-      "y": 144,
+      "x": 2403,
+      "y": 12,
       "width": 693,
       "height": 252
     },
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:14pt; color:#ffffff;'>“It’s adventure time!”</span><span style=' font-size:10pt; color:#deddda;'><br/></span><span style=' font-size:10pt; font-style:italic; color:#deddda;'>he said, climbing into his fabulous rocker.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 2538,
-      "y": 1327,
+      "x": 2509,
+      "y": 1277,
       "width": 692,
       "height": 158
     }
@@ -103,16 +103,16 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>Suddenly, the rocker began to</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>shake! </span><span style=' font-size:14pt; color:#ffffff;'>[*NAME*]</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>looked out the window—oh no!</span></p></body></html>",
       "global_font": 2.9,
-      "x": 2008,
-      "y": 594,
+      "x": 1882,
+      "y": 436,
       "width": 585,
       "height": 237
     },
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>A meteor shower was coming his way!<br/></span><span style=' font-size:14pt; color:#ffffff;'>“Hold on tight, Dreamer!”</span><span style=' font-size:10pt; color:#deddda;'><br/></span><span style=' font-size:10pt; font-style:italic; color:#deddda;'>he shouted, zigzagging his way through.</span><span style=' font-size:10pt; font-style:italic; color:#deddda;'><br/></span><span style=' font-size:10pt; font-style:italic; color:#deddda;'>Soon, they were back in clear space.</span></p></body></html>",
       "global_font": 2.9,
-      "x": 2164,
-      "y": 885,
+      "x": 2386,
+      "y": 766,
       "width": 713,
       "height": 265
     }
@@ -139,24 +139,24 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>Out of nowhere, tall, glowing </span><span style=' font-size:14pt; color:#deddda;'>moon</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>creatures appeared! They had big, starry eyes.</span></p></body></html>",
       "global_font": 2.9,
-      "x": 466,
-      "y": 1389,
+      "x": 450,
+      "y": 1377,
       "width": 823,
       "height": 173
     },
     {
       "html": "<html><head/><body><p><span style=' font-size:16pt; color:#ffffff;'>“Who are you?”</span></p><p><span style=' font-size:10pt; color:#deddda;'>[*NAME*] asked.</span></p></body></html>",
       "global_font": 2.9,
-      "x": 1816,
-      "y": 406,
+      "x": 1824,
+      "y": 199,
       "width": 455,
       "height": 184
     },
     {
       "html": "<html><head/><body><p><span style=' font-size:10pt; color:#deddda;'>“We are the </span><span style=' font-size:12pt; color:#ffffff;'>Moon Keepers,</span></p><p><span style=' font-size:10pt; color:#deddda;'>protectors of Selene’s magic,”</span></p><p><span style=' font-size:10pt; color:#deddda;'>they replied.</span></p></body></html>",
       "global_font": 2.5,
-      "x": 1795,
-      "y": 657,
+      "x": 1800,
+      "y": 587,
       "width": 481,
       "height": 204
     },
@@ -181,24 +181,24 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:14pt; color:#ffffff;'>The Moon Keepers</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>painted to a faraway center</span></p></body></html>",
       "global_font": 2.9,
-      "x": 616,
-      "y": 1034,
+      "x": 977,
+      "y": 418,
       "width": 507,
       "height": 173
     },
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>You must find the hidden moonstone buried deep in the Sea of Wonder.</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>Only then can you meet Selene.</span></p></body></html>",
       "global_font": 2.9,
-      "x": 213,
-      "y": 1388,
+      "x": 46,
+      "y": 1181,
       "width": 1279,
       "height": 154
     },
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>The Sea of Wonder wasn’t water—it was a sparkling desert of moon</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>crystals! </span><span style=' font-size:14pt; color:#ffffff;'>[*NAME*] </span><span style=' font-size:10pt; color:#deddda;'>made his way through shiny dunes and</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>avoided tricky traps. When he almost gave up, he saw a glowing</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'>moonstone</span><span style=' font-size:10pt; color:#deddda;'> in the distance!</span></p></body></html>",
       "global_font": 2.8,
-      "x": 1802,
-      "y": 1229,
+      "x": 2138,
+      "y": 840,
       "width": 1140,
       "height": 314
     }
@@ -225,8 +225,8 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:14pt; color:#ffffff;'>[*NAME*]’s</span><span style=' font-size:10pt; color:#deddda;'> heart was racing, but he took</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>a deep-deep breath and said, </span><span style=' font-size:14pt; color:#ffffff;'>“I’m ready.”</span></p></body></html>",
       "global_font": 2.8,
-      "x": 439,
-      "y": 1390,
+      "x": 440,
+      "y": 1223,
       "width": 790,
       "height": 190
     },
@@ -269,8 +269,8 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>With the </span><span style=' font-size:14pt; color:#ffffff;'>moonstone</span><span style=' font-size:10pt; color:#deddda;'> in hand, the ground</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>beneath </span><span style=' font-size:14pt; color:#ffffff;'>[*NAME*]’s</span><span style=' font-size:10pt; color:#deddda;'> in feet shimmered!</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>A magical pathway appeared, leading him to a</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>grand palace made of stardust.</span></p></body></html>",
       "global_font": 2.9,
-      "x": 2107,
-      "y": 1158,
+      "x": 2153,
+      "y": 953,
       "width": 835,
       "height": 320
     }
@@ -303,8 +303,8 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; font-weight:700; color:#deddda;'>“Keep this close, and you’ll always have the</span></p><p align='center'><span style=' font-size:10pt; font-weight:700; color:#deddda;'>courage to follow your dreams!”</span></p></body></html>",
       "global_font": 2.7,
-      "x": 2105,
-      "y": 1388,
+      "x": 2192,
+      "y": 1330,
       "width": 770,
       "height": 146
     }
@@ -331,16 +331,16 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:14pt; color:#ffffff;'>[*NAME*]</span><span style=' font-size:10pt; color:#deddda;'> is a curious boy with a big</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>imagination. When he discovers an old story about </span><span style=' font-size:14pt; color:#ffffff;'>the</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'>Moon Goddess,</span><span style=' font-size:10pt; color:#deddda;'> Selene, he decides to build a </span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>rocket and go on an adventure to the moon.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 410,
-      "y": 217,
+      "x": 516,
+      "y": 101,
       "width": 950,
       "height": 334
     },
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>Along the way, </span><span style=' font-size:14pt; color:#ffffff;'>[*NAME*]</span><span style=' font-size:10pt; color:#deddda;'> faces exciting</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>challenges and meets magical creatures. This is a story</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>about bravery, dreaming big, and discovering that the</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>greatest adventures are just the beginning.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 371,
-      "y": 970,
+      "x": 473,
+      "y": 730,
       "width": 923,
       "height": 294
     }
