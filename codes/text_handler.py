@@ -14,7 +14,24 @@ Debug env vars:
 Optional:
     TEXT_INFO_PATH=/abs/path/to/info.txt   (for resolution_slides map)
 """
+import os
+import json
 
+def load_info_file(path="info.txt") -> dict:
+    """
+    تقرأ ملف info.txt وتعيد البيانات كقاموس.
+    لو الملف مش موجود أو فيه مشكلة، ترجع dict فاضي.
+    """
+    if not os.path.exists(path):
+        print(f"[Info] info.txt not found: {path}")
+        return {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data
+    except Exception as e:
+        print(f"[Info] Failed to read info.txt: {e}")
+        return {}
 import os
 import json
 import re
@@ -203,6 +220,22 @@ def load_custom_fonts(
         return fonts_loaded
 
 
+
+
+def get_slide_fonts(info: dict, slide_name: str, language: str):
+    slide_fonts = info.get("fonts", {}).get(slide_name, {})
+
+    first_font = slide_fonts.get("first")
+    rest_font  = slide_fonts.get("rest")
+
+    # fallback to config
+    if not first_font:
+        first_font = EN_FIRST_SLIDE_FONT if language == "en" else AR_FIRST_SLIDE_FONT
+
+    if not rest_font:
+        rest_font = EN_REST_SLIDES_FONT if language == "en" else AR_REST_SLIDES_FONT
+
+    return first_font, rest_font
 # =========================
 # HTML helpers
 # =========================
@@ -616,6 +649,19 @@ def render_image_worker(args):
     try:
         with _QT_LOCK:
             _ensure_qt_app()
+
+             # قراءة info.txt
+            info_data = load_info_file("info.txt")  # أو المسار الصحيح
+
+            # تحديد اللغة مباشرة لو مش جوه دالة
+            language = "en"  # أو "ar"
+
+    # تحديد الخط لكل slide
+            first_font, rest_font = get_slide_fonts(
+                info_data,
+                image_name,   # اسم السلايد مثلاً slide_03
+                language
+    )
 
             fonts_loaded = load_custom_fonts(
                 language=language,
