@@ -25,17 +25,6 @@ import copy
 import cv2
 import numpy as np
 
-
-def load_info_file():
-    info_path = os.environ.get("TEXT_INFO_PATH")
-    if not info_path or not os.path.exists(info_path):
-        return {}
-
-    try:
-        return json.loads(open(info_path, "r", encoding="utf-8").read())
-    except:
-        return {}
-
 # =========================
 # MUST be set BEFORE PySide6 import
 # =========================
@@ -156,22 +145,6 @@ def _ensure_qt_app():
 # =========================
 # Fonts
 # =========================
-def get_slide_fonts(info, slide_name, language):
-    slide_fonts = info.get("fonts", {}).get(slide_name, {})
-
-    first_font = slide_fonts.get("first")
-    rest_font  = slide_fonts.get("rest")
-
-    # If not found → fall back to config
-    if not first_font:
-        first_font = EN_FIRST_SLIDE_FONT if language=="en" else AR_FIRST_SLIDE_FONT
-
-    if not rest_font:
-        rest_font = EN_REST_SLIDES_FONT if language=="en" else AR_REST_SLIDES_FONT
-
-    return first_font, rest_font
-
-
 def load_custom_fonts(
     language: str,
     first_slide_font_path: str | None = None,
@@ -523,23 +496,6 @@ def render_image(
     # 🟢 إعادة ضبط الخطوط لمنع الـ cache
         QFontDatabase.removeAllApplicationFonts()
          # Load correct fonts from config / info.txt
-            # Load info.txt
-        info_data = load_info_file()
-
-    # Get font paths for this slide
-        first_font, rest_font = get_slide_fonts(
-            info_data,
-            image_name,              # slide name
-            language                 # 'ar' or 'en'
-    )
-
-    # Load fonts
-        fonts_loaded = load_custom_fonts(
-            language=language,
-            first_slide_font_path=first_font,
-            rest_slides_font_path=rest_font,
-            base_dir=None
-    )
 
 
         if not silent:
