@@ -19,6 +19,7 @@ import os
 import json
 import re
 import threading
+import copy
 # from pathlib import Path
 
 import cv2
@@ -367,7 +368,7 @@ def read_text_data(file_path: str, user_name: str = "", language: str = "en") ->
             i += 1
 
         content = "".join(result)
-        data = json.loads(content)
+        data = copy.deepcopy(json.loads(content))
 
         # replace name placeholders
         if user_name:
@@ -491,6 +492,16 @@ def render_image(
 
     with _QT_LOCK:
         _ensure_qt_app()
+
+    # 🟢 إعادة ضبط الخطوط لمنع الـ cache
+        QFontDatabase.removeAllApplicationFonts()
+        fonts_loaded = load_custom_fonts(
+        language=language,
+        first_slide_font_path=kwargs.get("first_font_path"),
+        rest_slides_font_path=kwargs.get("rest_font_path"),
+        base_dir=kwargs.get("base_dir")
+    )
+
 
         if not silent:
             _dprint("=" * 80)
