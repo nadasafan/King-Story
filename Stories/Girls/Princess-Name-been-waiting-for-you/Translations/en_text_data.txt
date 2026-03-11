@@ -27,52 +27,52 @@
   ],
   "slide_02": [
     {
-      "html": "<html><head/><body><p align='center'><span style='font-size:10pt; color:#deddda;'>One peaceful morning,</span></p></body></html>",
+      "html": "<html><head/><body><p align='center'><span style='font-size:14pt; color:#deddda;'>One peaceful morning,</span></p></body></html>",
       "global_font": 2.0,
       "x": 175,
-      "y": 372,
-      "width": 354,
-      "height": 84
+      "y": 391,
+      "width": 411,
+      "height": 88
     },
     {
-      "html": "<html><head/><body><p align='center'><span style='font-size:14pt; color:#ffffff;'>Princess [*NAME*]</span></p></body></html>",
+      "html": "<html><head/><body><p align='center'><span style='font-size:16pt; color:#ffffff;'>Princess [*NAME*]</span></p></body></html>",
       "global_font": 2.22,
       "x": 175,
       "y": 474,
-      "width": 368,
-      "height": 93
+      "width": 416,
+      "height": 101
     },
     {
-      "html": "<html><head/><body><p align='center'><span style='font-size:10pt; color:#deddda;'>stood on her castle balcony.</span></p></body></html>",
+      "html": "<html><head/><body><p align='center'><span style='font-size:14pt; color:#deddda;'>stood on her castle balcony.</span></p></body></html>",
       "global_font": 2.15,
-      "x": 174,
-      "y": 573,
-      "width": 455,
-      "height": 86
-    },
-    {
-      "html": "<html><head/><body><p align='center'><span style='font-size:10pt; color:#deddda;'>From far beyond the hills,</span></p></body></html>",
-      "global_font": 1.95,
       "x": 178,
-      "y": 683,
-      "width": 375,
-      "height": 82
+      "y": 592,
+      "width": 532,
+      "height": 92
     },
     {
-      "html": "<html><head/><body><p align='center'><span style='font-size:10pt; color:#deddda;'>the Enchanted Forest</span></p></body></html>",
-      "global_font": 1.99,
-      "x": 180,
-      "y": 806,
-      "width": 326,
-      "height": 82
-    },
-    {
-      "html": "<html><head/><body><p align='center'><span style='font-size:10pt; color:#deddda;'>shimmered.</span></p></body></html>",
-      "global_font": 2.16,
-      "x": 183,
-      "y": 946,
-      "width": 209,
+      "html": "<html><head/><body><p align='center'><span style='font-size:14pt; color:#deddda;'>From far beyond the hills,</span></p></body></html>",
+      "global_font": 1.95,
+      "x": 179,
+      "y": 688,
+      "width": 442,
       "height": 86
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:14pt; color:#deddda;'>the Enchanted Forest</span></p></body></html>",
+      "global_font": 1.99,
+      "x": 182,
+      "y": 797,
+      "width": 372,
+      "height": 86
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:14pt; color:#deddda;'>shimmered.</span></p></body></html>",
+      "global_font": 2.16,
+      "x": 179,
+      "y": 893,
+      "width": 244,
+      "height": 92
     },
     {
       "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>And on the wind came a message:</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>Princess[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;we are waiting for you.'</span></p></body></html>",
@@ -505,26 +505,26 @@
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>The adventure continues as Princess [*NAME*]</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>returns, holding the glowing key she found on her first journey.</span></p></body></html>",
       "global_font": 1.75,
-      "x": 479,
-      "y": 205,
-      "width": 740,
-      "height": 124
+      "x": 628,
+      "y": 213,
+      "width": 817,
+      "height": 126
     },
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>A call echoes from the Enchanted Forest, a place only those with</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>kind and brave hearts like Name may enter.&nbsp;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>Before stepping inside, Princess [*NAME*],</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>you are invited to paint your own handprint on this page,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>a special mark that shows you have the courage</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>&nbsp;to become a true Guardian of the Forest.</span></p></body></html>",
       "global_font": 1.5,
       "x": 519,
       "y": 426,
-      "width": 631,
-      "height": 266
+      "width": 716,
+      "height": 290
     },
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>Inside, she meets a shy fox who's lost its confidence and</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>a pack of brave wolves searching for their missing Moonstone.&nbsp;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>With kindness in her heart and courage lighting her path,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>Princess Name unlocks a magical book that</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>transforms her into the protector of the forest,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>proving that true strength comes from believing in yourself.</span></p></body></html>",
       "global_font": 1.64,
       "x": 536,
       "y": 791,
-      "width": 648,
-      "height": 278
+      "width": 759,
+      "height": 308
     }
   ]
 }
