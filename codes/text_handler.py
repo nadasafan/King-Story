@@ -445,7 +445,7 @@ def _render_html_to_qimage(
     doc.setDocumentMargin(0)         # منع النزول للأسفل
     doc.setHtml(html)
     doc.setTextWidth(max(1, int(w))) # نستخدم width فقط
-    # ❌ ممنوع: doc.adjustSize()
+    doc.adjustSize()
 
     item = QGraphicsTextItem()
     item.setDocument(doc)
@@ -462,8 +462,9 @@ def _render_html_to_qimage(
     scene = QGraphicsScene()
     scene.addItem(item)
 
-    # ❗❗ لا نحسب doc_h ولا extra_bottom ولا أي شيء ديناميكي
-    final_h =  int(h)                # ارتفاع ثابت لا يتغير أبداً
+    doc_h = int(doc.size().height())
+    extra_bottom = 10
+    final_h = max(int(h), doc_h + extra_bottom)
 
     scene.setSceneRect(0, 0, int(w), final_h)
 
@@ -525,12 +526,6 @@ def render_image(
 
     with _QT_LOCK:
         _ensure_qt_app()
-
-    # 🟢 إعادة ضبط الخطوط لمنع الـ cache
-        QFontDatabase.removeAllApplicationFonts()
-         # Load correct fonts from config / info.txt
-
-
         if not silent:
             _dprint("=" * 80)
             _dprint(f"[Render] Image: {image_name}")
@@ -560,20 +555,6 @@ def render_image(
         # ✅ language + flip flag
         language = (kwargs.get("language") or "en").strip().lower()
         do_flip_ar = (language == "ar") and (base_w != base_h)
-
-        # ✅ load fonts for this slide from info.txt (with config fallback)
-        info_data = load_info_file("info.txt")
-        first_font_path, rest_font_path = get_slide_fonts(
-            info_data,
-            image_name,
-            language,
-        )
-        fonts_loaded = load_custom_fonts(
-            language=language,
-            first_slide_font_path=first_font_path,
-            rest_slides_font_path=rest_font_path,
-            base_dir="",
-        )
 
         # Determine design resolution for this slide from info.txt
         # res_map = _load_resolution_map()
