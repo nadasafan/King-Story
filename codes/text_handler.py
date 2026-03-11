@@ -561,6 +561,20 @@ def render_image(
         language = (kwargs.get("language") or "en").strip().lower()
         do_flip_ar = (language == "ar") and (base_w != base_h)
 
+        # ✅ load fonts for this slide from info.txt (with config fallback)
+        info_data = load_info_file("info.txt")
+        first_font_path, rest_font_path = get_slide_fonts(
+            info_data,
+            image_name,
+            language,
+        )
+        fonts_loaded = load_custom_fonts(
+            language=language,
+            first_slide_font_path=first_font_path,
+            rest_slides_font_path=rest_font_path,
+            base_dir="",
+        )
+
         # Determine design resolution for this slide from info.txt
         # res_map = _load_resolution_map()
         # design_w, design_h = res_map.get(image_name, (base_w, base_h))
