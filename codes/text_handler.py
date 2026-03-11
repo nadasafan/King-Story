@@ -495,12 +495,7 @@ def render_image(
 
     # 🟢 إعادة ضبط الخطوط لمنع الـ cache
         QFontDatabase.removeAllApplicationFonts()
-        fonts_loaded = load_custom_fonts(
-        language=language,
-        first_slide_font_path=kwargs.get("first_font_path"),
-        rest_slides_font_path=kwargs.get("rest_font_path"),
-        base_dir=kwargs.get("base_dir")
-    )
+        
 
 
         if not silent:
