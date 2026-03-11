@@ -47,10 +47,10 @@
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Inside her room,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>Princess[*NAME*]</strong></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;opened a carved wooden box.</span></p></body></html>",
       "global_font": 2.91,
-      "x": 954,
-      "y": 1376,
-      "width": 591,
-      "height": 237
+      "x": 914,
+      "y": 1382,
+      "width": 581,
+      "height": 224
     },
     {
       "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:10px;'>Inside was her forest gown,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:10px;'>a deep green dress,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:10px;'>symbolizing her love for nature.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:10px;'>Resting on top was a golden key</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:10px;'>she earned in her first adventure.</span></p></body></html>",
