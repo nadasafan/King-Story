@@ -28,49 +28,49 @@
   "slide_02": [
     {
       "html": "<html><head/><body><p align='center'><span style='font-size:14pt; color:#deddda;'>One peaceful morning,</span></p></body></html>",
-      "global_font": 2.0,
-      "x": 175,
-      "y": 391,
-      "width": 411,
-      "height": 88
+      "global_font": 2.13,
+      "x": 179,
+      "y": 408,
+      "width": 441,
+      "height": 100
     },
     {
       "html": "<html><head/><body><p align='center'><span style='font-size:16pt; color:#ffffff;'>Princess [*NAME*]</span></p></body></html>",
       "global_font": 2.22,
-      "x": 175,
-      "y": 474,
+      "x": 185,
+      "y": 522,
       "width": 416,
       "height": 101
     },
     {
       "html": "<html><head/><body><p align='center'><span style='font-size:14pt; color:#deddda;'>stood on her castle balcony.</span></p></body></html>",
       "global_font": 2.15,
-      "x": 178,
-      "y": 592,
+      "x": 173,
+      "y": 664,
       "width": 532,
       "height": 92
     },
     {
       "html": "<html><head/><body><p align='center'><span style='font-size:14pt; color:#deddda;'>From far beyond the hills,</span></p></body></html>",
       "global_font": 1.95,
-      "x": 178,
-      "y": 749,
+      "x": 174,
+      "y": 796,
       "width": 442,
       "height": 86
     },
     {
       "html": "<html><head/><body><p align='center'><span style='font-size:14pt; color:#deddda;'>the Enchanted Forest</span></p></body></html>",
       "global_font": 1.99,
-      "x": 176,
-      "y": 894,
+      "x": 170,
+      "y": 925,
       "width": 372,
       "height": 86
     },
     {
       "html": "<html><head/><body><p align='center'><span style='font-size:14pt; color:#deddda;'>shimmered.</span></p></body></html>",
       "global_font": 2.16,
-      "x": 185,
-      "y": 994,
+      "x": 177,
+      "y": 1037,
       "width": 244,
       "height": 92
     },
