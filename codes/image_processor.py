@@ -55,8 +55,8 @@ def resize_image_to_resolution(image, target_width, target_height):
     current_h, current_w = image.shape[:2]
     if current_w == target_width and current_h == target_height:
         return image
-    # Deterministic, non-filtering resize to keep pixel mapping stable for text coordinates.
-    return cv2.resize(image, (int(target_width), int(target_height)), interpolation=cv2.INTER_NEAREST)
+    interpolation = cv2.INTER_AREA if (target_width < current_w or target_height < current_h) else cv2.INTER_CUBIC
+    return cv2.resize(image, (target_width, target_height), interpolation=interpolation)
 
 
 def apply_resolution_to_images(images_dict, resolution_slides, use_parallel=None):
@@ -68,34 +68,27 @@ def apply_resolution_to_images(images_dict, resolution_slides, use_parallel=None
     if not images_dict:
         return []
 
-    # order slides (be tolerant of unexpected keys)
-    def _slide_num(k: str) -> int:
-        try:
-            return int(str(k).split("_")[1])
-        except Exception:
-            return 10**9
+    # build map: slide_name -> (w,h)
+    res_map = {}
+    if resolution_slides:
+        for item in resolution_slides:
+            try:
+                name, w, h = item
+                res_map[str(name)] = (int(w), int(h))
+            except Exception:
+                continue
 
-    slide_keys = sorted(images_dict.keys(), key=_slide_num)
-
-    # Enforce strict, deterministic canvas sizes regardless of resolution_slides.
-    REQUIRED_FIRST_LAST = (2048, 2048)
-    REQUIRED_MIDDLE = (2048, 1024)
-    first_key = slide_keys[0] if slide_keys else None
-    last_key = slide_keys[-1] if slide_keys else None
+    # order slides
+    slide_keys = sorted(images_dict.keys(), key=lambda x: int(x.split("_")[1]))
 
     resized_images = []
     for slide_name in slide_keys:
         img = images_dict[slide_name]
-
-        if first_key and slide_name == first_key:
-            tw, th = REQUIRED_FIRST_LAST
-        elif last_key and slide_name == last_key:
-            tw, th = REQUIRED_FIRST_LAST
-        else:
-            tw, th = REQUIRED_MIDDLE
+        tw, th = res_map.get(slide_name, (img.shape[1], img.shape[0]))
 
         if (img.shape[1], img.shape[0]) != (tw, th):
-            img = cv2.resize(img, (int(tw), int(th)), interpolation=cv2.INTER_NEAREST)
+            interp = cv2.INTER_AREA if (tw < img.shape[1] or th < img.shape[0]) else cv2.INTER_LANCZOS4
+            img = cv2.resize(img, (tw, th), interpolation=interp)
 
         resized_images.append(img)
 
@@ -217,7 +210,13 @@ def _apply_text_sequential(images_dict, text_data, original_dims_dict, app, font
     for image_name, img in images_dict.items():
         current_h, current_w = img.shape[:2]
 
-
+        # (اختياري) رجّع الصورة لمقاسها الأصلي المسجّل
+        # مهم: لازم الـ txt يكون معمول على نفس المقاس ده
+        if image_name in original_dims_dict:
+            orig_w, orig_h = original_dims_dict[image_name]
+            if current_w != orig_w or current_h != orig_h:
+                img = resize_image_to_resolution(img, orig_w, orig_h)
+                current_h, current_w = img.shape[:2]
 
         if image_name not in text_data:
             processed_images[image_name] = img
@@ -225,7 +224,12 @@ def _apply_text_sequential(images_dict, text_data, original_dims_dict, app, font
 
         labels_list = text_data[image_name]
 
-
+        # ✅ IMPORTANT: ممنوع نعمل scaling لإحداثيات الكتابة
+        # (عايزين نفس x/y/width/height زي txt بالظبط)
+        # if image_name in original_dims_dict:
+        #     orig_w, orig_h = original_dims_dict[image_name]
+        #     if current_w != orig_w or current_h != orig_h:
+        #         labels_list = _scale_labels(labels_list, orig_w, orig_h, current_w, current_h)
 
         first_key = list(text_data.keys())[0] if text_data else image_name
         is_first = (image_name == "slide_01" or image_name == first_key)
@@ -236,8 +240,7 @@ def _apply_text_sequential(images_dict, text_data, original_dims_dict, app, font
             fonts_loaded=fonts_loaded,
             is_first_slide=is_first,
             image_data=img,
-            language=language, 
-            text_data_keys=list(text_data.keys())  # ✅ مهم عشان لو عربي يعمل flip جوّه text_handler
+            language=language,   # ✅ مهم عشان لو عربي يعمل flip جوّه text_handler
         )
 
         processed_images[image_name] = img_with_text if img_with_text is not None else img

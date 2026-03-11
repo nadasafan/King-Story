@@ -195,31 +195,10 @@ def _resize_to_resolution_map(images_dict: dict, resolution_slides: list) -> dic
       [["slide_01", 1024, 1024], ["slide_03", 1448, 720], ...]
     Returns dict keyed by slide_name with resized images.
     """
-    # The text layout coordinates assume exact, fixed pixel canvases.
-    # Enforce deterministic pixel sizes with a non-filtering resize (NEAREST).
-    REQUIRED_FIRST_LAST = (2048, 2048)
-    REQUIRED_MIDDLE = (2048, 1024)
-
-    def _slide_num(stem: str) -> int:
-        try:
-            return int(str(stem).split("_")[1])
-        except Exception:
-            return 0
-
-    def _fallback_target_for(name: str) -> tuple[int, int]:
-        keys = sorted(images_dict.keys(), key=_slide_num)
-        if not keys:
-            return REQUIRED_MIDDLE
-        first = keys[0]
-        last = keys[-1]
-        if name == first or name == last:
-            return REQUIRED_FIRST_LAST
-        return REQUIRED_MIDDLE
+    if not resolution_slides:
+        return images_dict
 
     out = {}
-
-    # Prefer per-slide targets from info.txt when available.
-    res_map = {}
     for item in resolution_slides:
         try:
             name, w, h = item
@@ -227,21 +206,19 @@ def _resize_to_resolution_map(images_dict: dict, resolution_slides: list) -> dic
             w = int(w); h = int(h)
         except Exception:
             continue
-        res_map[name] = (w, h)
 
-    # Resize every loaded slide to an exact target (from map or fallback rules).
-    for name, img in images_dict.items():
-        if img is None:
+        if name not in images_dict:
             continue
 
-        tw, th = res_map.get(name) or _fallback_target_for(name)
-        cw, ch = int(img.shape[1]), int(img.shape[0])
+        img = images_dict[name]
+        # upscale/downscale wisely
+        interp = cv2.INTER_AREA if (w < img.shape[1] or h < img.shape[0]) else cv2.INTER_LANCZOS4
+        resized = cv2.resize(img, (w, h), interpolation=interp)
+        out[name] = resized
 
-        if (cw, ch) == (tw, th):
-            out[name] = img
-            continue
-
-        out[name] = cv2.resize(img, (int(tw), int(th)), interpolation=cv2.INTER_NEAREST)
+    for k, v in images_dict.items():
+        if k not in out:
+            out[k] = v
 
     return out
 
@@ -593,7 +570,9 @@ def generate_story_pdf(
 
     print("### images on disk:", len(all_stems), flush=True)
     print("### usable images (no _try):", len(images_dict), flush=True)
-
+    # ✅ keep original dims BEFORE any resize (w, h)
+    original_dims_dict = {k: (v.shape[1], v.shape[0]) for k, v in images_dict.items()}
+    print("### original dims sample:", list(original_dims_dict.items())[:3], flush=True)
 
     if not images_dict:
         raise HTTPException(status_code=400, detail="No usable images found (after skipping _tryN).")
@@ -605,10 +584,6 @@ def generate_story_pdf(
     else:
         print("### [RESIZE] skipped (no resolution_slides found in info.txt)", flush=True)
 
-    # ✅ capture dims AFTER resize so text renderer uses the final story dimensions
-    original_dims_dict = {k: (v.shape[1], v.shape[0]) for k, v in images_dict.items()}
-    print("### resized dims sample:", list(original_dims_dict.items())[:3], flush=True)
-
     # 4) choose text file + fonts
     translations_folder = story_root / "Translations"
     if not translations_folder.exists():
@@ -616,29 +591,20 @@ def generate_story_pdf(
 
     if language == "en":
         text_file = translations_folder / "en_text_data.txt"
-        if not text_file.exists():
-            raise HTTPException(status_code=404, detail="English translation file not found: en_text_data.txt")
-
         selected_first_font = first_slide_font
         selected_rest_font = rest_slides_font
-
     else:
-        preferred_ar = translations_folder / "ar_text_data.txt"
-        if preferred_ar.exists():
-            text_file = preferred_ar
-        else:
-            ar_files = sorted([p for p in translations_folder.iterdir() if p.is_file() and p.name.startswith("ar_")])
-            if not ar_files:
-                raise HTTPException(status_code=404, detail="No Arabic translation file found (ar_*.txt).")
-            text_file = ar_files[0]
-
+        ar_files = sorted([p for p in translations_folder.iterdir() if p.is_file() and p.name.startswith("ar_")])
+        if not ar_files:
+            raise HTTPException(status_code=404, detail="No Arabic translation file found (ar_*.txt).")
+        text_file = ar_files[0]
         selected_first_font = ar_first_slide_font
         selected_rest_font = ar_rest_slides_font
 
     print("### text_file:", text_file, flush=True)
     print("### fonts config first/rest:", selected_first_font, "|", selected_rest_font, flush=True)
 
-    # 5) render text
+    # 5) render text (NO original_dims_dict => prevents double-scaling)
     text_render_ok = False
     images_with_text = images_dict
 
@@ -661,7 +627,7 @@ def generate_story_pdf(
         images_with_text = apply_text_to_images(
             images_dict=images_dict,
             text_data=text_data,
-            original_dims_dict=original_dims_dict,
+            original_dims_dict=original_dims_dict,   # ✅ correct scaling for text positions,   # IMPORTANT: prevent extra scaling
             app=None,
             fonts_loaded=fonts_loaded,
             language=language,
