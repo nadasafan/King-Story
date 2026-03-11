@@ -125,10 +125,10 @@
     {
       "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>Paint your hand with red color and press it gently on this page.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>Let your handprint be the mark of the forest's true guardian.</span></p></body></html>",
       "global_font": 2.05,
-      "x": 266,
-      "y": 792,
-      "width": 1059,
-      "height": 156
+      "x": 269,
+      "y": 807,
+      "width": 1033,
+      "height": 146
     }
   ],
   "slide_07": [
@@ -465,8 +465,8 @@
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>Inside, she meets a shy fox who's lost its confidence and</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>a pack of brave wolves searching for their missing Moonstone.&nbsp;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>With kindness in her heart and courage lighting her path,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>Princess Name unlocks a magical book that</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>transforms her into the protector of the forest,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>proving that true strength comes from believing in yourself.</span></p></body></html>",
       "global_font": 1.64,
-      "x": 536,
-      "y": 791,
+      "x": 517,
+      "y": 809,
       "width": 842,
       "height": 328
     }
