@@ -586,8 +586,6 @@ def render_image(
         painter.drawImage(0, 0, qimg)
 
         # ✅ choose font family for this slide
-                # ✅ choose font family for this slide
-                # ✅ choose font family for this slide
         font_family = None
         if is_first_slide and "first" in fonts_loaded:
             font_family = fonts_loaded["first"]
@@ -609,8 +607,7 @@ def render_image(
             html2 = html2.replace("\r\n", "\n").replace("\r", "\n")
             html2 = html2.replace("\n", "<br>")
 
-            if font_family:
-                html2 = inject_font_family(html2, font_family)
+            html2 = inject_font_family(html2, font_family)
 
             if gf != 0:
                 html2 = scale_font_sizes(html2, gf)
