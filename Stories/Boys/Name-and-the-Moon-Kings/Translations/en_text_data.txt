@@ -1,0 +1,355 @@
+{
+    "slide_01": [
+        {
+            "html": "<html><head/><body><p><span style=" font-size:26pt; font-weight:700; color:#fdb0d6;">[*NAME*]</span><span style=" font-size:12pt; font-weight:700; color:#fdb0d6;"><br/>AND THE<br/></span><span style=" font-size:26pt; font-weight:700; color:#fdb0d6;">MOON</span><span style=" font-size:12pt; font-weight:700; color:#fdb0d6;"><br/>GODDESS</span></p></body></html>",
+            "global_font": 3.5,
+            "x": 135,
+            "y": -110,
+            "width": 1000,
+            "height": 1000
+        }
+    ],
+    "slide_02": [
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:14pt; color:#ffffff;">[*NAME*]</span><span style=" font-size:10pt; color:#f6f5f4;"> was a curious boy with the biggest imagination.</span></p><p align="center"><span style=" font-size:10pt; color:#f6f5f4;">One night, he was searching through some old books and found a dusty, </span></p><p align="center"><span style=" font-size:10pt; color:#f6f5f4;">ancient tale about a mysterious </span><span style=" font-size:14pt; color:#ffffff;">Moon Goddess</span><span style=" font-size:10pt; color:#ffffff;"/><span style=" font-size:10pt; color:#f6f5f4;"> named </span><span style=" font-size:14pt; color:#ffffff;">Selene.</span></p><p align="center"><span style=" font-size:10pt; color:#f6f5f4;">The tale said that anyone brave enough to visit the moon </span></p><p align="center"><span style=" font-size:10pt; color:#f6f5f4;">could unlock magical powers!</span></p></body></html>",
+            "global_font": 2.8,
+            "x": 1500,
+            "y": -120,
+            "width": 2000,
+            "height": 1000
+        }
+    ],
+    "slide_03": [
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; color:#deddda;">The story told of amazing adventures and magical</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">moon creatures! But most of all, it said that Selene</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">was waiting for a brave soul to visit her.</span></p></body></html>",
+            "global_font": 2.8,
+            "x": -205,
+            "y": -210,
+            "width": 2000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p><span style=" font-size:12pt; color:#ffffff;">“I’ll be that brave soul!” [*NAME*] </span></p><p><span style=" font-size:10pt; color:#deddda;">whispered. But how? He needed a plan—a rocket!</span></p></body></html>",
+            "global_font": 2.8,
+            "x": 550,
+            "y": 0,
+            "width": 2000,
+            "height": 1000
+        }
+
+    ],
+    "slide_04": [
+        {
+            "html": "<html><head/><body><p><span style=" font-size:14pt; color:#ffffff;">[*NAME*]</span><span style=" font-size:10pt; color:#deddda;"> spent days designing</span></p><p><span style=" font-size:10pt; color:#deddda;">his rocket. He gathered everything he </span></p><p><span style=" font-size:10pt; color:#deddda;">could find in the backyard: old boxes </span></p><p><span style=" font-size:10pt; color:#deddda;">cans, even bits of metal!</span></p></body></html>",
+            "global_font": 2.8,
+            "x": 150,
+            "y": -250,
+            "width": 2000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p align="right"><span style=" font-size:12pt; color:#ffffff;">“I’m going to build  </span></p><p align="right"><span style=" font-size:12pt; color:#ffffff;">the fastest and most  </span></p><p align="right"><span style=" font-size:12pt; color:#ffffff;">magical rocket ever!”</span></p><p align="right"><span style=" font-size:8pt; font-style:italic; color:#deddda;">he thought with excitement.  </span><span style=" font-size:8pt; font-style:italic; color:#9a9996;"/></p></body></html>",
+            "global_font": 3.2,
+            "x": 1150,
+            "y": 510,
+            "width": 2000,
+            "height": 1000
+        }
+
+    ],
+    "slide_05": [
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:14pt; color:#ffffff;">Finally</span><span style=" font-size:10pt; color:#deddda;">, after weeks of</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">hard work, his </span><span style=" font-size:14pt; color:#ffffff;">rocket</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">was ready!</span></p></body></html>",
+            "global_font": 2.8,
+            "x": -160,
+            "y": 770,
+            "width": 1000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:14pt; color:#ffffff;">He</span><span style=" font-size:10pt; color:#deddda;"> packed some of his most favorite</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">snacks, a flashlight, and the inspirational</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">book about </span><span style=" font-size:14pt; color:#ffffff;">Selene.</span></p></body></html>",
+            "global_font": 2.8,
+            "x": 1820,
+            "y": -255,
+            "width": 2000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:14pt; color:#ffffff;">“It’s adventure time!”</span><span style=" font-size:10pt; color:#deddda;"><br/></span><span style=" font-size:10pt; font-style:italic; color:#deddda;">he said, climbing into his fabulous rocker.</span></p></body></html>",
+            "global_font": 2.8,
+            "x": 1850,
+            "y": 875,
+            "width": 2000,
+            "height": 1000
+        }
+
+    ],
+    "slide_06": [
+        {
+            "html": "<html><head/><body><p><span style=" font-size:10pt; color:#f6f5f4;">With the push of a big green button,<br/>the engines roared to life, and his<br/></span><span style=" font-size:14pt; color:#ffffff;">rocket</span><span style=" font-size:10pt; color:#f6f5f4;"> zoomed into the night sky!</span></p></body></html>",
+            "global_font": 2.9,
+            "x": 170,
+            "y": -280,
+            "width": 1000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; color:#deddda;">Stars and planets flew by as<br/></span><span style=" font-size:14pt; color:#ffffff;">[*NAME*]’s</span><span style=" font-size:10pt; color:#deddda;"> heart raced<br/>with excitement. He was actually<br/>going to the moon!</span></p></body></html>",
+            "global_font": 2.9,
+            "x": 1760,
+            "y": 295,
+            "width": 2000,
+            "height": 1000
+        }
+    ],
+    "slide_07": [
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; color:#deddda;">Suddenly, the rocker began to</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">shake! </span><span style=" font-size:14pt; color:#ffffff;">[*NAME*]</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">looked out the window—oh no!</span></p></body></html>",
+            "global_font": 2.9,
+            "x": 1880,
+            "y": 215,
+            "width": 1000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; color:#deddda;">A meteor shower was coming his way!<br/></span><span style=" font-size:14pt; color:#ffffff;">“Hold on tight, Dreamer!”</span><span style=" font-size:10pt; color:#deddda;"><br/></span><span style=" font-size:10pt; font-style:italic; color:#deddda;">he shouted, zigzagging his way through.</span><span style=" font-size:10pt; font-style:italic; color:#deddda;"><br/></span><span style=" font-size:10pt; font-style:italic; color:#deddda;">Soon, they were back in clear space.</span></p></body></html>",
+            "global_font": 2.9,
+            "x": 1650,
+            "y": 435,
+            "width": 2000,
+            "height": 1000
+        }
+    ],
+    "slide_08": [
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; color:#deddda;">Finally,<br/></span><span style=" font-size:14pt; color:#ffffff;">[*NAME*]</span><span style=" font-size:10pt; color:#deddda;"><br/>reached the moon.</span></p></body></html>",
+            "global_font": 2.9,
+            "x": 770,
+            "y": 380,
+            "width": 1000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; color:#deddda;">He landed his rocker with a thud and stepped into<br/>the soft, glowing moon dust.<br/></span><span style=" font-size:14pt; color:#ffffff;">&quot;I made it,&quot;</span><span style=" font-size:10pt; color:#deddda;"><br/>he whispered, amazed. But wait-the ground was<br/>starring to glimmer and shake!</span></p></body></html>",
+            "global_font": 2.9,
+            "x": 1510,
+            "y": 255,
+            "width": 2000,
+            "height": 1000
+        }
+    ],
+    "slide_09": [
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; color:#deddda;">Out of nowhere, tall, glowing </span><span style=" font-size:14pt; color:#deddda;">moon</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">creatures appeared! They had big, starry eyes.</span></p></body></html>",
+            "global_font": 2.9,
+            "x": 330,
+            "y": 970,
+            "width": 1000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p><span style=" font-size:16pt; color:#ffffff;">“Who are you?”</span></p><p><span style=" font-size:10pt; color:#deddda;">[*NAME*] asked.</span></p></body></html>",
+            "global_font": 2.9,
+            "x": 1830,
+            "y": 25,
+            "width": 2000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p><span style=" font-size:10pt; color:#deddda;">“We are the </span><span style=" font-size:12pt; color:#ffffff;">Moon Keepers,</span></p><p><span style=" font-size:10pt; color:#deddda;">protectors of Selene’s magic,”</span></p><p><span style=" font-size:10pt; color:#deddda;">they replied.</span></p></body></html>",
+            "global_font": 2.5,
+            "x": 1825,
+            "y": 260,
+            "width": 2000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p><span style=" font-size:10pt; color:#deddda;">“The </span><span style=" font-size:17pt; color:#ffffff;">Moon Goddess</span></p><p><span style=" font-size:10pt; color:#deddda;">is Waiting for you, but you must</span></p><p><span style=" font-size:10pt; color:#deddda;">solve the Moon Riddle first.”</span></p></body></html>",
+            "global_font": 2.5,
+            "x": 2760,
+            "y": 365,
+            "width": 2000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; color:#deddda;">[*NAME*] stood tall.</span></p><p align="center"><span style=" font-size:14pt; color:#ffffff;">“I’m ready”</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">he said with a big grin.</span></p></body></html>",
+            "global_font": 2.5,
+            "x": 1980,
+            "y": 660,
+            "width": 2000,
+            "height": 1000
+        }
+    ],
+    "slide_10": [
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:14pt; color:#ffffff;">The Moon Keepers</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">painted to a faraway center</span></p></body></html>",
+            "global_font": 2.9,
+            "x": 340,
+            "y": 630,
+            "width": 1000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; color:#deddda;">You must find the hidden moonstone buried deep in the Sea of Wonder.</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">Only then can you meet Selene.</span></p></body></html>",
+            "global_font": 2.9,
+            "x": -170,
+            "y": 960,
+            "width": 2000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; color:#deddda;">The Sea of Wonder wasn’t water—it was a sparkling desert of moon</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">crystals! </span><span style=" font-size:14pt; color:#ffffff;">[*NAME*] </span><span style=" font-size:10pt; color:#deddda;">made his way through shiny dunes and</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">avoided tricky traps. When he almost gave up, he saw a glowing</span></p><p align="center"><span style=" font-size:14pt; color:#ffffff;">moonstone</span><span style=" font-size:10pt; color:#deddda;"> in the distance!</span></p></body></html>",
+            "global_font": 2.8,
+            "x": 1490,
+            "y": 900,
+            "width": 2000,
+            "height": 1000
+        }
+    ],
+    "slide_11": [
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:14pt; color:#ffffff;">[*NAME*]</span><span style=" font-size:10pt; color:#deddda;"> ran towards the glowing</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">stone, but the ground began to shake</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">again! The moon cracked open, and a</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">giant serpent slithered out!</span></p></body></html>",
+            "global_font": 2.8,
+            "x": 30,
+            "y": 10,
+            "width": 1000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:14pt; color:#ffffff;">“You can’t pass</span></p><p align="center"><span style=" font-size:14pt; color:#ffffff;">without solving this </span></p><p align="center"><span style=" font-size:14pt; color:#ffffff;">final riddle,”</span><span style=" font-size:10pt; font-style:italic; color:#deddda;">it hissed.</span></p></body></html>",
+            "global_font": 2.9,
+            "x": 230,
+            "y": 590,
+            "width": 2000,
+            "height": 1000
+        }
+    ],
+    "slide_12": [
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:14pt; color:#ffffff;">[*NAME*]’s</span><span style=" font-size:10pt; color:#deddda;"> heart was racing, but he took</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">a deep-deep breath and said, </span><span style=" font-size:14pt; color:#ffffff;">“I’m ready.”</span></p></body></html>",
+            "global_font": 2.8,
+            "x": 330,
+            "y": 930,
+            "width": 1000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p><span style=" font-size:10pt; color:#deddda;">The serpent smiled and asked the riddle:</span></p></body></html>",
+            "global_font": 2.8,
+            "x": 2150,
+            "y": 320,
+            "width": 2000,
+            "height": 1000
+        }
+    ],
+    "slide_13": [
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; color:#deddda;">“I am always above you but never in sight,</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">I dance in the dark and disappear with the light.</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">What am I?”</span></p></body></html>",
+            "global_font": 2.9,
+            "x": 70,
+            "y": -255,
+            "width": 1000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p><span style=" font-size:14pt; color:#ffffff;">[*NAME*]</span><span style=" font-size:10pt; color:#deddda;"> thought hard...</span></p><p><span style=" font-size:10pt; color:#deddda;">then smiled. </span><span style=" font-size:14pt; color:#ffffff;">“The stars!”</span></p></body></html>",
+            "global_font": 2.9,
+            "x": 2390,
+            "y": -230,
+            "width": 2000,
+            "height": 1000
+        }
+    ],
+    "slide_14": [
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; color:#deddda;">The serpent vanished, and</span></p><p align="center"><span style=" font-size:14pt; color:#ffffff;">[*NAME*] </span><span style=" font-size:10pt; color:#deddda;">picked up</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">the glowing moonstone.</span></p></body></html>",
+            "global_font": 2.9,
+            "x": 650,
+            "y": 910,
+            "width": 1000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; color:#deddda;">With the </span><span style=" font-size:14pt; color:#ffffff;">moonstone</span><span style=" font-size:10pt; color:#deddda;"> in hand, the ground</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">beneath </span><span style=" font-size:14pt; color:#ffffff;">[*NAME*]’s</span><span style=" font-size:10pt; color:#deddda;"> in feet shimmered!</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">A magical pathway appeared, leading him to a</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">grand palace made of stardust.</span></p></body></html>",
+            "global_font": 2.9,
+            "x": 1420,
+            "y": 775,
+            "width": 2000,
+            "height": 1000
+        }
+    ],
+    "slide_15": [
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; color:#deddda;">The doors opened, and inside </span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">was </span><span style=" font-size:14pt; color:#ffffff;">Selene,</span><span style=" font-size:10pt; color:#deddda;"> the </span><span style=" font-size:14pt; color:#ffffff;">Moon </span></p><p align="center"><span style=" font-size:14pt; color:#ffffff;">Goddess</span><span style=" font-size:10pt; color:#deddda;"> herself!</span></p></body></html>",
+            "global_font": 2.8,
+            "x": -110,
+            "y": -110,
+            "width": 1000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; color:#deddda;">“You are truly brave,</span></p><p align="center"><span style=" font-size:14pt; color:#ffffff;">[*NAME*]</span></p><p align="center"><span style=" font-size:10pt; font-style:italic; color:#deddda;">she said, her voice kind.</span></p><p align="center"><br/></p><p align="center"><span style=" font-size:9pt; font-weight:700; color:#deddda;">“For that, you’ve unlocked the</span></p><p align="center"><span style=" font-size:9pt; font-weight:700; color:#deddda;">moon’s greatest magic.”</span></p></body></html>",
+            "global_font": 2.8,
+            "x": 270,
+            "y": 500,
+            "width": 2000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p><span style=" font-size:10pt; color:#deddda;">Selene handed</span></p><p><span style=" font-size:14pt; color:#ffffff;">[*NAME*] </span><span style=" font-size:10pt; color:#deddda;">a silver</span></p><p><span style=" font-size:10pt; color:#deddda;">charm shaped like the</span></p><p><span style=" font-size:14pt; color:#ffffff;">moon.</span></p></body></html>",
+            "global_font": 2.8,
+            "x": 1820,
+            "y": -230,
+            "width": 2000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; font-weight:700; color:#deddda;">“Keep this close, and you’ll always have the</span></p><p align="center"><span style=" font-size:10pt; font-weight:700; color:#deddda;">courage to follow your dreams!”</span></p></body></html>",
+            "global_font": 2.7,
+            "x": 1500,
+            "y": 940,
+            "width": 2000,
+            "height": 1000
+        }
+    ],
+    "slide_16": [
+        {
+            "html": "<html><head/><body><p><span style=" font-size:14pt; color:#ffffff;">[*NAME*]</span></p><p><span style=" font-size:10pt; color:#deddda;">thanked </span><span style=" font-size:14pt; color:#ffffff;">Selene </span><span style=" font-size:10pt; color:#deddda;">and</span></p><p><span style=" font-size:10pt; color:#deddda;">climbed back into his rocket,</span></p><p><span style=" font-size:10pt; color:#deddda;">holding the moonstone and</span></p><p><span style=" font-size:10pt; color:#deddda;">charny tight.</span></p></body></html>",
+            "global_font": 2.8,
+            "x": 165,
+            "y": -200,
+            "width": 1000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p><span style=" font-size:10pt; color:#deddda;">When he landed safely at home, he</span></p><p><span style=" font-size:10pt; color:#deddda;">looked up at the </span><span style=" font-size:14pt; color:#ffffff;">moon</span><span style=" font-size:10pt; color:#deddda;"> and</span></p><p><span style=" font-size:10pt; color:#deddda;">smiled. He knew his adventure</span></p><p><span style=" font-size:10pt; color:#deddda;">wasn’t over—it was only the</span></p><p><span style=" font-size:10pt; color:#deddda;">beginning!</span></p></body></html>",
+            "global_font": 2.8,
+            "x": 2500,
+            "y": 320,
+            "width": 2000,
+            "height": 1000
+        }
+    ],
+    "slide_17": [
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:14pt; color:#ffffff;">[*NAME*]</span><span style=" font-size:10pt; color:#deddda;"> is a curious boy with a big</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">imagination. When he discovers an old story about </span><span style=" font-size:14pt; color:#ffffff;">the</span></p><p align="center"><span style=" font-size:14pt; color:#ffffff;">Moon Goddess,</span><span style=" font-size:10pt; color:#deddda;"> Selene, he decides to build a </span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">rocket and go on an adventure to the moon.</span></p></body></html>",
+            "global_font": 2.8,
+            "x": 380,
+            "y": -125,
+            "width": 1000,
+            "height": 1000
+        },
+        {
+            "html": "<html><head/><body><p align="center"><span style=" font-size:10pt; color:#deddda;">Along the way, </span><span style=" font-size:14pt; color:#ffffff;">[*NAME*]</span><span style=" font-size:10pt; color:#deddda;"> faces exciting</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">challenges and meets magical creatures. This is a story</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">about bravery, dreaming big, and discovering that the</span></p><p align="center"><span style=" font-size:10pt; color:#deddda;">greatest adventures are just the beginning.</span></p></body></html>",
+            "global_font": 2.8,
+            "x": -120,
+            "y": 545,
+            "width": 2000,
+            "height": 1000
+        }
+    ]
+}
+
+
+
+
