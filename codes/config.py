@@ -39,6 +39,7 @@ IMGBB_UPLOAD_URL = "https://api.imgbb.com/1/upload"
 
 # ================== Font Paths ==================
 
+
 EN_FIRST_SLIDE_FONT = os.path.abspath(os.path.join(BASE_DIR, "Fonts/english fonts/KidzhoodDEMO-Bold.otf"))
 EN_REST_SLIDES_FONT = os.path.abspath(os.path.join(BASE_DIR, "Fonts/english fonts/KidzhoodDEMO-Medium.otf"))
 
