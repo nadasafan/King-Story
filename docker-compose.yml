@@ -1,0 +1,19 @@
+# Production Compose for Stories Studio API (FastAPI + PySide6 offscreen)
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: stories-studio-api:latest
+    container_name: stories-studio-api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - QT_QPA_PLATFORM=offscreen
+      - QT_OPENGL=software
+    # Optional: mount local folders (uncomment if you need live data)
+    # volumes:
+    #   - ./Result:/app/result
+    #   - ./Stories:/app/Stories
+    #   - ./Fonts:/app/Fonts

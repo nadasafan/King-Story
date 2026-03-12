@@ -1,0 +1,18 @@
+# Git and IDE
+.git
+.gitignore
+.dockerignore
+*.md
+.venv
+venv
+env
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.mypy_cache
+.env
+.env.*
+*.log
+.DS_Store
