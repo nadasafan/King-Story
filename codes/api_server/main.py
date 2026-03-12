@@ -2,6 +2,12 @@
 # -*- coding: utf-8 -*-
 
 import os
+import os
+
+# لازم يكون قبل import PySide6!
+os.environ["QT_QPA_PLATFORM"] = "offscreen"  # تشغيل بدون GUI
+os.environ["QT_OPENGL"] = "software"         # لتجنب مشاكل OpenGL
+os.environ["QT_LOGGING_RULES"] = "*.debug=false;qt.qpa.*=false"  # تقليل تحذيراتls -l fonts/
 import re
 import uuid
 import shutil
