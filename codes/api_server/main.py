@@ -32,7 +32,18 @@ print("### LOADED API SERVER FROM:", __file__, flush=True)
 os.environ.setdefault("QT_QPA_PLATFORM", os.getenv("QT_QPA_PLATFORM", "offscreen"))
 
 app = FastAPI(title="Stories Studio API", version="1.0.0")
+# =========================
+# ENABLE CORS FOR FRONTEND ACCESS
+# =========================
+from fastapi.middleware.cors import CORSMiddleware
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],        # اسمحي لكل الدومينات تستخدم API
+    allow_credentials=True,
+    allow_methods=["*"],        # GET / POST / DELETE / OPTIONS
+    allow_headers=["*"],        # كل الهيدرز مسموحة
+)
 # ---- folders ----
 STORIES_DIR = BASE_DIR / "Stories"
 TEMP_UPLOADS_DIR = BASE_DIR / "TempUploads"
