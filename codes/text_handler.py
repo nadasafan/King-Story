@@ -14,24 +14,7 @@ Debug env vars:
 Optional:
     TEXT_INFO_PATH=/abs/path/to/info.txt   (for resolution_slides map)
 """
-import os
-import json
 
-def load_info_file(path="info.txt") -> dict:
-    """
-    تقرأ ملف info.txt وتعيد البيانات كقاموس.
-    لو الملف مش موجود أو فيه مشكلة، ترجع dict فاضي.
-    """
-    if not os.path.exists(path):
-        print(f"[Info] info.txt not found: {path}")
-        return {}
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        return data
-    except Exception as e:
-        print(f"[Info] Failed to read info.txt: {e}")
-        return {}
 import os
 import json
 import re
@@ -220,22 +203,6 @@ def load_custom_fonts(
         return fonts_loaded
 
 
-
-
-def get_slide_fonts(info: dict, slide_name: str, language: str):
-    slide_fonts = info.get("fonts", {}).get(slide_name, {})
-
-    first_font = slide_fonts.get("first")
-    rest_font  = slide_fonts.get("rest")
-
-    # fallback to config
-    if not first_font:
-        first_font = EN_FIRST_SLIDE_FONT if language == "en" else AR_FIRST_SLIDE_FONT
-
-    if not rest_font:
-        rest_font = EN_REST_SLIDES_FONT if language == "en" else AR_REST_SLIDES_FONT
-
-    return first_font, rest_font
 # =========================
 # HTML helpers
 # =========================
@@ -445,7 +412,7 @@ def _render_html_to_qimage(
     doc.setDocumentMargin(0)         # منع النزول للأسفل
     doc.setHtml(html)
     doc.setTextWidth(max(1, int(w))) # نستخدم width فقط
-    doc.adjustSize()
+    # ❌ ممنوع: doc.adjustSize()
 
     item = QGraphicsTextItem()
     item.setDocument(doc)
@@ -462,9 +429,8 @@ def _render_html_to_qimage(
     scene = QGraphicsScene()
     scene.addItem(item)
 
-    doc_h = int(doc.size().height())
-    extra_bottom = 10
-    final_h = max(int(h), doc_h + extra_bottom)
+    # ❗❗ لا نحسب doc_h ولا extra_bottom ولا أي شيء ديناميكي
+    final_h =  int(h * 1.5)                 # ارتفاع ثابت لا يتغير أبداً
 
     scene.setSceneRect(0, 0, int(w), final_h)
 
@@ -526,6 +492,12 @@ def render_image(
 
     with _QT_LOCK:
         _ensure_qt_app()
+
+    # 🟢 إعادة ضبط الخطوط لمنع الـ cache
+        QFontDatabase.removeAllApplicationFonts()
+         # Load correct fonts from config / info.txt
+
+
         if not silent:
             _dprint("=" * 80)
             _dprint(f"[Render] Image: {image_name}")
@@ -581,6 +553,8 @@ def render_image(
         painter.drawImage(0, 0, qimg)
 
         # ✅ choose font family for this slide
+                # ✅ choose font family for this slide
+                # ✅ choose font family for this slide
         font_family = None
         if is_first_slide and "first" in fonts_loaded:
             font_family = fonts_loaded["first"]
@@ -595,14 +569,15 @@ def render_image(
             hh = int(item.get("height", 200) or 200)
             gf = float(item.get("global_font", 0) or 0)
 
-            sx, sy, sw, sh = x, y, ww, hh
+            sx, sy, sw, sh = _scale_rect(x, y, ww, hh, rx, ry)
 
             html2 = html
 
             html2 = html2.replace("\r\n", "\n").replace("\r", "\n")
             html2 = html2.replace("\n", "<br>")
 
-            html2 = inject_font_family(html2, font_family)
+            if font_family:
+                html2 = inject_font_family(html2, font_family)
 
             if gf != 0:
                 html2 = scale_font_sizes(html2, gf)
@@ -642,24 +617,11 @@ def render_image_worker(args):
         with _QT_LOCK:
             _ensure_qt_app()
 
-             # قراءة info.txt
-            info_data = load_info_file("info.txt")  # أو المسار الصحيح
-
-            # تحديد اللغة مباشرة لو مش جوه دالة
-            language = "en"  # أو "ar"
-
-    # تحديد الخط لكل slide
-            first_font, rest_font = get_slide_fonts(
-                info_data,
-                image_name,   # اسم السلايد مثلاً slide_03
-                language
-    )
-
             fonts_loaded = load_custom_fonts(
                 language=language,
                 first_slide_font_path=first_font_path,
                 rest_slides_font_path=rest_font_path,
-                base_dir="",
+                base_dir=base_dir,
             )
 
             nparr = np.frombuffer(image_bytes, np.uint8)
