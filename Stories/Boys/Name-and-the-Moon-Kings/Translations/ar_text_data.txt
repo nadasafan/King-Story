@@ -181,24 +181,24 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>أشار</span><span style=' font-size:10pt; color:#ffffff;'> حماة القمر</span><span style=' font-size:10pt; color:#deddda;'> .إلى فوهة بعيدة</span></p></body></html>",
       "global_font": 4.0,
-      "x": 2554,
-      "y": 401,
+      "x": 2120,
+      "y": 883,
       "width": 736,
       "height": 109
     },
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>.يجب أن تجد حجر القمر المخفي في بحر العجائب</span></p><p align='center'><span style=' font-size:10pt; font-weight:700; color:#ffffff;'>.فقط حينها يمكنك مقابلة سيلين</span></p></body></html>",
       "global_font": 2.66,
-      "x": 2595,
-      "y": 1172,
+      "x": 2033,
+      "y": 1403,
       "width": 712,
       "height": 144
     },
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>!بحر العجائب لم يكن ماءً، بل صحراء متلألئة من بلورات القمر</span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>تقدم </span><span style=' font-size:10pt; color:#ffffff;'>[*الاسم*]</span><span style=' font-size:10pt; color:#deddda;'> .عبر الكثبان اللامعة وتجنب الفخاخ</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>وعندما كاد أن يستسلم، رأى </span><span style=' font-size:10pt; color:#ffffff;'>حجر القمر</span><span style=' font-size:10pt; color:#deddda;'> يتوهج في الأفق! </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p></body></html>",
       "global_font": 2.69,
-      "x": 304,
-      "y": 1019,
+      "x": 383,
+      "y": 1101,
       "width": 888,
       "height": 203
     }
@@ -331,16 +331,16 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>كان </span><span style=' font-size:10pt; color:#ffffff;'>[*الاسم*]</span><span style=' font-size:10pt; color:#deddda;'> .فتىً فضوليًا ذو خيال واسع </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>عندما اكتشف قصة قديمة عن </span><span style=' font-size:10pt; color:#ffffff;'>ملكة القمر سيلين، </span><span style=' font-size:10pt; color:transparent;'>و</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>.قرر بناء صاروخ والانطلاق في مغامرة إلى القمر </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p></body></html>",
       "global_font": 2.9,
-      "x": 533,
-      "y": 127,
+      "x": 381,
+      "y": 343,
       "width": 829,
       "height": 218
     },
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>على طول الطريق واجه </span></p><p align='center'><span style=' font-size:10pt; color:#ffffff;'>[*الاسم*]</span><span style=' font-size:10pt; color:#deddda;'> .تحديات مثيرة والتقى بمخلوقات سحرية </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>,هذه القصة عن الشجاعة، الأحلام الكبيرة </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>.واكتشاف أن أعظم المغامرات هي البداية فقط </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p></body></html>",
       "global_font": 2.98,
-      "x": 496,
-      "y": 711,
+      "x": 382,
+      "y": 922,
       "width": 840,
       "height": 282
     }
