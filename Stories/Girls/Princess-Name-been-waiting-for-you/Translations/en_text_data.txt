@@ -457,16 +457,16 @@
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>A call echoes from the Enchanted Forest, a place only those with</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>kind and brave hearts like Name may enter.&nbsp;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Before stepping inside, Princess&nbsp;[*NAME*],</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>you are invited to paint your own handprint on this page,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>a special mark that shows you have the courage</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>&nbsp;to become a true Guardian of the Forest.</span></p></body></html>",
       "global_font": 1.94,
-      "x": 225,
-      "y": 476,
+      "x": 30,
+      "y": 475,
       "width": 819,
       "height": 320
     },
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Inside, she meets a shy fox who's lost its confidence and</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>a pack of brave wolves searching for their missing Moonstone.&nbsp;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>With kindness in her heart and courage lighting her path,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Princess Name unlocks a magical book that</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>transforms her into the protector of the forest,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>proving that true strength comes from believing in yourself.</span></p></body></html>",
       "global_font": 2.12,
-      "x": 212,
-      "y": 845,
+      "x": 26,
+      "y": 857,
       "width": 842,
       "height": 332
     }
