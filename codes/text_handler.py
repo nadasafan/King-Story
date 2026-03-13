@@ -45,6 +45,7 @@ from PySide6.QtGui import (
     QImage,
     QPainter,
     QTextDocument,
+    QFontMetrics,
 )
 from PySide6.QtCore import Qt, QRectF
 
@@ -409,15 +410,23 @@ def _render_html_to_qimage(
     html = html or ""
 
     doc = QTextDocument()
-    doc.setDocumentMargin(0)         # منع النزول للأسفل
+    doc.setDocumentMargin(0)  # منع النزول للأسفل
     doc.setHtml(html)
-    doc.setTextWidth(max(1, int(w))) # نستخدم width فقط
-    # ❌ ممنوع: doc.adjustSize()
+
+    # 🔹 حساب عرض النص الفعلي
+    font = doc.defaultFont()
+    metrics = QFontMetrics(font)
+    plain_text = doc.toPlainText()
+    text_width = metrics.horizontalAdvance(plain_text) + 2  # +2 للسلامة
+
+    # نحدد أكبر width بين المعطى وقياس النص
+    final_width = max(int(w), text_width)
+    doc.setTextWidth(final_width)
 
     item = QGraphicsTextItem()
     item.setDocument(doc)
     item.setDefaultTextColor(QColor(255, 255, 255, 255))
-    item.setPos(0, 0)                # ثابت بدون إزاحة
+    item.setPos(0, 0)  # ثابت بدون إزاحة
 
     if shadow:
         eff = QGraphicsDropShadowEffect()
@@ -429,25 +438,20 @@ def _render_html_to_qimage(
     scene = QGraphicsScene()
     scene.addItem(item)
 
-    # ❗❗ لا نحسب doc_h ولا extra_bottom ولا أي شيء ديناميكي
-    final_h =  int(h * 1.5)                 # ارتفاع ثابت لا يتغير أبداً
+    final_h = int(h * 1.5)  # ارتفاع ثابت
 
-    scene.setSceneRect(0, 0, int(w), final_h)
+    scene.setSceneRect(0, 0, final_width, final_h)
 
-    img = QImage(int(w), final_h, QImage.Format_ARGB32_Premultiplied)
+    img = QImage(final_width, final_h, QImage.Format_ARGB32_Premultiplied)
     img.fill(Qt.transparent)
 
     p = QPainter(img)
     p.setRenderHint(QPainter.Antialiasing, True)
     p.setRenderHint(QPainter.TextAntialiasing, True)
 
-    scene.render(
-        p,
-        QRectF(0, 0, w, final_h),
-        scene.sceneRect()
-    )
-
+    scene.render(p, QRectF(0, 0, final_width, final_h), scene.sceneRect())
     p.end()
+
     return img
 
 
