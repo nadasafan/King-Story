@@ -3,10 +3,10 @@
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:#4dd0e1;font-size:24px;'><strong>الأميرة</strong></span><br><br><br><br><span style='color:#4dd0e1;font-size:24px;'><strong>&nbsp;[*الاسم*]&nbsp;</strong></span><br><br><br><span style='color:#4dd0e1;font-size:18px;'><strong>  لقد طال انتظارنا لكى </strong></span></p></body></html>",
       "global_font": 3.49,
-      "x": 507,
-      "y": 126,
-      "width": 780,
-      "height": 433
+      "x": 582,
+      "y": 110,
+      "width": 582,
+      "height": 423
     }
   ],
   "slide_02": [
