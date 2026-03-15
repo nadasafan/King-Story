@@ -1,11 +1,11 @@
 {
   "slide_01": [
     {
-      "html": "<html><head/><body><p align='center'><span style='font-size:26pt; font-weight:700; color:#fdb0d6;'>Princess</span></p></body></html>",
+      "html": "<html><head/><body><p align='center'><span style='font-size:26pt; font-weight:700; color:#fdb0d6;'>Princess<br></span></p></body></html>",
       "global_font": 3.5,
       "x": 524,
       "y": 165,
-      "width": 498,
+      "width": 598,
       "height": 199
     },
     {
@@ -97,7 +97,7 @@
       "height": 346
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>No handle was there to open it,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>only a shimmering handprint</span></p><p style='text-align:left'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>shining in the center.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>No handle was there to open it,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>only a shimmering handprint</span></p><p style='text-align:left'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>shining in the center.</span></p></body></html>",
       "global_font": 2.8,
       "x": 1925,
       "y": 226,
@@ -105,7 +105,7 @@
       "height": 218
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>A wooden sign on the door said:&nbsp;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>'Only the one with a kind and</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>brave heart may enter.'</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>A wooden sign on the door said:&nbsp;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>'Only the one with a kind and</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>brave heart may enter.'</span></p></body></html>",
       "global_font": 2.8,
       "x": 2127,
       "y": 1081,
@@ -175,12 +175,12 @@
       "height": 218
     },
     {
-      "html": "<html><head/><body><p><span style='text-align:left;color:hsl(0, 0%, 100%);font-size:12px;'><strong>'Can you help me?'</strong></span></p><span style=' text-align:left;color:hsl(0, 0%, 100%);font-size:12px;'>it asked.</span></body></html>",
+      "html": "<html><head/><body><p><span style='text-align:left;color:hsl(0, 0%, 100%);font-size:12px;'><strong>'Can you help me?'</strong></span></p><span style=' text-align:left;color:hsl(0, 0%, 100%);font-size:14px;'>it asked.</span></body></html>",
       "global_font": 2.8,
-      "x": 2242,
-      "y": 548,
+      "x": 2246,
+      "y": 491,
       "width": 330,
-      "height": 138
+      "height": 146
     },
     {
       "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>'I've lost my confidence</strong></span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>because of my burned tail.'</strong></span></p></body></html>",
@@ -195,8 +195,8 @@
     {
       "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:16px;'><strong>Princess&nbsp;[*NAME*]&nbsp;</strong></span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>knelt down and smiled.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 1052,
-      "y": 587,
+      "x": 1155,
+      "y": 582,
       "width": 436,
       "height": 161
     },
@@ -246,15 +246,15 @@
       "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>The fox gave <strong>Princess&nbsp;</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>[*NAME*]</strong> a shiny leaf.</span></p></body></html>",
       "global_font": 2.8,
       "x": 2239,
-      "y": 820,
+      "y": 816,
       "width": 429,
       "height": 154
     },
     {
       "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>'This leaf will help you on your journey.</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>Keep believing in yourself,' </strong>it said.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 2248,
-      "y": 982,
+      "x": 2236,
+      "y": 996,
       "width": 758,
       "height": 154
     }
@@ -271,8 +271,8 @@
     {
       "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>'What's wrong?'</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Princess&nbsp;[*NAME*] asked.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 1761,
-      "y": 136,
+      "x": 1639,
+      "y": 144,
       "width": 470,
       "height": 154
     },
@@ -448,27 +448,27 @@
   "slide_20": [
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>The adventure continues as Princess&nbsp;[*NAME*]</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>returns, holding the glowing key she found on her first journey.</span></p></body></html>",
-      "global_font": 2.23,
-      "x": 309,
-      "y": 296,
-      "width": 900,
-      "height": 134
+      "global_font": 2.59,
+      "x": 336,
+      "y": 284,
+      "width": 1039,
+      "height": 146
     },
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>A call echoes from the Enchanted Forest, a place only those with</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>kind and brave hearts like Name may enter.&nbsp;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Before stepping inside, Princess&nbsp;[*NAME*],</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>you are invited to paint your own handprint on this page,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>a special mark that shows you have the courage</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>&nbsp;to become a true Guardian of the Forest.</span></p></body></html>",
-      "global_font": 1.94,
-      "x": 30,
-      "y": 475,
-      "width": 819,
-      "height": 320
+      "global_font": 2.59,
+      "x":-436,
+      "y": 468,
+      "width": 1039,
+      "height": 345
     },
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Inside, she meets a shy fox who's lost its confidence and</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>a pack of brave wolves searching for their missing Moonstone.&nbsp;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>With kindness in her heart and courage lighting her path,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Princess Name unlocks a magical book that</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>transforms her into the protector of the forest,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>proving that true strength comes from believing in yourself.</span></p></body></html>",
-      "global_font": 2.12,
-      "x": 26,
-      "y": 857,
-      "width": 842,
-      "height": 332
+      "global_font": 2.59,
+      "x": -536,
+      "y": 843,
+      "width": 1039,
+      "height": 360
     }
   ]
 }

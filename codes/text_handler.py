@@ -17,6 +17,7 @@ Optional:
 
 import os
 import json
+from pydoc import doc
 import re
 import threading
 import copy
@@ -410,17 +411,19 @@ def _render_html_to_qimage(
     html = html or ""
 
     doc = QTextDocument()
-    doc.setDocumentMargin(0)  # منع النزول للأسفل
     doc.setHtml(html)
+    doc.setTextWidth(10000)  # عرض كبير جدًا مؤقت لحساب الطول
+    text_width = doc.size().width()
+    doc.setTextWidth(max(int(w), int(text_width)))
 
     # 🔹 حساب عرض النص الفعلي
     font = doc.defaultFont()
     metrics = QFontMetrics(font)
     plain_text = doc.toPlainText()
-    text_width = metrics.horizontalAdvance(plain_text) + 2  # +2 للسلامة
+    text_width = metrics.horizontalAdvance(plain_text) * 1.5   # +2 للسلامة
 
     # نحدد أكبر width بين المعطى وقياس النص
-    final_width = max(int(w), text_width)
+    final_width = max(int(w), int(text_width))
     doc.setTextWidth(final_width)
 
     item = QGraphicsTextItem()
@@ -496,10 +499,6 @@ def render_image(
 
     with _QT_LOCK:
         _ensure_qt_app()
-
-    # 🟢 إعادة ضبط الخطوط لمنع الـ cache
-        QFontDatabase.removeAllApplicationFonts()
-         # Load correct fonts from config / info.txt
 
 
         if not silent:
@@ -577,8 +576,8 @@ def render_image(
 
             html2 = html
 
-            html2 = html2.replace("\r\n", "\n").replace("\r", "\n")
-            html2 = html2.replace("\n", "<br>")
+            #html2 = html2.replace("\r\n", "\n").replace("\r", "\n")
+            #html2 = html2.replace("\n", "<br>")
 
             if font_family:
                 html2 = inject_font_family(html2, font_family)

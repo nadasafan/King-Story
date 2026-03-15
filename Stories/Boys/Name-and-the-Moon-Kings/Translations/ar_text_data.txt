@@ -25,7 +25,7 @@
       "global_font": 3.44,
       "x": 2164,
       "y": 119,
-      "width": 1124,
+      "width": 1138,
       "height": 170
     },
     {
@@ -33,7 +33,7 @@
       "global_font": 3.29,
       "x": 1826,
       "y": 718,
-      "width": 1138,
+      "width": 1238,
       "height": 190
     }
   ],
@@ -41,14 +41,14 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>قضى </span><span style=' font-size:14pt; color:#ffffff;'>[*الاسم*]</span><span style=' font-size:10pt; color:#deddda;'> .أيامًا يصمم صاروخه</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>:جمع كل ما استطاع العثور عليه في الحديقةالخلفية</span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>!صناديق قديمة، علب، وحتى قطع معدنية صغيرة</span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p></body></html>",
       "global_font": 2.76,
-      "x": 2518,
+      "x": 2318,
       "y": 57,
       "width": 784,
       "height": 226
     },
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:14pt; color:#deddda;'>:فكر بحماس</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'>سأبني أسرع وأعظم</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'>صاروخ سحري على الإطلاق</span><span style=' font-size:10pt; color:#deddda;'>! </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p></body></html>",
-      "global_font": 1.73,
+      "global_font": 2.73,
       "x": 191,
       "y": 962,
       "width": 409,
@@ -85,7 +85,7 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>,مع ضغط الزر الأخضر الكبير</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>اشتعلت المحركات وانطلق</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'>صاروخه</span><span style=' font-size:10pt; color:#deddda;'>! في السماء الليلية </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p></body></html>",
       "global_font": 2.72,
-      "x": 2697,
+      "x": 2597,
       "y": 104,
       "width": 520,
       "height": 236
@@ -93,7 +93,7 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>,مرت النجوم والكواكب من حوله</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>وخفق قلب </span><span style=' font-size:14pt; color:#ffffff;'>[*الاسم*]</span><span style=' font-size:10pt; color:#deddda;'> .بشدة من الحماس</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>!كان فعلاً ذاهبًا إلى القمر</span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p></body></html>",
       "global_font": 2.7,
-      "x": 317,
+      "x": 217,
       "y": 714,
       "width": 664,
       "height": 232
@@ -139,9 +139,9 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>!فجأة، ظهرت مخلوقات قمرية متوهجة وعملاقة</span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>.كانت لها عيون كبيرة تتلألأ كالنجوم</span></p></body></html>",
       "global_font": 2.96,
-      "x": 2484,
-      "y": 1206,
-      "width": 792,
+      "x": 2184,
+      "y": 1406,
+      "width": 992,
       "height": 154
     },
     {
@@ -191,13 +191,13 @@
       "global_font": 2.66,
       "x": 2033,
       "y": 1403,
-      "width": 712,
+      "width": 888,
       "height": 144
     },
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>!بحر العجائب لم يكن ماءً، بل صحراء متلألئة من بلورات القمر</span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>تقدم </span><span style=' font-size:10pt; color:#ffffff;'>[*الاسم*]</span><span style=' font-size:10pt; color:#deddda;'> .عبر الكثبان اللامعة وتجنب الفخاخ</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>وعندما كاد أن يستسلم، رأى </span><span style=' font-size:10pt; color:#ffffff;'>حجر القمر</span><span style=' font-size:10pt; color:#deddda;'> يتوهج في الأفق! </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p></body></html>",
       "global_font": 2.69,
-      "x": 383,
+      "x": 283,
       "y": 1101,
       "width": 888,
       "height": 203
@@ -242,9 +242,9 @@
   "slide_13": [
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>&quot;,أنا دائمًا فوقك لكن لا تظهر أبدًا</span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>.أرقص في الظلام وأختفي مع الضوء </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>ما أنا؟&quot;</span></p></body></html>",
-      "global_font": 2.62,
+      "global_font": 3.1,
       "x": 2487,
-      "y": 70,
+      "y": 170,
       "width": 729,
       "height": 213
     },
@@ -285,27 +285,27 @@
       "height": 150
     },
     {
-      "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>,و قالت له: أنت حقًا شجاع </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='center'><span style=' font-size:10pt; color:#ffffff;'>[*الاسم*]</span></p><p align='center'><br/></p><p align='center'><span style=' font-size:10pt; font-weight:700; color:#ffffff;'>.لقد فتحت أعظم سحر القمر </span><span style=' font-size:10pt; font-weight:700; color:transparent;'>و</span></p></body></html>",
-      "global_font": 2.43,
+      "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>,و قالت له: أنت حقًا شجاع </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='center'><span style=' font-size:10pt; color:#ffffff;'>[*الاسم*]</span></p><p align='center'></p><p align='center'><span style=' font-size:10pt; font-weight:700; color:#ffffff;'>.لقد فتحت أعظم سحر القمر </span><span style=' font-size:10pt; font-weight:700; color:transparent;'>و</span></p></body></html>",
+      "global_font": 2.94,
       "x": 1860,
       "y": 825,
-      "width": 422,
+      "width": 530,
       "height": 235
     },
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>قدمت سيلين </span><span style=' font-size:10pt; color:#ffffff;'>ل[*الاسم*]</span><span style=' font-size:10pt; color:#deddda;'> تعويذة </span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>,فضية على شكل القمر </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p></body></html>",
       "global_font": 2.94,
       "x": 998,
-      "y": 83,
+      "y": 183,
       "width": 556,
       "height": 154
     },
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; font-weight:700; color:#ffffff;'>!احتفظ بها وستظل دائمًا شجاعًا لتحقيق أحلامك</span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></body></html>",
       "global_font": 2.79,
-      "x": 574,
-      "y": 1340,
-      "width": 722,
+      "x": 474,
+      "y": 1440,
+      "width": 822,
       "height": 86
     }
   ],
@@ -314,14 +314,14 @@
       "html": "<html><head/><body><p align='right'><span style=' font-size:10pt; color:#ffffff;'>, &nbsp; شكر [*الاسم*] سيلين</span><span style=' font-size:10pt; color:#deddda;'/><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='right'><span style=' font-size:10pt; color:#deddda;'>,وصعد مجددًا إلى صاروخه </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='right'><span style=' font-size:10pt; color:#deddda;'>.يحمل حجر القمر والتعويذة بإحكام </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p></body></html>",
       "global_font": 3.1,
       "x": 2630,
-      "y": 56,
+      "y": 156,
       "width": 665,
       "height": 276
     },
     {
       "html": "<html><head/><body><p align='right'><span style=' font-size:10pt; color:#deddda;'>,وعندما هبط بسلام في المنزل</span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='right'><span style=' font-size:10pt; color:#deddda;'>نظر إلى </span><span style=' font-size:10pt; color:#ffffff;'>القمر</span><span style=' font-size:10pt; color:#deddda;'>. وابتسم </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='right'><span style=' font-size:10pt; color:#deddda;'>,عرف أن مغامرته لم تنتهِ </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='right'><span style=' font-size:10pt; color:#deddda;'>!بل كانت البداية فقط </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p></body></html>",
-      "global_font": 2.5,
-      "x": 401,
+      "global_font": 3.1,
+      "x": 50,
       "y": 739,
       "width": 442,
       "height": 250
@@ -339,7 +339,7 @@
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>على طول الطريق واجه </span></p><p align='center'><span style=' font-size:10pt; color:#ffffff;'>[*الاسم*]</span><span style=' font-size:10pt; color:#deddda;'> .تحديات مثيرة والتقى بمخلوقات سحرية </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>,هذه القصة عن الشجاعة، الأحلام الكبيرة </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p><p align='center'><span style=' font-size:10pt; color:#deddda;'>.واكتشاف أن أعظم المغامرات هي البداية فقط </span><span style='font-size:10pt; font-weight:700; color:transparent;'>و</span></p></body></html>",
       "global_font": 2.98,
-      "x": 382,
+      "x": 282,
       "y": 922,
       "width": 840,
       "height": 282
