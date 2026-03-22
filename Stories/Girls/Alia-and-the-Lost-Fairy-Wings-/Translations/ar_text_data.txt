@@ -13,7 +13,7 @@
       "global_font": 3.55,
       "x": 585,
       "y": 390,
-      "width": 427,
+      "width": 430,
       "height": 173
     },
     {
