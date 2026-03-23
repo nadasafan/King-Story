@@ -11,7 +11,7 @@
     {
       "html": "<html><head/><body><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>and the lost<br></span></p><br></body></html>",
       "global_font": 3.55,
-      "x": 769,
+      "x": 669,
       "y": 390,
       "width": 369,
       "height": 183
@@ -19,7 +19,7 @@
     {
       "html": "<html><head/><body><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>fairy wings<br></span></p><br></body></html>",
       "global_font": 3.72,
-      "x": 793,
+      "x": 693,
       "y": 448,
       "width": 354,
       "height": 193
@@ -27,15 +27,15 @@
   ],
   "slide_02": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>In the middle of Fairyland stood a big, shiny tree.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>It was called the Wing Tree.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Every year, it grows special wings for one fairy.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>This year, the wings were for<strong>[*Name*]</strong><br></span></p><br></body></html>",
-      "global_font": 2.0,
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>In the middle of Fairyland stood a big, shiny tree.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It was called the Wing Tree.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Every year, it grows special wings for one fairy.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This year, the wings were for<strong>[*Name*]</strong><br></span></p><br></body></html>",
+      "global_font": 2.6,
       "x": 2019,
       "y": 846,
       "width": 640,
       "height": 334
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>She stood under the tree and waited. She looked up with a big smile.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>But the tree didn't move. No wings came. No wind blew.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Everything was still and quiet. Buki, her tiny fluffy ball friend<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>with big eyes and a squeaky voice, bounced beside her.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>'Maybe it's just on a lunch break?' he asked, peeking up at the tree.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>She stood under the tree and waited. She looked up with a big smile.</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But the tree didn't move. No wings came. No wind blew.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Everything was still and quiet. Buki, her tiny fluffy ball friend</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with big eyes and a squeaky voice, bounced beside her.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>'Maybe it's just on a lunch break?' he asked, peeking up at the tree.<br></span></p><br></body></html>",
       "global_font": 2.6,
       "x": 1836,
       "y": 1171,
@@ -45,15 +45,15 @@
   ],
   "slide_03": [
     {
-      "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>[*Name*] flew around the tree.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>She looked at every branch. But the leaves did not move.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The flowers stayed closed.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>[*Name*] flew around the tree.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>She looked at every branch. But the leaves did not move.</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The flowers stayed closed.<br><br></span></p></body></html>",
       "global_font": 3.15,
       "x": 2091,
       "y": 394,
-      "width": 1138,
+      "width": 1238,
       "height": 331
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;No wings?&quot; she whispered. Even the wind was gone<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Fairyland felt quiet and a little bit sad.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Buki poked a flower gently. &quot;Maybe they're shy today,&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>he whispered, then he accidentally sneezed and tumbled<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>backward into a bush.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;No wings?&quot; she whispered. Even the wind was gone<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fairyland felt quiet and a little bit sad.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Buki poked a flower gently. &quot;Maybe they're shy today,&quot;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>he whispered, then he accidentally sneezed and tumbled</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;backward into a bush.<br></span></p><br></body></html>",
       "global_font": 2.97,
       "x": 2146,
       "y": 682,
@@ -63,7 +63,7 @@
   ],
   "slide_04": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp; Suddenly, a bright light flew down<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>from the sky. It was the Fairy Queen!<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>She looked worried. 'The Wind Spirit<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>is missing,' she said.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp; Suddenly, a bright light flew down<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>from the sky. It was the Fairy Queen!<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>She looked worried. 'The Wind Spirit<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;is missing,' she said.<br></span></p><br></body></html>",
       "global_font": 2.4,
       "x": 90,
       "y": 1213,
@@ -71,7 +71,7 @@
       "height": 368
     },
     {
-      "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;She helps the tree grow wings.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Without her, the tree cannot wake up.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>And without her, the wind is gone too.&quot;<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Buki gasped and floated up.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>'Missing? Should we put up posters?<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>I make great posters!'<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;She helps the tree grow wings.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Without her, the tree cannot wake up.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>And without her, the wind is gone too.&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buki gasped and floated up.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>'Missing? Should we put up posters?<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I make great posters!'<br></span></p><br></body></html>",
       "global_font": 2.68,
       "x": 2414,
       "y": 922,
@@ -81,7 +81,7 @@
   ],
   "slide_05": [
     {
-      "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;I will find her!&quot; said <strong>[*Name*]</strong><br></span><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; She packed her glow berries to help her see,<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>her little wind bell to bring hope, and one lucky feather.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;I will find her!&quot; said <strong>[*Name*]</strong><br></span><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; She packed her glow berries to help her see,<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>her little wind bell to bring hope, and one lucky feather.<br></span></p><br></body></html>",
       "global_font": 2.66,
       "x": 308,
       "y": 1058,
@@ -93,7 +93,7 @@
       "global_font": 2.8,
       "x": 305,
       "y": 1307,
-      "width": 945,
+      "width": 1119,
       "height": 230
     }
   ],
@@ -139,7 +139,7 @@
       "global_font": 2.8,
       "x": 1848,
       "y": 76,
-      "width": 1179,
+      "width": 1279,
       "height": 230
     },
     {
@@ -189,7 +189,7 @@
       "height": 266
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>[*NAME*]</strong> flew outside with Buki.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; The Dark Shusher followed, but in the sunlight, he faded.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>With a soft shhh, he disappeared. As he vanished, his voice </span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>whispered, &quot;I will come back...&quot;<br></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>[*NAME*]</strong> flew outside with Buki.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; The Dark Shusher followed, but in the sunlight, he faded.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>With a soft shhh, he disappeared. As he vanished, his voice </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;whispered, &quot;I will come back...&quot;<br></span></p></body></html>",
       "global_font": 2.8,
       "x": 1912,
       "y": 127,
@@ -201,7 +201,7 @@
       "global_font": 2.8,
       "x": 1973,
       "y": 436,
-      "width": 916,
+      "width": 1016,
       "height": 186
     }
   ],
@@ -243,7 +243,7 @@
   ],
   "slide_14": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Two shiny wings floated down from the tree.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>They sparkled in the sunlight.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &quot;These are for you,&quot; said the Wind Spirit.<br></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Two shiny wings floated down from the tree.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;They sparkled in the sunlight.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &quot;These are for you,&quot; said the Wind Spirit.<br></span></p></body></html>",
       "global_font": 2.8,
       "x": 155,
       "y": 962,
@@ -251,8 +251,8 @@
       "height": 266
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &quot;You were brave. You believed.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>And you brought back the wind.&quot;<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>[*Name*]</strong> smiled big.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The wings were perfect.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Buki sniffled, pretending not to cry.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;I'm just allergic to sparkles.&quot;<br></span></p></body></html>",
-      "global_font": 2.3,
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &quot;You were brave. You believed.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>And you brought back the wind.&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*Name*]</strong> smiled big.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The wings were perfect.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Buki sniffled, pretending not to cry.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;I'm just allergic to sparkles.&quot;<br></span></p></body></html>",
+      "global_font": 2.8,
       "x": 238,
       "y": 1200,
       "width": 843,
@@ -261,7 +261,7 @@
   ],
   "slide_15": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Fairies clapped and spun in the air.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; Butterflies danced all around.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Golden petals flew through the sky.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The wind was back!<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>It tickled noses and made hair fly.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp;Fairyland was full of joy again.<br></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Fairies clapped and spun in the air.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; Butterflies danced all around.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Golden petals flew through the sky.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The wind was back!<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>It tickled noses and made hair fly.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp;Fairyland was full of joy again.<br></span></p></body></html>",
       "global_font": 2.8,
       "x": 1769,
       "y": 1131,
@@ -271,7 +271,7 @@
   ],
   "slide_16": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Down below, the Wind Spirit sang in the trees.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &quot; Thank you, &quot; <strong>[*Name*]</strong> whispered.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp; &nbsp; &nbsp; &nbsp; The wind whispered back, &quot;You believed.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>You listened. You set me free.&quot; Buki zipped <br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; by, upside down.&quot;I believed too, mostly that <br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>I'd survive all this flying!&quot;<br></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Down below, the Wind Spirit sang in the trees.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot; Thank you, &quot; <strong>[*Name*]</strong> whispered.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp; &nbsp; &nbsp; &nbsp; The wind whispered back, &quot;You believed.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>You listened. You set me free.&quot; Buki zipped <br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; by, upside down.&quot;I believed too, mostly that <br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I'd survive all this flying!&quot;<br></span></p></body></html>",
       "global_font": 2.8,
       "x": 2309,
       "y": 16,
