@@ -47,7 +47,7 @@
     {
       "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>[*Name*] flew around the tree.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>She looked at every branch. But the leaves did not move.</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The flowers stayed closed.<br><br></span></p></body></html>",
       "global_font": 3.15,
-      "x": 2091,
+      "x": 2084,
       "y": 394,
       "width": 1238,
       "height": 331
@@ -110,7 +110,7 @@
       "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Everything was still. A soft butterfly landed on her hand.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &quot;The Wind Spirit didn't leave,' it whispered.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &quot;She was taken by someone bad.&quot;</span></p><br></body></html>",
       "global_font": 2.9,
       "x": 1940,
-      "y": 1381,
+      "y": 1374,
       "width": 799,
       "height": 280
     }
@@ -254,7 +254,7 @@
       "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &quot;You were brave. You believed.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>And you brought back the wind.&quot;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*Name*]</strong> smiled big.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The wings were perfect.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Buki sniffled, pretending not to cry.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;I'm just allergic to sparkles.&quot;</span></p></body></html>",
       "global_font": 2.8,
       "x": 238,
-      "y": 1200,
+      "y": 1192,
       "width": 843,
       "height": 462
     }
