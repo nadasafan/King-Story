@@ -321,7 +321,7 @@
       "height": 187
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:center;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>هناك عوالم كثيرة لاكتشافها،</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>وكل قصة هي مغامرة خاصة بطفلك.</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>أنا المغامرة التي لا يعيشها إلا طفلك.</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>وأعدك… سأكون من القصص المفضلة. <br><br> </span></p></body></html>",
+      "html": "<html><head/><body dir='rtl'><p style='text-align:center;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>هناك عوالم كثيرة لاكتشافها،</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>وكل قصة هي مغامرة خاصة بطفلك.</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>أنا المغامرة التي لا يعيشها إلا طفلك.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>وأعدك… سأكون من القصص المفضلة. <br><br> </span></p></body></html>",
       "global_font": 2.9,
       "x": 592,
       "y": 906,
