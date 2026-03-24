@@ -13,138 +13,138 @@
       "global_font": 3.55,
       "x": 585,
       "y": 390,
-      "width": 430,
-      "height": 173
+      "width": 600,
+      "height": 200
     },
     {
-      "html": "<html><head/><body dir='rtl'><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>الضائعة<br></span></p><br></body></html>",
+      "html": "<html><head/><body dir='rtl'><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>الضائعة</span></p></body></html>",
       "global_font": 3.72,
       "x": 668,
-      "y": 456,
+      "y": 550,
       "width": 230,
-      "height": 177
+      "height": 250
     }
   ],
   "slide_02": [
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>في وسط أرض الجنيات، كانت هناك شجرة كبيرة لامعة.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كان اسمها شجرة الأجنحة.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كل عام، تنمو عليها أجنحة خاصة لجنية واحدة.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وهذا العام، كانت الأجنحة من نصيب <strong>[*الاسم*]</strong>.<br></span></p><br></body></html>",
-      "global_font": 2.0,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>في وسط أرض الجنيات، كانت هناك شجرة كبيرة لامعة.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;كان اسمها شجرة الأجنحة.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كل عام، تنمو عليها أجنحة خاصة لجنية واحدة.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;وهذا العام، كانت الأجنحة من نصيب <strong>[*الاسم*]</strong>.<br></span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 524,
       "y": 856,
-      "width": 645,
+      "width": 1000,
       "height": 334
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وقفت تحت الشجرة تنتظر، تنظر للأعلى بابتسامة كبيرة.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>لكن الشجرة لم تتحرك. لم تظهر أي أجنحة. ولم تهب أي ريح.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كان كل شيء ساكنًا وهادئًا.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كان بوكي، صديقها الصغير الكروي الناعم ذو العينين الكبيرتين والصوت المضحك، يقفز بجانبها.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>قال وهو ينظر للأعلى:<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;يمكن الشجرة في استراحة غداء؟&quot;<br></span></p><br></body></html>",
-      "global_font": 2.6,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وقفت تحت الشجرة تنتظر، تنظر للأعلى بابتسامة كبيرة.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;لكن الشجرة لم تتحرك. لم تظهر أي أجنحة. ولم تهب أي ريح.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كان كل شيء ساكنًا وهادئًا.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كان بوكي، صديقها الصغير الكروي الناعم ذو العينين الكبيرتين والصوت المضحك، يقفز بجانبها.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>قال وهو ينظر للأعلى:</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;يمكن الشجرة في استراحة غداء؟&quot;<br></span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 148,
       "y": 1133,
-      "width": 1381,
+      "width": 1581,
       "height": 526
     }
   ],
   "slide_03": [
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>حلّقت <strong>[*الاسم*]</strong> حول الشجرة.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>نظرت إلى كل غصن، لكن الأوراق لم تتحرك.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>والزهور بقيت مغلقة.<br></span></p><br></body></html>",
+      "html": "<html><head/><body dir='rtl'><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>حلّقت <strong>[*الاسم*]</strong> حول الشجرة.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>نظرت إلى كل غصن، لكن الأوراق لم تتحرك.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>والزهور بقيت مغلقة.<br></span></p><br></body></html>",
       "global_font": 3.15,
       "x": 292,
       "y": 406,
-      "width": 792,
+      "width": 1000,
       "height": 331
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>همست: &quot;مفيش أجنحة؟&quot;<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>حتى الريح اختفت.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>بدت أرض الجنيات هادئة… وحزينة قليلًا.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>لمس بوكي زهرة بلطف وقال:<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;يمكن مكسوفه النهارده…&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ثم عطس فجأة ووقع للخلف داخل شجيرة!<br></span></p><br></body></html>",
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>همست: &quot;مفيش أجنحة؟&quot;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>حتى الريح اختفت.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>بدت أرض الجنيات هادئة… وحزينة قليلًا.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>لمس بوكي زهرة بلطف وقال:</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;يمكن مكسوفه النهارده…&quot;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ثم عطس فجأة ووقع للخلف داخل شجيرة!<br></span></p><br></body></html>",
       "global_font": 2.97,
       "x": 348,
       "y": 677,
-      "width": 715,
+      "width": 1000,
       "height": 568
     }
   ],
   "slide_04": [
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>فجأة، نزل ضوء ساطع من السماء.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كانت ملكة الجنيات!<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>بدت قلقة وقالت:<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;روح الرياح اختفت.&quot;<br></span></p><br></body></html>",
-      "global_font": 2.4,
-      "x": 358,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>فجأة، نزل ضوء ساطع من السماء.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كانت ملكة الجنيات!</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>بدت قلقة وقالت:</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;روح الرياح اختفت.&quot;<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 258,
       "y": 972,
       "width": 481,
       "height": 358
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;هي اللي بتساعد الشجرة تنمو أجنحة.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وكمان الريح اختفت.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>من غيرها، الشجرة مش هتقدر تصحى.&quot;<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>شهق بوكي وقال:<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;اختفت؟ نعلق إعلانات؟<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>أنا شاطر جدًا في الإعلانات!&quot;<br></span></p><br></body></html>",
-      "global_font": 2.68,
-      "x": 2628,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;هي اللي بتساعد الشجرة تنمو أجنحة.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وكمان الريح اختفت.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>من غيرها، الشجرة مش هتقدر تصحى.&quot;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>شهق بوكي وقال:</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;اختفت؟ نعلق إعلانات؟</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>أنا شاطر جدًا في الإعلانات!&quot;<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2428,
       "y": 1099,
-      "width": 608,
+      "width": 800,
       "height": 538
     }
   ],
   "slide_05": [
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>قالت <strong>[*الاسم*]</strong>: &quot;أنا هلاقيها!&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>حضّرت التوت المضيء عشان تنور الطريق،<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وجرس الرياح الصغير عشان يجلب الأمل،<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وريشة حظ.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ثم طارت في السماء.<br></span></p><br></body></html>",
-      "global_font": 2.66,
-      "x": 2379,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>قالت <strong>[*الاسم*]</strong>: &quot;أنا هلاقيها!&quot;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>حضّرت التوت المضيء عشان تنور الطريق،</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وجرس الرياح الصغير عشان يجلب الأمل،</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وريشة حظ.</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ثم طارت في السماء.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2079,
       "y": 935,
       "width": 659,
       "height": 460
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>لم تكن تعرف أين روح الرياح… لكنها كانت مستعدة تبحث.<br></span></p><br></body></html>",
-      "global_font": 2.8,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>لم تكن تعرف أين روح الرياح… لكنها كانت مستعدة تبحث.</span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 2098,
       "y": 1370,
-      "width": 916,
+      "width": 1100,
       "height": 150
     }
   ],
   "slide_06": [
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>طارت إلى الغابة الهامسة.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>لكن الغابة لم تعد تهمس.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>لا أوراق تتحرك… ولا أصوات.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كل شيء ساكن.<br></span></p><br></body></html>",
-      "global_font": 2.63,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>طارت إلى الغابة الهامسة.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>لكن الغابة لم تعد تهمس.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>لا أوراق تتحرك… ولا أصوات.</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كل شيء ساكن.<br></span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 752,
       "y": 1123,
-      "width": 439,
+      "width": 600,
       "height": 374
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>حطّت فراشة ناعمة على يدها وقالت:<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;روح الرياح ما مشيتش… اتخطفت.&quot;<br></span></p><br></body></html>",
-      "global_font": 2.28,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>حطّت فراشة ناعمة على يدها وقالت:</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;روح الرياح ما مشيتش… اتخطفت.&quot;</span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 725,
       "y": 1457,
-      "width": 490,
+      "width": 600,
       "height": 210
     }
   ],
   "slide_07": [
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>فجأة، طارت أوراق ذهبية حولها.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>دارت بسرعة… ثم بدأت تتكلم!<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>قالت:<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;تم سرقتها بواسطة المُسكِت المظلم.&quot;<br></span></p><br></body></html>",
-      "global_font": 2.55,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>فجأة، طارت أوراق ذهبية حولها.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>دارت بسرعة… ثم بدأت تتكلم!</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>قالت:</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;تم سرقتها بواسطة المُسكِت المظلم.&quot;<br></span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 1212,
-      "y": -26,
-      "width": 708,
+      "y": 168,
+      "width": 1000,
       "height": 380
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;حبسها… عايز يخلي أرض الجنيات صامتة للأبد.&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>شعرت <strong>[*الاسم*]</strong> بالخوف قليلًا… لكنها عرفت إنها لازم تساعد.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ارتعش بوكي وقال:<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;المُسكِت المظلم؟ أتمنى يكون عنده حساسية مني!&quot;<br></span></p><br></body></html>",
-      "global_font": 2.64,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;حبسها… عايز يخلي أرض الجنيات صامتة للأبد.&quot;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>شعرت <strong>[*الاسم*]</strong> بالخوف قليلًا… لكنها عرفت إنها لازم تساعد.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ارتعش بوكي وقال:</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;المُسكِت المظلم؟ أتمنى يكون عنده حساسية مني!&quot;<br></span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 161,
       "y": 268,
-      "width": 1045,
+      "width": 1245,
       "height": 384
     }
   ],
   "slide_08": [
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>نزل تنين كبير مصنوع من السحب من السماء.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كانت عيناه طيبتين وأجنحته ناعمة.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>قال:<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;هي في كهف الصمت.&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;المُسكِت المظلم حابسها هناك.&quot;<br></span></p><br></body></html>",
-      "global_font": 2.8,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>نزل تنين كبير مصنوع من السحب من السماء.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كانت عيناه طيبتين وأجنحته ناعمة.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>قال:</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;هي في كهف الصمت.&quot;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;المُسكِت المظلم حابسها هناك.&quot;<br></span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 1299,
-      "y": 11,
+      "y": 200,
       "width": 736,
       "height": 470
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ثم أعطاها جرس رياح جديد وقال:<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;ده بيرن بس لما تؤمني بجد.&quot;<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>مسكته <strong>[*الاسم*]</strong> بقوة وقالت:<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;أنا مؤمنة.&quot;<br></span></p><br></body></html>",
-      "global_font": 2.8,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ثم أعطاها جرس رياح جديد وقال:<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;ده بيرن بس لما تؤمني بجد.&quot;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>مسكته <strong>[*الاسم*]</strong> بقوة وقالت:</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;أنا مؤمنة.&quot;</span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 1427,
       "y": 526,
       "width": 542,
@@ -163,59 +163,59 @@
   ],
   "slide_10": [
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>في داخل الكهف، وقف رجل حجري طويل.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كان يحمل وعاءً مضيئًا، وداخلَه شيء يلمع.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>قال:<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;هي بقت بتاعتي.&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;هي بتعمل ضوضاء… وأنا بحب الهدوء.&quot;<br></span></p><br></body></html>",
-      "global_font": 2.8,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>في داخل الكهف، وقف رجل حجري طويل.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كان يحمل وعاءً مضيئًا، وداخلَه شيء يلمع.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>قال:</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;هي بقت بتاعتي.&quot;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;هي بتعمل ضوضاء… وأنا بحب الهدوء.&quot;<br></span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 1882,
       "y": 129,
-      "width": 676,
+      "width": 1000,
       "height": 470
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>اقتربت <strong>[*الاسم*]</strong> وقالت:<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;الريح مش حاجة وحشة.&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;هي بتجيب الموسيقى، والضحك، والحياة.&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>أطلّ بوكي من خلفها وقال:<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;وكمان الدغدغة! متنسيش الدغدغة!&quot;<br></span></p><br></body></html>",
-      "global_font": 2.8,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>اقتربت <strong>[*الاسم*]</strong> وقالت:</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;الريح مش حاجة وحشة.&quot;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;هي بتجيب الموسيقى، والضحك، والحياة.&quot;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>أطلّ بوكي من خلفها وقال:</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;وكمان الدغدغة! متنسيش الدغدغة!&quot;<br></span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 481,
       "y": 114,
-      "width": 702,
+      "width": 1000,
       "height": 470
     }
   ],
   "slide_11": [
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>قالت <strong>[*الاسم*]</strong>:<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;مش ممكن تحبس الريح في وعاء.&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;هي بتساعد الزهور تكبر… والجنيات تحلم.&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ثم رنّت الجرس…<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>دِنغ!<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>تشقّق الوعاء…<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وووش! خرجت الرياح!<br></span></p><br></body></html>",
-      "global_font": 2.8,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>قالت <strong>[*الاسم*]</strong>:</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;مش ممكن تحبس الريح في وعاء.&quot;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;هي بتساعد الزهور تكبر… والجنيات تحلم.&quot;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ثم رنّت الجرس…</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>دِنغ!</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>تشقّق الوعاء…</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وووش! خرجت الرياح!<br></span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 2581,
       "y": 7,
-      "width": 696,
+      "width": 1000,
       "height": 630
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>طارت <strong>[*الاسم*]</strong> خارج الكهف مع بوكي.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>تبعهم المُسكِت المظلم، لكن تحت ضوء الشمس… بدأ يختفي.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ومع صوت &quot;ششش&quot;، اختفى تمامًا.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وهمس صوته:<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;هرجع تاني…&quot;<br></span></p><br></body></html>",
-      "global_font": 2.8,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>طارت <strong>[*الاسم*]</strong> خارج الكهف مع بوكي.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>تبعهم المُسكِت المظلم، لكن تحت ضوء الشمس… بدأ يختفي.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ومع صوت &quot;ششش&quot;، اختفى تمامًا.</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وهمس صوته:</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;هرجع تاني…&quot;</span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 453,
       "y": 98,
-      "width": 980,
+      "width": 1000,
       "height": 470
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>رمش بوكي وقال:<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;أووه! فكرني ما أنساش واقي الشمس تاني!&quot;<br></span></p><br></body></html>",
-      "global_font": 2.8,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>رمش بوكي وقال:</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;أووه! فكرني ما أنساش واقي الشمس تاني!&quot;<br></span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 114,
       "y": 735,
-      "width": 737,
+      "width": 900,
       "height": 230
     }
   ],
   "slide_12": [
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>دارت روح الرياح في الهواء، حرة أخيرًا.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>قالت:<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;جيتي عشاني!&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;أنا حرة تاني!&quot;<br></span></p><br></body></html>",
-      "global_font": 2.8,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>دارت روح الرياح في الهواء، حرة أخيرًا.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>قالت:</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;جيتي عشاني!&quot;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;أنا حرة تاني!&quot;<br></span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 2680,
       "y": 969,
-      "width": 608,
+      "width": 900,
       "height": 390
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ابتسمت <strong>[*الاسم*]</strong>، والنسيم رفع شعرها.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>الكهف خلفهم أصبح هادئًا.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>والمُسكِت المظلم اختفى.<br></span></p><br></body></html>",
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ابتسمت <strong>[*الاسم*]</strong>، والنسيم رفع شعرها.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>الكهف خلفهم أصبح هادئًا.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>والمُسكِت المظلم اختفى.</span></p><br></body></html>",
       "global_font": 2.8,
       "x": 2479,
       "y": 1329,
@@ -225,44 +225,44 @@
   ],
   "slide_13": [
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>عادت <strong>[*الاسم*]</strong> مع روح الرياح إلى المنزل.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>بدأت شجرة الأجنحة تتحرك.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>رقصت الأوراق…<br></span></p><br></body></html>",
-      "global_font": 2.8,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>عادت <strong>[*الاسم*]</strong> مع روح الرياح إلى المنزل.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>بدأت شجرة الأجنحة تتحرك.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>رقصت الأوراق…<br></span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 1895,
       "y": 73,
-      "width": 698,
+      "width": 898,
       "height": 310
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وتفتحت الزهور وهي تضيء.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وغنت الرياح عبر الشجرة.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>لقد استيقظت شجرة الأجنحة!<br></span></p><br></body></html>",
-      "global_font": 2.8,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وتفتحت الزهور وهي تضيء.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وغنت الرياح عبر الشجرة.</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>لقد استيقظت شجرة الأجنحة!</span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 1809,
       "y": 369,
-      "width": 488,
+      "width": 600,
       "height": 310
     }
   ],
   "slide_14": [
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>نزل جناحان لامعان من الشجرة.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كانا يلمعان في ضوء الشمس.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>قالت روح الرياح:<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;دول ليكي.&quot;<br></span></p><br></body></html>",
-      "global_font": 2.8,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>نزل جناحان لامعان من الشجرة.</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كانا يلمعان في ضوء الشمس.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>قالت روح الرياح:</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;دول ليكي.&quot;<br></span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 2650,
       "y": 66,
-      "width": 512,
+      "width": 800
       "height": 390
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;كنتِ شجاعة… وآمنتي… ورجّعتي الرياح.&quot;<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ابتسمت <strong>[*الاسم*]</strong> بسعادة كبيرة.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كانت الأجنحة مثالية.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>شمّ بوكي أنفه وقال:<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;أنا مش بعيّط… عندي حساسية من اللمعان بس!&quot;<br></span></p><br></body></html>",
-      "global_font": 2.3,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;كنتِ شجاعة… وآمنتي… ورجّعتي الرياح.&quot;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ابتسمت <strong>[*الاسم*]</strong> بسعادة كبيرة.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كانت الأجنحة مثالية.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>شمّ بوكي أنفه وقال:</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;أنا مش بعيّط… عندي حساسية من اللمعان بس!&quot;<br></span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 2391,
       "y": 1078,
-      "width": 667,
+      "width": 800,
       "height": 425
     }
   ],
   "slide_15": [
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>صفّقت الجنيات وداروا في الهواء.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>رقصت الفراشات حولهم.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>تطايرت بتلات ذهبية في السماء.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>الرياح عادت!<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كانت تدغدغ الأنوف… وتجعل الشعر يطير.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وعادت السعادة لأرض الجنيات.<br></span></p><br></body></html>",
-      "global_font": 2.8,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>صفّقت الجنيات وداروا في الهواء.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>رقصت الفراشات حولهم.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>تطايرت بتلات ذهبية في السماء.</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>الرياح عادت!</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>كانت تدغدغ الأنوف… وتجعل الشعر يطير.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>وعادت السعادة لأرض الجنيات.<br></span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 884,
       "y": 1030,
       "width": 678,
@@ -271,16 +271,16 @@
   ],
   "slide_16": [
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>حلّقت <strong>[*الاسم*]</strong> عاليًا في السماء.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>أجنحتها الجديدة تلمع وهي تدور.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ضحكت بينما الرياح تطير بجانبها.<br></span></p><br></body></html>",
-      "global_font": 2.8,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>حلّقت <strong>[*الاسم*]</strong> عاليًا في السماء.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>أجنحتها الجديدة تلمع وهي تدور.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>ضحكت بينما الرياح تطير بجانبها.</span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 2514,
       "y": 1234,
       "width": 557,
       "height": 310
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>أسفلها، كانت روح الرياح تغني بين الأشجار.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>همست <strong>[*الاسم*]</strong>:<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;شكرًا.&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>فهمست الرياح:<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;إنتي آمنتي… سمعتي… وحررتيني.&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>مرّ بوكي بجانبها مقلوبًا وقال:<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;أنا كمان آمنت… أغلب الوقت كنت آمن إني هنجو!&quot;<br></span></p><br></body></html>",
-      "global_font": 2.38,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>أسفلها، كانت روح الرياح تغني بين الأشجار.</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>همست <strong>[*الاسم*]</strong>:</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;شكرًا.&quot;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>فهمست الرياح:</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;إنتي آمنتي… سمعتي… وحررتيني.&quot;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>مرّ بوكي بجانبها مقلوبًا وقال:</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;أنا كمان آمنت… أغلب الوقت كنت آمن إني هنجو!&quot;<br></span></p><br></body></html>",
+      "global_font": 2.9,
       "x": 1116,
       "y": 545,
       "width": 898,
@@ -290,42 +290,42 @@
   "slide_17": [
     {
       "html": "<html><head/><body dir='rtl'><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:24px;'><strong>قصة تصبح ذكرى</strong><br></span></p><br></body></html>",
-      "global_font": 2.87,
+      "global_font": 2.9,
       "x": 557,
       "y": 138,
-      "width": 506,
+      "width": 700,
       "height": 189
     },
     {
       "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:14px;'>لأنهم لن يظلوا صغارًا إلى الأبد.<br><br></span></p></body></html>",
-      "global_font": 2.46,
+      "global_font": 2.9,
       "x": 553,
       "y": 443,
       "width": 457,
       "height": 146
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:14px;'>لقد صُنعت هذه القصة لتحتفظ باللحظات… .<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:14px;'>وتبطئ الزمن قليلً<br></span></p></body></html>",
-      "global_font": 1.73,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:14px;'>لقد صُنعت هذه القصة لتحتفظ باللحظات… .</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:14px;'>وتبطئ الزمن قليلً<br></span></p></body></html>",
+      "global_font": 2.9,
       "x": 533,
       "y": 525,
-      "width": 464,
+      "width": 800,
       "height": 146
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:14px;'>صُنعت باسم طفلك وخياله<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:14px;'>في كل صفحة.<br><br></span></p></body></html>",
-      "global_font": 1.88,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:14px;'>صُنعت باسم طفلك وخياله</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:14px;'>في كل صفحة.<br><br></span></p></body></html>",
+      "global_font": 2.9,
       "x": 634,
       "y": 658,
-      "width": 315,
+      "width": 800,
       "height": 187
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:center;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>هناك عوالم كثيرة لاكتشافها،<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>وكل قصة هي مغامرة خاصة بطفلك.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>أنا المغامرة التي لا يعيشها إلا طفلك.<br></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>وأعدك… سأكون من القصص المفضلة. <br><br> </span></p></body></html>",
-      "global_font": 0.87,
+      "html": "<html><head/><body dir='rtl'><p style='text-align:center;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>هناك عوالم كثيرة لاكتشافها،</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>وكل قصة هي مغامرة خاصة بطفلك.</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>أنا المغامرة التي لا يعيشها إلا طفلك.</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>وأعدك… سأكون من القصص المفضلة. <br><br> </span></p></body></html>",
+      "global_font": 2.9,
       "x": 592,
       "y": 906,
-      "width": 350,
+      "width": 600,
       "height": 273
     },
     {
