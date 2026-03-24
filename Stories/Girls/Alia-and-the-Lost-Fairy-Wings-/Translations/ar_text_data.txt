@@ -247,7 +247,7 @@
       "global_font": 2.9,
       "x": 2650,
       "y": 66,
-      "width": 800
+      "width": 800,
       "height": 390
     },
     {
