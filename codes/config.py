@@ -44,12 +44,12 @@ EN_REST_SLIDES_FONT = os.path.join(BASE_DIR, "Fonts/english fonts/KidzhoodDEMO-M
 AR_FIRST_SLIDE_FONT = os.path.join(BASE_DIR, "Fonts/arabic fonts/KidzhoodArabicDEMO-Light.otf")
 AR_REST_SLIDES_FONT = os.path.join(BASE_DIR, "Fonts/arabic fonts/KidzhoodArabicDEMO-Light.otf")
 
-#==================Openai Conf=====================
-
-OPENAI_API_KEY = "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"
-OPENAI_API_KEY = "sk-"
-
-OPENAI_MODEL = "gpt-4o"
+# ================== OpenAI (story generation) ==================
+# Set OPENAI_API_KEY in the environment or .env loaded by your process manager.
+# Do not commit real keys into this file.
+OPENAI_API_KEY = (os.environ.get("OPENAI_API_KEY") or "").strip()
+OPENAI_MODEL = (os.environ.get("OPENAI_MODEL") or "gpt-4o").strip()
+OPENAI_BASE_URL = (os.environ.get("OPENAI_BASE_URL") or "").strip()  # optional (Azure/custom)
 # ================== Folder Paths ==================
 STORIES_FOLDER = os.path.join(BASE_DIR, "Stories")
 CHARACTERS_FOLDER = os.path.join(BASE_DIR, "characters")

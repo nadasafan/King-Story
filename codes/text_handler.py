@@ -396,6 +396,26 @@ def read_text_data(file_path: str, user_name: str = "", language: str = "en") ->
         return None
 
 
+def apply_name_placeholders_to_text_data(data: dict, user_name: str, language: str = "en") -> dict:
+    """Apply [*NAME*] / [*Name*] / [*الاسم*] replacements after AI or manual HTML edits."""
+    if not user_name or not data:
+        return data
+    data = copy.deepcopy(data)
+    slide_index = 0
+    for _image_name, labels_list in data.items():
+        if isinstance(labels_list, list):
+            for label in labels_list:
+                if isinstance(label, dict) and "html" in label:
+                    label["html"] = replace_name_in_html(
+                        label["html"],
+                        user_name,
+                        is_first_slide=(slide_index == 0),
+                        language=language,
+                    )
+        slide_index += 1
+    return data
+
+
 # =========================
 # Rendering core
 # =========================

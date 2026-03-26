@@ -272,7 +272,7 @@
   "slide_16": [
     {
       "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Down below, the Wind Spirit sang in the trees.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot; Thank you, &quot; <strong>[*Name*]</strong> whispered.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp; &nbsp; &nbsp; &nbsp; The wind whispered back, &quot;You believed.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>You listened. You set me free.&quot; Buki zipped <br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; by, upside down.&quot;I believed too, mostly that <br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I'd survive all this flying!&quot;<br></span></p></body></html>",
-      "global_font": 2.8,
+      "global_font": 2.7,
       "x": 2309,
       "y": 16,
       "width": 834,
@@ -321,8 +321,8 @@
       "height": 218
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are many worlds to explore,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and each Magical Story title </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;becomes an adventure crafted</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>around your little one.<br><br> </span></p></body></html>",
-      "global_font": 1.06,
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are many worlds to explore,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and each Magical Story title </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;becomes an adventure crafted</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>&nbsp; &nbsp; &nbsp; around your little one.<br><br> </span></p></body></html>",
+      "global_font": 1.2,
       "x": 644,
       "y": 773,
       "width": 412,
@@ -330,115 +330,20 @@
     },
     {
       "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>I'm the adventure only your child can live.</span></p></body></html>",
-      "global_font": 0.94,
-      "x": 706,
+      "global_font": 1.2,
+      "x": 606,
       "y": 989,
       "width": 600,
       "height": 100
     },
     {
       "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:24px;'>And I promise, I'll be a favorite.</span></p></body></html>",
-      "global_font": 0.94,
-      "x": 706,
-      "y": 1089,
+      "global_font": 1.2,
+      "x": 606,
+      "y": 1050,
       "width": 500,
       "height": 100
-    },
-    {
-      "html": "<html><head/><body><p align='center'><span style='font-size:26pt; font-weight:700; color:#fdb0d6;'>Princess<br></span></p><br></body></html>",
-      "global_font": 0.41,
-      "x": 363,
-      "y": 515,
-      "width": 100,
-      "height": 116
-    },
-    {
-      "html": "<html><head/><body><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>[*NAME*]<br></span></p><br></body></html>",
-      "global_font": 1.16,
-      "x": 348,
-      "y": 529,
-      "width": 116,
-      "height": 121
-    },
-    {
-      "html": "<html><head/><body><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>and the<br></span></p><br></body></html>",
-      "global_font": 0.54,
-      "x": 345,
-      "y": 551,
-      "width": 100,
-      "height": 109
-    },
-    {
-      "html": "<html><head/><body><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>Gardens Forever<br></span></p><br></body></html>",
-      "global_font": 0.78,
-      "x": 337,
-      "y": 561,
-      "width": 129,
-      "height": 114
-    },
-    {
-      "html": "<html><head/><body><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>[*NAME*]<br></span></p><br></body></html>",
-      "global_font": 1.16,
-      "x": 1282,
-      "y": 881,
-      "width": 116,
-      "height": 121
-    },
-    {
-      "html": "<html><head/><body><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>Explores the Zoo<br></span></p><br></body></html>",
-      "global_font": 0.98,
-      "x": 1268,
-      "y": 577,
-      "width": 156,
-      "height": 118
-    },
-    {
-      "html": "<html><head/><body><p align='center'><span style='font-size:26pt; font-weight:700; color:#fdb0d6;'>WHEN<br></span></p><br></body></html>",
-      "global_font": 0.41,
-      "x": 348,
-      "y": 856,
-      "width": 100,
-      "height": 116
-    },
-    {
-      "html": "<html><head/><body><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>[*NAME*]<br></span></p><br></body></html>",
-      "global_font": 1.16,
-      "x": 1282,
-      "y": 905,
-      "width": 116,
-      "height": 121
-    },
-    {
-      "html": "<html><head/><body><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>METTHE TOOTH FAIRY<br></span></p><br></body></html>",
-      "global_font": 0.82,
-      "x": 327,
-      "y": 900,
-      "width": 165,
-      "height": 114
-    },
-    {
-      "html": "<html><head/><body><p align='center'><span style='font-size:26pt; font-weight:700; color:#fdb0d6;'>Princess<br></span></p><br></body></html>",
-      "global_font": 0.41,
-      "x": 1281,
-      "y": 561,
-      "width": 100,
-      "height": 116
-    },
-    {
-      "html": "<html><head/><body><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>[*NAME*],<br></span></p><br></body></html>",
-      "global_font": 0.86,
-      "x": 340,
-      "y": 879,
-      "width": 101,
-      "height": 116
-    },
-    {
-      "html": "<html><head/><body><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>We've Been Waiting For You <br></span></p><br></body></html>",
-      "global_font": 0.77,
-      "x": 1249,
-      "y": 929,
-      "width": 196,
-      "height": 114
     }
+
   ]
 }

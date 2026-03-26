@@ -6,6 +6,7 @@ import re
 import uuid
 import shutil
 import json
+import base64
 from pathlib import Path
 from urllib.parse import quote
 
@@ -24,7 +25,17 @@ from utils import crop_face_only, read_info_file, get_image_dimensions
 from api_segmiod import perform_head_swap
 from image_processor import process_head_swap, apply_text_to_images
 from pdf_generator import create_pdf_from_images
-from text_handler import load_custom_fonts, read_text_data
+from text_handler import (
+    load_custom_fonts,
+    read_text_data,
+    apply_name_placeholders_to_text_data,
+)
+from story_ai import (
+    generate_story_htmls_with_openai,
+    merge_html_arrays,
+    validate_story_text_non_empty,
+    get_openai_api_key,
+)
 
 print("### LOADED API SERVER FROM:", __file__, flush=True)
 
@@ -174,6 +185,10 @@ def _clear_single_attempt_env() -> None:
 
 def _is_try_image(stem: str) -> bool:
     return re.search(r"_try\d+$", stem, flags=re.IGNORECASE) is not None
+
+
+def _truthy_form(s: str) -> bool:
+    return (s or "").strip().lower() in ("1", "true", "yes", "y", "on")
 
 
 # =========================
@@ -523,10 +538,23 @@ def generate_story_pdf(
     language: str = Form(...),
     user_name: str = Form(...),
     images_folder: str = Form(...),
+    story_title: str = Form(""),
+    story_type: str = Form(""),
+    use_ai_story: str = Form("false"),
+    kid_image_base64: str = Form(""),
+    kid_image: UploadFile | None = File(None),
 ):
     print("\n### HIT /generate-story/pdf FROM:", __file__, flush=True)
-    print("### INPUT language:", language, "user_name:", user_name, flush=True)
+    print("### INPUT language:", language, "user_name (kid_name):", user_name, flush=True)
     print("### INPUT images_folder:", images_folder, flush=True)
+    print(
+        "### INPUT story_title:", story_title,
+        "story_type:", story_type,
+        "use_ai_story:", use_ai_story,
+        "kid_image present:", bool(kid_image and getattr(kid_image, "filename", None)),
+        "kid_image_base64 len:", len((kid_image_base64 or "").strip()),
+        flush=True,
+    )
 
     language = (language or "").strip().lower()
     if language not in ("en", "ar"):
@@ -615,15 +643,56 @@ def generate_story_pdf(
     print("### text_file:", text_file, flush=True)
     print("### fonts config first/rest:", selected_first_font, "|", selected_rest_font, flush=True)
 
-    # 5) render text (NO original_dims_dict => prevents double-scaling)
+    # 5) load story text (translation template and/or OpenAI), validate, render onto slides
     text_render_ok = False
     images_with_text = images_dict
+    story_text = ""
 
     try:
-        print("### [TEXT] parsing text data ...", flush=True)
-        text_data = read_text_data(str(text_file), user_name=user_name, language=language)
-        if not text_data:
-            raise RuntimeError("read_text_data returned None/empty")
+        print("### [TEXT] building text_data ...", flush=True)
+
+        if _truthy_form(use_ai_story):
+            if not get_openai_api_key():
+                raise HTTPException(
+                    status_code=400,
+                    detail="use_ai_story is true but OPENAI_API_KEY is not set. Set the environment variable or pass use_ai_story=false.",
+                )
+            template_raw = read_text_data(str(text_file), user_name="", language=language)
+            if not template_raw:
+                raise RuntimeError("read_text_data returned None/empty (template for AI path).")
+
+            image_bytes = None
+            if kid_image is not None and getattr(kid_image, "filename", None):
+                image_bytes = kid_image.file.read()
+                print("### [STORY] kid_image upload size bytes:", len(image_bytes or b""), flush=True)
+            elif (kid_image_base64 or "").strip():
+                raw_b64 = kid_image_base64.strip()
+                if raw_b64.startswith("data:"):
+                    raw_b64 = raw_b64.split(",", 1)[1]
+                try:
+                    image_bytes = base64.b64decode(raw_b64)
+                except Exception as e:
+                    raise HTTPException(status_code=400, detail=f"Invalid kid_image_base64: {e}") from e
+                print("### [STORY] kid_image_base64 decoded bytes:", len(image_bytes), flush=True)
+
+            new_htmls = generate_story_htmls_with_openai(
+                template_raw,
+                kid_name=user_name.strip(),
+                language=language,
+                story_title=(story_title or "").strip(),
+                story_type=(story_type or "").strip(),
+                image_bytes=image_bytes,
+            )
+            text_data = merge_html_arrays(template_raw, new_htmls)
+            text_data = apply_name_placeholders_to_text_data(text_data, user_name.strip(), language)
+        else:
+            text_data = read_text_data(str(text_file), user_name=user_name, language=language)
+            if not text_data:
+                raise RuntimeError("read_text_data returned None/empty")
+
+        story_text = validate_story_text_non_empty(text_data, min_plain_len=5)
+        print("### [STORY] final story_text plain length:", len(story_text), flush=True)
+        print("### [STORY] final story_text excerpt:", story_text[:500], flush=True)
 
         print("### [TEXT] load_custom_fonts ...", flush=True)
         fonts_loaded = load_custom_fonts(
@@ -638,7 +707,7 @@ def generate_story_pdf(
         images_with_text = apply_text_to_images(
             images_dict=images_dict,
             text_data=text_data,
-            original_dims_dict=original_dims_dict,   # ✅ correct scaling for text positions,   # IMPORTANT: prevent extra scaling
+            original_dims_dict=original_dims_dict,
             app=None,
             fonts_loaded=fonts_loaded,
             language=language,
@@ -653,11 +722,14 @@ def generate_story_pdf(
         text_render_ok = True
         print("### [TEXT] SUCCESS ✅", flush=True)
 
+    except HTTPException:
+        raise
     except Exception as e:
         print("### [TEXT] FAILED ❌ reason:", repr(e), flush=True)
-        print("### [TEXT] FALLBACK SAFE MODE (no text).", flush=True)
-        images_with_text = images_dict
-        text_render_ok = False
+        raise HTTPException(
+            status_code=500,
+            detail=f"Story text generation or rendering failed (no PDF produced): {e}",
+        ) from e
 
     # 6) order slides for PDF
     if res_map_list:
@@ -689,7 +761,7 @@ def generate_story_pdf(
     pdf_path = (RESULT_DIR / pdf_filename).resolve()
     print("### pdf_path:", pdf_path, flush=True)
 
-       # 8) create pdf
+    # 8) create pdf
     try:
         pdf_out_path = create_pdf_from_images(final_images, str(pdf_path), use_parallel=False)
     except TypeError:
@@ -709,9 +781,15 @@ def generate_story_pdf(
         "status": "success",
         "language": language,
         "user_name": user_name,
+        "kid_name": user_name,
+        "story_title": (story_title or "").strip(),
+        "story_type": (story_type or "").strip(),
+        "use_ai_story": _truthy_form(use_ai_story),
+        "story_text": story_text,
+        "story_text_length": len(story_text),
         "images_folder": str(img_dir.resolve()),
         "pdf_path": str(pdf_out_path),
         "pdf_url": _to_file_url(pdf_out_path),
         "text_rendered": text_render_ok,
-        "note": "Text rendered successfully." if text_render_ok else "Fallback SAFE MODE: PDF generated without text rendering.",
+        "note": "Story text validated and rendered on slides before PDF." if text_render_ok else "Unexpected: text_rendered false after success path.",
     }
