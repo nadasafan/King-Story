@@ -10,22 +10,36 @@ from datetime import datetime
 import uuid
 import os
 from pathlib import Path
-from fastapi import HTTPException
 
 
-
-def create_pdf_from_images(images_list, output_path, use_parallel=None):
+def create_pdf_from_images(
+    images_list,
+    output_path,
+    use_parallel=None,
+    story_text: str | None = None,
+    min_story_text_len: int = 0,
+):
     """
     إنشاء PDF من قائمة الصور باستخدام PIL
-    
+
     Args:
         images_list: قائمة الصور (OpenCV format - BGR)
         output_path: مسار ملف PDF الناتج
         use_parallel: غير مستخدم (للتوافق مع الكود القديم)
-    
+        story_text: optional plain story string; if min_story_text_len > 0, must meet length
+        min_story_text_len: if > 0, refuse to build PDF when story_text is missing/short
+
     Returns:
-        bool: True إذا نجح الإنشاء، False إذا فشل
+        output path str on success, False on failure
     """
+    if min_story_text_len > 0:
+        st = (story_text or "").strip()
+        if len(st) < min_story_text_len:
+            print(
+                f"ERROR: story_text too short for PDF (len={len(st)}, min={min_story_text_len})"
+            )
+            return False
+
     if not images_list:
         print("ERROR: No images for PDF")
         return False

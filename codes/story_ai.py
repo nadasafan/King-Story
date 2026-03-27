@@ -25,6 +25,9 @@ from typing import Any
 
 DEBUG = os.environ.get("STORY_AI_DEBUG", "0").strip().lower() in ("1", "true", "yes", "y")
 
+# Minimum plain-text length (HTML stripped) before PDF is allowed — bulletproof against empty overlays.
+MIN_STORY_TEXT_PLAIN_LEN = int(os.environ.get("MIN_STORY_TEXT_PLAIN_LEN", "20"))
+
 
 def _dlog(msg: str) -> None:
     if DEBUG:
@@ -43,6 +46,35 @@ def get_openai_model() -> str:
 def get_openai_base_url() -> str | None:
     u = (os.environ.get("OPENAI_BASE_URL") or "").strip()
     return u or None
+
+
+def log_text_image_coverage(text_data: dict[str, Any], images_dict: dict[str, Any]) -> None:
+    """
+    Diagnostics: retries only touch Head_swap images — text files are separate.
+    Logs mismatch between translation keys and available slide images (common cause of 'missing' text on PDF).
+    """
+    tk = set(text_data.keys())
+    ik = set(images_dict.keys())
+    missing_img = sorted(tk - ik)
+    missing_txt = sorted(ik - tk)
+    if missing_img:
+        print(
+            "### [COVERAGE] WARN text exists but NO image — story text NOT painted on these slides:",
+            missing_img,
+            flush=True,
+        )
+    if missing_txt:
+        print(
+            "### [COVERAGE] WARN image exists but NO text_data — slide has no story overlay:",
+            missing_txt,
+            flush=True,
+        )
+    overlap = tk & ik
+    print(
+        f"### [COVERAGE] slides with both text + image: {len(overlap)} "
+        f"(text_keys={len(tk)} image_keys={len(ik)})",
+        flush=True,
+    )
 
 
 def plain_text_from_text_data(text_data: dict[str, Any]) -> str:
@@ -222,10 +254,23 @@ Rewrite every html fragment with a fresh, coherent personalized story. Keep each
     return {str(k): [str(x) for x in v] for k, v in parsed.items() if str(k).startswith("slide_")}
 
 
-def validate_story_text_non_empty(text_data: dict[str, Any], min_plain_len: int = 5) -> str:
+def validate_story_text_non_empty(
+    text_data: dict[str, Any],
+    min_plain_len: int | None = None,
+) -> str:
+    if min_plain_len is None:
+        min_plain_len = MIN_STORY_TEXT_PLAIN_LEN
     plain = plain_text_from_text_data(text_data)
-    if len(plain.strip()) < min_plain_len:
-        raise RuntimeError(
-            f"Generated story text is too short (plain len={len(plain.strip())}, min={min_plain_len})."
+    L = len(plain.strip())
+    if L < min_plain_len:
+        print(
+            f"### [VALIDATION] FAIL min_story_length: plain_len={L} required={min_plain_len} "
+            f"(translation or AI output too short or HTML stripped to empty)",
+            flush=True,
         )
+        raise RuntimeError(
+            f"Story text validation failed: plain length {L} < required {min_plain_len}. "
+            "Check translation JSON, placeholders, or AI output."
+        )
+    print(f"### [VALIDATION] OK story plain text length={L} (min={min_plain_len})", flush=True)
     return plain

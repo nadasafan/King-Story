@@ -43,7 +43,7 @@ def test_template_story(story_root: Path, language: str, kid_name: str) -> None:
     print("### text_file:", text_file)
     data = read_text_data(str(text_file), user_name=kid_name, language=language)
     assert data, "read_text_data returned empty"
-    plain = validate_story_text_non_empty(data, min_plain_len=5)
+    plain = validate_story_text_non_empty(data)
     print("### OK template path, plain length:", len(plain))
     print("### excerpt:", plain[:240], "...")
 
@@ -76,7 +76,7 @@ def test_openai_stub() -> None:
     )
     merged = merge_html_arrays(template, new_htmls)
     merged = apply_name_placeholders_to_text_data(merged, "Sam", "en")
-    plain = validate_story_text_non_empty(merged, min_plain_len=5)
+    plain = validate_story_text_non_empty(merged)
     print("### OK OpenAI stub path, plain length:", len(plain))
     print("### excerpt:", plain[:400])
 

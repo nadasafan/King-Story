@@ -7,6 +7,7 @@ import uuid
 import shutil
 import json
 import base64
+import copy
 from pathlib import Path
 from urllib.parse import quote
 
@@ -35,6 +36,14 @@ from story_ai import (
     merge_html_arrays,
     validate_story_text_non_empty,
     get_openai_api_key,
+    log_text_image_coverage,
+    MIN_STORY_TEXT_PLAIN_LEN,
+)
+from pdf_story_pipeline import (
+    load_slide_bgr_images_for_pdf,
+    log_translation_file_event,
+    warn_pdf_order_missing,
+    base_slide_from_stem,
 )
 
 print("### LOADED API SERVER FROM:", __file__, flush=True)
@@ -183,10 +192,6 @@ def _clear_single_attempt_env() -> None:
     os.environ.pop("SEGMIND_ATTEMPT_INDEX", None)
 
 
-def _is_try_image(stem: str) -> bool:
-    return re.search(r"_try\d+$", stem, flags=re.IGNORECASE) is not None
-
-
 def _truthy_form(s: str) -> bool:
     return (s or "").strip().lower() in ("1", "true", "yes", "y", "on")
 
@@ -249,14 +254,6 @@ def _resize_to_resolution_map(images_dict: dict, resolution_slides: list) -> dic
     return out
 
 
-def _base_slide_from_stem(stem: str) -> str:
-    """
-    slide_03_try2 -> slide_03
-    slide_03      -> slide_03
-    """
-    return re.sub(r"_try\d+$", "", stem, flags=re.IGNORECASE)
-
-
 # =========================
 # 0) root ping (debug)
 # =========================
@@ -304,7 +301,7 @@ def confirm_slide(
     """
     Choose a *_tryN image (or any slide image) as FINAL:
     - copies chosen file over the base slide name (slide_XX.ext)
-    - PDF generator will automatically use it because it skips *_tryN
+    - PDF generation otherwise picks the latest slide_XX_tryN per slide when try files exist
     """
     print("### HIT /confirm-slide FROM:", __file__, flush=True)
     chosen_p = _guard_path_inside_base(chosen_slide_path)
@@ -315,7 +312,7 @@ def confirm_slide(
     if "Head_swap" not in [x.name for x in chosen_p.parents] and chosen_p.parent.name != "Head_swap":
         raise HTTPException(status_code=403, detail="confirm allowed only inside Head_swap.")
 
-    base_stem = _base_slide_from_stem(chosen_p.stem)  # slide_03_try2 -> slide_03
+    base_stem = base_slide_from_stem(chosen_p.stem)  # slide_03_try2 -> slide_03
     final_p = chosen_p.parent / f"{base_stem}{chosen_p.suffix}"
 
     try:
@@ -330,7 +327,7 @@ def confirm_slide(
         "final_slide_path": str(final_p.resolve()),
         "final_slide_url": _to_file_url(final_p.resolve()),
         "base_slide_stem": base_stem,
-        "note": "Confirmed. PDF will use final_slide_path (base name) not the _try image.",
+        "note": "Copied to base filename. PDF pipeline prefers latest *_tryN pixels per slide; base file is used when no tries exist.",
     }
 
 
@@ -447,6 +444,7 @@ async def regenerate_slide(
     print("### HIT /regenerate-slide FROM:", __file__, flush=True)
 
     slide_p = _guard_path_inside_base(slide_path)
+    print(f"### [RETRY] path={slide_p} stem={slide_p.stem}", flush=True)
 
     if face_image is None:
         folder = slide_p.parent
@@ -456,6 +454,7 @@ async def regenerate_slide(
         try_index = _next_try_index(folder, stem_base, ext)
         new_p = folder / f"{stem_base}_try{try_index}{ext}"
         shutil.copyfile(slide_p, new_p)
+        print(f"### [RETRY] duplicate_only stem_base={stem_base} try_index={try_index} -> {new_p.name}", flush=True)
 
         return {
             "status": "success",
@@ -485,6 +484,11 @@ async def regenerate_slide(
     final_slide = slide_p.parent / f"{stem_base}{slide_p.suffix}"
     ext = final_slide.suffix.lower() or ".jpg"
     try_index = _next_try_index(final_slide.parent, stem_base, ext)
+    print(
+        f"### [RETRY] ai_regenerate story_root={story_root} stem_base={stem_base} "
+        f"try_index={try_index} scene={scene_path.name}",
+        flush=True,
+    )
 
     _set_single_attempt_env(try_index)
     try:
@@ -545,6 +549,11 @@ def generate_story_pdf(
     kid_image: UploadFile | None = File(None),
 ):
     print("\n### HIT /generate-story/pdf FROM:", __file__, flush=True)
+    print(
+        "### [CLIENT] generate-story/pdf (Swagger and browser multipart use the same handler; "
+        "frontend must send multipart/form-data with language, user_name, images_folder).",
+        flush=True,
+    )
     print("### INPUT language:", language, "user_name (kid_name):", user_name, flush=True)
     print("### INPUT images_folder:", images_folder, flush=True)
     print(
@@ -572,6 +581,10 @@ def generate_story_pdf(
 
     print("### story_root:", story_root, flush=True)
 
+    # Retry endpoints toggle SEGMIND_* env; PDF generation must not inherit stale attempt state.
+    _clear_single_attempt_env()
+    print("### [PDF] cleared SEGMIND single-attempt env (independent of retry count)", flush=True)
+
     # 1) read story info.json FROM story_root/info.txt (the one you mentioned)
     story_info = _read_story_info_json(story_root)
     res_map_list = story_info.get("resolution_slides") or []
@@ -589,32 +602,21 @@ def generate_story_pdf(
 
     pdf_name_tpl = (en_story_name or "Story_EN") if language == "en" else (ar_story_name or "Story_AR")
 
-    # 2) load images (skip _try)
-    images_dict = {}
-    all_stems = []
+    # 2) One image per slide_XX: use LATEST slide_XX_tryN when tries exist (matches 1000+ retries), else base file
+    images_dict, all_stems, pdf_image_sources = load_slide_bgr_images_for_pdf(img_dir)
 
-    for f in sorted(img_dir.iterdir()):
-        if not (f.is_file() and f.suffix.lower() in (".jpg", ".jpeg", ".png")):
-            continue
-
-        all_stems.append(f.stem)
-        if _is_try_image(f.stem):
-            continue
-
-        img = cv2.imread(str(f))
-        if img is None:
-            continue
-
-        images_dict[f.stem] = img
-
-    print("### images on disk:", len(all_stems), flush=True)
-    print("### usable images (no _try):", len(images_dict), flush=True)
+    print("### images on disk (all stems):", len(all_stems), flush=True)
+    print("### usable slides (latest try or base per slide):", len(images_dict), flush=True)
+    print("### [PDF_IMG] per-slide source:", json.dumps(pdf_image_sources, ensure_ascii=False)[:4000], flush=True)
     # ✅ keep original dims BEFORE any resize (w, h)
     original_dims_dict = {k: (v.shape[1], v.shape[0]) for k, v in images_dict.items()}
     print("### original dims sample:", list(original_dims_dict.items())[:3], flush=True)
 
     if not images_dict:
-        raise HTTPException(status_code=400, detail="No usable images found (after skipping _tryN).")
+        raise HTTPException(
+            status_code=400,
+            detail="No readable slide images in images_folder (need slide_XX.* or slide_XX_tryN.*).",
+        )
 
     # 3) Resize FIRST using story_root/info.txt resolution_slides
     if res_map_list:
@@ -657,6 +659,7 @@ def generate_story_pdf(
                     status_code=400,
                     detail="use_ai_story is true but OPENAI_API_KEY is not set. Set the environment variable or pass use_ai_story=false.",
                 )
+            log_translation_file_event(text_file, phase="ai_template_read")
             template_raw = read_text_data(str(text_file), user_name="", language=language)
             if not template_raw:
                 raise RuntimeError("read_text_data returned None/empty (template for AI path).")
@@ -686,11 +689,25 @@ def generate_story_pdf(
             text_data = merge_html_arrays(template_raw, new_htmls)
             text_data = apply_name_placeholders_to_text_data(text_data, user_name.strip(), language)
         else:
+            log_translation_file_event(text_file, phase="template_read")
             text_data = read_text_data(str(text_file), user_name=user_name, language=language)
             if not text_data:
                 raise RuntimeError("read_text_data returned None/empty")
 
-        story_text = validate_story_text_non_empty(text_data, min_plain_len=5)
+        text_data = copy.deepcopy(text_data)
+
+        # Optional second read from disk (same as a fresh Swagger submit) — disables AI path merge
+        if os.environ.get("STORY_TEXT_RELOAD_BEFORE_PDF", "").strip().lower() in ("1", "true", "yes") and not _truthy_form(use_ai_story):
+            log_translation_file_event(text_file, phase="reload_before_pdf")
+            reloaded = read_text_data(str(text_file), user_name=user_name.strip(), language=language)
+            if not reloaded:
+                raise RuntimeError("STORY_TEXT_RELOAD_BEFORE_PDF: re-read translation file failed")
+            text_data = copy.deepcopy(reloaded)
+            print("### [TRANSLATIONS] applied reload_before_pdf copy (deepcopy)", flush=True)
+
+        log_text_image_coverage(text_data, images_dict)
+
+        story_text = validate_story_text_non_empty(text_data, min_plain_len=MIN_STORY_TEXT_PLAIN_LEN)
         print("### [STORY] final story_text plain length:", len(story_text), flush=True)
         print("### [STORY] final story_text excerpt:", story_text[:500], flush=True)
 
@@ -734,6 +751,7 @@ def generate_story_pdf(
     # 6) order slides for PDF
     if res_map_list:
         ordered_names = [str(x[0]) for x in res_map_list]
+        warn_pdf_order_missing(ordered_names, images_with_text)
         final_images = [images_with_text[n] for n in ordered_names if n in images_with_text]
     else:
         final_images = [images_with_text[name] for name in sorted(images_with_text.keys())]
@@ -761,11 +779,37 @@ def generate_story_pdf(
     pdf_path = (RESULT_DIR / pdf_filename).resolve()
     print("### pdf_path:", pdf_path, flush=True)
 
+    # Hard gate: story_text must stay non-empty after all image/text steps (no silent blank PDF)
+    print(
+        "### [PDF_GATE] pre-build story_text_len=",
+        len(story_text),
+        "min_required=",
+        MIN_STORY_TEXT_PLAIN_LEN,
+        flush=True,
+    )
+    if len(story_text.strip()) < MIN_STORY_TEXT_PLAIN_LEN:
+        raise HTTPException(
+            status_code=500,
+            detail=f"story_text too short ({len(story_text.strip())} chars) before PDF build; minimum {MIN_STORY_TEXT_PLAIN_LEN}.",
+        )
+
     # 8) create pdf
     try:
-        pdf_out_path = create_pdf_from_images(final_images, str(pdf_path), use_parallel=False)
+        pdf_out_path = create_pdf_from_images(
+            final_images,
+            str(pdf_path),
+            use_parallel=False,
+            story_text=story_text,
+            min_story_text_len=MIN_STORY_TEXT_PLAIN_LEN,
+        )
     except TypeError:
-        pdf_out_path = create_pdf_from_images(final_images, str(pdf_path), use_parallel=None)
+        pdf_out_path = create_pdf_from_images(
+            final_images,
+            str(pdf_path),
+            use_parallel=None,
+            story_text=story_text,
+            min_story_text_len=MIN_STORY_TEXT_PLAIN_LEN,
+        )
 
     if not pdf_out_path:
         raise HTTPException(status_code=500, detail="Failed to generate PDF.")
@@ -785,11 +829,14 @@ def generate_story_pdf(
         "story_title": (story_title or "").strip(),
         "story_type": (story_type or "").strip(),
         "use_ai_story": _truthy_form(use_ai_story),
+        # Full plain-text story for frontend (same field Swagger and browser clients get)
         "story_text": story_text,
+        "final_story_text": story_text,
         "story_text_length": len(story_text),
+        "min_story_text_length_required": MIN_STORY_TEXT_PLAIN_LEN,
         "images_folder": str(img_dir.resolve()),
         "pdf_path": str(pdf_out_path),
         "pdf_url": _to_file_url(pdf_out_path),
         "text_rendered": text_render_ok,
-        "note": "Story text validated and rendered on slides before PDF." if text_render_ok else "Unexpected: text_rendered false after success path.",
+        "note": "Story text validated, rendered on slides, and passed to PDF builder." if text_render_ok else "Unexpected: text_rendered false after success path.",
     }
