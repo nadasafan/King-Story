@@ -563,10 +563,20 @@ def render_image(
             base_h, base_w = base_cv.shape[:2]
 
         # Convert base_cv -> QImage
-        rgb = cv2.cvtColor(base_cv, cv2.COLOR_BGR2RGB)
-        qimg = QImage(rgb.data, base_w, base_h, 3 * base_w, QImage.Format_RGB888)
+        # Qt يقرأ المخزن المؤقت مباشرة: لازم C-contiguous و bytesPerLine صحيح وإلا الصورة/النص تبان فاضية أو غلط (خصوصاً على سيرفر/ويندوز).
+        rgb = np.ascontiguousarray(cv2.cvtColor(base_cv, cv2.COLOR_BGR2RGB))
+        rh, rw = rgb.shape[:2]
+        bytes_per_line = int(rgb.strides[0])
+        if bytes_per_line != 3 * rw and DEBUG:
+            _dprint(f"[Render] rgb row stride={bytes_per_line} (expected {3 * rw})")
+        qimg = QImage(rgb.data, rw, rh, bytes_per_line, QImage.Format_RGB888)
+        if qimg.isNull():
+            if not silent:
+                print("[Render] QImage from RGB buffer is null (invalid dimensions or buffer).")
+            return None
+        qimg = qimg.copy()
 
-        out_img = QImage(base_w, base_h, QImage.Format_ARGB32_Premultiplied)
+        out_img = QImage(rw, rh, QImage.Format_ARGB32_Premultiplied)
         out_img.fill(Qt.transparent)
 
         painter = QPainter(out_img)

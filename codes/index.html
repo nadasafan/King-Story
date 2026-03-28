@@ -119,6 +119,7 @@
 <div class="footer">
   Tips:
   <ul>
+    <li>لازم <strong>API Base</strong> يكون نفس سيرفر الـ Swagger (مثلاً http://127.0.0.1:8000) — وإلا الـ PDF يتحمّل من سيرفر تاني أو قديم.</li>
     <li>لو الصور مش بتظهر: تأكد إن CORS متضاف + /file شغال.</li>
     <li>Regenerate: من أي صورة “slide_XX.jpg” اضغط Regenerate (AI) أو Duplicate (no face).</li>
   </ul>
@@ -408,12 +409,22 @@
     fd.append("language", language);
     fd.append("user_name", userName);
     fd.append("images_folder", imagesFolder);
+    // نفس حقول Swagger حتى يتطابق الطلب حرفياً مع Try it out
+    fd.append("story_title", "");
+    fd.append("story_type", "");
+    fd.append("use_ai_story", "false");
+    fd.append("kid_image_base64", "");
 
     setStatus("Generating PDF...", "warn");
-    logLine("[PDF] sending...");
+    logLine("[PDF] baseUrl=" + base());
+    logLine("[PDF] images_folder (" + imagesFolder.length + " chars): " + imagesFolder);
 
     try {
-      const res = await fetch(base() + "/generate-story/pdf", { method: "POST", body: fd });
+      const res = await fetch(base() + "/generate-story/pdf", {
+        method: "POST",
+        body: fd,
+        cache: "no-store",
+      });
       const data = await safeJson(res);
 
       if (!res.ok) {
@@ -423,12 +434,18 @@
         return;
       }
 
+      if (data.text_rendered === false) {
+        logLine("[PDF] WARN: text_rendered is false — تحقق من السيرفر");
+      }
+
       setStatus("PDF ready", "ok");
-      logLine("[PDF] OK: " + JSON.stringify(data, null, 2));
+      logLine("[PDF] OK: story_text_length=" + (data.story_text_length || "?") + " text_rendered=" + data.text_rendered);
 
       const a = $("pdfLink");
       a.style.display = "inline-flex";
-      a.href = base() + data.pdf_url;
+      // كسر كاش المتصفح: أحياناً يُفتح PDF قديم من غير نص
+      const sep = (data.pdf_url || "").includes("?") ? "&" : "?";
+      a.href = base() + data.pdf_url + sep + "_t=" + Date.now();
       a.textContent = "Open PDF";
 
     } catch (e) {
