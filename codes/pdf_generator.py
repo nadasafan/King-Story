@@ -2,6 +2,9 @@
 """
 📄 PDF Generator Module
 تحويل الصور إلى PDF باستخدام PIL
+
+قاعدة المشروع: لا يُنشأ ملف قصة (PDF) بدون نص قصة صالح.
+Override طارئ فقط: ALLOW_PDF_WITHOUT_STORY_TEXT=1
 """
 
 import cv2
@@ -11,13 +14,15 @@ import uuid
 import os
 from pathlib import Path
 
+from story_ai import MIN_STORY_TEXT_PLAIN_LEN
+
 
 def create_pdf_from_images(
     images_list,
     output_path,
     use_parallel=None,
     story_text: str | None = None,
-    min_story_text_len: int = 0,
+    min_story_text_len: int | None = None,
 ):
     """
     إنشاء PDF من قائمة الصور باستخدام PIL
@@ -26,17 +31,33 @@ def create_pdf_from_images(
         images_list: قائمة الصور (OpenCV format - BGR)
         output_path: مسار ملف PDF الناتج
         use_parallel: غير مستخدم (للتوافق مع الكود القديم)
-        story_text: optional plain story string; if min_story_text_len > 0, must meet length
-        min_story_text_len: if > 0, refuse to build PDF when story_text is missing/short
+        story_text: النص المسطح للقصة (إلزامي ما لم يُفعّل التجاوز الطارئ)
+        min_story_text_len: الحد الأدنى لطول النص؛ الافتراضي من story_ai
 
     Returns:
         output path str on success, False on failure
     """
-    if min_story_text_len > 0:
+    allow_no_text = os.environ.get("ALLOW_PDF_WITHOUT_STORY_TEXT", "").strip().lower() in (
+        "1",
+        "true",
+        "yes",
+    )
+    if min_story_text_len is None:
+        min_story_text_len = MIN_STORY_TEXT_PLAIN_LEN
+
+    if not allow_no_text:
         st = (story_text or "").strip()
+        if not st:
+            print(
+                "ERROR: لا يُنشأ PDF للقصة بدون نص. / Cannot create story PDF: story_text is empty.",
+                flush=True,
+            )
+            return False
         if len(st) < min_story_text_len:
             print(
-                f"ERROR: story_text too short for PDF (len={len(st)}, min={min_story_text_len})"
+                f"ERROR: النص أقصر من الحد الأدنى ({min_story_text_len}). "
+                f"story_text len={len(st)}. / Story text too short for PDF.",
+                flush=True,
             )
             return False
 

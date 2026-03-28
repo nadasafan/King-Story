@@ -243,7 +243,11 @@ def _apply_text_sequential(images_dict, text_data, original_dims_dict, app, font
             language=language,   # ✅ مهم عشان لو عربي يعمل flip جوّه text_handler
         )
 
-        processed_images[image_name] = img_with_text if img_with_text is not None else img
+        if img_with_text is None:
+            raise RuntimeError(
+                f"render_image returned None for {image_name} — refusing silent fallback to image without text."
+            )
+        processed_images[image_name] = img_with_text
 
     return processed_images
 

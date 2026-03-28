@@ -25,6 +25,7 @@ from ui_selector import (
 from text_handler import load_custom_fonts, read_text_data
 from image_processor import process_head_swap, apply_text_to_images, apply_resolution_to_images
 from pdf_generator import create_pdf_from_images
+from story_ai import validate_story_text_non_empty
 
 
 def _print_header():
@@ -166,12 +167,13 @@ def main():
     if not final_images:
         sys.exit(1)
 
-    # PDF export
+    # PDF export — لا يُنشأ ملف بدون نص قصة مُتحقق
+    story_plain = validate_story_text_non_empty(text_data)
     os.makedirs(RESULT_FOLDER, exist_ok=True)
     pdf_filename = _build_pdf_filename(pdf_name, language, user_name)
     pdf_path = os.path.join(RESULT_FOLDER, pdf_filename)
 
-    success = create_pdf_from_images(final_images, pdf_path)
+    success = create_pdf_from_images(final_images, pdf_path, story_text=story_plain)
 
     if app:
         app.quit()

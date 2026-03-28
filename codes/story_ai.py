@@ -254,6 +254,44 @@ Rewrite every html fragment with a fresh, coherent personalized story. Keep each
     return {str(k): [str(x) for x in v] for k, v in parsed.items() if str(k).startswith("slide_")}
 
 
+def assert_pdf_sequence_has_renderable_text(
+    text_data: dict[str, Any],
+    images_dict: dict[str, Any],
+    ordered_slide_names: list[str],
+) -> None:
+    """
+    يمنع إخراج PDF بدون نص مرسوم على أي شريحة في التسلسل الفعلي (بعد head swap أو ريتراي كثير).
+    Blocks PDF if no slide in the output sequence has non-empty HTML labels + matching image.
+    """
+    if not ordered_slide_names:
+        raise RuntimeError(
+            "لا يمكن إنشاء PDF: لا يوجد ترتيب شرائح. / Cannot create PDF: empty slide order."
+        )
+    in_pdf = [n for n in ordered_slide_names if n in images_dict]
+    if not in_pdf:
+        raise RuntimeError(
+            "لا يمكن إنشاء PDF: ترتيب الشرائح لا يطابق الصور المحمّلة. "
+            "Cannot create PDF: slide order does not match loaded images."
+        )
+    slides_with_text = 0
+    for slide in in_pdf:
+        if slide not in text_data:
+            continue
+        excerpt = plain_text_from_text_data({slide: text_data[slide]})
+        if excerpt.strip():
+            slides_with_text += 1
+    if slides_with_text == 0:
+        raise RuntimeError(
+            "لا يمكن إنشاء PDF: لا يوجد نص قابل للرسم على أي شريحة في الملف النهائي. "
+            "Cannot create PDF: no renderable text on any slide in the PDF sequence."
+        )
+    print(
+        f"### [PDF_TEXT_CHECK] OK: {slides_with_text} slide(s) in PDF sequence have overlay text "
+        f"(of {len(in_pdf)} pages with images)",
+        flush=True,
+    )
+
+
 def validate_story_text_non_empty(
     text_data: dict[str, Any],
     min_plain_len: int | None = None,

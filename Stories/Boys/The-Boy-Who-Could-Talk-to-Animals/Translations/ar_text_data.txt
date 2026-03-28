@@ -1,0 +1,340 @@
+{
+  "slide_01": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:26pt; font-weight:700; color:#fdb0d6;'>شقيق [*الاسم*]<br></span></p><p align='center'><span style=' font-size:26pt; font-weight:700; color:#fdb0d6;'>الجديد<br></span></p></body></html>",
+      "global_font": 2.58,
+      "x": 494,
+      "y": 185,
+      "width": 566,
+      "height": 288
+    }
+  ],
+  "slide_02": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#ffffff;'>كان <strong>[*الاسم*]</strong> ولدًا صغيرًا سعيدًا.</span><br><span style=' font-size:14pt; color:#f6f5f4;'>كان يحب الرقص بجواربه وصنع وجوهٍ مضحكة في المرآة.</span></p></body></html>",
+      "global_font": 2.41,
+      "x": 68,
+      "y": 551,
+      "width": 800,
+      "height": 308
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#ffffff;'>كل يوم كان مغامرةً جديدة لـ</span><span style=' font-size:14pt; color:#f6f5f4;'><strong>[*الاسم*]</strong>!</span></p></body></html>",
+      "global_font": 2.37,
+      "x": 287,
+      "y": 880,
+      "width": 640,
+      "height": 156
+    }
+  ],
+  "slide_03": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>في صباح أحد الأيام جلست أمه وقالت:</span></p></body></html>",
+      "global_font": 2.0,
+      "x": 2736,
+      "y": 166,
+      "width": 490,
+      "height": 134
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>«<strong>[*الاسم*]</strong>، لدينا بعض الأخبار المثيرة!»</span></p></body></html>",
+      "global_font": 2.2,
+      "x": 2697,
+      "y": 314,
+      "width": 474,
+      "height": 158
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>اتسعت عينا <strong>[*الاسم*]</strong> وقال:</span></p></body></html>",
+      "global_font": 2.3,
+      "x": 2203,
+      "y": 1100,
+      "width": 500,
+      "height": 166
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>«هل سنحصل على كلبٍ صغير؟»</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>ضحكت أمه وقالت:</span></p></body></html>",
+      "global_font": 2.5,
+      "x": 1755,
+      "y": 1200,
+      "width": 800,
+      "height": 170
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>«لا، ستصبح أخًا أكبر!»</span></p></body></html>",
+      "global_font": 2.2,
+      "x": 2000,
+      "y": 1440,
+      "width": 456,
+      "height": 154
+    }
+  ],
+  "slide_04": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#ffffff;'><strong>«طفل؟»</strong><br></span><span style=' font-size:14pt; color:#deddda;'><em>سأل [*الاسم*].</em></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 830,
+      "y": 984,
+      "width": 436,
+      "height": 206
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:12pt; color:#ffffff;'>«تقصدين طفلًا صغيرًا جدًا بأصابع قدمٍ صغيرة؟»</span></p><p align='right'><span style=' font-size:12pt; color:#ffffff;'><em>هزّت أمه رأسها قائلة:</em></span></p><p align='right'><span style=' font-size:12pt; color:#ffffff;'>«نعم! سيكون لدينا طفل صغير جدًا.»</span></p></body></html>",
+      "global_font": 2.64,
+      "x": 168,
+      "y": 1221,
+      "width": 924,
+      "height": 269
+    }
+  ],
+  "slide_05": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#ffffff;'><strong>[*الاسم*]</strong></span><br/><span style=' font-size:14pt; color:#f6f5f4;'>لم يكن متأكدًا كيف يشعر.</span></p><p align='right'><span style=' font-size:14pt; color:#f6f5f4;'>هل سيأكل الطفل كعك [*الاسم*]؟</span></p><p align='right'><span style=' font-size:14pt; color:#f6f5f4;'>هل سينام الطفل في سريره؟</span></p><p align='right'><span style=' font-size:14pt; color:#f6f5f4;'>هل سيلعب بسيارة السباق الحمراء المفضلة لديه؟</span></p></body></html>",
+      "global_font": 2.2,
+      "x": 1700,
+      "y": 700,
+      "width": 1100,
+      "height": 340
+    }
+  ],
+  "slide_06": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#deddda;'>قالت أمه:</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'>«لا تقلق.</span></p><p align='center'><span style=' font-size:14pt; color:#deddda;'>سيكون للطفل سريره الخاص وألعابه الخاصة.</span></p><p align='center'><span style=' font-size:14pt; color:#deddda;'>وأنت ستكون البطل الخارق، الأخ الأكبر!»</span></p><p align='center'><span style=' font-size:14pt; color:#deddda;'><br/><strong>[*الاسم*]</strong> ابتسم.</span></p><p align='center'><span style=' font-size:14pt; color:#deddda;'>أعجبه ذلك.</span></p></body></html>",
+      "global_font": 2.75,
+      "x": 440,
+      "y": 520,
+      "width": 780,
+      "height": 380
+    }
+  ],
+  "slide_07": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#ffffff;'><strong>[*الاسم*]</strong></span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>ركض ليخبر دبدوبه:</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>«خمن ماذا سيحدث؟ طفل قادم!»</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>«آمل أن يحب الطفل سيارات السباق والكاتشب على السباغيتي!»</span></p></body></html>",
+      "global_font": 2.65,
+      "x": 2080,
+      "y": 900,
+      "width": 580,
+      "height": 360
+    }
+  ],
+  "slide_08": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#deddda;'>ساعد <strong>[*الاسم*]</strong> أمه في طلاء غرفة الطفل باللون الأزرق، وعلّق النجوم الصغيرة على الحائط.</span></p><p align='center'><span style=' font-size:14pt; color:#deddda;'><br/>حتى إنه اختار دمية دب ناعمة وكتابًا عن الحيوانات.</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'><br/><strong>«سيحب هذا الطفل المكان هنا.»</strong></span> <span style=' font-size:14pt; color:#deddda;'><em>قال [*الاسم*].</em></span></p></body></html>",
+      "global_font": 2.7,
+      "x": 300,
+      "y": 580,
+      "width": 800,
+      "height": 360
+    }
+  ],
+  "slide_09": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>في إحدى الليالي، هرعت أمي وأبي إلى المستشفى.</span></p></body></html>",
+      "global_font": 2.6,
+      "x": 2480,
+      "y": 180,
+      "width": 720,
+      "height": 140
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#ffffff;'><strong>[*الاسم*]</strong></span> <span style=' font-size:14pt; color:#deddda;'>بقي مع جدته، التي صنعت له فطائر على شكل قلوب.</span></p></body></html>",
+      "global_font": 2.5,
+      "x": 2500,
+      "y": 420,
+      "width": 480,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#deddda;'>«أعتقد أن الطفل قادم!»</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'><strong>[*الاسم*]</strong></span> <span style=' font-size:14pt; color:#deddda;'>صرخ.</span></p></body></html>",
+      "global_font": 2.7,
+      "x": 2260,
+      "y": 1280,
+      "width": 720,
+      "height": 160
+    }
+  ],
+  "slide_10": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>في صباح اليوم التالي، اتصل أبي بأخبار مفرحة.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>قال:</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>«<strong>[*الاسم*]</strong>، لديك أخٌ صغير! للطفل أصابع صغيرة وبكاءٌ عالٍ جدًا!»</span></p></body></html>",
+      "global_font": 2.7,
+      "x": 200,
+      "y": 200,
+      "width": 920,
+      "height": 480
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#ffffff;'><strong>[*الاسم*]</strong></span></p><p align='center'><span style=' font-size:14pt; color:#deddda;'>قفز صعودًا وهبوطًا.</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'><br/>«<strong>أنا الأخ الأكبر!</strong></span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'><strong>مرحى!</strong>»</span></p></body></html>",
+      "global_font": 2.7,
+      "x": 300,
+      "y": 980,
+      "width": 920,
+      "height": 320
+    }
+  ],
+  "slide_11": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>عندما عادت أمه إلى المنزل،</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>نظر <strong>[*الاسم*]</strong> إلى السرير.</span></p></body></html>",
+      "global_font": 2.5,
+      "x": 2660,
+      "y": 200,
+      "width": 520,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>كان هناك الطفل…</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>صغيرًا ومنكمشًا، ملفوفًا في بطانية ناعمة.</span></p></body></html>",
+      "global_font": 2.5,
+      "x": 2550,
+      "y": 520,
+      "width": 540,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#ffffff;'><strong>[*الاسم*]</strong></span> <span style=' font-size:14pt; color:#deddda;'><em>همس:</em></span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>«مرحبًا يا صغيري. أنا أخوك [*الاسم*].</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>أنت لطيف جدًا.»</span></p></body></html>",
+      "global_font": 2.45,
+      "x": 2360,
+      "y": 1180,
+      "width": 480,
+      "height": 260
+    }
+  ],
+  "slide_12": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>لكن الطفل بكى… كثيرًا.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>بكى عندما شعر بالجوع.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>وبكى عندما شعر بالنعاس.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>حتى أنه بكى عندما أصابته الزغطة!</span></p></body></html>",
+      "global_font": 2.5,
+      "x": 2120,
+      "y": 280,
+      "width": 500,
+      "height": 250
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#ffffff;'><strong>[*الاسم*]</strong></span> <span style=' font-size:14pt; color:#deddda;'>غطّى أذنيه بقبعة الأرنب.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>«وااا… وااا!»</span></p></body></html>",
+      "global_font": 2.55,
+      "x": 2260,
+      "y": 720,
+      "width": 500,
+      "height": 220
+    }
+  ],
+  "slide_13": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#ffffff;'><strong>[*الاسم*]</strong></span> <span style=' font-size:14pt; color:#deddda;'>أعطى الطفل لعبته المفضلة الثانية.</span></p></body></html>",
+      "global_font": 2.55,
+      "x": 1100,
+      "y": 109,
+      "width": 520,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#deddda;'><em>(لكن ليس سيارة السباق الحمراء… لم يكن مستعدًا للتخلي عنها بعد.)</em></span></p></body></html>",
+      "global_font": 2.3,
+      "x": 1100,
+      "y": 290,
+      "width": 720,
+      "height": 130
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>ثم في يومٍ ما، نظر الطفل إلى <strong>[*الاسم*]</strong> وابتسم…</span></p></body></html>",
+      "global_font": 2.55,
+      "x": 2000,
+      "y": 960,
+      "width": 620,
+      "height": 130
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>قال <strong>[*الاسم*]</strong> بحماس:</span></p></body></html>",
+      "global_font": 2.55,
+      "x": 2000,
+      "y": 1110,
+      "width": 620,
+      "height": 70
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'><em>«إنه يحبني! حقًا يحبني!»</em></span></p></body></html>",
+      "global_font": 2.7,
+      "x": 1900,
+      "y": 1195,
+      "width": 620,
+      "height": 110
+    }
+  ],
+  "slide_14": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>غنّى <strong>[*الاسم*]</strong> للطفل أغاني مضحكة عن الجوارب والضفادع.</span></p></body></html>",
+      "global_font": 2.75,
+      "x": 400,
+      "y": 300,
+      "width": 820,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>وصنع وجوهًا مضحكة.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>ضحك الطفل وسال لعابه.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>فضحك <strong>[*الاسم*]</strong> أيضًا وقال:</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>«أنت لست سيئًا جدًا!»</span></p></body></html>",
+      "global_font": 2.65,
+      "x": 180,
+      "y": 520,
+      "width": 800,
+      "height": 280
+    }
+  ],
+  "slide_15": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>في وقت النوم، جلس <strong>[*الاسم*]</strong> بجانب السرير وحمل الطفل.</span></p></body></html>",
+      "global_font": 2.65,
+      "x": 2700,
+      "y": 260,
+      "width": 560,
+      "height": 240
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#deddda;'>وهمس:</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'><strong>«ليلة سعيدة يا صغيري.»</strong></span></p></body></html>",
+      "global_font": 2.6,
+      "x": 2720,
+      "y": 520,
+      "width": 520,
+      "height": 240
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>عانقته أمه وقالت:</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>«أنت تقوم بعمل رائع.»</span></p></body></html>",
+      "global_font": 2.55,
+      "x": 2420,
+      "y": 780,
+      "width": 560,
+      "height": 160
+    }
+  ],
+  "slide_16": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>الآن، يفعل <strong>[*الاسم*]</strong> وأخوه الصغير كل شيء معًا: يقرآن القصص، ويرشّان الماء في البرك، ويضحكان على الفقاعات.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2200,
+      "y": 1180,
+      "width": 780,
+      "height": 300
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#deddda;'>قال <strong>[*الاسم*]</strong>:</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'><strong>«أن تكون أخًا أكبر هو أفضل عمل في العالم!»</strong></span></p></body></html>",
+      "global_font": 2.65,
+      "x": 980,
+      "y": 120,
+      "width": 720,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#deddda;'>أما الطفل… فكان يبتسم ويصدر أصواتًا صغيرة.</span></p></body></html>",
+      "global_font": 2.6,
+      "x": 980,
+      "y": 420,
+      "width": 580,
+      "height": 160
+    }
+  ],
+  "slide_17": [
+    {
+      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:13pt; color:#ffffff;'>عندما اكتشف <strong>[*الاسم*]</strong> أنه سيصبح أخًا أكبر، لم يعرف ماذا يشعر. لكن مع الحب، والضحك، وبعض الأغاني المضحكة، تعلّم أن كونك أخًا أكبر هو أفضل وظيفة على الإطلاق. إنها قصة دافئة عن التغيير، والعائلة، والرابطة المميزة بين الإخوة.</span></p></body></html>",
+      "global_font": 2.3,
+      "x":100,
+      "y": 620,
+      "width": 400,
+      "height": 620
+    }
+  ]
+}

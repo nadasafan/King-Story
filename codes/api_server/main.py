@@ -38,6 +38,7 @@ from story_ai import (
     get_openai_api_key,
     log_text_image_coverage,
     MIN_STORY_TEXT_PLAIN_LEN,
+    assert_pdf_sequence_has_renderable_text,
 )
 from pdf_story_pipeline import (
     load_slide_bgr_images_for_pdf,
@@ -608,9 +609,6 @@ def generate_story_pdf(
     print("### images on disk (all stems):", len(all_stems), flush=True)
     print("### usable slides (latest try or base per slide):", len(images_dict), flush=True)
     print("### [PDF_IMG] per-slide source:", json.dumps(pdf_image_sources, ensure_ascii=False)[:4000], flush=True)
-    # ✅ keep original dims BEFORE any resize (w, h)
-    original_dims_dict = {k: (v.shape[1], v.shape[0]) for k, v in images_dict.items()}
-    print("### original dims sample:", list(original_dims_dict.items())[:3], flush=True)
 
     if not images_dict:
         raise HTTPException(
@@ -618,12 +616,17 @@ def generate_story_pdf(
             detail="No readable slide images in images_folder (need slide_XX.* or slide_XX_tryN.*).",
         )
 
-    # 3) Resize FIRST using story_root/info.txt resolution_slides
+    # 3) Resize FIRST using story_root/info.txt resolution_slides (translation JSON x/y/w/h match THIS canvas)
     if res_map_list:
         images_dict = _resize_to_resolution_map(images_dict, res_map_list)
         print("### [RESIZE] applied info.txt resolution_slides ✅", flush=True)
     else:
         print("### [RESIZE] skipped (no resolution_slides found in info.txt)", flush=True)
+
+    # MUST be taken AFTER resize: text_handler uses this to avoid re-scaling away from design resolution.
+    # If this was captured before resize, text was drawn at wrong coords → invisible text on PDF (response still had story_text).
+    original_dims_dict = {k: (v.shape[1], v.shape[0]) for k, v in images_dict.items()}
+    print("### [DIMS] canvas for text overlay (post-resize, w,h):", list(original_dims_dict.items())[:5], flush=True)
 
     # 4) choose text file + fonts
     translations_folder = story_root / "Translations"
@@ -696,14 +699,23 @@ def generate_story_pdf(
 
         text_data = copy.deepcopy(text_data)
 
-        # Optional second read from disk (same as a fresh Swagger submit) — disables AI path merge
-        if os.environ.get("STORY_TEXT_RELOAD_BEFORE_PDF", "").strip().lower() in ("1", "true", "yes") and not _truthy_form(use_ai_story):
+        # إعادة قراءة ملف الترجمة من القرص قبل الـ PDF (افتراضي: مفعّل) — يثبّت النص بعد head swap أو ريتراي كثير
+        # تعطيل: ضع STORY_TEXT_RELOAD_BEFORE_PDF=0
+        _skip_tr_reload = os.environ.get("STORY_TEXT_RELOAD_BEFORE_PDF", "1").strip().lower() in (
+            "0",
+            "false",
+            "no",
+            "off",
+        )
+        if not _skip_tr_reload and not _truthy_form(use_ai_story):
             log_translation_file_event(text_file, phase="reload_before_pdf")
             reloaded = read_text_data(str(text_file), user_name=user_name.strip(), language=language)
             if not reloaded:
-                raise RuntimeError("STORY_TEXT_RELOAD_BEFORE_PDF: re-read translation file failed")
+                raise RuntimeError(
+                    "فشل إعادة قراءة ملف الترجمة قبل PDF. / STORY_TEXT_RELOAD_BEFORE_PDF: re-read failed"
+                )
             text_data = copy.deepcopy(reloaded)
-            print("### [TRANSLATIONS] applied reload_before_pdf copy (deepcopy)", flush=True)
+            print("### [TRANSLATIONS] reload_before_pdf applied (fresh read from disk)", flush=True)
 
         log_text_image_coverage(text_data, images_dict)
 
@@ -736,17 +748,27 @@ def generate_story_pdf(
         if not images_with_text:
             raise RuntimeError("apply_text_to_images returned None/empty")
 
+        if res_map_list:
+            ordered_for_pdf_text = [str(x[0]) for x in res_map_list]
+        else:
+            ordered_for_pdf_text = sorted(images_with_text.keys())
+
+        assert_pdf_sequence_has_renderable_text(text_data, images_with_text, ordered_for_pdf_text)
+
         text_render_ok = True
-        print("### [TEXT] SUCCESS ✅", flush=True)
+        print("### [TEXT] SUCCESS ✅ (overlay verified for PDF sequence)", flush=True)
 
     except HTTPException:
         raise
     except Exception as e:
         print("### [TEXT] FAILED ❌ reason:", repr(e), flush=True)
-        raise HTTPException(
-            status_code=500,
-            detail=f"Story text generation or rendering failed (no PDF produced): {e}",
-        ) from e
+        msg = str(e)
+        detail = (
+            f"{msg} | فشل توليد النص أو رسمه على الشرائح؛ لن يُنشأ PDF بدون نص."
+            if "لا يمكن إنشاء PDF" in msg or "Cannot create PDF" in msg
+            else f"Story text generation or rendering failed (no PDF produced): {msg}"
+        )
+        raise HTTPException(status_code=500, detail=detail) from e
 
     # 6) order slides for PDF
     if res_map_list:
