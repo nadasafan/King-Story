@@ -12,7 +12,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 import cv2
-from fastapi import FastAPI, UploadFile, File, Form, HTTPException
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Request
 from fastapi.responses import FileResponse
 
 # ---- import your existing pipeline modules (from codes folder) ----
@@ -138,6 +138,27 @@ def _to_file_url(abs_path: Path) -> str:
     return f"/file?path={quote(str(abs_path), safe='')}"
 
 
+def _client_facing_base_url(request: Request) -> str:
+    """
+    Base URL as the browser should use (supports reverse proxies).
+    If X-Forwarded-* are missing, falls back to request.base_url.
+    """
+    xf_proto = (request.headers.get("x-forwarded-proto") or "").strip().split(",")[0].strip()
+    xf_host = (request.headers.get("x-forwarded-host") or "").strip().split(",")[0].strip()
+    if xf_host and xf_proto:
+        return f"{xf_proto}://{xf_host}".rstrip("/")
+    if xf_host:
+        scheme = xf_proto or (request.url.scheme or "https")
+        return f"{scheme}://{xf_host}".rstrip("/")
+    return str(request.base_url).rstrip("/")
+
+
+def _pdf_urls_for_response(request: Request, pdf_out_path: Path) -> tuple[str, str]:
+    cb = uuid.uuid4().hex[:12]
+    rel = _to_file_url(pdf_out_path) + f"&cb={cb}"
+    return rel, _client_facing_base_url(request) + rel
+
+
 def _save_upload(upload: UploadFile, dst_dir: Path) -> Path:
     dst_dir.mkdir(parents=True, exist_ok=True)
     fname = _safe_filename(upload.filename)
@@ -204,8 +225,8 @@ def _truthy_form(s: str) -> bool:
 
 def _read_story_info_json(story_root: Path) -> dict:
     """
-    Reads story_root/info.txt which is JSON in your project.
-    Falls back to {} if missing/invalid.
+    Reads story_root/info.txt (JSON). Missing file → {}.
+    Invalid JSON → HTTP 422 so PDF is not silently built with wrong text placement.
     """
     info_path = story_root / "info.txt"
     if not info_path.exists():
@@ -215,11 +236,33 @@ def _read_story_info_json(story_root: Path) -> dict:
     try:
         raw = info_path.read_text(encoding="utf-8")
         data = parse_story_info_json_content(raw)
-        print("### [INFO] loaded info.txt:", info_path, flush=True)
+        if not data.get("resolution_slides"):
+            print(
+                "### [INFO] loaded info.txt but resolution_slides empty/missing:",
+                info_path,
+                flush=True,
+            )
+        else:
+            print("### [INFO] loaded info.txt:", info_path, flush=True)
         return data
-    except Exception as e:
+    except json.JSONDecodeError as e:
         print("### [INFO] failed to parse info.txt:", info_path, "reason:", repr(e), flush=True)
-        return {}
+        raise HTTPException(
+            status_code=422,
+            detail=(
+                f"ملف info.txt تالف (JSON غير صالح): {e}. "
+                f"غالباً علامة اقتباس زائدة داخل مسار خط مثل AR_REST_SLIDE_FONT. "
+                f"Invalid info.txt JSON — often a stray quote inside a font path. Path: {info_path}"
+            ),
+        ) from e
+    except HTTPException:
+        raise
+    except Exception as e:
+        print("### [INFO] failed to read info.txt:", info_path, "reason:", repr(e), flush=True)
+        raise HTTPException(
+            status_code=422,
+            detail=f"Cannot read info.txt at {info_path}: {e}",
+        ) from e
 
 
 def _resize_to_resolution_map(images_dict: dict, resolution_slides: list) -> dict:
@@ -272,6 +315,16 @@ def root():
 def get_file(path: str):
     print("### HIT /file FROM:", __file__, flush=True)
     p = _guard_path_inside_base(path)
+    if p.suffix.lower() == ".pdf":
+        return FileResponse(
+            str(p),
+            media_type="application/pdf",
+            filename=p.name,
+            headers={
+                "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+                "Pragma": "no-cache",
+            },
+        )
     return FileResponse(str(p))
 
 
@@ -541,6 +594,7 @@ async def regenerate_slide(
 # =========================
 @app.post("/generate-story/pdf")
 def generate_story_pdf(
+    request: Request,
     language: str = Form(...),
     user_name: str = Form(...),
     images_folder: str = Form(...),
@@ -872,6 +926,15 @@ def generate_story_pdf(
 
     print("### PDF OK ✅", flush=True)
 
+    pdf_url, pdf_absolute_url = _pdf_urls_for_response(request, pdf_out_path)
+    print(
+        "### [PDF] client_base=",
+        _client_facing_base_url(request),
+        "pdf_url_len=",
+        len(pdf_url),
+        flush=True,
+    )
+
     return {
         "status": "success",
         "language": language,
@@ -887,7 +950,10 @@ def generate_story_pdf(
         "min_story_text_length_required": MIN_STORY_TEXT_PLAIN_LEN,
         "images_folder": str(img_dir.resolve()),
         "pdf_path": str(pdf_out_path),
-        "pdf_url": _to_file_url(pdf_out_path),
+        # Relative /file URL + unique cb= to defeat browser/CDN caches of an old blank PDF
+        "pdf_url": pdf_url,
+        # Open this in the browser (correct host behind nginx; avoids wrong baseUrl on the client)
+        "pdf_absolute_url": pdf_absolute_url,
         "text_rendered": text_render_ok,
         "note": "Story text validated, rendered on slides, and passed to PDF builder." if text_render_ok else "Unexpected: text_rendered false after success path.",
     }

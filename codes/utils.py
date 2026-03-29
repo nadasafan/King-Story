@@ -14,6 +14,15 @@ import json
 import cv2
 
 
+def _repair_common_info_txt_typos(s: str) -> str:
+    """Fix frequent hand-edit errors that break JSON.parse (duplicate path fragments)."""
+    if not s:
+        return s
+    s = s.replace('"Fonts/arabic "Fonts/arabic fonts/', '"Fonts/arabic fonts/')
+    s = s.replace('"Fonts/english "Fonts/english fonts/', '"Fonts/english fonts/')
+    return s
+
+
 def parse_story_info_json_content(content: str) -> dict:
     """
     Parse info.txt JSON. Tolerates trailing commas before ] or } (common in hand-edited files).
@@ -21,6 +30,7 @@ def parse_story_info_json_content(content: str) -> dict:
     content = (content or "").strip()
     if not content:
         return {}
+    content = _repair_common_info_txt_typos(content)
     try:
         return json.loads(content)
     except json.JSONDecodeError:

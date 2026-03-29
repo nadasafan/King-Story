@@ -119,7 +119,7 @@
 <div class="footer">
   Tips:
   <ul>
-    <li>لازم <strong>API Base</strong> يكون نفس سيرفر الـ Swagger (مثلاً http://127.0.0.1:8000) — وإلا الـ PDF يتحمّل من سيرفر تاني أو قديم.</li>
+    <li>لازم <strong>API Base</strong> يكون نفس سيرفر الـ Swagger — وإلا الـ PDF يتحمّل من سيرفر تاني. بعد التوليد استخدم الرابط <code>pdf_absolute_url</code> من الـ JSON (يُضاف تلقائياً في الـ tester) حتى لا يختلط الهوست خلف nginx.</li>
     <li>لو الصور مش بتظهر: تأكد إن CORS متضاف + /file شغال.</li>
     <li>Regenerate: من أي صورة “slide_XX.jpg” اضغط Regenerate (AI) أو Duplicate (no face).</li>
   </ul>
@@ -440,12 +440,18 @@
 
       setStatus("PDF ready", "ok");
       logLine("[PDF] OK: story_text_length=" + (data.story_text_length || "?") + " text_rendered=" + data.text_rendered);
+      if (data.pdf_absolute_url) {
+        logLine("[PDF] pdf_absolute_url (use this to avoid wrong host/cache): " + data.pdf_absolute_url);
+      }
 
       const a = $("pdfLink");
       a.style.display = "inline-flex";
-      // كسر كاش المتصفح: أحياناً يُفتح PDF قديم من غير نص
-      const sep = (data.pdf_url || "").includes("?") ? "&" : "?";
-      a.href = base() + data.pdf_url + sep + "_t=" + Date.now();
+      // السيرفر يعيد pdf_absolute_url (نفس الهوست خلف nginx) + pdf_url فيها cb= فريد — لا تعتمد على كاش PDF قديم
+      const raw =
+        (data.pdf_absolute_url && String(data.pdf_absolute_url).trim()) ||
+        (base() + (data.pdf_url || ""));
+      const sep = raw.includes("?") ? "&" : "?";
+      a.href = raw + sep + "_t=" + Date.now();
       a.textContent = "Open PDF";
 
     } catch (e) {

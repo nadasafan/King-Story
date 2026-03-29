@@ -25,5 +25,5 @@
   "FIRST_SLIDE_FONT": "Fonts/english fonts/KidzhoodDEMO-Bold.otf",
   "REST_SLIDES_FONT": "Fonts/english fonts/KidzhoodDEMO-Medium.otf",
   "AR_FIRST_SLIDE_FONT": "Fonts/arabic fonts/KidzhoodArabicDEMO-Light.otf",
-  "AR_REST_SLIDES_FONT": "Fonts/arabic "Fonts/arabic fonts/KidzhoodArabicDEMO-Light.otf"
+  "AR_REST_SLIDES_FONT": "Fonts/arabic fonts/KidzhoodArabicDEMO-Light.otf"
 }
