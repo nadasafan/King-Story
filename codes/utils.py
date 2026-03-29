@@ -9,8 +9,28 @@
 """
 
 import os
+import re
 import json
 import cv2
+
+
+def parse_story_info_json_content(content: str) -> dict:
+    """
+    Parse info.txt JSON. Tolerates trailing commas before ] or } (common in hand-edited files).
+    """
+    content = (content or "").strip()
+    if not content:
+        return {}
+    try:
+        return json.loads(content)
+    except json.JSONDecodeError:
+        relaxed = content
+        while True:
+            prev = relaxed
+            relaxed = re.sub(r",(\s*[}\]])", r"\1", relaxed)
+            if relaxed == prev:
+                break
+        return json.loads(relaxed)
 
 
 def read_info_file(folder_path):
@@ -37,7 +57,7 @@ def read_info_file(folder_path):
                 content = content.replace('"AR_REST_SLIDES_FONT" =', '"AR_REST_SLIDES_FONT":')
                 content = content.replace('""', '"')
 
-                data = json.loads(content)
+                data = parse_story_info_json_content(content)
 
                 en_story_name = data.get("en")
                 ar_story_name = data.get("ar")

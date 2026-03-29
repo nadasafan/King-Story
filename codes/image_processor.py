@@ -138,6 +138,7 @@ def _ensure_same_dims_as_original(scene_path: str, out_path: str) -> bool:
 
 
 def _scale_labels(labels, src_w, src_h, dst_w, dst_h):
+    """Stretch design coords to fill dst (non-uniform if aspects differ). Legacy mode."""
     if not labels or src_w <= 0 or src_h <= 0 or dst_w <= 0 or dst_h <= 0:
         return labels
 
@@ -161,6 +162,77 @@ def _scale_labels(labels, src_w, src_h, dst_w, dst_h):
                 pass
 
         out.append(e)
+    return out
+
+
+def _scale_labels_letterbox(labels, src_w, src_h, dst_w, dst_h):
+    """
+    Uniform scale + center offset: preserves aspect of the design text layer (no sx≠sy warp).
+    Font scales with the same factor as x/y/w/h.
+    """
+    if not labels or src_w <= 0 or src_h <= 0 or dst_w <= 0 or dst_h <= 0:
+        return labels
+
+    s = min(dst_w / float(src_w), dst_h / float(src_h))
+    ox = (dst_w - src_w * s) / 2.0
+    oy = (dst_h - src_h * s) / 2.0
+
+    out = []
+    for el in labels:
+        e = dict(el)
+        e["x"] = int(round(e.get("x", 0) * s + ox))
+        e["y"] = int(round(e.get("y", 0) * s + oy))
+        e["width"] = int(max(1, round(e.get("width", 0) * s)))
+        e["height"] = int(max(1, round(e.get("height", 0) * s)))
+
+        gf = e.get("global_font", 0)
+        if gf and gf != 0:
+            try:
+                e["global_font"] = float(gf) * s
+            except Exception:
+                pass
+
+        out.append(e)
+    return out
+
+
+def scale_text_data_to_native_sizes(text_data, images_dict, resolution_slides):
+    """
+    Scale label coordinates from design canvas (resolution_slides w×h) to actual image pixel size.
+    Used when PDF keeps native slide dimensions instead of resizing images to the design canvas.
+    """
+    import copy
+
+    from config import PDF_TEXT_SCALE_MODE
+
+    scaler = _scale_labels if PDF_TEXT_SCALE_MODE == "stretch" else _scale_labels_letterbox
+    if not resolution_slides or not text_data:
+        return copy.deepcopy(text_data)
+
+    design_map = {}
+    for item in resolution_slides:
+        try:
+            name, w, h = item
+            design_map[str(name)] = (int(w), int(h))
+        except Exception:
+            continue
+
+    out = copy.deepcopy(text_data)
+    scaled = 0
+    for name, img in images_dict.items():
+        if name not in design_map or name not in out:
+            continue
+        dw, dh = design_map[name]
+        aw, ah = img.shape[1], img.shape[0]
+        if (dw, dh) == (aw, ah):
+            continue
+        out[name] = scaler(out[name], dw, dh, aw, ah)
+        scaled += 1
+    if scaled:
+        print(
+            f"### [TEXT_SCALE] design→native for {scaled} slide(s) mode={PDF_TEXT_SCALE_MODE}",
+            flush=True,
+        )
     return out
 
 

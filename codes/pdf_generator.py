@@ -16,6 +16,11 @@ from pathlib import Path
 
 from story_ai import MIN_STORY_TEXT_PLAIN_LEN
 
+try:
+    from config import PDF_PIL_DPI
+except ImportError:
+    PDF_PIL_DPI = 72.0
+
 
 def create_pdf_from_images(
     images_list,
@@ -105,13 +110,18 @@ def create_pdf_from_images(
         new_pdf_name = f"{base}_{timestamp}_{unique_key}.pdf"
         output_path = os.path.join(folder, new_pdf_name)
 
+        dpi = float(PDF_PIL_DPI)
+        if dpi <= 0:
+            dpi = 72.0
+        print(f"   PDF embed DPI={dpi} (set PDF_PIL_DPI; 72 ≈ 1pt per pixel)", flush=True)
+
         pil_images[0].save(
-        output_path,
-        "PDF",
-        resolution=100.0,
-        save_all=True,
-        append_images=pil_images[1:] if len(pil_images) > 1 else None
-    )
+            output_path,
+            "PDF",
+            resolution=dpi,
+            save_all=True,
+            append_images=pil_images[1:] if len(pil_images) > 1 else None,
+        )
 
         print(f"Done: {output_path}")
         return output_path

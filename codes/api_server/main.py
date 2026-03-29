@@ -22,9 +22,9 @@ CODES_DIR = THIS_FILE.parents[1]          # .../codes
 BASE_DIR = THIS_FILE.parents[2]           # project root (contains Stories, Fonts, TempUploads, ...)
 sys.path.insert(0, str(CODES_DIR))
 
-from utils import crop_face_only, read_info_file, get_image_dimensions
+from utils import crop_face_only, read_info_file, get_image_dimensions, parse_story_info_json_content
 from api_segmiod import perform_head_swap
-from image_processor import process_head_swap, apply_text_to_images
+from image_processor import process_head_swap, apply_text_to_images, scale_text_data_to_native_sizes
 from pdf_generator import create_pdf_from_images
 from text_handler import (
     load_custom_fonts,
@@ -40,6 +40,7 @@ from story_ai import (
     MIN_STORY_TEXT_PLAIN_LEN,
     assert_pdf_sequence_has_renderable_text,
 )
+from config import PDF_PRESERVE_NATIVE_IMAGE_SIZE, PDF_TEXT_SCALE_MODE, PDF_PIL_DPI
 from pdf_story_pipeline import (
     load_slide_bgr_images_for_pdf,
     log_translation_file_event,
@@ -213,7 +214,7 @@ def _read_story_info_json(story_root: Path) -> dict:
 
     try:
         raw = info_path.read_text(encoding="utf-8")
-        data = json.loads(raw)
+        data = parse_story_info_json_content(raw)
         print("### [INFO] loaded info.txt:", info_path, flush=True)
         return data
     except Exception as e:
@@ -581,6 +582,15 @@ def generate_story_pdf(
         raise HTTPException(status_code=400, detail="Could not infer story root from images_folder.")
 
     print("### story_root:", story_root, flush=True)
+    print(
+        "### [PDF_OPTS] preserve_native=",
+        PDF_PRESERVE_NATIVE_IMAGE_SIZE,
+        "text_scale=",
+        PDF_TEXT_SCALE_MODE,
+        "pil_dpi=",
+        PDF_PIL_DPI,
+        flush=True,
+    )
 
     # Retry endpoints toggle SEGMIND_* env; PDF generation must not inherit stale attempt state.
     _clear_single_attempt_env()
@@ -616,8 +626,23 @@ def generate_story_pdf(
             detail="No readable slide images in images_folder (need slide_XX.* or slide_XX_tryN.*).",
         )
 
-    # 3) Resize FIRST using story_root/info.txt resolution_slides (translation JSON x/y/w/h match THIS canvas)
-    if res_map_list:
+    # 3) Design canvas vs native pixels for PDF:
+    #    - PDF_PRESERVE_NATIVE_IMAGE_SIZE=1 (default): keep head-swap pixel sizes → PDF page sizes;
+    #      scale label geometry from resolution_slides → native using scale_text_data_to_native_sizes.
+    #    - PDF_PRESERVE_NATIVE_IMAGE_SIZE=0: resize images to resolution_slides first (matches old behavior).
+    if PDF_PRESERVE_NATIVE_IMAGE_SIZE:
+        print(
+            "### [RESIZE] skipped (PDF_PRESERVE_NATIVE_IMAGE_SIZE: keep native slide sizes for PDF pages; "
+            "text coords scaled from design when resolution_slides present)",
+            flush=True,
+        )
+        if not res_map_list:
+            print(
+                "### [WARN] no resolution_slides in info.txt — overlay uses raw coords "
+                "(may misalign if image size ≠ translation design)",
+                flush=True,
+            )
+    elif res_map_list:
         images_dict = _resize_to_resolution_map(images_dict, res_map_list)
         print("### [RESIZE] applied info.txt resolution_slides ✅", flush=True)
     else:
@@ -719,6 +744,10 @@ def generate_story_pdf(
 
         log_text_image_coverage(text_data, images_dict)
 
+        text_data_for_render = text_data
+        if PDF_PRESERVE_NATIVE_IMAGE_SIZE and res_map_list:
+            text_data_for_render = scale_text_data_to_native_sizes(text_data, images_dict, res_map_list)
+
         story_text = validate_story_text_non_empty(text_data, min_plain_len=MIN_STORY_TEXT_PLAIN_LEN)
         print("### [STORY] final story_text plain length:", len(story_text), flush=True)
         print("### [STORY] final story_text excerpt:", story_text[:500], flush=True)
@@ -735,7 +764,7 @@ def generate_story_pdf(
         print("### [TEXT] apply_text_to_images (sequential) ...", flush=True)
         images_with_text = apply_text_to_images(
             images_dict=images_dict,
-            text_data=text_data,
+            text_data=text_data_for_render,
             original_dims_dict=original_dims_dict,
             app=None,
             fonts_loaded=fonts_loaded,
@@ -753,7 +782,7 @@ def generate_story_pdf(
         else:
             ordered_for_pdf_text = sorted(images_with_text.keys())
 
-        assert_pdf_sequence_has_renderable_text(text_data, images_with_text, ordered_for_pdf_text)
+        assert_pdf_sequence_has_renderable_text(text_data_for_render, images_with_text, ordered_for_pdf_text)
 
         text_render_ok = True
         print("### [TEXT] SUCCESS ✅ (overlay verified for PDF sequence)", flush=True)

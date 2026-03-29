@@ -68,6 +68,29 @@ SHADOW_OFFSET_Y = 5             # إزاحة الظل عمودياً
 
 
 
+# ================== PDF (API /generate-story/pdf) ==================
+# When true (default): do not resize slide images to resolution_slides; PDF pages keep native
+# head-swap pixel sizes. Label x/y/w/h from translations are scaled from design canvas → native.
+# Set PDF_PRESERVE_NATIVE_IMAGE_SIZE=0 to restore the old behavior (resize images to design first).
+def _env_truthy(name: str, default: str = "0") -> bool:
+    return os.environ.get(name, default).strip().lower() in ("1", "true", "yes", "y", "on")
+
+
+PDF_PRESERVE_NATIVE_IMAGE_SIZE = _env_truthy("PDF_PRESERVE_NATIVE_IMAGE_SIZE", "1")
+
+# How to map translation coords (design canvas) onto native image pixels when preserve-native is on:
+#   letterbox — uniform scale + center offset (default; avoids warped text vs wrong font scaling)
+#   stretch   — separate sx/sy (legacy; can misalign when design aspect ≠ image aspect)
+_pdf_scale = (os.environ.get("PDF_TEXT_SCALE_MODE", "letterbox") or "letterbox").strip().lower()
+PDF_TEXT_SCALE_MODE = _pdf_scale if _pdf_scale in ("letterbox", "stretch") else "letterbox"
+
+try:
+    PDF_PIL_DPI = float((os.environ.get("PDF_PIL_DPI", "72") or "72").strip())
+except ValueError:
+    PDF_PIL_DPI = 72.0
+if PDF_PIL_DPI <= 0:
+    PDF_PIL_DPI = 72.0
+
 # ================== Processing Settings ==================
 HEAD_SWAP_DELAY = 0.2  # Delay between API calls in seconds (Reduced from 1s)
 RETRY_DELAY = 0.5      # Delay before retrying failed API calls
