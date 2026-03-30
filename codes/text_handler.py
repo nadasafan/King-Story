@@ -55,7 +55,6 @@ from config import (
     EN_FIRST_SLIDE_FONT, EN_REST_SLIDES_FONT,
     AR_FIRST_SLIDE_FONT, AR_REST_SLIDES_FONT,
     ENABLE_TEXT_SHADOW,
-    PDF_ARABIC_FLIP_IMAGE,
     SHADOW_BLUR_RADIUS, SHADOW_COLOR, SHADOW_OFFSET_X, SHADOW_OFFSET_Y,
 )
 
@@ -317,9 +316,6 @@ def replace_name_in_html(html_text: str, user_name: str, is_first_slide: bool = 
         html_text = html_text.replace("[*Name*]", repl)
     elif language == "ar":
         html_text = html_text.replace("[*الاسم*]", repl)
-        # Some Arabic sheets still carry English placeholders
-        html_text = html_text.replace("[*NAME*]", repl)
-        html_text = html_text.replace("[*Name*]", repl)
 
     return html_text
 
@@ -330,9 +326,6 @@ def replace_name_in_html(html_text: str, user_name: str, is_first_slide: bool = 
 def read_text_data(file_path: str, user_name: str = "", language: str = "en") -> dict | None:
     if not os.path.exists(file_path):
         print(f"[Text] File not found: {file_path}")
-        return None
-    if not language or not language.strip():
-        print("[Text] Language is missing or empty!")
         return None
 
     try:
@@ -576,9 +569,9 @@ def render_image(
         base_h, base_w = base_cv.shape[:2]
 
 
-        # ✅ language + optional horizontal flip (off by default — see PDF_ARABIC_FLIP_IMAGE in config)
+        # ✅ language + flip flag
         language = (kwargs.get("language") or "en").strip().lower()
-        do_flip_ar = (language == "ar") and (base_w != base_h) and bool(PDF_ARABIC_FLIP_IMAGE)
+        do_flip_ar = (language == "ar") and (base_w != base_h)
 
         # Determine design resolution for this slide from info.txt
         # res_map = _load_resolution_map()
@@ -632,9 +625,6 @@ def render_image(
             gf = float(item.get("global_font", 0) or 0)
 
             sx, sy, sw, sh = _scale_rect(x, y, ww, hh, rx, ry)
-            # If the frame was mirrored, label boxes must be mirrored too or text paints off-page.
-            if do_flip_ar:
-                sx = int(rw - sx - sw)
 
             html2 = html
 

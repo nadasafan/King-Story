@@ -159,6 +159,17 @@ def _pdf_urls_for_response(request: Request, pdf_out_path: Path) -> tuple[str, s
     return rel, _client_facing_base_url(request) + rel
 
 
+def _pdf_trace(trace_id: str, step: str, extra: dict | None = None) -> None:
+    """Structured logs for PDF pipeline; grep `PDF_TRACE:` in gunicorn/journal."""
+    if extra:
+        print(
+            f"### [PDF_TRACE:{trace_id}] {step} | {json.dumps(extra, ensure_ascii=False, default=str)}",
+            flush=True,
+        )
+    else:
+        print(f"### [PDF_TRACE:{trace_id}] {step}", flush=True)
+
+
 def _save_upload(upload: UploadFile, dst_dir: Path) -> Path:
     dst_dir.mkdir(parents=True, exist_ok=True)
     fname = _safe_filename(upload.filename)
@@ -604,6 +615,9 @@ def generate_story_pdf(
     kid_image_base64: str = Form(""),
     kid_image: UploadFile | None = File(None),
 ):
+    trace_id = (request.headers.get("x-pdf-trace-id") or "").strip() or uuid.uuid4().hex[:12]
+    _pdf_trace(trace_id, "STEP_01_ENTRY", {"path": str(request.url.path), "client": getattr(request.client, "host", None)})
+
     print("\n### HIT /generate-story/pdf FROM:", __file__, flush=True)
     print(
         "### [CLIENT] generate-story/pdf (Swagger and browser multipart use the same handler; "
@@ -619,6 +633,17 @@ def generate_story_pdf(
         "kid_image present:", bool(kid_image and getattr(kid_image, "filename", None)),
         "kid_image_base64 len:", len((kid_image_base64 or "").strip()),
         flush=True,
+    )
+    _pdf_trace(
+        trace_id,
+        "STEP_02_RAW_FORM",
+        {
+            "language_raw": (language or "")[:80],
+            "user_name_len": len((user_name or "").strip()),
+            "images_folder_len": len((images_folder or "").strip()),
+            "images_folder_tail": (images_folder or "")[-120:] if images_folder else "",
+            "use_ai_story": use_ai_story,
+        },
     )
 
     language = (language or "").strip().lower()
@@ -639,6 +664,8 @@ def generate_story_pdf(
     if not user_name.strip():
         raise HTTPException(status_code=400, detail="user_name is required.")
 
+    _pdf_trace(trace_id, "STEP_03_LANGUAGE_OK", {"language": language, "user_name": (user_name or "").strip()[:80]})
+
     img_dir = _guard_path_inside_base(images_folder)
     if not img_dir.is_dir():
         raise HTTPException(status_code=400, detail="images_folder must be a directory.")
@@ -647,6 +674,7 @@ def generate_story_pdf(
     if story_root is None:
         raise HTTPException(status_code=400, detail="Could not infer story root from images_folder.")
 
+    _pdf_trace(trace_id, "STEP_04_PATHS", {"img_dir": str(img_dir), "story_root": str(story_root)})
     print("### story_root:", story_root, flush=True)
     print(
         "### [PDF_OPTS] preserve_native=",
@@ -685,6 +713,11 @@ def generate_story_pdf(
     print("### images on disk (all stems):", len(all_stems), flush=True)
     print("### usable slides (latest try or base per slide):", len(images_dict), flush=True)
     print("### [PDF_IMG] per-slide source:", json.dumps(pdf_image_sources, ensure_ascii=False)[:4000], flush=True)
+    _pdf_trace(
+        trace_id,
+        "STEP_05_SLIDES_LOADED",
+        {"slide_keys": list(images_dict.keys())[:30], "count": len(images_dict)},
+    )
 
     if not images_dict:
         raise HTTPException(
@@ -718,6 +751,7 @@ def generate_story_pdf(
     # If this was captured before resize, text was drawn at wrong coords → invisible text on PDF (response still had story_text).
     original_dims_dict = {k: (v.shape[1], v.shape[0]) for k, v in images_dict.items()}
     print("### [DIMS] canvas for text overlay (post-resize, w,h):", list(original_dims_dict.items())[:5], flush=True)
+    _pdf_trace(trace_id, "STEP_06_DIMS", {"first_five": list(original_dims_dict.items())[:5]})
 
     # 4) choose text file + fonts
     # Story text lives only under story_root/Translations/ on disk — frontend sends language (en|ar) only.
@@ -746,6 +780,11 @@ def generate_story_pdf(
 
     print("### text_file:", text_file, flush=True)
     print("### fonts config first/rest:", selected_first_font, "|", selected_rest_font, flush=True)
+    _pdf_trace(
+        trace_id,
+        "STEP_07_TEXT_FILE",
+        {"text_file": str(text_file), "exists": text_file.is_file(), "first_font": selected_first_font, "rest_font": selected_rest_font},
+    )
 
     # 5) load story text (translation template and/or OpenAI), validate, render onto slides
     text_render_ok = False
@@ -819,8 +858,20 @@ def generate_story_pdf(
         log_text_image_coverage(text_data, images_dict)
 
         text_data_for_render = text_data
+        _render_mode = "as_read"
         if PDF_PRESERVE_NATIVE_IMAGE_SIZE and res_map_list:
             text_data_for_render = scale_text_data_to_native_sizes(text_data, images_dict, res_map_list)
+            _render_mode = "scaled_design_to_native"
+        _pdf_trace(
+            trace_id,
+            "STEP_08_TEXT_DATA_FOR_RENDER",
+            {
+                "mode": _render_mode,
+                "slide_keys": list(text_data_for_render.keys())[:25],
+                "preserve_native": bool(PDF_PRESERVE_NATIVE_IMAGE_SIZE),
+                "has_resolution_slides": bool(res_map_list),
+            },
+        )
 
         story_text = validate_story_text_non_empty(text_data, min_plain_len=MIN_STORY_TEXT_PLAIN_LEN)
         print("### [STORY] final story_text plain length:", len(story_text), flush=True)
@@ -834,6 +885,7 @@ def generate_story_pdf(
             base_dir=str(BASE_DIR),
         )
         print("### [TEXT] fonts_loaded:", fonts_loaded, flush=True)
+        _pdf_trace(trace_id, "STEP_09_FONTS", {"fonts_loaded": fonts_loaded})
 
         print("### [TEXT] apply_text_to_images (sequential) ...", flush=True)
         images_with_text = apply_text_to_images(
@@ -851,6 +903,12 @@ def generate_story_pdf(
         if not images_with_text:
             raise RuntimeError("apply_text_to_images returned None/empty")
 
+        _pdf_trace(
+            trace_id,
+            "STEP_10_APPLY_TEXT_DONE",
+            {"keys_with_text": list(images_with_text.keys())[:30], "count": len(images_with_text)},
+        )
+
         if res_map_list:
             ordered_for_pdf_text = [str(x[0]) for x in res_map_list]
         else:
@@ -860,10 +918,12 @@ def generate_story_pdf(
 
         text_render_ok = True
         print("### [TEXT] SUCCESS ✅ (overlay verified for PDF sequence)", flush=True)
+        _pdf_trace(trace_id, "STEP_11_TEXT_RENDER_OK", {"slides_with_overlay_check": True})
 
     except HTTPException:
         raise
     except Exception as e:
+        _pdf_trace(trace_id, "STEP_FAIL_TEXT_PIPELINE", {"error": repr(e)})
         print("### [TEXT] FAILED ❌ reason:", repr(e), flush=True)
         msg = str(e)
         detail = (
@@ -882,6 +942,7 @@ def generate_story_pdf(
         final_images = [images_with_text[name] for name in sorted(images_with_text.keys())]
 
     print("### final_images count:", len(final_images), flush=True)
+    _pdf_trace(trace_id, "STEP_12_FINAL_IMAGES", {"count": len(final_images), "first_shape": final_images[0].shape if final_images else None})
 
     if not final_images:
         raise HTTPException(status_code=500, detail="No final images to build PDF.")
@@ -919,6 +980,7 @@ def generate_story_pdf(
         )
 
     # 8) create pdf
+    _pdf_trace(trace_id, "STEP_13_PDF_BUILD_START", {"story_text_len": len(story_text), "pages": len(final_images)})
     try:
         pdf_out_path = create_pdf_from_images(
             final_images,
@@ -926,6 +988,7 @@ def generate_story_pdf(
             use_parallel=False,
             story_text=story_text,
             min_story_text_len=MIN_STORY_TEXT_PLAIN_LEN,
+            trace_id=trace_id,
         )
     except TypeError:
         pdf_out_path = create_pdf_from_images(
@@ -934,6 +997,7 @@ def generate_story_pdf(
             use_parallel=None,
             story_text=story_text,
             min_story_text_len=MIN_STORY_TEXT_PLAIN_LEN,
+            trace_id=trace_id,
         )
 
     if not pdf_out_path:
@@ -944,6 +1008,7 @@ def generate_story_pdf(
     if not pdf_out_path.exists():
         raise HTTPException(status_code=500, detail=f"PDF not found after generation: {pdf_out_path}")
 
+    _pdf_trace(trace_id, "STEP_14_PDF_FILE", {"path": str(pdf_out_path), "size_bytes": pdf_out_path.stat().st_size})
     print("### PDF OK ✅", flush=True)
 
     pdf_url, pdf_absolute_url = _pdf_urls_for_response(request, pdf_out_path)
@@ -955,8 +1020,14 @@ def generate_story_pdf(
         flush=True,
     )
 
+    _pdf_trace(
+        trace_id,
+        "STEP_15_DONE",
+        {"text_rendered": text_render_ok, "story_text_length": len(story_text), "pdf_url_len": len(pdf_url)},
+    )
     return {
         "status": "success",
+        "pdf_trace_id": trace_id,
         "language": language,
         "user_name": user_name,
         "kid_name": user_name,

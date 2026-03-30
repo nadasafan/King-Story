@@ -28,6 +28,7 @@ def create_pdf_from_images(
     use_parallel=None,
     story_text: str | None = None,
     min_story_text_len: int | None = None,
+    trace_id: str | None = None,
 ):
     """
     إنشاء PDF من قائمة الصور باستخدام PIL
@@ -42,6 +43,8 @@ def create_pdf_from_images(
     Returns:
         output path str on success, False on failure
     """
+    _p = lambda msg: print(f"### [PDF_TRACE:{trace_id}] {msg}" if trace_id else msg, flush=True)
+
     allow_no_text = os.environ.get("ALLOW_PDF_WITHOUT_STORY_TEXT", "").strip().lower() in (
         "1",
         "true",
@@ -53,23 +56,21 @@ def create_pdf_from_images(
     if not allow_no_text:
         st = (story_text or "").strip()
         if not st:
-            print(
-                "ERROR: لا يُنشأ PDF للقصة بدون نص. / Cannot create story PDF: story_text is empty.",
-                flush=True,
+            _p(
+                "STEP_PDF_01_FAIL empty story_text | ERROR: لا يُنشأ PDF للقصة بدون نص. / Cannot create story PDF: story_text is empty."
             )
             return False
         if len(st) < min_story_text_len:
-            print(
-                f"ERROR: النص أقصر من الحد الأدنى ({min_story_text_len}). "
-                f"story_text len={len(st)}. / Story text too short for PDF.",
-                flush=True,
+            _p(
+                f"STEP_PDF_01_FAIL short story_text len={len(st)} min={min_story_text_len}"
             )
             return False
 
     if not images_list:
-        print("ERROR: No images for PDF")
+        _p("STEP_PDF_01_FAIL no images")
         return False
-    
+
+    _p(f"STEP_PDF_02_PIL_START pages={len(images_list)}")
     print("\nCreating PDF...")
     # تحويل OpenCV images إلى PIL Images
     pil_images = []
@@ -91,16 +92,19 @@ def create_pdf_from_images(
             pil_images.append(pil_img.convert('RGB'))
         
         print(f"   Converting image {idx}/{len(images_list)}")
-    
+        if trace_id and idx <= 3:
+            _p(f"STEP_PDF_03_PAGE sample[{idx}] shape={getattr(img, 'shape', None)}")
+
     if not pil_images:
+        _p("STEP_PDF_FAIL no pil_images")
         print("ERROR: No valid images to save")
         return False
-    
+
     # حفظ كـ PDF
+    _p("STEP_PDF_04_SAVE_PIL")
     print("Writing PDF...")
     try:
-
-    # توليد اسم PDF جديد
+        # توليد اسم PDF جديد
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
         unique_key = uuid.uuid4().hex[:6]
 
@@ -123,12 +127,12 @@ def create_pdf_from_images(
             append_images=pil_images[1:] if len(pil_images) > 1 else None,
         )
 
+        _p(f"STEP_PDF_05_DONE path={output_path}")
         print(f"Done: {output_path}")
         return output_path
-    
 
-        
     except Exception as e:
+        _p(f"STEP_PDF_FAIL exception {e!r}")
         print(f"ERROR: Failed to create PDF - {e}")
         return False
 
