@@ -93,6 +93,11 @@ except ValueError:
 if PDF_PIL_DPI <= 0:
     PDF_PIL_DPI = 72.0
 
+# Arabic non-square slides used to cv2.flip() the frame before painting text, but label x/y are authored for the
+# *unflipped* head-swap image → text is drawn off-canvas and the PDF looks empty. Default: no flip (HTML dir='rtl').
+# Enable only if your templates assume a mirrored image: PDF_ARABIC_FLIP_IMAGE=1
+PDF_ARABIC_FLIP_IMAGE = _env_truthy("PDF_ARABIC_FLIP_IMAGE", "0")
+
 # ================== Processing Settings ==================
 HEAD_SWAP_DELAY = 0.2  # Delay between API calls in seconds (Reduced from 1s)
 RETRY_DELAY = 0.5      # Delay before retrying failed API calls

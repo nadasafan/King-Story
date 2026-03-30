@@ -626,7 +626,7 @@ def generate_story_pdf(
         raise HTTPException(
             status_code=400,
             detail=(
-                "language is empty (required: en or ar). / اللغة فاضية — يجب إرسال ar أو en"
+                "language is missing (required: en or ar). / اللغة مفقودة — يجب إرسال ar أو en"
             ),
         )
     if language not in ("en", "ar"):
