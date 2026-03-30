@@ -16,6 +16,7 @@ Optional:
 """
 
 import os
+import sys
 import json
 from pydoc import doc
 import re
@@ -48,7 +49,7 @@ from PySide6.QtGui import (
     QTextDocument,
     QFontMetrics,
 )
-from PySide6.QtCore import Qt, QRectF
+from PySide6.QtCore import Qt, QRectF, qInstallMessageHandler
 
 from config import (
     EN_FIRST_SLIDE_FONT, EN_REST_SLIDES_FONT,
@@ -67,6 +68,27 @@ _QT_LOCK = threading.Lock()
 # =========================
 DEBUG = os.environ.get("TEXT_DEBUG", "0").strip().lower() in ("1", "true", "yes", "y")
 DEBUG_HTML = os.environ.get("TEXT_DEBUG_HTML", "0").strip().lower() in ("1", "true", "yes", "y")
+
+
+def _install_qt_basictimer_warn_filter() -> None:
+    """
+    Gunicorn + Qt offscreen: QGraphicsDropShadowEffect can emit many
+    'QBasicTimer can only be used with threads started with QThread' lines.
+    Default: suppress only those (set QT_SUPPRESS_BASICTIMER_WARN=0 to see them).
+    """
+    if os.environ.get("QT_SUPPRESS_BASICTIMER_WARN", "1").strip().lower() in ("0", "false", "no", "off"):
+        return
+
+    def _handler(msg_type, context, message: str) -> None:
+        if message and "QBasicTimer" in message:
+            return
+        sys.stderr.write(message + "\n")
+        sys.stderr.flush()
+
+    qInstallMessageHandler(_handler)
+
+
+_install_qt_basictimer_warn_filter()
 
 
 def _dprint(msg: str):

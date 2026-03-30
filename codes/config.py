@@ -8,6 +8,10 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+
+def _env_truthy(name: str, default: str = "0") -> bool:
+    return os.environ.get(name, default).strip().lower() in ("1", "true", "yes", "y", "on")
+
 # ================== WaveSpeed API Configuration ==================
 WAVESPEED_API_KEY = "5245087bfe91fb4213628401ccfac875329ee1e2a58518a0daff0c22abb20c3b"
 NANO_BANANA_API_URL = "https://api.wavespeed.ai/api/v3/google/nano-banana-pro/edit-ultra"
@@ -57,7 +61,9 @@ RESULT_FOLDER = os.path.join(BASE_DIR, "Result")
 TEMP_CROPPED_FOLDER = os.path.join(BASE_DIR, "temp_cropped_faces")
 
 # ================== Text Rendering ==================
-ENABLE_TEXT_SHADOW = True
+# On Gunicorn/offscreen, QGraphicsDropShadowEffect can spam: QBasicTimer can only be used with QThread…
+# Set ENABLE_TEXT_SHADOW=0 in systemd/env to disable shadow (cleaner logs) or keep 1 and use QT_SUPPRESS_BASICTIMER_WARN=1 (default in text_handler).
+ENABLE_TEXT_SHADOW = _env_truthy("ENABLE_TEXT_SHADOW", "1")
 TEXT_SHADOW_STYLE = "2px 2px 4px rgba(0, 0, 0, 0.9)"
 
 # Shadow Effect Settings
@@ -72,10 +78,6 @@ SHADOW_OFFSET_Y = 5             # إزاحة الظل عمودياً
 # When true (default): do not resize slide images to resolution_slides; PDF pages keep native
 # head-swap pixel sizes. Label x/y/w/h from translations are scaled from design canvas → native.
 # Set PDF_PRESERVE_NATIVE_IMAGE_SIZE=0 to restore the old behavior (resize images to design first).
-def _env_truthy(name: str, default: str = "0") -> bool:
-    return os.environ.get(name, default).strip().lower() in ("1", "true", "yes", "y", "on")
-
-
 PDF_PRESERVE_NATIVE_IMAGE_SIZE = _env_truthy("PDF_PRESERVE_NATIVE_IMAGE_SIZE", "1")
 
 # How to map translation coords (design canvas) onto native image pixels when preserve-native is on:

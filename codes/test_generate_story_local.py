@@ -35,10 +35,9 @@ def test_template_story(story_root: Path, language: str, kid_name: str) -> None:
     if language == "en":
         text_file = translations / "en_text_data.txt"
     else:
-        ar_files = sorted(translations.glob("ar_*.txt"))
-        if not ar_files:
-            raise SystemExit("No ar_*.txt")
-        text_file = ar_files[0]
+        text_file = translations / "ar_text_data.txt"
+        if not text_file.is_file():
+            raise SystemExit(f"Missing {text_file.name}")
 
     print("### text_file:", text_file)
     data = read_text_data(str(text_file), user_name=kid_name, language=language)

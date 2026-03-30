@@ -595,7 +595,7 @@ async def regenerate_slide(
 @app.post("/generate-story/pdf")
 def generate_story_pdf(
     request: Request,
-    language: str = Form(...),
+    language: str = Form(""),
     user_name: str = Form(...),
     images_folder: str = Form(...),
     story_title: str = Form(""),
@@ -622,8 +622,20 @@ def generate_story_pdf(
     )
 
     language = (language or "").strip().lower()
+    if not language:
+        raise HTTPException(
+            status_code=400,
+            detail=(
+                "language is empty (required: en or ar). / اللغة فاضية — يجب إرسال ar أو en"
+            ),
+        )
     if language not in ("en", "ar"):
-        raise HTTPException(status_code=400, detail="language must be 'en' or 'ar'.")
+        raise HTTPException(
+            status_code=400,
+            detail=(
+                "Invalid language: use 'en' or 'ar' only. / لغة غير صالحة: المسموح ar أو en فقط"
+            ),
+        )
     if not user_name.strip():
         raise HTTPException(status_code=400, detail="user_name is required.")
 
@@ -708,6 +720,8 @@ def generate_story_pdf(
     print("### [DIMS] canvas for text overlay (post-resize, w,h):", list(original_dims_dict.items())[:5], flush=True)
 
     # 4) choose text file + fonts
+    # Story text lives only under story_root/Translations/ on disk — frontend sends language (en|ar) only.
+    # en → en_text_data.txt, ar → ar_text_data.txt (same layout as repo Stories/.../Translations/).
     translations_folder = story_root / "Translations"
     if not translations_folder.exists():
         raise HTTPException(status_code=404, detail="Translations folder not found.")
@@ -717,12 +731,18 @@ def generate_story_pdf(
         selected_first_font = first_slide_font
         selected_rest_font = rest_slides_font
     else:
-        ar_files = sorted([p for p in translations_folder.iterdir() if p.is_file() and p.name.startswith("ar_")])
-        if not ar_files:
-            raise HTTPException(status_code=404, detail="No Arabic translation file found (ar_*.txt).")
-        text_file = ar_files[0]
+        text_file = translations_folder / "ar_text_data.txt"
         selected_first_font = ar_first_slide_font
         selected_rest_font = ar_rest_slides_font
+
+    if not text_file.is_file():
+        raise HTTPException(
+            status_code=404,
+            detail=(
+                f"Translation text file missing for language={language}: "
+                f"expected {text_file.name} under {translations_folder}"
+            ),
+        )
 
     print("### text_file:", text_file, flush=True)
     print("### fonts config first/rest:", selected_first_font, "|", selected_rest_font, flush=True)

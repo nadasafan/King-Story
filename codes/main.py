@@ -40,11 +40,8 @@ def _resolve_text_file(translations_folder: str, language: str, en_story_name: s
         pdf_name = en_story_name if en_story_name else "Story_EN"
         return text_file, pdf_name
 
-    ar_files = [f for f in os.listdir(translations_folder) if f.startswith("ar_")]
-    if not ar_files:
-        return None, None
-
-    text_file = os.path.join(translations_folder, ar_files[0])
+    # Arabic: fixed filename (same as Stories/.../Translations/ar_text_data.txt)
+    text_file = os.path.join(translations_folder, "ar_text_data.txt")
     pdf_name = ar_story_name if ar_story_name else "Story_AR"
     return text_file, pdf_name
 
