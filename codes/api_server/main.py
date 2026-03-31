@@ -624,7 +624,15 @@ def generate_story_pdf(
         "frontend must send multipart/form-data with language, user_name, images_folder).",
         flush=True,
     )
-    print("### INPUT language:", language, "user_name (kid_name):", user_name, flush=True)
+    print(
+        f"### [FRONT] trace_id={trace_id} language received (raw form field): {repr(language)}",
+        flush=True,
+    )
+    print(
+        "### INPUT user_name (kid_name):",
+        user_name,
+        flush=True,
+    )
     print("### INPUT images_folder:", images_folder, flush=True)
     print(
         "### INPUT story_title:", story_title,
@@ -647,7 +655,22 @@ def generate_story_pdf(
     )
 
     language = (language or "").strip().lower()
+    if language == "0":
+        print(
+            f"### [FRONT] trace_id={trace_id} language rejected (sent as 0): {repr(language)}",
+            flush=True,
+        )
+        raise HTTPException(
+            status_code=400,
+            detail=(
+                "language cannot be 0 (use 'en' or 'ar'). / اللغة لا يمكن أن تكون 0 — استخدم ar أو en"
+            ),
+        )
     if not language:
+        print(
+            f"### [FRONT] trace_id={trace_id} language missing or empty after trim",
+            flush=True,
+        )
         raise HTTPException(
             status_code=400,
             detail=(
@@ -655,6 +678,10 @@ def generate_story_pdf(
             ),
         )
     if language not in ("en", "ar"):
+        print(
+            f"### [FRONT] trace_id={trace_id} language rejected (not en|ar): {repr(language)}",
+            flush=True,
+        )
         raise HTTPException(
             status_code=400,
             detail=(
@@ -664,6 +691,10 @@ def generate_story_pdf(
     if not user_name.strip():
         raise HTTPException(status_code=400, detail="user_name is required.")
 
+    print(
+        f"### [FRONT] trace_id={trace_id} language accepted (normalized for PDF): {language}",
+        flush=True,
+    )
     _pdf_trace(trace_id, "STEP_03_LANGUAGE_OK", {"language": language, "user_name": (user_name or "").strip()[:80]})
 
     img_dir = _guard_path_inside_base(images_folder)
@@ -931,7 +962,7 @@ def generate_story_pdf(
             if "لا يمكن إنشاء PDF" in msg or "Cannot create PDF" in msg
             else f"Story text generation or rendering failed (no PDF produced): {msg}"
         )
-        raise HTTPException(status_code=500, detail=detail) from e
+        raise HTTPException(status_code=400, detail=detail) from e
 
     # 6) order slides for PDF
     if res_map_list:
@@ -945,7 +976,10 @@ def generate_story_pdf(
     _pdf_trace(trace_id, "STEP_12_FINAL_IMAGES", {"count": len(final_images), "first_shape": final_images[0].shape if final_images else None})
 
     if not final_images:
-        raise HTTPException(status_code=500, detail="No final images to build PDF.")
+        raise HTTPException(
+            status_code=400,
+            detail="No final images to build PDF (process incomplete). / لا توجد صور نهائية لإنشاء PDF",
+        )
 
     # 7) build pdf filename
     pdf_filename = pdf_name_tpl
@@ -975,8 +1009,11 @@ def generate_story_pdf(
     )
     if len(story_text.strip()) < MIN_STORY_TEXT_PLAIN_LEN:
         raise HTTPException(
-            status_code=500,
-            detail=f"story_text too short ({len(story_text.strip())} chars) before PDF build; minimum {MIN_STORY_TEXT_PLAIN_LEN}.",
+            status_code=400,
+            detail=(
+                f"story_text too short ({len(story_text.strip())} chars) before PDF build; "
+                f"minimum {MIN_STORY_TEXT_PLAIN_LEN}. (process incomplete)"
+            ),
         )
 
     # 8) create pdf
@@ -1001,12 +1038,18 @@ def generate_story_pdf(
         )
 
     if not pdf_out_path:
-        raise HTTPException(status_code=500, detail="Failed to generate PDF.")
+        raise HTTPException(
+            status_code=400,
+            detail="Failed to generate PDF (process incomplete). / فشل إنشاء ملف PDF",
+        )
 
     pdf_out_path = Path(pdf_out_path).resolve()
 
     if not pdf_out_path.exists():
-        raise HTTPException(status_code=500, detail=f"PDF not found after generation: {pdf_out_path}")
+        raise HTTPException(
+            status_code=400,
+            detail=f"PDF not found after generation (process incomplete): {pdf_out_path}",
+        )
 
     _pdf_trace(trace_id, "STEP_14_PDF_FILE", {"path": str(pdf_out_path), "size_bytes": pdf_out_path.stat().st_size})
     print("### PDF OK ✅", flush=True)
