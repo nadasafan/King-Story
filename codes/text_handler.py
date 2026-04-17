@@ -329,7 +329,8 @@ def read_text_data(file_path: str, user_name: str = "", language: str = "en") ->
         return None
 
     try:
-        raw_content = open(file_path, "r", encoding="utf-8").read()
+        # utf-8-sig strips UTF-8 BOM if present (Windows editors often save with BOM).
+        raw_content = open(file_path, "r", encoding="utf-8-sig").read()
         if not raw_content.strip():
             return None
 

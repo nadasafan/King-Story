@@ -1,6 +1,6 @@
 {
-  "en": "Name-Smile",
-  "ar": "الاسم - الابتسامة ",
+  "en": "Name-Explores-the-World-of-Jobs",
+  "ar": "الاسم يستكشف عالم الوظائف ",
   "resolution_slides": [
 ["slide_01", 1667, 1667],
 ["slide_02", 3333, 1667],

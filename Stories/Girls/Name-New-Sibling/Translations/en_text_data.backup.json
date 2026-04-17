@@ -1,0 +1,412 @@
+{
+  "slide_01": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:26pt; font-weight:700; color:#fdb0d6;'>Princess<br></span></p></body></html>",
+      "global_font": 3.5,
+      "x": 524,
+      "y": 165,
+      "width": 598,
+      "height": 199
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:26pt; font-weight:700; color:#fdb0d6;'>[*NAME*]</span></p></body></html>",
+      "global_font": 3.5,
+      "x": 441,
+      "y": 308,
+      "width": 598,
+      "height": 199
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>New Sibling<br>Wonder Wraps</span></p></body></html>",
+      "global_font": 3.43,
+      "x": 363,
+      "y": 488,
+      "width": 736,
+      "height": 112
+    }
+  ],
+  "slide_02": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;was a happy little girl.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;She loved dancing in her socks</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;and making silly faces in the mirror.</span></p></body></html>",
+      "global_font": 2.63,
+      "x": 127,
+      "y": 583,
+      "width": 492,
+      "height": 386
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;Every day was an adventure for her.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1991,
+      "y": 1191,
+      "width": 625,
+      "height": 218
+    }
+  ],
+  "slide_03": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>One morning, Mommy sat down and said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;Princess&nbsp;[*NAME*], we have some exciting news!&quot;</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Her eyes grew big.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;Are we getting a puppy?&quot;</span></p></body></html>",
+      "global_font": 2.91,
+      "x": 963,
+      "y": 1406,
+      "width": 581,
+      "height": 224
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Mommy laughed.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;No, you're going to be a big sister!&quot;</span></p></body></html>",
+      "global_font": 2.97,
+      "x": 2525,
+      "y": 1283,
+      "width": 569,
+      "height": 318
+    }
+  ],
+  "slide_04": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;A baby?&quot; <strong>Princess&nbsp;[*NAME*]</strong> asked.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;Like, a real tiny baby with tiny toes?&quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1793,
+      "y": 258,
+      "width": 558,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Mommy nodded.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;Yes! A real tiny baby just for us.&quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2066,
+      "y": 524,
+      "width": 840,
+      "height": 154
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong> could hardly wait to meet the baby.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2611,
+      "y": 749,
+      "width": 595,
+      "height": 218
+    }
+  ],
+  "slide_05": [
+    {
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong> wasn't sure how to feel.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>Will the baby eat her cookies?</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 199,
+      "y": 334,
+      "width": 601,
+      "height": 346
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Will the baby sleep in her bed?</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Will the baby play with her favorite purple unicorn?</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1925,
+      "y": 226,
+      "width": 580,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She wondered what being a big sister would feel like.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2127,
+      "y": 1081,
+      "width": 608,
+      "height": 218
+    }
+  ],
+  "slide_06": [
+    {
+      "html": "<html><head/><body><p style='text-align:center;'><span style='color:#ffffff;font-size:18px;'>&quot;Don't worry,&quot; said Mommy.</span></p><p style='text-align:center;'><span style='color:#ffffff;font-size:18px;'>&quot;The baby will have their own bed and their own toys.</span></p><p style='text-align:center;'><span style='color:#ffffff;font-size:18px;'>And you'll be the superhero Big Sister!&quot;</span></p></body></html>",
+      "global_font": 2.63,
+      "x": 492,
+      "y": 300,
+      "width": 596,
+      "height": 394
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'><strong>Princess&nbsp;[*NAME*]</strong> smiled.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>She liked the sound of that.</span></p></body></html>",
+      "global_font": 2.44,
+      "x": 160,
+      "y": 787,
+      "width": 1323,
+      "height": 176
+    }
+  ],
+  "slide_07": [
+    {
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong> ran to tell her teddy bear.</span></p><p><span style='color:#ffffff;font-size:14px;'>&quot;Guess what, Teddy? A baby is coming!&quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 693,
+      "y": 258,
+      "width": 504,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>&quot;I hope the baby likes dance parties</span></p><p><span style='color:#ffffff;font-size:14px;'>and ketchup on spaghetti!&quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 960,
+      "y": 526,
+      "width": 634,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She hugged Teddy tight and smiled.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2621,
+      "y": 148,
+      "width": 486,
+      "height": 154
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Everything felt exciting and new.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2769,
+      "y": 378,
+      "width": 524,
+      "height": 154
+    }
+  ],
+  "slide_08": [
+    {
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong> helped Mommy paint</span></p><p><span style='color:#ffffff;font-size:14px;'>the baby's room yellow and hang little stars on the wall.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 857,
+      "y": 593,
+      "width": 500,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:12px;'><strong>&quot;This baby is going to love it here,&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>she said.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2246,
+      "y": 491,
+      "width": 330,
+      "height": 146
+    },
+    {
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>She even picked out a soft teddy bear</span></p><p><span style='color:#ffffff;font-size:14px;'>and a book with animals.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2284,
+      "y": 670,
+      "width": 535,
+      "height": 154
+    }
+  ],
+  "slide_09": [
+    {
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>One night, Mommy and Daddy rushed to the hospital.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1155,
+      "y": 582,
+      "width": 436,
+      "height": 161
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong> stayed with Grandma,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>who made pancakes shaped like hearts.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;I think the baby is coming!&quot; she shouted.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1894,
+      "y": 567,
+      "width": 465,
+      "height": 282
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She could hardly wait for the news.</span></p></body></html>",
+      "global_font": 2.5,
+      "x": 2465,
+      "y": 978,
+      "width": 512,
+      "height": 328
+    }
+  ],
+  "slide_10": [
+    {
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>The next morning, Daddy called with happy news.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1173,
+      "y": 428,
+      "width": 404,
+      "height": 233
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;Princess&nbsp;[*NAME*], you have a baby sibling! Baby has tiny fingers and a super loud cry!&quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1923,
+      "y": 446,
+      "width": 440,
+      "height": 161
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong> jumped up and down.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;I'm a Big Sister! Hooray!&quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2018,
+      "y": 646,
+      "width": 615,
+      "height": 154
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Her heart felt like fireworks.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2239,
+      "y": 816,
+      "width": 429,
+      "height": 154
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A new adventure had begun.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2236,
+      "y": 996,
+      "width": 758,
+      "height": 154
+    }
+  ],
+  "slide_11": [
+    {
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>When Mommy came home, <strong>Princess&nbsp;[*NAME*]</strong></span></p><p><span style='color:#ffffff;font-size:14px;'>peeked into the crib.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 841,
+      "y": 345,
+      "width": 670,
+      "height": 282
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>There was the baby—tiny, wrinkly,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and wrapped in a soft blanket.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1639,
+      "y": 144,
+      "width": 470,
+      "height": 154
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong> whispered,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;Hello, baby. I'm your sister, <strong>[*NAME*]</strong>. You're kind of cute.&quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1786,
+      "y": 305,
+      "width": 537,
+      "height": 282
+    }
+  ],
+  "slide_12": [
+    {
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>But the baby cried. A lot.</span></p><p><span style='color:#ffffff;font-size:14px;'>The baby cried when it felt hungry.</span></p><p><span style='color:#ffffff;font-size:14px;'>The baby cried when it felt sleepy.</span></p><p><span style='color:#ffffff;font-size:14px;'>The baby even cried when it had hiccups!</span></p><p><span style='color:#ffffff;font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong> covered her ears with a bunny hat.</span></p><p><span style='color:#ffffff;font-size:14px;'>&quot;Waa waa waa!&quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 575,
+      "y": 482,
+      "width": 742,
+      "height": 282
+    }
+  ],
+  "slide_13": [
+    {
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>Then one day, the baby looked up at</span></p><p><span style='color:#ffffff;font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong> and smiled!</span></p><p><span style='color:#ffffff;font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong> gasped.</span></p><p><span style='color:#ffffff;font-size:14px;'>&quot;The baby likes me! Really likes me!&quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 358,
+      "y": 335,
+      "width": 461,
+      "height": 282
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong> gave the baby her second-favorite toy.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>(But not the unicorn—she wasn't ready to give that up just yet.)</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 550,
+      "y": 697,
+      "width": 593,
+      "height": 154
+    }
+  ],
+  "slide_14": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong> sang happy songs to the baby,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>funny songs about socks and frogs.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She made silly faces.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The baby giggled and drooled.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong> giggled too.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;You're not so bad,&quot; she said.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1979,
+      "y": 573,
+      "width": 641,
+      "height": 218
+    }
+  ],
+  "slide_15": [
+    {
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>At bedtime, <strong>Princess&nbsp;[*NAME*]</strong></span></p><p><span style='color:#ffffff;font-size:14px;'>sat beside the crib and held the baby.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 191,
+      "y": 286,
+      "width": 495,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;Good night, baby,&quot; she whispered.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Mommy gave her a big hug.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;You're doing an amazing job.&quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 901,
+      "y": 1177,
+      "width": 435,
+      "height": 282
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>felt warm and proud.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2105,
+      "y": 292,
+      "width": 599,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The room felt quiet and cozy.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2509,
+      "y": 1257,
+      "width": 482,
+      "height": 154
+    }
+  ],
+  "slide_16": [
+    {
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>Now, <strong>Princess&nbsp;[*NAME*]</strong> and her baby sibling</span></p><p><span style='color:#ffffff;font-size:14px;'>do everything together.</span></p><p><span style='color:#ffffff;font-size:14px;'>They read stories, splash in puddles,</span></p><p><span style='color:#ffffff;font-size:14px;'>and laugh at bubbles.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 760,
+      "y": 1278,
+      "width": 670,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><div style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong> says,</span></div><div style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>&quot;Being a big sister is the best job ever!&quot;</span></div><div style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>And the baby? The baby just coos and smiles.</span></div></body></html>",
+      "global_font": 2.8,
+      "x": 1752,
+      "y": 467,
+      "width": 807,
+      "height": 210
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>They were a family, full of love.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2118,
+      "y": 1020,
+      "width": 544,
+      "height": 154
+    }
+  ],
+  "slide_17": [
+    {
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A Story That </span></p><p><span style='color:#ffffff;font-size:14px;'> Becomes A Memory<br></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 180,
+      "y": 337,
+      "width": 481,
+      "height": 410
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>Because They Won't Be Little Forever</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>I was created to hold on and slow time, just a little.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>I was created with their name and their imagination stitched into every page.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2353,
+      "y": 368,
+      "width": 715,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>There are many worlds to explore, and each WonderWraps title becomes an adventure crafted around your little one.</span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>I'm the adventure only your child can live.</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>And I promise, I'll be a favorite.<br></span></p><br></body></html>",
+      "global_font": 2.8,
+      "x": 2513,
+      "y": 787,
+      "width": 791,
+      "height": 154
+    }
+  ]
+}

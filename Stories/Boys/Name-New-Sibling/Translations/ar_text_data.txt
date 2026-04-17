@@ -333,7 +333,7 @@
       "global_font": 2.3,
       "x":100,
       "y": 620,
-      "width": 400,
+      "width": 200,
       "height": 620
     }
   ]

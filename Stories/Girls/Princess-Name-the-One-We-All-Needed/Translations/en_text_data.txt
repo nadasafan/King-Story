@@ -1,0 +1,510 @@
+{
+  "slide_01": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:26pt; font-weight:700; color:#fdb0d6;'>Princess<br>[*NAME*]<br></span></p><br></body></html>",
+      "global_font": 3.29,
+      "x": 384,
+      "y": 145,
+      "width": 561,
+      "height": 249
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>The One We All Needed</span></p><br></body></html>",
+      "global_font": 3.9,
+      "x": 130,
+      "y": 448,
+      "width": 1000,
+      "height": 183
+    }
+  ],
+  "slide_02": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>It was a warm, sunny morning.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Princess <strong>[*Name*]</strong> sat in her royal garden,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>reading a golden book beneath</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>a flowering tree.</span></p></body></html>",
+      "global_font": 2.9,
+      "x": 100,
+      "y": 500,
+      "width": 1040,
+      "height": 350
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>It was the magical book she had </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> discovered before.The garden was </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> full of birdsong, butterflies, and peace.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 500,
+      "y": 880,
+      "width": 1040,
+      "height": 320
+    }
+  ],
+  "slide_03": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>As she turned a page,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>she heard a tiny cry.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>A soft meow came from </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>under the rose bushes.</span></p></body></html>",
+      "global_font": 2.9,
+      "x": 1190,
+      "y": 580,
+      "width": 620,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Princess <strong>[*Name*]</strong> peeked through the </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> petals,and there was a little cat </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>tangled in the thorns.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2300,
+      "y": 880,
+      "width": 650,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;Oh no,&quot;</strong> <em>she said gently,</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><em>and crawled in carefully to help.</em><br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2500,
+      "y": 1110,
+      "width": 650,
+      "height": 180
+    }
+  ],
+  "slide_04": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Princess <strong>[*Name*]</strong> slowly untangled</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>the branches and freed the </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>frightened kitten.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 290,
+      "y": 280,
+      "width": 1000,
+      "height": 300
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You're safe now,&quot;</strong> <em>she whispered.</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><em>The cat purred and curled in her lap.</em><br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2100,
+      "y": 750,
+      "width": 1000,
+      "height": 300
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You're very kind,&quot;</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>it seemed to say with its eyes.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2300,
+      "y": 980,
+      "width": 1000,
+      "height": 280
+    }
+  ],
+  "slide_05": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Just then, a shimmer caught her eye.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>A glowing dragonfly hovered in the air.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>It flew in a circle above her head, then buzzed</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>toward the garden gate and stopped. It waited.<br></span></p><br></body></html>",
+      "global_font": 2.5,
+      "x": 2300,
+      "y": 300,
+      "width": 650,
+      "height": 380
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;I've seen this before,&quot;</strong> </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>she whispered.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2300,
+      "y": 620,
+      "width": 650,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Princess <strong>[*Name*]</strong> remembered a line </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>from the golden book in her lap:</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>When the light flickers on tiny </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>wings, follow it, and you'll answer </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>the call.&quot;</strong><br></span></p><br></body></html>",
+      "global_font": 2.5,
+      "x": 2400,
+      "y": 770,
+      "width": 650,
+      "height": 420
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;Someone needs help,&quot;</strong> </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>she said.<strong>&quot;I'm ready.&quot;</strong><br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2600,
+      "y": 1220,
+      "width": 650,
+      "height": 120
+    }
+  ],
+  "slide_06": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The dragonfly led Princess </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>[*Name*]</strong> to the vegetable patch.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Beneath a cabbage leaf </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>sat a small bunny.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 950,
+      "y": 180,
+      "width": 700,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;I try to help,&quot;</strong> <em>the bunny sighed,</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;but I'm too small and too slow.</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>I always mess things up.&quot;</strong><br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2100,
+      "y": 280,
+      "width": 650,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Princess <strong>[*Name*]</strong> knelt down beside him.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2300,
+      "y": 540,
+      "width": 1050,
+      "height": 120
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;Being small doesn't mean </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> you aren't strong,&quot;</strong> <em>she said kindly.</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You notice things others don't.</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>That's a special kind of strength.&quot;</strong><br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2300,
+      "y": 690,
+      "width": 650,
+      "height": 450
+    }
+  ],
+  "slide_07": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>She gently showed the<strong></strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> bunny how to <strong>hop slow but</strong>,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>steady. After a few tries, </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> he laughed with joy.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 1050,
+      "y": 180,
+      "width": 1000,
+      "height": 600
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;I did it!&quot;</strong> <em>he said proudly.</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You helped me believe </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> in myself!&quot;</strong><br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2000,
+      "y": 280,
+      "width": 850,
+      "height": 300
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Princess <strong>[*Name*]</strong> smiled.<strong>&quot;Sometimes,</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> the smallest hearts are the bravest.&quot;</strong><br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2100,
+      "y": 620,
+      "width": 850,
+      "height": 300
+    }
+  ],
+  "slide_08": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Next, the dragonfly led her </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>to the castle lake.There, by </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> the water, sat a swan with </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>drooping wings.<br></span></p></body></html>",
+      "global_font": 2.9,
+      "x": 190,
+      "y": 280,
+      "width": 650,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;I used to feel graceful,&quot;</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><em>the swan whispered.</em><br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 1800,
+      "y": 980,
+      "width": 650,
+      "height": 150
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;I made some mistakes,</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>and now I don't feel special anymore.&quot;</strong><br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 1900,
+      "y": 1160,
+      "width": 650,
+      "height": 180
+    }
+  ],
+  "slide_09": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Princess <strong>[*Name*]</strong> sat beside her.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 290,
+      "y": 480,
+      "width": 600,
+      "height": 120
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;Mistakes don't make us less </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> beautiful,&quot;</strong> she said softly.<br></span></p><br></body></html>",
+      "global_font": 2.3,
+      "x": 290,
+      "y": 580,
+      "width": 700,
+      "height": 250
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;They help us grow.</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>Your light is still inside </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>you, waiting to return.&quot;</strong><br></span></p><br></body></html>",
+      "global_font": 2.3,
+      "x": 490,
+      "y": 880,
+      "width": 700,
+      "height": 380
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The swan looked up </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> slowly, and her feathers </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>shimmered again.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 1700,
+      "y": 630,
+      "width": 650,
+      "height": 150
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You reminded </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> me who I am,&quot;</strong> </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> the swan said.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 1900,
+      "y": 890,
+      "width": 650,
+      "height": 150
+    }
+  ],
+  "slide_10": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Suddenly, the sky</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> darkened. Thunder </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>rumbled,and the wind</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> picked up. The dragonfly </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> zipped ahead.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 80,
+      "y": 350,
+      "width": 1000,
+      "height": 350
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Princess <strong>[*Name*]</strong> followed,but the</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> ground cracked beneath her feet!<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 1900,
+      "y": 200,
+      "width": 1000,
+      "height": 280
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>She slipped toward a dip </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> in the path,grabbing a</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> low root just in time.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2100,
+      "y": 450,
+      "width": 1000,
+      "height": 280
+    }
+  ],
+  "slide_11": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;I can't hold on!&quot;</strong> <em>she cried.</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Just then, hoofbeats echoed. <strong>Luma!</strong><br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 590,
+      "y": 280,
+      "width": 1050,
+      "height": 380
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Her glowing white horse galloped </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> through the mist,mane flowing like </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>moonlight,her hooves striking light </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>against the path.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 690,
+      "y": 500,
+      "width": 650,
+      "height": 420
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>Luma</strong> reached her just in time. With a soft whinny,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>she lowered her head, and Princess <strong>[*Name*]</strong> reached up,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>gripping tight as Luma pulled her from the dip.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2100,
+      "y": 1300,
+      "width": 1000,
+      "height": 450
+    }
+  ],
+  "slide_12": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>As soon as she was safe, <strong>Luma</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> reared up proudly,then galloped </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>forward, her hooves splashing</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>through puddles in the clearing rain.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 290,
+      "y": 280,
+      "width": 1080,
+      "height": 420
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The <strong>princess</strong> held on, her heart </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> racing,not from fear, but from</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> something new:the feeling of being </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>exactly where she was meant to be.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 690,
+      "y": 1180,
+      "width": 1080,
+      "height": 420
+    }
+  ],
+  "slide_13": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>As the rain faded, the dragonfly </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>hovered over an old stone at the </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>edge of the garden wall.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Princess <strong>[*Name*]</strong> slid down from</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> Luma's back.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 100,
+      "y": 180,
+      "width": 650,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Resting on the stone, was </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>something glowing.She leaned </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>closer and picked it up.It was a </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> medallion, round and golden,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> warm in her hand.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2200,
+      "y": 650,
+      "width": 650,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>In the center, her name was </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>engraved,and around it were tiny</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> symbols:a paw, a feather, a hoof,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> and a flower.She smiled, those were </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>from the friends she had helped.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2400,
+      "y": 1060,
+      "width": 650,
+      "height": 260
+    }
+  ],
+  "slide_14": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The dragonfly landed on</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> her shoulder,wings</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> glowing like moonlight.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 150,
+      "y": 190,
+      "width": 650,
+      "height": 280
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You were chosen </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>because of your </strong> </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> heart,&quot;</strong> it said softly.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 300,
+      "y": 400,
+      "width": 650,
+      "height": 350
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You listened when others felt </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>small.You stayed brave when </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>things got hard.you helped</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> others believe in themselves.&quot;</strong><br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2100,
+      "y": 880,
+      "width": 650,
+      "height": 450
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Princess <strong>[*Name*]</strong> looked at the medallion in</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>in her hand.It glowed with soft light, just like</span></p><<p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> her heart.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2300,
+      "y": 1270,
+      "width": 1050,
+      "height": 480
+    }
+  ],
+  "slide_15": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Princess <strong>[*Name*]</strong> smiled wide, then laughed,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>twirling through the garden with joy.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Her dress spun, flower petals danced,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>and the dragonfly zipped around her happily.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 290,
+      "y": 800,
+      "width": 1050,
+      "height": 380
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You helped others be </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> brave,&quot;</strong> it said.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2400,
+      "y": 1300,
+      "width": 1050,
+      "height": 250
+    }
+  ],
+  "slide_16": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Princess <strong>[*Name*]</strong> stood in the</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> middle,smiling wide, her heart</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> full of joy and love.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 390,
+      "y": 280,
+      "width": 650,
+      "height": 380
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>One by one, her </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> friends appeared.<br></span></p><br></body></html>",
+      "global_font": 2.6,
+      "x": 1900,
+      "y": 1100,
+      "width": 500,
+      "height": 320
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>They gathered around her,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>cheering and shining with</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> happiness.They had all become</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> stronger, because of her.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2100,
+      "y": 1290,
+      "width": 650,
+      "height": 320
+    }
+  ],
+  "slide_17": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The dragonfly hovered still, its voice </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> steady and clear:<strong>&quot;Remember this,</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> forever and always.&quot;</strong>It looked into</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> her eyes.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 1800,
+      "y": 410,
+      "width": 700,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You are the one </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>We all needed,&quot;</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>the dragonfly whispered,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>glowing in the air.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 2100,
+      "y": 690,
+      "width": 700,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>She thought of every small voice she </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> had listened to,every frightened friend </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>she had comforted,and every time she</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> had chosen kindness over fear.<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 190,
+      "y": 1080,
+      "width": 700,
+      "height": 250
+    }
+  ],
+      "slide_18": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:24px; font-weight:700;'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A Story That </span></p><p style='text-align:left;'><span style='font-size:24px; font-weight:700;'> Becomes A Memory<br></span></p><br></</body></html>",
+      "global_font": 2.9,
+      "x": 450,
+      "y": 120,
+      "width": 900,
+      "height": 320
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>Because They Won't Be Little Forever<br></span></p><br></body></html>",
+      "global_font": 2.4,
+      "x": 394,
+      "y": 400,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>I was created to hold on</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>and slow time, just a little.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 594,
+      "y": 470,
+      "width": 900,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>I was created with their name</span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and their imagination</span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stitched into every page.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 505,
+      "y": 600,
+      "width": 900,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>There are many worlds to explore,</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and each MAGICAL STORY title</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>becomes an adventure crafted</span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;around your little one.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 460,
+      "y": 800,
+      "width": 900,
+      "height": 400
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>I'm the adventure </span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>only your child can live.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 594,
+      "y": 1060,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>And I promise, I'll be a favorite.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 494,
+      "y": 1190,
+      "width": 900,
+      "height": 100
+    }
+  ]
+}
