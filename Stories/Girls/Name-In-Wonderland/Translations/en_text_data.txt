@@ -75,20 +75,12 @@
   ],
   "slide_06": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>A fluffy cloud came floating by,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>shimmering soft against the sky.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>A fluffy cloud came floating by,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'> &quot; climb on my back, let's ride the sky! &quot;</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>It shimmered silver, soft as air,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>a friend who could take her anywhere.</span></p></body></html>",
       "global_font": 2.63,
       "x": 200,
-      "y": 1200,
-      "width": 1096,
-      "height": 394
-    },
-    {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>The cloud drifted down, so gentle and sweet,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>to an amusement park where magic meets.</span></p></body></html>",
-      "global_font": 2.44,
-      "x": 200,
       "y": 1300,
-      "width": 1323,
-      "height": 176
+      "width": 1096,
+      "height": 494
     }
   ],
   "slide_07": [
