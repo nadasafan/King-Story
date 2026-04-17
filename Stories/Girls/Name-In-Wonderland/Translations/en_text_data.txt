@@ -1,19 +1,19 @@
 {
   "slide_01": [
     {
-      "html": "<html><head/><body><p align='center'><span style='font-size:26pt; font-weight:700; color:#fdb0d6;'>[*NAME*]'s<br></span></p></body></html>",
+      "html": "<html><head/><body><p align='center'><span style='font-size:26pt; font-weight:700; color:#ffffff;'>[*NAME*]<br></span></p></body></html>",
       "global_font": 3.9,
       "x": 500,
-      "y": 208,
+      "y": 150,
       "width": 598,
       "height": 199
     },
     {
-      "html": "<html><head/><body><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>Wonderland<br></span></p></body></html>",
-      "global_font": 3.43,
-      "x": 460,
-      "y": 388,
-      "width": 736,
+      "html": "<html><head/><body><p align='center'><span style='font-size:16pt; font-weight:700; color:#b83280;'>in Wonderland<br></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 260,
+      "y": 288,
+      "width": 1200,
       "height": 112
     }
   ],
