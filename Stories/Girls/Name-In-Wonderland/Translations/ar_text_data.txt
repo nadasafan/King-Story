@@ -1,0 +1,308 @@
+{
+  "slide_01": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#ffffff; font-size:26pt; font-weight:700;'><strong>[*الاسم*]</strong> </span></p></body></html>",
+      "global_font": 3.9,
+      "x": 500,
+      "y": 180,
+      "width": 598,
+      "height": 199
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:16pt; font-weight:700; color:#b83280;'>في أرض العجائب<br></span></body></html>",
+      "global_font": 3.9,
+      "x": 260,
+      "y": 350,
+      "width": 1200,
+      "height": 112
+    }
+  ],
+  "slide_02": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong><strong>[*الاسم*]</strong> </strong> ,وجدت بوابة ذهبية </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!كانت تتلألأ وتلمع بشكل رائع </span></p></body></html>",
+      "global_font": 2.9,
+      "x": 2000,
+      "y": 1300,
+      "width": 1000,
+      "height": 486
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قالت بحماس  <strong>\"!إنها أرض العجائب! لا أستطيع الانتظار \"</strong></span></p></body></html>",
+      "global_font": 2.9,
+      "x": 2075,
+      "y": 1440,
+      "width": 925,
+      "height": 318
+    }
+  ],
+  "slide_03": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>دخلت <strong><strong>[*الاسم*]</strong> </strong> ,وعيناها واسعتان من الدهشة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وكان هناك طريق من الحلوى يمتد بعيدًا </span></p></body></html>",
+      "global_font": 2.91,
+      "x": 219,
+      "y": 1200,
+      "width": 1081,
+      "height": 224
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,مصاصات الحلوى كانت تلمع على الجانبين </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وترشد خطواتها إلى أراضٍ مليئة باللعب </span></p></body></html>",
+      "global_font": 2.97,
+      "x": 231,
+      "y": 1340,
+      "width": 1069,
+      "height": 318
+    }
+  ],
+  "slide_04": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,وأول شيء رأته عيناها </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!نافورة من الشوكولاتة الدافئة اللذيذة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,كانت تتدفق وتتناثر بسعادة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وترسل رذاذ الكاكاو الحلو في كل مكان </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2242,
+      "y": 100,
+      "width": 558,
+      "height": 218
+    }
+  ],
+  "slide_05": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>,ثم ظهر جبل عالٍ وبارد </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>مليء بآيس كريم قوس قزح لتأكله <strong><strong>[*الاسم*]</strong> </strong> !كله </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>,كانت تغرف الألوان الناعمة الزاهية </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>.وكل لقمة كانت طعمها مثل السعادة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 1200,
+      "width": 601,
+      "height": 346
+    }
+  ],
+  "slide_06": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:18px;'>,مرت سحابة ناعمة تطفو في السماء </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:18px;'>\"!اصعدي على ظهري لنطير في السماء \"</span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:18px;'>,كانت فضية لامعة وناعمة كالهواء </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:18px;'>.صديقة تستطيع أن تأخذها إلى أي مكان </span></p></body></html>",
+      "global_font": 2.5,
+      "x": 1904,
+      "y": 1200,
+      "width": 1096,
+      "height": 494
+    }
+  ],
+  "slide_07": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>,انخفضت السحابة برفق ولطف </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>.إلى مدينة ملاهٍ مليئة بالسحر </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2007,
+      "y": 120,
+      "width": 1000,
+      "height": 418
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>,أشرطة من الضوء أضاءت الألعاب في كل مكان </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>.وكانت مدينة ألعاب ساحرة اكتشفتها للتو </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2007,
+      "y": 270,
+      "width": 1000,
+      "height": 200
+    }
+  ],
+  "slide_08": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>انزلقت <strong><strong>[*الاسم*]</strong> </strong> ,بسرعة على الزحاليق الحمراء والبيضاء </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>!وهي تضحك بسعادة وفرح </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2010,
+      "y": 1300,
+      "width": 1000,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,تردد صدى ضحكاتها في الهواء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.متذكرةً بأن اللطف والضحك يجب أن نتشاركه مع الآخرين </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2010,
+      "y": 1440,
+      "width": 1000,
+      "height": 218
+    }
+  ],
+  "slide_09": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>,لكن فجأة ظهر أمامها شيء عجيب </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>!قطار طائر في السماء </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 400,
+      "y": 100,
+      "width": 1000,
+      "height": 282
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,بالونات كبيرة تلامس الغيوم </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وكان يسير بهدوء وهو يطفو في السماء </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 400,
+      "y": 250,
+      "width": 1000,
+      "height": 282
+    }
+  ],
+  "slide_10": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>صعدت <strong><strong>[*الاسم*]</strong> </strong> ,إلى القطار بسعادة كبيرة </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>.وأطلق القطار صفارته بصوت واضح </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2050,
+      "y": 128,
+      "width": 1000,
+      "height": 233
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,حملها ببطء وهدوء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.إلى أماكن لا يعرفها إلا الحالمون </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2050,
+      "y": 260,
+      "width": 1000,
+      "height": 261
+    }
+  ],
+  "slide_11": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>,توقف القطار في مدينة مشرقة جدًا </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>.بيوتها مغطاة بالحلوى في منظر رائع </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1600,
+      "y": 1200,
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,كل سقف كان ملونًا بألوان جميلة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.والنوافذ تلمع مثل قطرات الندى </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1600,
+      "y": 1340,
+      "width": 1000,
+      "height": 1500
+    }
+  ],
+  "slide_12": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>وهي تمشي في الشوارع، كان قلب <strong><strong>[*الاسم*]</strong> </strong> ,يخفق بسرعة </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>!حتى ظهر أخيرًا قصر أميرة </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>,أبراجه كانت لامعة وعالية </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>مثل جوهرة في قلب <strong>.أرض العجائب</strong> </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 658,
+      "y": 1200,
+      "width": 742,
+      "height": 400
+    }
+  ],
+  "slide_13": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>,دخلت قاعة يملؤها صوت الموسيقى </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>.وكان الراقصون يدورون بينما تعزف الكمانات </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2050,
+      "y": 100,
+      "width": 1000,
+      "height": 582
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,الورود تتفتح والفوانيس تضيء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وشعرت أن السحر كله لها وحدها </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2050,
+      "y": 240,
+      "width": 1000,
+      "height": 554
+    }
+  ],
+  "slide_14": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,بجانب القصر كان هناك قارب ينتظر </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.مزين بالزهور الجميلة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قفزت <strong><strong>[*الاسم*]</strong> </strong> ,إلى داخله وهي تغني بسعادة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وانطلق القارب ببطء وهي تدندن </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 80,
+      "y": 123,
+      "width": 641,
+      "height": 718
+    }
+  ],
+  "slide_15": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>,أبحر القارب بهدوء ولطف </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>.حتى وصل إلى مكان تنمو فيه أشجار الحلوى </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 245,
+      "width": 1000,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>استلقت <strong><strong>[*الاسم*]</strong> </strong> ,على العشب بين الزهور </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وهي تدندن لحناً يسمعه الحقل كله </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\",يا له من يوم رائع \"</strong> <em>.تنهدت </em></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 377,
+      "width": 1000,
+      "height": 282
+    }
+  ],
+  "slide_16": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:14px;'>احتضنت <strong><strong>[*الاسم*]</strong> </strong> ,نفسها على العشب المضيء </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2040,
+      "y": 1378,
+      "width": 1000,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><div style='text-align:right;'><span style='color:#ffffff;font-size:14px;'><strong>\",يا أرض العجائب \"</strong> ,همست </span></div><div style='text-align:right;'><span style='color:#ffffff;font-size:14px;'><strong>\"!سأعود غدًا بالتأكيد \"</strong></span></div></body></html>",
+      "global_font": 2.8,
+      "x": 2231,
+      "y": 1437,
+      "width": 807,
+      "height": 210
+    }
+  ],
+  "slide_17": [
+  {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:24px;font-weight:700;'>  <strong> قصة تتحول إلى ذكرى </strong><br></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 250,
+      "y": 200,
+      "width": 900,
+      "height": 320
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>لأنهم لن يبقوا صغارًا إلى الأبد<br></span></p></body></html>",
+      "global_font": 2.9,
+      "x": 360,
+      "y": 400,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>لقد صُنعت لأحفظ اللحظات</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.وأبطئ الزمن قليلًا <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 200,
+      "y": 470,
+      "width": 900,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>صُنعت بخيالهم وأسمائهم</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.في كل صفحة <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 350,
+      "y": 620,
+      "width": 900,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>,هناك عوالم كثيرة لاكتشافها </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;وكل قصة مغامرة خاصة</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.بطفلك </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 360,
+      "y": 800,
+      "width": 900,
+      "height": 400
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>...أنا المغامرة التي لا يعيشها إلا طفلك </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'><br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 294,
+      "y": 1060,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.وأعدك، سأكون القصة المفضلة <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 394,
+      "y": 1170,
+      "width": 900,
+      "height": 100
+    }
+  ]
+}

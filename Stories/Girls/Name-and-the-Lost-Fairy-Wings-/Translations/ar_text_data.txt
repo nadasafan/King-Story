@@ -288,45 +288,61 @@
     }
   ],
   "slide_17": [
-    {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:24px;'><strong>قصة تصبح ذكرى</strong><br></span></p><br></body></html>",
+ {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:24px;font-weight:700;'>  <strong> قصة تتحول إلى ذكرى </strong><br></span></p></body></html>",
       "global_font": 3.9,
+      "x": 250,
+      "y": 200,
+      "width": 900,
+      "height": 320
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>لأنهم لن يبقوا صغارًا إلى الأبد<br></span></p></body></html>",
+      "global_font": 2.9,
+      "x": 360,
+      "y": 400,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>لقد صُنعت لأحفظ اللحظات</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.وأبطئ الزمن قليلًا <br></span></p></body></html>",
+      "global_font": 2.5,
       "x": 200,
-      "y": 150,
-      "width": 1000,
-      "height": 264
+      "y": 470,
+      "width": 900,
+      "height": 220
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:18px;'>لأنهم لن يظلوا صغارًا إلى الأبد.<br><br></span></p></body></html>",
-      "global_font": 2.3,
-      "x": 300,
-      "y": 451,
-      "width": 1000,
-      "height": 246
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>صُنعت بخيالهم وأسمائهم</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.في كل صفحة <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 350,
+      "y": 620,
+      "width": 900,
+      "height": 260
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:18px;'>لقد صُنعت هذه القصة لتحتفظ باللحظات… .</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;وتبطئ الزمن قليلً  <br><br></span></p></body></html>",
-      "global_font": 2.3,
-      "x": 300,
-      "y": 515,
-      "width": 1000,
-      "height": 242
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>,هناك عوالم كثيرة لاكتشافها </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;وكل قصة مغامرة خاصة</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.بطفلك </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 360,
+      "y": 800,
+      "width": 900,
+      "height": 400
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:18px;'>صُنعت باسم طفلك وخياله  </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:18px;'>&nbsp;&nbsp;&nbsp;في كل صفحة. <br><br></span></p></body></html>",
-      "global_font": 2.3,
-      "x": 150,
-      "y": 680,
-      "width": 1000,
-      "height": 300
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>...أنا المغامرة التي لا يعيشها إلا طفلك </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'><br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 294,
+      "y": 1060,
+      "width": 900,
+      "height": 100
     },
     {
-      "html": "<html><head/><body dir='rtl'><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:18px;'>هناك عوالم كثيرة لاكتشافها، </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:18px;'>&nbsp;&nbsp;&nbsp;وكل قصة هي مغامرة خاصة بطفلك. </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:18px;'>  &nbsp;&nbsp;&nbsp;أنا المغامرة التي لا يعيشها إلا طفلك. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 0%); font-size:18px;'>&nbsp;&nbsp;&nbsp;وأعدك… سأكون من القصص المفضلة. <br><br> </span></p></body></html>",
-      "global_font": 2.3,
-      "x": 100,
-      "y": 820,
-      "width": 1000,
-      "height": 516
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.وأعدك، سأكون القصة المفضلة <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 394,
+      "y": 1170,
+      "width": 900,
+      "height": 100
     }
 
   ]

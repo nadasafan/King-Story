@@ -1,7 +1,7 @@
 {
   "slide_01": [
     {
-      "html": "<html><head/><body><p align='center'><span style='font-size:26pt; font-weight:700; color:#ffffff;'>[*NAME*]</span></p></body></html>",
+      "html": "<html><head/><body><p align='center'><span style='color:#ffffff; font-size:26pt; font-weight:700;'><strong>[*NAME*]</strong></span></p></body></html>",
       "global_font": 3.9,
       "x": 500,
       "y": 200,
@@ -9,7 +9,7 @@
       "height": 199
     },
     {
-      "html": "<html><head/><body><p align='center'><span style='font-size:16pt; font-weight:700; color:#b83280;'>in Wonderland<br></span></p></body></html>",
+      "html": "<html><head/><body><p align='center'><span style='font-size:16pt; font-weight:700; color:#b83280;'>in Wonderland<br></span></body></html>",
       "global_font": 3.9,
       "x": 260,
       "y": 350,
@@ -37,7 +37,7 @@
   ],
   "slide_03": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> stepped inside with eyes so wide.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A candy path stretched deep inside.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> stepped inside with eyes so wide,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A candy path stretched deep inside.</span></p></body></html>",
       "global_font": 2.91,
       "x": 1900,
       "y": 1300,
@@ -55,7 +55,7 @@
   ],
   "slide_04": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The very first thing her eyes </span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>did see was a fountain of chocolates,<br> warm and free!It bubbled and</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'> splashed with a happy sound,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>sending sweet cocoa mist <br> all around.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The very first thing her eyes </span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>did see,was a fountain of chocolate <br> warm and free! It bubbled and</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'> splashed with a happy sound,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>sending sweet cocoa mist <br> all around.</span></p></body></html>",
       "global_font": 2.8,
       "x": 100,
       "y": 120,
@@ -65,7 +65,7 @@
   ],
   "slide_05": [
     {
-      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>Next came a mountain, cold and tall,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>with rainbow ice cream for <strong>[*NAME*]</strong> to eat all!</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>She scooped the colors, soft and bright,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>and every bite tasted like pure delight.</span></p></body></html>",
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>Next came a mountain, cold and tall,rainbow</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'> ice cream for <strong>[*NAME*]</strong> to eat all!</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>She scooped the colors, soft and bright,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>every bite tasted like pure delight.</span></p></body></html>",
       "global_font": 2.8,
       "x": 1899,
       "y": 1200,
@@ -75,8 +75,8 @@
   ],
   "slide_06": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>A fluffy cloud came floating by,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'> &quot; climb on my back, let's ride the sky! &quot;</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>It shimmered silver, soft as air,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>a friend who could take her anywhere.</span></p></body></html>",
-      "global_font": 2.63,
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>A fluffy cloud came floating by,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>&quot;Climb on my back, let's ride the sky!&quot;</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>It shimmered silver, soft as air,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>a friend who could take her anywhere.</span></p></body></html>",
+      "global_font": 2.5,
       "x": 200,
       "y": 1300,
       "width": 1096,
@@ -85,29 +85,37 @@
   ],
   "slide_07": [
     {
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>The cloud drifted down, so gentle and sweet,</span></p><p><span style='color:#ffffff;font-size:14px;'>to an amusement park where magic meets.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 193,
+      "y": 120,
+      "width": 1000,
+      "height": 418
+    },
+    {
       "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>Ribbons of light lit rides all around,</span></p><p><span style='color:#ffffff;font-size:14px;'>a wonderland fairground she had just found.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 493,
-      "y": 558,
-      "width": 504,
-      "height": 418
+      "x": 193,
+      "y": 270,
+      "width": 1000,
+      "height": 200
     }
   ],
   "slide_08": [
     {
-      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> zoomed down slides of red and white,</span></p><p><span style='color:#ffffff;font-size:14px;'>laughing with joy in pure delight!</span></p></body></html>",
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> zoomed down slides of  </span></p><p><span style='color:#ffffff;font-size:14px;'>red and white,laughing with joy in pure delight!</span></p></body></html>",
       "global_font": 2.8,
-      "x": 2290,
-      "y": 1000,
-      "width": 500,
+      "x": 190,
+      "y": 1300,
+      "width": 1000,
       "height": 218
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Her giggles echoed, filling the air,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>reminding that kindness and laughter are meant to share.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Her giggles echoed, filling the air,reminding</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'> her kindness and laughter are meant to share.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 2390,
-      "y": 1250,
-      "width": 535,
+      "x": 190,
+      "y": 1440,
+      "width": 1000,
       "height": 218
     }
   ],
@@ -115,16 +123,16 @@
     {
       "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>But just ahead, what came in view?</span></p><p><span style='color:#ffffff;font-size:14px;'>A flying train the skies once knew.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 155,
-      "y": 382,
-      "width": 465,
+      "x": 1800,
+      "y": 100,
+      "width": 1000,
       "height": 282
     },
     {
       "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>With grand balloons that touched the sky,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>it rumbled softly as it drifted by.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 400,
-      "y": 767,
+      "x": 1800,
+      "y": 250,
       "width": 1000,
       "height": 282
     }
@@ -133,99 +141,91 @@
     {
       "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> climbed aboard with eager cheer.</span></p><p><span style='color:#ffffff;font-size:14px;'>The sky-train's whistle rang loud and clear.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 2050,
-      "y": 1028,
+      "x": 150,
+      "y": 128,
       "width": 1000,
       "height": 233
     },
     {
       "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It carried her onward, calm and slow,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>to places only dreamers know.<br></span></p></body></html>",
       "global_font": 2.8,
-      "x": 2123,
-      "y": 1200,
-      "width": 440,
-      "height": 161
-    },
-    {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> gripped the rail and laughed with glee—</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a sky-train adventure for all to see!</span></p></body></html>",
-      "global_font": 2.8,
-      "x": 2318,
-      "y": 1446,
-      "width": 615,
-      "height": 154
+      "x": 150,
+      "y": 260,
+      "width": 1000,
+      "height": 261
     }
   ],
   "slide_11": [
     {
-      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>The train slowed down in a city so bright,</span></p><p><span style='color:#ffffff;font-size:14px;'>with candy-topped houses, a dazzling sight.</span></p><p><span style='color:#ffffff;font-size:14px;'>Each roof was painted in colors new,</span></p><p><span style='color:#ffffff;font-size:14px;'>and windows sparkled like morning dew.</span></p></body></html>",
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>The train slowed down in a city so </span></p><p><span style='color:#ffffff;font-size:14px;'>bright,with candy-topped houses,</span></p></body></html>",
       "global_font": 2.8,
-      "x": 2000,
-      "y": 400,
-      "width": 670,
-      "height": 282
+      "x": 600,
+      "y": 1200,
+       "width": 1000,
+      "height": 1500
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Walking the streets, <strong>[*NAME*]</strong>'s heart beat fast—</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>a princess castle appeared at last!</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'> a dazzling sight.Each roof was painted </span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>in colors new,and windows sparkled <br> like morning dew.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 2200,
-      "y": 750,
-      "width": 537,
-      "height": 282
+      "x": 600,
+      "y": 1340,
+      "width": 1000,
+      "height": 1500
     }
   ],
   "slide_12": [
     {
-      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>Its towers glittered, tall and grand,</span></p><p><span style='color:#ffffff;font-size:14px;'>like a jewel in the heart of Wonderland.<br><br></span></p><p><span style='color:#ffffff;font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tied with ribbons, bright and bold,</span></p><p><span style='color:#ffffff;font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a storybook castle to behold.</span></p></body></html>",
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>Walking the streets, <strong>[*NAME*]</strong>'s </span></p><p><span style='color:#ffffff;font-size:14px;'>heart beat fast,a princess castle appeared at last!</span></p><p><span style='color:#ffffff;font-size:14px;'>Its towers glittered, tall and grand,</span></p><p><span style='color:#ffffff;font-size:14px;'>like a jewel in the heart of<strong> Wonderland </strong>.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 2175,
-      "y": 930,
+      "x": 1800,
+      "y": 1200,
       "width": 742,
-      "height": 2582
+      "height": 400
     }
   ],
   "slide_13": [
     {
       "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>She entered a hall where music rang,</span></p><p><span style='color:#ffffff;font-size:14px;'>and dancers twirled as violins sang.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 358,
-      "y": 900,
-      "width": 561,
+      "x": 150,
+      "y": 100,
+      "width": 1000,
       "height": 582
     },
     {
       "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Roses bloomed and lanterns shone,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and she felt the magic was all her own.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 550,
-      "y": 1197,
-      "width": 593,
+      "x": 150,
+      "y": 240,
+      "width": 1000,
       "height": 554
     }
   ],
   "slide_14": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Beside the castle, a boat did wait,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>blooming with flowers in bright display.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She hopped aboard with a happy song,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and drifted gently, humming along.<br></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Beside the castle, a boat did wait,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>blooming with flowers in bright display.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She hopped aboard with a happy song,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and drifted gently, humming along.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 2079,
-      "y": 473,
+      "x": 2479,
+      "y": 123,
       "width": 641,
       "height": 718
     }
   ],
   "slide_15": [
     {
-      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>The boat sailed softly, calm and slow,</span></p><p><span style='color:#ffffff;font-size:14px;'>to a meadow where candy trees could grow.</span></p></body></html>",
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>The boat sailed softly, calm and slow,</span></p><p><span style='color:#ffffff;font-size:14px;'>to a meadow where candy trees grow.</span></p></body></html>",
       "global_font": 2.8,
-      "x": 2100,
-      "y": 186,
-      "width": 495,
+      "x": 2000,
+      "y": 245,
+      "width": 1000,
       "height": 218
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She lay in the grass, humming a tune</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>the whole field could hear.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;What a perfect day,&quot;</strong> <em>she sighed.</em></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She lay in the grass, with flowers near,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>humming a tune the whole field could hear.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;What a perfect day,&quot;</strong> <em>she sighed.</em></span></p></body></html>",
       "global_font": 2.8,
-      "x": 2300,
+      "x": 2000,
       "y": 377,
-      "width": 435,
+      "width": 1000,
       "height": 282
     }
   ],
@@ -233,16 +233,16 @@
     {
       "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> snuggled down, the meadow aglow,</span></p></body></html>",
       "global_font": 2.8,
-      "x": 360,
-      "y": 178,
-      "width": 670,
+      "x": 160,
+      "y": 1378,
+      "width": 1000,
       "height": 218
     },
     {
       "html": "<html><head/><body><div style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>&quot;Wonderland,&quot;</strong> she whispered,</span></div><div style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>&quot;I'll be back tomorrow, I know!&quot;</strong></span></div></body></html>",
       "global_font": 2.8,
-      "x": 752,
-      "y": 467,
+      "x": 162,
+      "y": 1437,
       "width": 807,
       "height": 210
     }
@@ -281,7 +281,7 @@
       "height": 260
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>There are many worlds to explore,</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and each MAGICAL STORY title</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>becomes an adventure crafted</span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;around your little one.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>There are many worlds to explore,</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and each Wonder Wraps title</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>becomes an adventure crafted</span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;around your little one.<br></span></p><br></body></html>",
       "global_font": 2.0,
       "x": 500,
       "y": 800,
