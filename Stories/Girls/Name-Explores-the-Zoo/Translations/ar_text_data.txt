@@ -1,0 +1,228 @@
+﻿{
+  "slide_01": [
+    {
+      "html": "<html><head/><body><p style='text-align: center;'><span style='color:#fdb0d6;font-size:24pt;font-weight:700;'>[*الاسم*]<br></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 470,
+      "y": 300,
+      "width": 760,
+      "height": 199
+    },
+    {
+      "html": "<html><head/><body><p style='text-align: center;'><span style='color:#de9e65;font-size:18pt;font-weight:700;'>تستكشف حديقة الحيوانات</span></p></body></html>",
+      "global_font": 2.7,
+      "x": 320,
+      "y": 450,
+      "width": 1020,
+      "height": 112
+    }
+  ],
+  "slide_02": [
+    {
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>كانت هذه أول مرة تزور فيها <strong>[*الاسم*]</strong> .حديقة الحيوانات </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>نظرت <strong>[*الاسم*]</strong> .إلى البوابة الكبيرة بعينين واسعتين مليئتين بالحماس <br></span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'><br>:قالت  &quot;!واو! هناك الكثير من الحيوانات بانتظاري&quot;</span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>:وتعلمت أن حدائق الحيوانات هي </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>  .أماكن خاصة تعيش فيها الحيوانات من جميع أنحاء العالم بأمان </span></p></body></html>",
+      "global_font": 2.9,
+      "x": -500,
+      "y": 250,
+      "width": 820,
+      "height": 640
+    }
+  ],
+  "slide_03": [
+    {
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>&quot;!إييي-إييي! أوو-أوو &quot;</span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>.كانت القرود تتأرجح وتلعب بين الأشجار </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>ضحكت <strong>[*الاسم*]</strong>.من وجهها المضحك </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>!وتعلمت أن القرود تحب لعب المطاردة والاختباء، تمامًا مثل الأطفال </span></p></body></html>",
+      "global_font": 2.91,
+      "x": 1890,
+      "y": 1250,
+      "width": 1000,
+      "height": 420
+    }
+  ],
+  "slide_04": [
+    {
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>.كانت الأفيال ترفرف بآذانها الكبيرة </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>مدّ أحدها خرطومه الطويل نحو <strong>[*الاسم*]</strong> </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>.وتعلمت أن الأفيال تستخدم خراطيمها للأكل والشرب، وحتى لإعطاء العناق </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 1260,
+      "width": 820,
+      "height": 390
+    }
+  ],
+  "slide_05": [
+    {
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>حلّقت الببغاوات الملوّنة فوق رأس <strong>[*الاسم*]</strong> .وهي تصرخ بصوت عالٍ </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>وتعلمت أن بعض الببغاوات يمكنها تقليد الأصوات وحتى قول كلمات مثل !&quot;مرحبًا&quot; </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1850,
+      "y": 1300,
+      "width": 760,
+      "height": 320
+    }
+  ],
+  "slide_06": [
+    {
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:16px;'>مرت الحُمُر الوحشية بخطوطها السوداء  </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:16px;'>. والبيضاء اللامعة تحت الشمس </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:16px;'>وتعلمت <strong>[*الاسم*]</strong>,أن لكل حمار وحشي خطوطًا مختلفة </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:16px;'>. مثل بصمات الأصابع عند البشر </span></p></body></html>",
+      "global_font": 2.63,
+      "x": 230,
+      "y": 1220,
+      "width": 1280,
+      "height": 360
+    }
+  ],
+  "slide_07": [
+    {
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>&quot;ررراااو!&quot;</span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>زأر النمر بصوت عالٍ جدًا حتى قفزت </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'> <strong>[*الاسم*]</strong> من المفاجأة! وتعلمت أن زئير النمر </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'> يمكن سماعه من مسافة بعيدة جدًا</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2200,
+      "y": 1260,
+      "width": 700,
+      "height": 260
+    }
+  ],
+  "slide_08": [
+    {
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>,غطست الفقمات ودارت في الماء  </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>  .فرشت قطرات الماء على وجه<strong>[*الاسم*]</strong> </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>   وتعلمت أن الفقمات تستطيع حبس  </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'> .أنفاسها تحت الماء لفترة طويلة جدًا</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2000,
+      "y": 1220,
+      "width": 820,
+      "height": 380
+    }
+  ],
+  "slide_09": [
+    {
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>    مدّت الزرافات أعناقها الطويلة لتأكل أعلى الأوراق  </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'> في الأشجار.وتعلمت <strong>[*الاسم*]</strong> :أن الزرافات هي</span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>  .أطول الحيوانات التي تعيش على اليابسة</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2000,
+      "y": 1300,
+      "width": 760,
+      "height": 250
+    }
+  ],
+  "slide_10": [
+    {
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>.كانت الباندا نائمة تحت نبات الخيزران بعد وجبة كبيرة</span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>وتعلمت <strong>[*الاسم*]</strong> .أن الباندا تأكل الخيزران تقريبًا طوال اليوم، ثم تشعر بالنعاس الشديد</span></p></body></html>",
+      "global_font": 2.9,
+      "x": 400,
+      "y": 1300,
+      "width": 900,
+      "height": 320
+    }
+  ],
+  "slide_11": [
+    {
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'> ,مشت وحيدات القرن ببطء فوق العشب </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'> .وكانت قرونها الكبيرة تلمع تحت الشمس     </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>وتعلمت <strong>[*الاسم*]</strong> أن قرون وحيد القرن مصنوعة  </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>  .من نفس المادة التي يتكون منها شعرنا وأظافرنا </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 1220,
+      "width": 760,
+      "height": 330
+    }
+  ],
+  "slide_12": [
+    {
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>!بوينغ! بوينغ</span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>.قفزت حيوانات الكنغر عبر الحقل</span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>حاولت <strong>[*الاسم*]</strong> .القفز مثلها أيضًا</span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'> وتعلمت أن الكنغر يمكنه القفز  </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>  .لمسافة طويلة جدًا في قفزة واحدة   </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 1200,
+      "width": 850,
+      "height": 360
+    }
+  ],
+  "slide_13": [
+    {
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>.رمشت البوم بعيونها الذهبية الكبيرة من بين الأشجار</span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>وتعلمت <strong>[*الاسم*]</strong> .أن البوم يستطيع تدوير رأسه تقريبًا حول نفسه بالكامل</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 460,
+      "y": 1330,
+      "width": 760,
+      "height": 300
+    }
+  ],
+  "slide_14": [
+    {
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>.وقفت طيور الفلامنغو على ساق واحدة، وريشها الوردي يلمع </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>وتعلمت <strong>[*الاسم*]</strong> .أن الفلامنغو يصبح لونه ورديًا بسبب الطعام الذي يأكله، مثل الروبيان الصغير </span></p></body></html>",
+      "global_font": 2.9,
+      "x": 340,
+      "y": 1300,
+      "width": 800,
+      "height": 320
+    }
+  ],
+  "slide_15": [
+    {
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'> .قفزت الضفادع من ورقة زنبق إلى أخرى </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>وتعلمت <strong>[*الاسم*]</strong> !أن بعض الضفادع تستطيع القفز لمسافات بعيدة جدًا، كأنها تقفز فوق مائدة الطعام </span></p></body></html>",
+      "global_font": 2.9,
+      "x": 1850,
+      "y": 1220,
+      "width": 700,
+      "height": 320
+    }
+  ],
+  "slide_16": [
+    {
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>مع غروب الشمس، لوّحت <strong>[*الاسم*]</strong> .مودعة الحيوانات </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>.وتعلمت أن حدائق الحيوانات تساعد في حماية الحيوانات حتى يتمكن الأطفال من رؤيتها لسنوات طويلة </span></p></body></html>",
+      "global_font": 2.9,
+      "x": 360,
+      "y": 1290,
+      "width": 880,
+      "height": 300
+    }
+  ],
+  "slide_17": [
+ {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:24px;font-weight:700;'>  <strong> قصة تتحول إلى ذكرى </strong><br></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 250,
+      "y": 200,
+      "width": 900,
+      "height": 320
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>لأنهم لن يبقوا صغارًا إلى الأبد<br></span></p></body></html>",
+      "global_font": 2.9,
+      "x": 360,
+      "y": 400,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>لقد صُنعت لأحفظ اللحظات</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.وأبطئ الزمن قليلًا <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 200,
+      "y": 470,
+      "width": 900,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>صُنعت بخيالهم وأسمائهم</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.في كل صفحة <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 350,
+      "y": 620,
+      "width": 900,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>,هناك عوالم كثيرة لاكتشافها </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;وكل قصة مغامرة خاصة</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.بطفلك </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 360,
+      "y": 800,
+      "width": 900,
+      "height": 400
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>...أنا المغامرة التي لا يعيشها إلا طفلك </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'><br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 294,
+      "y": 1060,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.وأعدك، سأكون القصة المفضلة <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 394,
+      "y": 1170,
+      "width": 900,
+      "height": 100
+    }
+  ]
+}

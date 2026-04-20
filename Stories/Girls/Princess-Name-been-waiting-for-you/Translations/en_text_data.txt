@@ -1,0 +1,474 @@
+{
+  "slide_01": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:26pt; font-weight:700; color:#fdb0d6;'>Princess<br></span></p></body></html>",
+      "global_font": 3.5,
+      "x": 524,
+      "y": 165,
+      "width": 598,
+      "height": 199
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:26pt; font-weight:700; color:#fdb0d6;'>[*NAME*]</span></p></body></html>",
+      "global_font": 3.5,
+      "x": 441,
+      "y": 308,
+      "width": 598,
+      "height": 199
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:12pt; font-weight:700; color:#fdb0d6;'>we've been waiting for you</span></p></body></html>",
+      "global_font": 3.43,
+      "x": 363,
+      "y": 488,
+      "width": 736,
+      "height": 112
+    }
+  ],
+  "slide_02": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>One peaceful morning,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;stood on her castle balcony.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;From far beyond the hills,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;the Enchanted Forest</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;shimmered.</span></p></body></html>",
+      "global_font": 2.63,
+      "x": 127,
+      "y": 583,
+      "width": 492,
+      "height": 386
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>And on the wind came a message:</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;we are waiting for you.'</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1991,
+      "y": 1191,
+      "width": 625,
+      "height": 218
+    }
+  ],
+  "slide_03": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Inside her room,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;opened a carved wooden box.</span></p></body></html>",
+      "global_font": 2.91,
+      "x": 963,
+      "y": 1406,
+      "width": 581,
+      "height": 224
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:10px;'>Inside was her forest gown,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:10px;'>a deep green dress,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:10px;'>symbolizing her love for nature.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:10px;'>Resting on top was a golden key</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:10px;'>she earned in her first adventure.</span></p></body></html>",
+      "global_font": 2.97,
+      "x": 2525,
+      "y": 1283,
+      "width": 569,
+      "height": 318
+    }
+  ],
+  "slide_04": [
+    {
+      "html": "<html><head></head><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Guided by a glowing butterfly,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>followed a winding path.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1793,
+      "y": 258,
+      "width": 558,
+      "height": 218
+    },
+    {
+      "html": "<html><head></head><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The trees grew taller the farther she walked,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>and birds chirped softly in the branches above.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2066,
+      "y": 524,
+      "width": 840,
+      "height": 154
+    },
+    {
+      "html": "<html><head></head><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>She listened closely.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The forest had stories to tell</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>and she was ready to hear them.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2611,
+      "y": 749,
+      "width": 595,
+      "height": 218
+    }
+  ],
+  "slide_05": [
+    {
+      "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>At the edge of the forest,</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong></span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>discovered a mysterious wooden</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>door, blanketed in glowing moss</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>and tangled roots.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 199,
+      "y": 334,
+      "width": 601,
+      "height": 346
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>No handle was there to open it,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>only a shimmering handprint</span></p><p style='text-align:left'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>shining in the center.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1925,
+      "y": 226,
+      "width": 580,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>A wooden sign on the door said:&nbsp;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>'Only the one with a kind and</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>brave heart may enter.'</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2127,
+      "y": 1081,
+      "width": 608,
+      "height": 218
+    }
+  ],
+  "slide_06": [
+    {
+      "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'><strong>Princess&nbsp;[*NAME*],</strong></span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>if you're ready to discover,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>help others, and protect&nbsp;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>this wonderful place,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>place your hand right here.</span></p></body></html>",
+      "global_font": 2.63,
+      "x": 492,
+      "y": 300,
+      "width": 596,
+      "height": 394
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>Paint your hand with red color and press it gently on this page.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:18px;'>Let your handprint be the mark of the forest's true guardian.</span></p></body></html>",
+      "global_font": 2.44,
+      "x": 160,
+      "y": 787,
+      "width": 1323,
+      "height": 176
+    }
+  ],
+  "slide_07": [
+    {
+      "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>As the forest door creaked&nbsp;</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>open, a soft golden light&nbsp;</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>spilled onto the path.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 693,
+      "y": 258,
+      "width": 504,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong></span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>stepped inside, and the forest</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>welcomed her with a warm breeze.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 960,
+      "y": 526,
+      "width": 634,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>'Welcome, Princess,'</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>the glowing butterfly said.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2621,
+      "y": 148,
+      "width": 486,
+      "height": 154
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>'We've been waiting for you.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>The forest needs your help.'</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2769,
+      "y": 378,
+      "width": 524,
+      "height": 154
+    }
+  ],
+  "slide_08": [
+    {
+      "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Suddenly, a fox appeared.</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Its tail was covered in soot,</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>and it looked sad.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 857,
+      "y": 593,
+      "width": 500,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p><span style='text-align:left;color:hsl(0, 0%, 100%);font-size:12px;'><strong>'Can you help me?'</strong></span></p><span style=' text-align:left;color:hsl(0, 0%, 100%);font-size:14px;'>it asked.</span></body></html>",
+      "global_font": 2.8,
+      "x": 2246,
+      "y": 491,
+      "width": 330,
+      "height": 146
+    },
+    {
+      "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>'I've lost my confidence</strong></span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>because of my burned tail.'</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2284,
+      "y": 670,
+      "width": 535,
+      "height": 154
+    }
+  ],
+  "slide_09": [
+    {
+      "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:16px;'><strong>Princess&nbsp;[*NAME*]&nbsp;</strong></span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>knelt down and smiled.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1155,
+      "y": 582,
+      "width": 436,
+      "height": 161
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>'Your tail may look&nbsp;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>different, but your heart</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>is still strong and brave.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Let me help you clean it.'</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1894,
+      "y": 567,
+      "width": 465,
+      "height": 282
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>With water from the</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>stream and a gentle touch,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'><strong>Princess&nbsp;[*NAME*]&nbsp;</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>cleaned the fox's tail.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>It began to sparkle with magic.</span></p></body></html>",
+      "global_font": 2.5,
+      "x": 2465,
+      "y": 978,
+      "width": 512,
+      "height": 328
+    }
+  ],
+  "slide_10": [
+    {
+      "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:18px;'><strong>'Thank you,'</strong></span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>the fox said, wagging</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>its tail happily.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1173,
+      "y": 428,
+      "width": 404,
+      "height": 233
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'><strong>'You're welcome,'&nbsp;</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>said Princess&nbsp;[*NAME*].</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1923,
+      "y": 446,
+      "width": 440,
+      "height": 161
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>'Always remember,</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>you are more than how you look.'</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2018,
+      "y": 646,
+      "width": 615,
+      "height": 154
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>The fox gave <strong>Princess&nbsp;</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>[*NAME*]</strong> a shiny leaf.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2239,
+      "y": 816,
+      "width": 429,
+      "height": 154
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>'This leaf will help you on your journey.</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>Keep believing in yourself,' </strong>it said.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2236,
+      "y": 996,
+      "width": 758,
+      "height": 154
+    }
+  ],
+  "slide_11": [
+    {
+      "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>Princess&nbsp;[*NAME*]</strong></span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>continued through the forest</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>and came to a clearing where wolves</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>were howling. They looked fleftened.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 841,
+      "y": 345,
+      "width": 670,
+      "height": 282
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>'What's wrong?'</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Princess&nbsp;[*NAME*] asked.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1639,
+      "y": 144,
+      "width": 470,
+      "height": 154
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>One wolf stepped forward.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>'The Moonstone is missing,</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>and without it, we can't</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>protect our pack.'</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1786,
+      "y": 305,
+      "width": 537,
+      "height": 282
+    }
+  ],
+  "slide_12": [
+    {
+      "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>The glowing key began to shine brighter.</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Princess<strong> [*NAME*]</strong> followed&nbsp;</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>its light to a cave guarded by shadows.</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>'I must be brave,'</strong> she whispered.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 575,
+      "y": 482,
+      "width": 742,
+      "height": 282
+    }
+  ],
+  "slide_13": [
+    {
+      "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Inside the cave,<strong> Princess</strong></span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>[*NAME*] </strong>found&nbsp;</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>the Moonstone hidden&nbsp;</span</p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>in a pool of dark water.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 358,
+      "y": 335,
+      "width": 461,
+      "height": 282
+    },
+    {
+      "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>She reached in, even though&nbsp;</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>the shadows swirled around her.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 550,
+      "y": 697,
+      "width": 593,
+      "height": 154
+    }
+  ],
+  "slide_14": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>The moment she touched the</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Moonstone, the shadows vanished.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>She carried it back to the wolves.<!-- swirled around her-->.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1979,
+      "y": 573,
+      "width": 641,
+      "height": 218
+    }
+  ],
+  "slide_15": [
+    {
+      "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>The wolves howled in joy.,&nbsp;</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>'You've saved us!'</strong></span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>they cried.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 191,
+      "y": 286,
+      "width": 495,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>The pack leader gave</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Princess<strong> [*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>a silver bracelet</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>as a token of gratitude.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 901,
+      "y": 1177,
+      "width": 435,
+      "height": 282
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Princess <strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>placed the bracelet on her wrist.&nbsp;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>It sparkled like the stars.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2105,
+      "y": 292,
+      "width": 599,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>she felt stronger and</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>more confident than ever.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2509,
+      "y": 1257,
+      "width": 482,
+      "height": 154
+    }
+  ],
+  "slide_16": [
+    {
+      "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>As Princess<strong>[*NAME*]</strong></span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>walked deeper into the forest,</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>she found a tall tree with a tiny door.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 760,
+      "y": 1278,
+      "width": 670,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><div style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>On the door was a glowing leaf-shaped slot.&nbsp;</span></div><div style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Princess <strong>[*NAME*]</strong> gently placed&nbsp;</span></div><div style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>the shiny leaf from the fox inside.</span><div></body></html>",
+      "global_font": 2.8,
+      "x": 1752,
+      "y": 467,
+      "width": 807,
+      "height": 210
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>She remembered its words:</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>'Keep believing in yourself.'</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2118,
+      "y": 1020,
+      "width": 544,
+      "height": 154
+    }
+  ],
+  "slide_17": [
+    {
+      "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>She leaned down&nbsp;</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>and peeked inside.&nbsp;</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Inside, glowing softly&nbsp;</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>in the hidden room,</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>was a magical book</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>sitting on a little pedestal.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 180,
+      "y": 337,
+      "width": 481,
+      "height": 410
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>The book shimmered with golden light,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>as if it had been waiting for her.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Carefully, she reached in and opened it.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2353,
+      "y": 368,
+      "width": 715,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>The first page sparkled and said:</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>'Your heart is the key to every challenge.</strong>'</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2513,
+      "y": 787,
+      "width": 791,
+      "height": 154
+    }
+  ],
+  "slide_18": [
+    {
+      "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>As the golden light burst from&nbsp;</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>the book, it wrapped around</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>Princess&nbsp;[*NAME*].</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 184,
+      "y": 115,
+      "width": 567,
+      "height": 218
+    },
+    {
+      "html": "<html><head/><body><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Her green dress sparkled, then</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>transformed into a magical robe&nbsp;</span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>of leaves and light.,<strong> ''You are now</strong></span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>the Guardian of the Forest,”</strong></span></p><p><span style='color:hsl(0, 0%, 100%);font-size:14px;'>whispered the glowing butterfly.</span></p></body></html>",
+      "global_font": 2.4,
+      "x": 968,
+      "y": 337,
+      "width": 537,
+      "height": 306
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>The fox, the wolf, and&nbsp;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>the butterfly gathered.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>'You brought back&nbsp;</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>courage, kindness,</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'><strong>and hope,' </strong>they said.</span></p></body></html>",
+      "global_font": 2.5,
+      "x": 1807,
+      "y": 118,
+      "width": 384,
+      "height": 321
+    }
+  ],
+  "slide_19": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>With the book in her arms,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'><strong>Princess&nbsp;[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>walked home. She knew her</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>adventures weren't over yet.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1923,
+      "y": 463,
+      "width": 584,
+      "height": 310
+    }
+  ],
+  "slide_20": [
+    {
+      "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>The adventure continues as Princess&nbsp;[*NAME*]</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>returns, holding the glowing key she found on her first journey.</span></p></body></html>",
+      "global_font": 2.59,
+      "x": 336,
+      "y": 284,
+      "width": 1039,
+      "height": 146
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>A call echoes from the Enchanted Forest, a place only those with</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>kind and brave hearts like Name may enter.&nbsp;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Before stepping inside, Princess&nbsp;[*NAME*],</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:16px;'>you are invited to paint your own handprint on this page,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>a special mark that shows you have the courage</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>&nbsp;to become a true Guardian of the Forest.</span></p></body></html>",
+      "global_font": 2.59,
+      "x":-436,
+      "y": 468,
+      "width": 1039,
+      "height": 345
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Inside, she meets a shy fox who's lost its confidence and</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>a pack of brave wolves searching for their missing Moonstone.&nbsp;</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>With kindness in her heart and courage lighting her path,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>Princess Name unlocks a magical book that</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>transforms her into the protector of the forest,</span></p><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%);font-size:14px;'>proving that true strength comes from believing in yourself.</span></p></body></html>",
+      "global_font": 2.59,
+      "x": -536,
+      "y": 843,
+      "width": 1039,
+      "height": 360
+    }
+  ]
+}
