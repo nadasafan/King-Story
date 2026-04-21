@@ -47,7 +47,7 @@
       "height": 240
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,حين اقتربت منها &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!تكلمت الوردة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\"أيتها الأميرة [*الاسم*] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>.قلبك لطيف وجميل &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>.كنت أنتظرك &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>.حيوانات الحديقة تحتاج إلى مساعدتك \"</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,حين اقتربت منها &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!تكلمت الوردة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;أيتها الأميرة [*الاسم*] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>.قلبك لطيف وجميل &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>.كنت أنتظرك &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>.حيوانات الحديقة تحتاج إلى مساعدتك &quot;</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": -400,
       "y": 500,
@@ -57,7 +57,7 @@
   ],
   "slide_05": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>تعجبت <strong>[*الاسم*]</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.لم تكن قد تحدثت مع زهرة من قبل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وعد تها <strong>\".سأساعد الحيوانات </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>ما الذي يجب أن أفعله؟\"</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>تعجبت <strong>[*الاسم*]</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.لم تكن قد تحدثت مع زهرة من قبل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وعد تها <strong>&quot;.سأساعد الحيوانات </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>ما الذي يجب أن أفعله؟&quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.8,
       "x": 2350,
       "y": 900,
@@ -65,7 +65,7 @@
       "height": 260
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.توهجت الوردة مشرقة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\".أظهري للحيوانات الحب والتعاطف </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>ستجدين التحدي الأول</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>.بجوار شجرة البلوط \"</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.توهجت الوردة مشرقة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;.أظهري للحيوانات الحب والتعاطف </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>ستجدين التحدي الأول</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>.بجوار شجرة البلوط &quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.8,
       "x": 700,
       "y": 1100,
@@ -75,7 +75,7 @@
   ],
   "slide_06": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>سارت <strong>[*الاسم*]</strong> .إلى شجرة البلوط الكبيرة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وجدت هناك عصفورًا صغيرًا يبكي على غصن منخفض.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:سألته برفق <strong>\"ما الخطب أيها الصغير؟\"</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:أجاب العصفور  <strong>\"!لقد أضعت منزلي \"</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\".لا أعرف أين عشي \"</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>سارت <strong>[*الاسم*]</strong> .إلى شجرة البلوط الكبيرة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وجدت هناك عصفورًا صغيرًا يبكي على غصن منخفض </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:سألته برفق <strong>&quot;ما الخطب أيها الصغير؟&quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:أجاب العصفور  <strong>&quot;!لقد أضعت منزلي &quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;.لا أعرف أين عشي &quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.8,
       "x": 1600,
       "y": 800,
@@ -85,7 +85,7 @@
   ],
   "slide_07": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>حملت العصفور &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وقربته منها &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قالت له <strong>\",لا تقلق </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\".سأساعدك على إيجاد عشك \"</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>حملت العصفور &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وقربته منها &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قالت له <strong>&quot;,لا تقلق </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;.سأساعدك على إيجاد عشك &quot;</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 1800,
       "y": 800,
@@ -95,166 +95,166 @@
   ],
   "slide_08": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>مشت عبر الحديقة،</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وسألت كل العصافير التي رأتها إن كانت تعرف</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>مكان منزل العصفور الصغير.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>أخيرًا، أرشدها عصفور دوري إلى شجرة طويلة.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,مشت عبر الحديقة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وسألت كل العصافير التي رأتها إن كانت تعرف</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.مكان منزل العصفور الصغير &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أخيرًا، أرشدها عصفور دوري إلى شجرة طويلة </span></p></body></html>",
       "global_font": 2.8,
-      "x": 100,
-      "y": 420,
+      "x": 1800,
+      "y": 900,
       "width": 1000,
       "height": 260
     }
   ],
   "slide_09": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وضعت <strong>[*الاسم*]</strong> العصفور في العش.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>غرد فرحًا: <strong>\"شكرًا لك.\"</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>أثلجت كلماته صدر <strong>[*الاسم*]</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وأدركت مدى روعة مساعدة الآخرين.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وضعت <strong>[*الاسم*]</strong>.العصفور في العش &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:غرد فرحًا  <strong>&quot;.شكرًا لك &quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>أثلجت كلماته صدر <strong>[*الاسم*]</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وأدركت مدى روعة مساعدة الآخرين </span></p></body></html>",
       "global_font": 2.8,
-      "x": 100,
-      "y": 100,
+      "x": 1900,
+      "y": 300,
       "width": 1000,
       "height": 260
     }
   ],
   "slide_10": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>ظهرت الوردة المضيئة مجددًا.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قالت: <strong>\"لقد أظهرت الحب والاهتمام،</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\"التحدي التالي بجوار النافورة.\"</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ظهرت الوردة المضيئة مجددًا &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قالت: <strong>&quot;,لقد أظهرت الحب والاهتمام </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;.التحدي التالي بجوار النافورة &quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.8,
-      "x": 100,
-      "y": 310,
+      "x": 2000,
+      "y": 700,
       "width": 1000,
       "height": 220
     }
   ],
   "slide_11": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>بجوار النافورة،</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>رأت <strong>[*الاسم*]</strong> طاووسًا جميلًا</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>يحدق إلى انعكاس صورته على سطح الماء.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\"أنا الأجمل.\"</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قال ذلك وتباهى بريشه.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,بجوار النافورة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>رأت <strong>[*الاسم*]</strong> طاووسًا جميلًا &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.يحدق إلى انعكاس صورته على سطح الماء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;.أنا الأجمل &quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.قال ذلك وتباهى بريشه &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.8,
-      "x": 100,
-      "y": 200,
+      "x": 2100,
+      "y": 300,
       "width": 1000,
       "height": 300
     }
   ],
   "slide_12": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>ابتسمت <strong>[*الاسم*]</strong>.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قالت: <strong>\"أنت جميل،</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>لكن الجمال يصبح أعظم حين تشاركه.</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>هل ستساعدني على جمع الريش لتدفئة عش؟\"</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ابتسمت <strong>[*الاسم*]</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قالت  <strong>&quot;,أنت جميل </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>.لكن الجمال يصبح أعظم حين تشاركه </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>هل ستساعدني على جمع الريش لتدفئة عش؟&quot;</strong></span></p></body></html>",
       "global_font": 2.8,
-      "x": 1800,
-      "y": 100,
+      "x": 0,
+      "y": 200,
       "width": 1000,
       "height": 280
     }
   ],
   "slide_13": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>تردد الطاووس.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>سأل: <strong>\"لماذا يجدر بي فعل ذلك؟\"</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>أجابت <strong>[*الاسم*]</strong>:</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\"المشاركة تجعلنا جميلين حقًا.</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>حين نساعد الآخرين،</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>نتألق من الداخل والخارج.\"</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.تردد الطاووس &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:سأل <strong>&quot;لماذا يجدر بي فعل ذلك؟&quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:أجابت <strong>[*الاسم*]</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;y.المشاركة تجعلنا جميلين حقًا </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>,حين نساعد الآخرين &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>نتألق من الداخل والخارج.&quot;</strong></span></p></body></html>",
       "global_font": 2.8,
-      "x": 100,
-      "y": 220,
+      "x": 1900,
+      "y": 400,
       "width": 1000,
       "height": 340
     }
   ],
   "slide_14": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>فكر الطاووس للحظة</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>ثم نزع بضع ريشات.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قال لها: <strong>\"تفضلي.\"</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>شكرته <strong>[*الاسم*]</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وأخذت الريشات إلى العش.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>فكر الطاووس للحظة</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ثم نزع بضع ريشات </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قال لها  <strong>&quot;.تفضلي &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>شكرته <strong>[*الاسم*]</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وأخذت الريشات إلى العش </span></p></body></html>",
       "global_font": 2.8,
-      "x": 100,
-      "y": 100,
+      "x": 2000,
+      "y": 300,
       "width": 900,
       "height": 300
     }
   ],
   "slide_15": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>ظهرت الوردة المضيئة من جديد.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\"لقد أظهرت اللطف</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>وعلمت الطاووس أهمية المشاركة.</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>التحدي الأخير بانتظارك بقرب شجيرات الزهور.\"</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ظهرت الوردة المضيئة من جديد </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;لقد أظهرت اللطف</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>.وعلمت الطاووس أهمية المشاركة </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>.التحدي الأخير بانتظارك بقرب شجيرات الزهور &quot;</strong></span></p></body></html>",
       "global_font": 2.8,
-      "x": 100,
-      "y": 260,
+      "x": 1500,
+      "y": 460,
       "width": 1000,
       "height": 280
     }
   ],
   "slide_16": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>عند شجيرات الزهور،</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>كان سنجاب صغير يرتجف.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\"ما الخطب؟\"</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>سألته <strong>[*الاسم*]</strong> بحنان.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,عند شجيرات الزهور </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.كان سنجاب صغير يرتجف </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;ما الخطب؟&quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>سألته <strong>[*الاسم*]</strong> .بحنان </span></p></body></html>",
       "global_font": 2.8,
-      "x": 1800,
+      "x": 2200,
       "y": 430,
       "width": 900,
       "height": 260
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\"أنا خائف من تسلق الشجرة</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>للحصول على الطعام.\"</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>أجاب السنجاب، وأضاف:</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\"ماذا لو سقطت؟\"</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;أنا خائف من تسلق الشجرة</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>.للحصول على الطعام &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:أجاب السنجاب، وأضاف </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;ماذا لو سقطت؟&quot;</strong></span></p></body></html>",
       "global_font": 2.8,
-      "x": 100,
-      "y": 100,
+      "x": -100,
+      "y": 150,
       "width": 900,
       "height": 260
     }
   ],
   "slide_17": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>ركعت <strong>[*الاسم*]</strong> بجانب السنجاب.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\"الشجاعة لا تعني ألا تشعر بالخوف،</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>بل تعني أن تحاول رغم الخوف.</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>فلنتسلق معًا.\"</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>ركعت <strong>[*الاسم*]</strong> .بجانب السنجاب &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;,الشجاعة لا تعني ألا تشعر بالخوف </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>.بل تعني أن تحاول رغم الخوف </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>.فلنتسلق معًا &quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.8,
-      "x": 1800,
-      "y": 100,
+      "x": 0,
+      "y": 150,
       "width": 1000,
       "height": 280
     }
   ],
   "slide_18": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>بينما كانا يتسلقان</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>[*الاسم*]</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>رأت علامة مضيئة</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>على جذع الشجرة.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>أشار السنجاب إليها:</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\"ما هذا؟\"</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>سأل وهو متوتر.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>بينما كانا يتسلقان</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>[*الاسم*]</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>رأت علامة مضيئة</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.على جذع الشجرة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:أشار السنجاب إليها </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;ما هذا؟&quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.سأل وهو متوتر </span></p></body></html>",
       "global_font": 2.8,
-      "x": 1800,
+      "x": 1600,
       "y": 100,
       "width": 900,
       "height": 360
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>لمست <strong>[*الاسم*]</strong> العلامة</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وإذ بضوء ذهبي رقيق</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>ينتشر عبر الشجرة.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>لمست <strong>[*الاسم*]</strong> العلامة</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وإذ بضوء ذهبي رقيق</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ينتشر عبر الشجرة </span></p></body></html>",
       "global_font": 2.8,
-      "x": 100,
-      "y": 100,
+      "x": -300,
+      "y": 250,
       "width": 900,
       "height": 200
     }
   ],
   "slide_19": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>فُتحت حجرة مخفية،</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وظهر فيها مفتاح سحري.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\"لا بد أن هذا يفتح شيئًا مهمًا.\"</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قالت هذا وصوتها ممتلئ بالعجب.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\"أحيانًا، تحصل على الإجابات</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>حين نتصرف بشجاعة.\"</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,فُتحت حجرة مخفية </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وظهر فيها مفتاح سحري </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;.لا بد أن هذا يفتح شيئًا مهمًا &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.قالت هذا وصوتها ممتلئ بالعجب </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;أحيانًا، تحصل على الإجابات</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>.حين نتصرف بشجاعة &quot;</strong></span></p></body></html>",
       "global_font": 2.8,
-      "x": 1800,
-      "y": 260,
+      "x": -300,
+      "y": 200,
       "width": 1000,
       "height": 340
     }
   ],
   "slide_20": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وجد السنجاب في الأعلى كومة جوز.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قال: <strong>\"لقد فعلتها!\"</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>ابتسمت <strong>[*الاسم*]</strong>.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\"أرأيت؟ أنت أشجع مما تتصور.\"</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وجد السنجاب في الأعلى كومة جوز </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قال  <strong>&quot;!لقد فعلتها &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ابتسمت <strong>[*الاسم*]</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;.أرأيت؟ أنت أشجع مما تتصور &quot;</strong></span></p></body></html>",
       "global_font": 2.8,
-      "x": 100,
-      "y": 220,
+      "x": 1500,
+      "y": 400,
       "width": 1000,
       "height": 260
     }
   ],
   "slide_21": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>عادت الوردة المضيئة.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\"لقد أظهرت الحب،</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>واللطف والشجاعة.\"</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قالت لها، وأضافت:</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>\"أنت أميرة جميلة حقًا.\"</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.عادت الوردة المضيئة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;,لقد أظهرت الحب </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>.واللطف والشجاعة &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قالت لها، وأضافت </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;.أنت أميرة جميلة حقًا &quot;</strong></span></p></body></html>",
       "global_font": 2.8,
-      "x": 100,
-      "y": 200,
+      "x": 1500,
+      "y": 500,
       "width": 1000,
       "height": 300
     }
   ],
   "slide_22": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>عند مغيب الشمس،</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>سارت <strong>[*الاسم*]</strong> عائدة إلى القلعة</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وفي يدها المفتاح السحري.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>كانت متلهفة جدًا للمغامرة القادمة.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,عند مغيب الشمس &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>سارت <strong>[*الاسم*]</strong> عائدة إلى القلعة</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وفي يدها المفتاح السحري </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.كانت متلهفة جدًا للمغامرة القادمة </span></p></body></html>",
       "global_font": 2.8,
-      "x": 1800,
-      "y": 250,
+      "x": 0,
+      "y": 400,
       "width": 1000,
       "height": 260
     }
