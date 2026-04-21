@@ -60,7 +60,7 @@
       "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>تعجبت <strong>[*الاسم*]</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.لم تكن قد تحدثت مع زهرة من قبل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وعد تها <strong>\".سأساعد الحيوانات </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>ما الذي يجب أن أفعله؟\"</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.8,
       "x": 2350,
-      "y": 1000,
+      "y": 900,
       "width": 900,
       "height": 260
     },

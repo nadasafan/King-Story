@@ -1,0 +1,228 @@
+{
+  "slide_01": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:30pt; font-weight:700; color:#fdb0d6;'><strong>[*NAME*]</strong><br></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 500,
+      "y": 208,
+      "width": 598,
+      "height": 199
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:16pt; font-weight:700; color:#de9e65;'>Explores the Zoo <br></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 500,
+      "y": 420,
+      "width": 736,
+      "height": 112
+    }
+  ],
+  "slide_02": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It was <strong>[*NAME*]'s</strong> very first time at the zoo.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>[*NAME*] looked up at the big gates with wide, excited eyes.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><br><strong>&quot;Wow!&quot;</strong> she said. <strong>&quot;So many animals are waiting for me!&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She learned that zoos are special places where animals</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>from all over the world can live safely.</span></p></body></html>",
+      "global_font": 2.9,
+      "x": 1800,
+      "y": 200,
+      "width": 600,
+      "height": 686
+    }
+  ],
+  "slide_03": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;Eee-eee! Ooo-ooo!&quot;</strong> The monkeys swung and played in the trees.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> laughed at their funny faces.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She learned that monkeys love playing tag and chase, just like kids do!</span></p></body></html>",
+      "global_font": 2.91,
+      "x": 200,
+      "y": 1250,
+      "width": 700,
+      "height": 224
+    }
+  ],
+  "slide_04": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The elephants flapped their big ears.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>One reached out its long trunk toward <strong>[*NAME*]</strong>.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She learned that elephants use their trunks to eat, drink,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and even give hugs.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1893,
+      "y": 1250,
+      "width": 558,
+      "height": 218
+    }
+  ],
+  "slide_05": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>Bright parrots flew above</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]'s</strong> head, squawking loudly.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>She learned that some parrots can copy sounds</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>and even say words like <strong>&quot;Hello!&quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 1100,
+      "width": 601,
+      "height": 346
+    }
+  ],
+  "slide_06": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>The zebras walked by, their black-and-white</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>stripes shining in the sun.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> learned that every zebra</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>has different stripes, just like people have</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>different fingerprints.</span></p></body></html>",
+      "global_font": 2.63,
+      "x": 1800,
+      "y": 1200,
+      "width": 596,
+      "height": 394
+    }
+  ],
+  "slide_07": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>&quot;Raaaawr!&quot;</strong> The tiger roared so loud that</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> jumped!</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>She learned that a tiger's roar can be</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>heard from very far away.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 1250,
+      "width": 504,
+      "height": 418
+    }
+  ],
+  "slide_08": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>Splash! The seals dived and twirled in the water,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>spraying <strong>[*NAME*]'s</strong> face.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>She learned that seals can hold their breath</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>under the water for a very long time.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 250,
+      "y": 1200,
+      "width": 535,
+      "height": 318
+    }
+  ],
+  "slide_09": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>The giraffes stretched their long necks to eat</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>the highest leaves. <strong>[*NAME*]</strong> learned</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>that giraffes are the tallest animals on land.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 1300,
+      "width": 600,
+      "height": 282
+    }
+  ],
+  "slide_10": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>Pandas snoozed under the bamboo after a big meal.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> learned that pandas eat bamboo</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>almost all day long, and then they get very sleepy.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1900,
+      "y": 1300,
+      "width": 615,
+      "height": 233
+    }
+  ],
+  "slide_11": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>The rhinos walked slowly across the grass,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>their big horns shining in the sun.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> learned that rhino horns are</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>made of the same thing as our hair and nails.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1800,
+      "y": 1200,
+      "width": 670,
+      "height": 282
+    }
+  ],
+  "slide_12": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>Boing! Boing! The kangaroos jumped across the field.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> tried hopping too.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>She learned that kangaroos can jump as far as</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>a school bus in one big hop!</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1900,
+      "y": 1300,
+      "width": 742,
+      "height": 282
+    }
+  ],
+  "slide_13": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>Owls blinked their big golden eyes from the trees.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>She learned that owls can turn their heads almost</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>all the way around.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1900,
+      "y": 1300,
+      "width": 561,
+      "height": 282
+    }
+  ],
+  "slide_14": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Flamingos stood on one leg, their pink feathers shining.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> learned that flamingos turn pink</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>because of the food they eat, like tiny shrimp.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1900,
+      "y": 1300,
+      "width": 641,
+      "height": 282
+    }
+  ],
+  "slide_15": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>&quot;Ribbit!&quot;</strong> Frogs hopped from lily pad to lily pad.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> learned that some frogs can</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>jump so far, it's like jumping over the dinner table!</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 250,
+      "y": 1200,
+      "width": 600,
+      "height": 282
+    }
+  ],
+  "slide_16": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>As the sun went down, <strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>waved goodbye to the animals.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>She learned that zoos help keep animals safe so</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>children can see them for many years to come.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1800,
+      "y": 1300,
+      "width": 807,
+      "height": 218
+    }
+  ],
+  "slide_17": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:24px; font-weight:700;'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A Story That </span></p><p style='text-align:left;'><span style='font-size:24px; font-weight:700;'> Becomes A Memory<br></span></p><br></body></html>",
+      "global_font": 2.9,
+      "x": 450,
+      "y": 120,
+      "width": 900,
+      "height": 320
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>Because They Won't Be Little Forever<br></span></p><br></body></html>",
+      "global_font": 2.4,
+      "x": 394,
+      "y": 400,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>I was created to hold on</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>and slow time, just a little.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 594,
+      "y": 470,
+      "width": 900,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>I was created with their name</span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and their imagination</span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stitched into every page.<br></span></p><br></body></html>",
+      "global_font": 2.0,
+      "x": 505,
+      "y": 600,
+      "width": 900,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>There are many worlds to explore,</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and each WonderWraps title</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>becomes an adventure crafted</span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;around your little one.<br></span></p><br></body></html>",
+      "global_font": 2.0,
+      "x": 500,
+      "y": 800,
+      "width": 900,
+      "height": 400
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>I'm the adventure </span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>only your child can live.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 650,
+      "y": 1050,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>And I promise, I'll be a favorite.<br></span></p><br></body></html>",
+      "global_font": 2.0,
+      "x": 550,
+      "y": 1180,
+      "width": 900,
+      "height": 100
+    }
+  ]
+}

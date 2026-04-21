@@ -386,11 +386,11 @@
   ],
   "slide_17": [
  {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:24px;font-weight:700;'>  <strong> قصة تتحول إلى ذكرى </strong><br></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:30px;font-weight:700;'>  <strong> قصة تتحول إلى ذكرى </strong><br></span></p></body></html>",
       "global_font": 3.9,
-      "x": 250,
+      "x": 200,
       "y": 200,
-      "width": 900,
+      "width": 1200,
       "height": 320
     },
     {
