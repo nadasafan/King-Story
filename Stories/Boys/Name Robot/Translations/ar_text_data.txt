@@ -1,0 +1,556 @@
+{
+  "slide_01": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#00e5ff; font-size:26pt; font-weight:700;'><strong>[*الاسم*]</strong></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 500,
+      "y": 160,
+      "width": 700,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#00e5ff; font-size:14pt; font-weight:700;'><strong>و</strong></span></p><p align='center'><span style='color:#00e5ff; font-size:20pt; font-weight:700;'><strong>الروبوت المفقود</strong></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 200,
+      "y": 320,
+      "width": 1200,
+      "height": 800
+    }
+  ],
+  "slide_02": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>كان </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong></span><span style='color:#ffffff; font-size:14px;'> ,يحب الذهاب في مهمات سرية </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>خاصة في الغابة خلف منزله.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>حزم حقيبته ببعض الوجبات الخفيفة،</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>ومصباح يدوي، وبوصلته المحظوظة.</span></p></body></html>",
+      "global_font": 2.9,
+      "x": 1200,
+      "y": 1050,
+      "width": 820,
+      "height": 320
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;...هذه هي اللحظة &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.همس </span></p><br><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;عملية الاستكشاف</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>!تبدأ الآن &quot;</strong></span><span style='color:#ffffff; font-size:14px;'> ,وانطلق بين الأشجار</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.مستعدًا لأي شيء &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "global_font": 2.9,
+      "x": -200,
+      "y": 900,
+      "width": 820,
+      "height": 320
+    }
+  ],
+  "slide_03": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,تسلق فوق جذوع الأشجار </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,وانحنى تحت الأغصان </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وتبع آثار الغزلان </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 400,
+      "y": 800,
+      "width": 820,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!فجأة <strong>!طق </strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 100,
+      "y": 1100,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> اصطدمت قدمه بشيء صلب </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .مدفون تحت الأوراق &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>...أزاح الأوراق وفتح عينيه بدهشة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!كان... روبوتًا </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 0,
+      "y": 1300,
+      "width": 820,
+      "height": 240
+    }
+  ],
+  "slide_04": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.كان الروبوت مغطى بالطحالب والتراب </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,ذراعاه متيبستان، وعيناه مظلمتان </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>...وفي منتصف صدره </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.زر أحمر يومض </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2100,
+      "y": 400,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>تسارع قلب </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong></span><span style='color:#ffffff; font-size:14px;'>.</span></p><br><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&quot;,يجب أن أجرب &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.قال، وضغط الزر </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 700,
+      "y": 960,
+      "width": 820,
+      "height": 240
+    }
+  ],
+  "slide_05": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:25px; font-weight:700;'><strong>!ووش! بيب! كليك </strong></span></p><br><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أضاءت عينا الروبوت باللون الأزرق &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,جلس ببطء &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:نظر حوله وقال &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>مرحبًا. أنا <strong>FLK-31.</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.كنت متوقفًا لمدة 72 عامًا &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.اكتمل إعادة التشغيل &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1800,
+      "y": 100,
+      "width": 820,
+      "height": 680
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;!واو &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>تنفّس <strong>[*الاسم*]</strong> .بدهشة </span></p><br><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,وجدت روبوتًا حقيقيًا &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!أقدم من جدي &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 600,
+      "y": 260,
+      "width": 820,
+      "height": 440
+    }
+  ],
+  "slide_06": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;أنا</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong><strong>[*الاسم*]</strong>&quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.قال الصبي </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2400,
+      "y": 280,
+      "width": 600,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.نظر إلى السماء FLK-31</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;.كوكب الأرض... ما زال يدور </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.ما زال جميلًا &quot;</strong></span></p></body></html>",
+      "global_font": 2.6,
+      "x": 1450,
+      "y": 780,
+      "width": 820,
+      "height": 580
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;تعرف أن الأرض</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>تدور بسرعة كبيرة؟&quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قال <strong>[*الاسم*]</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 700,
+      "y": 260,
+      "width": 700,
+      "height": 560
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;.بالفعل &quot; .رد الروبوت </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;بسرعة تزيد عن 1600 كيلومتر</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!في الساعة قرب خط الاستواء &quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 0,
+      "y": 1350,
+      "width": 820,
+      "height": 560
+    }
+  ],
+  "slide_07": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .وقف لكنه ترنح وسقط FLK-31 </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قال <strong>&quot;خلل في</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.ساق التوازن &quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1900,
+      "y": 400,
+      "width": 820,
+      "height": 360
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>فتح <strong>[*الاسم*]</strong> .حقيبته &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;.لا تقلق &quot;</strong></span><span style='color:#ffffff; font-size:14px;'> .ربط عصا بحبل حول ساق الروبوت </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;!هكذا.... جاهز للمغامرة &quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1700,
+      "y": 1300,
+      "width": 1000,
+      "height": 300
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وقف الروبوت مجددًا. أضاءت أضواؤه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;.تم رصد إصلاحات بسيطة </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.جاري التحديث &quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 500,
+      "y": 180,
+      "width": 1020,
+      "height": 360
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>لمع جسده المعدني</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وتناثر الغبار عنه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;النظام عند 63% </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>أشعر بتحسن</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.الآن &quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": -500,
+      "y": 300,
+      "width": 1020,
+      "height": 340
+    }
+  ],
+  "slide_08": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>بدأ جسد الروبوت يتوهج</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.بينما تركبت أجزاء جديدة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 900,
+      "y": 300,
+      "width": 700,
+      "height": 320
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>أصبح أطول</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وأكثر حداثة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1500,
+      "y": 800,
+      "width": 700,
+      "height": 320
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,سارا بين الشجيرات الشائكة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,وقفزا فوق الأحجار لعبور جدول ماء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وتسلقا تلًا مغطى بالطحالب </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2300,
+      "y": 240,
+      "width": 820,
+      "height": 240
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.فجأة، امتلأ الجو بصوت غريب </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>التفت رأس FLK-31 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;.تم رصد إشارة غير مألوفة </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.قد تكون من تقنية قديمة </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.لنحقق في الأمر &quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": -300,
+      "y": 980,
+      "width": 900,
+      "height": 320
+    }
+  ],
+  "slide_09": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>خلف جدار من النباتات، وجدا</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.بابًا فولاذيًا ضخمًا مخفيًا في التل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>نُقشت عليه رموز نجوم وصواريخ</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وكواكب </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2000,
+      "y": 200,
+      "width": 820,
+      "height": 440
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;هذا ليس</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>على أي خريطة&quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>همس <strong>[*الاسم*]</strong>.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1600,
+      "y": 600,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;,هذا باب إطلاق &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قال FLK-31 </span></p><br><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>بقايا من   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .عصر الفضاء على الأرض &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 500,
+      "y": 1140,
+      "width": 820,
+      "height": 520
+    }
+  ],
+  "slide_10": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.درسا النقوش </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>لفّ <strong>[*الاسم*]</strong> ,رمز الصاروخ </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ثم الكوكب. ثم النجمة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2200,
+      "y": 150,
+      "width": 820,
+      "height": 500
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:20px; font-weight:700;'><strong>!كليك </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,انفتح الباب ببطء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>كاشفًا عن نفق مليء</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.بالأضواء الخافتة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 500,
+      "y": 100,
+      "width": 820,
+      "height": 520
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;مرحبًا بك في</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,محطة منسية &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قال FLK-31 </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قد يكون عمرها  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أكثر من 100 عام &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": -200,
+      "y": 520,
+      "width": 820,
+      "height": 560
+    }
+  ],
+  "slide_11": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.دخلا ببطء </span></p><br><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>في الداخل غرفة تحكم مليئة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>بعروض ثلاثية الأبعاد للكواكب &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.والنجوم والمجرات &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2400,
+      "y": 80,
+      "width": 820,
+      "height": 520
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:أشار الروبوت <strong>&quot;,هذا كوكب المشتري </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.أكبر كواكب مجموعتنا الشمسية </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>يمكن أن يحتوي داخله على</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!أكثر من 1300 كوكب أرض &quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2300,
+      "y": 1080,
+      "width": 900,
+      "height": 520
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:ثم قال </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;كانت هذه القاعدة تجمع إشارات</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.من الفضاء العميق </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>إذا أصلحناها، يمكن للأرض</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.أن تستمع مجددًا &quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1700,
+      "y": 1200,
+      "width": 900,
+      "height": 560
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>لمعت عينا <strong>[*الاسم*]</strong>  &quot;إذًا</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>!لنشغلها &quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 150,
+      "y": 200,
+      "width": 900,
+      "height": 160
+    }
+  ],
+  "slide_12": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:ومضت شاشة باللون الأحمر </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>نواة الطاقة مفقودة</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2300,
+      "y": 100,
+      "width": 820,
+      "height": 120
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;يجب أن</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>,نجدها &quot;</strong></span><span style='color:#ffffff; font-size:14px;'> قال <strong>[*الاسم*]</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2000,
+      "y": 1300,
+      "width": 600,
+      "height": 140
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;...الإشارة ضعيفة <br>موجودة في <strong>,قطاع غاما &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.رد الروبوت </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 100,
+      "y": 100,
+      "width": 820,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وأضاف  <strong>&quot;بدون طاقة، حتى</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>,محطات الفضاء تنجرف </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>مثل الأقمار الصناعية</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.التي تفقد طاقتها &quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 860,
+      "width": 900,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>اتسعت عينا <strong>[*الاسم*]</strong>.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;لن ندع هذا</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>!يحدث. هيا &quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 0,
+      "y": 1300,
+      "width": 700,
+      "height": 180
+    }
+  ],
+  "slide_13": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>انزلقا عبر نفق أملس</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وسقطا في غرفة مظلمة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2200,
+      "y": 100,
+      "width": 820,
+      "height": 560
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,ضغط على صدره FLK-31</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>فظهر نموذج ضوئي</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.لنواة متوهجة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2000,
+      "y": 380,
+      "width": 820,
+      "height": 980
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;هذه هي</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>,نواة الطاقة &quot;</strong></span><span style='color:#ffffff; font-size:14px;'> .قال </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>نحتاجها لإعادة</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.تشغيل المحطة &quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1800,
+      "y": 1200,
+      "width": 820,
+      "height": 780
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>أومأ <strong>[*الاسم*]</strong> </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;.إذًا لنجدها &quot;</strong></span></p><br><p style='text-align:right;'><span style='color:#ffffff; font-size:20px; font-weight:700;'><strong>!كلانك! كلانك </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 800,
+      "y": 100,
+      "width": 820,
+      "height": 500
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,تحركت عشرات الروبوتات القديمة في الظلام </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,وأعينها تتوهج باللون الأحمر </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.لا خوفًا، بل بسبب دوائر كهربائية معطلة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 0,
+      "y": 250,
+      "width": 1000,
+      "height": 600
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;,إنها ليست مستيقظة &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>أوضح FLK-31 </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;مجرد أنظمة احتياطية</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.معطلة &quot;</strong></span><span style='color:#ffffff; font-size:14px;'> انتهى الطريق  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.عند فتحة تهوية قديمة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 500,
+      "y": 1200,
+      "width": 1000,
+      "height": 600
+    }
+  ],
+  "slide_14": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>أخذ <strong>[*الاسم*]</strong> نفسًا عميقًا</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ودخل الفتحة المظلمة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2200,
+      "y": 300,
+      "width": 700,
+      "height": 120
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.رأى ضوءًا خافتًا أمامه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;ها هي</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!نواة الطاقة &quot;</strong></span><span style='color:#ffffff; font-size:14px;'> .همس </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 300,
+      "y": 200,
+      "width": 820,
+      "height": 380
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>مد يده وأمسك</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.الكرة المتوهجة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 700,
+      "y": 800,
+      "width": 820,
+      "height": 380
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;!وجدتها &quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 1200,
+      "width": 820,
+      "height": 380
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قال الروبوت  <strong>&quot;...أنت شجاع </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>مثل رواد الفضاء</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.في المهمات البعيدة &quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": -200,
+      "y": 1300,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_15": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.عادا إلى غرفة التحكم </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وضع FLK-31 نواة الطاقة</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.في مكانها </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2300,
+      "y": 150,
+      "width": 820,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>!ووش... بيب </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,أضاءت الأنوار &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وعادت الشاشات للعمل &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2300,
+      "y": 1240,
+      "width": 700,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قال صوت هادئ </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;.تم تشغيل النظام </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>.مرحبًا أيها المستكشفون &quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 500,
+      "y": 100,
+      "width": 900,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,في الغرفة المظلمة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>اختفت الأضواء الحمراء</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.من عيون الروبوتات </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>دار <strong>[*الاسم*]</strong> .على الكرسي </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 600,
+      "y": 1000,
+      "width": 820,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;!هذا أروع مكان على الإطلاق &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قال FLK-31  <strong>&quot;!نجحت المهمة </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.الدوران: رائع &quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": -200,
+      "y": 1400,
+      "width": 900,
+      "height": 180
+    }
+  ],
+  "slide_16": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وقف <strong>[*الاسم*]</strong> والروبوت</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.خارج الغابة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2300,
+      "y": 200,
+      "width": 700,
+      "height": 560
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;هل تعتقد أن هناك</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>أماكن أخرى مثل هذه؟&quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>سأل <strong>[*الاسم*]</strong>.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;.بالتأكيد &quot;</strong></span><span style='color:#ffffff; font-size:14px;'> .قال الروبوت &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;الكون مليء بالعجائب</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.المخفية &quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1500,
+      "y": 800,
+      "width": 900,
+      "height": 560
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>ابتسم <strong>[*الاسم*]</strong>:</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;إذًا ماذا ننتظر؟&quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;  قال: نظام FLK-31 </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.المغامرة: دائمًا جاهز &quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 500,
+      "y": 100,
+      "width": 900,
+      "height": 800
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,وانطلقا معًا نحو الشمس </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,جنبًا إلى جنب </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.مستعدين لمغامرة جديدة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": -300,
+      "y": 500,
+      "width": 900,
+      "height": 800
+    }
+  ],
+  "slide_17": [
+ {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:30px;font-weight:700;'>  <strong> قصة تتحول إلى ذكرى </strong><br></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 200,
+      "y": 200,
+      "width": 1200,
+      "height": 320
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>لأنهم لن يبقوا صغارًا إلى الأبد<br></span></p></body></html>",
+      "global_font": 2.9,
+      "x": 360,
+      "y": 400,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>لقد صُنعت لأحفظ اللحظات</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.وأبطئ الزمن قليلًا <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 200,
+      "y": 470,
+      "width": 900,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>صُنعت بخيالهم وأسمائهم</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.في كل صفحة <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 350,
+      "y": 620,
+      "width": 900,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>,هناك عوالم كثيرة لاكتشافها </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;وكل قصة مغامرة خاصة</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.بطفلك </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 360,
+      "y": 800,
+      "width": 900,
+      "height": 400
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>...أنا المغامرة التي لا يعيشها إلا طفلك </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'><br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 294,
+      "y": 1060,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.وأعدك، سأكون القصة المفضلة <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 394,
+      "y": 1170,
+      "width": 900,
+      "height": 100
+    }
+  ]
+}
