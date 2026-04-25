@@ -1,0 +1,316 @@
+{
+  "slide_01": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#c8a96e; font-size:26pt; font-weight:700;'><strong>[*NAME*]'S</strong></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 500,
+      "y": 100,
+      "width": 700,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#c8a96e; font-size:22pt; font-weight:700;'><strong>Smile</strong></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 200,
+      "y": 250,
+      "width": 1200,
+      "height": 800
+    }
+  ],
+  "slide_02": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Once there was a little boy named</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Anas.</strong></span></p></body></html>",
+      "global_font": 2.9,
+      "x": 2200,
+      "y": 1100,
+      "width": 820,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He had the brightest smile</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>in the whole town.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>His smile was so big, it felt</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>like sunshine on a cloudy day.</span></p></body></html>",
+      "global_font": 2.9,
+      "x": 2400,
+      "y": 1250,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_03": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Whenever </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> smiled,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>people couldn't help but smile back.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Your smile makes my day!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> his</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>neighbors would say.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 350,
+      "y": 820,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_04": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>One morning,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>woke up, stretched,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and looked outside.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1850,
+      "y": 500,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The sun was shining</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>brightly. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;It's the</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>perfect day to spread</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>some smiles!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> he said.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2000,
+      "y": 850,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_05": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> walked</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>outside and looked around.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The sun felt warm on his cheeks,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and the breeze tickled his nose.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 250,
+      "y": 900,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He smiled as wide as he could,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and it felt like the whole world</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>was smiling back.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 450,
+      "y": 1200,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_06": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>As </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> walked</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>through the garden, he noticed</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a flower that hadn't bloomed yet.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2100,
+      "y": 1150,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He leaned down, smiled,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and said, </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Hello, little flower!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>You'll bloom soon, I just know it!&quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2600,
+      "y": 1370,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_07": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The flower slowly opened its petals,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>as if </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]'S</strong></span><span style='color:#ffffff; font-size:14px;'> smile gave</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>it the courage to bloom.<strong>&quot;I knew</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>you could do it!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> he said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>clapping his hands.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2000,
+      "y": 200,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_08": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> continued down</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>the path and noticed a puddle of water</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>reflecting the sunshine. He knelt down</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and smiled into the puddle.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 300,
+      "y": 300,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>His reflection smiled back at</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>him. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Even puddles can</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>look happy!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> he giggled.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2000,
+      "y": 1300,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_09": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A soft breeze carried</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]'S</strong></span><span style='color:#ffffff; font-size:14px;'> smile</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>across the fields. The trees</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>swayed gently, as if they</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>were waving at him.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2200,
+      "y": 150,
+      "width": 820,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Good morning,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>trees!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> he called, his</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>smile as bright as ever.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2600,
+      "y": 500,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_10": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>As he walked,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> saw</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a little squirrel peeking</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>out from behind a tree.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 400,
+      "y": 1100,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He gave the squirrel</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a friendly smile, and the</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>squirrel twitched its nose</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and scampered closer.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1900,
+      "y": 1000,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_11": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> shared</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a piece of his sandwich with</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>the squirrel. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Everyone deserves</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>a little sunshine,&quot;</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> he said.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 250,
+      "y": 500,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The squirrel chattered</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>happily and darted off</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>into the trees.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1900,
+      "y": 500,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_12": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The sun was high in the sky now,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]'S</strong></span><span style='color:#ffffff; font-size:14px;'> shadow</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>stretched long on the ground.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2400,
+      "y": 1000,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He waved at his shadow.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;You're smiling too!&quot;</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> he</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>said, hopping and skipping</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>along the path.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2600,
+      "y": 1250,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_13": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>By the time</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>returned home, the</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>world seemed brighter.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 800,
+      "y": 600,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The flowers were blooming,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>the trees were swaying,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and even the air felt lighter.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2750,
+      "y": 300,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_14": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>When </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>walked into the house, his mom</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>smiled and said, </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;You look like</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>you've had a wonderful day!&quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 150,
+      "y": 300,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;I did,&quot;</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> he said.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;I shared my smile</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>with the world!&quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2750,
+      "y": 1000,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_15": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>His mom hugged him tightly. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;That's</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>because your smile is like sunshine.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>It makes everything better.&quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 800,
+      "y": 1000,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_16": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>From that day on,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> always</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>made sure to share his sunny</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>smile. Because just like sunshine,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a little bit of kindness can make</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>the whole world glow.</span></p></body></html>",
+      "global_font": 2.5,
+      "x": 2200,
+      "y": 150,
+      "width": 820,
+      "height": 280
+    }
+  ],
+  "slide_17": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:28px; font-weight:700; color:#ffffff;'>A Story That</span></p><p align='center'><span style='font-size:28px; font-weight:700; color:#ffffff;'>Becomes A Memory</span></p></body></html>",
+      "global_font": 3.5,
+      "x": 300,
+      "y": 80,
+      "width": 1100,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>Because They Won't Be Little Forever<br></span></p><br></body></html>",
+      "global_font": 2.4,
+      "x": 394,
+      "y": 400,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>I was created to hold on</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>and slow time, just a little.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 594,
+      "y": 470,
+      "width": 900,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>I was created with their name</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and their imagination</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stitched into every page.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 505,
+      "y": 600,
+      "width": 900,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>There are many worlds to explore,</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and each WonderWraps title</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>becomes an adventure crafted</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;around your little one.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 460,
+      "y": 800,
+      "width": 900,
+      "height": 400
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>I'm the adventure</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>only your child can live.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 594,
+      "y": 1060,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>And I promise, I'll be a favorite.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 494,
+      "y": 1190,
+      "width": 900,
+      "height": 100
+    }
+  ]
+}

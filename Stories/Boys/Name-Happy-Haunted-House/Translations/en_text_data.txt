@@ -1,0 +1,300 @@
+{
+  "slide_01": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#ff6b00; font-size:26pt; font-weight:700;'><strong>[*NAME*]'S</strong></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 500,
+      "y": 200,
+      "width": 700,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#ff6b00; font-size:14pt; font-weight:700;'><strong>Happy Haunted House</strong></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 200,
+      "y": 350,
+      "width": 1200,
+      "height": 800
+    }
+  ],
+  "slide_02": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It was a bright and breezy Halloween</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>morning. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> zipped up their</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>costume and smiled big.</span></p></body></html>",
+      "global_font": 2.9,
+      "x": 150,
+      "y": 200,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Today, I'm going on a</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Halloween adventure!&quot;</strong></span></p></body></html>",
+      "global_font": 2.9,
+      "x": 300,
+      "y": 500,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_03": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>With a candy bucket in hand,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> walked down the street.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>There were pumpkins, decorations,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and friendly neighbors everywhere.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2300,
+      "y": 1200,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_04": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>At the very end of the road,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> saw a house</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>they didn't recognize. It looked</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>twisty, tall, and kind of silly!</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 900,
+      "y": 1100,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_05": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A colorful sign stood outside:</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Welcome to the Happy</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Haunted House!&quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2400,
+      "y": 400,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;Should I go in?&quot;</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> whispered.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2500,
+      "y": 650,
+      "width": 820,
+      "height": 140
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Yes!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> they shouted,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and tiptoed inside.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2600,
+      "y": 850,
+      "width": 820,
+      "height": 140
+    }
+  ],
+  "slide_06": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The door creaked open slowly...</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Squeeeak!</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 150,
+      "y": 200,
+      "width": 820,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> peeked</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>inside and took a deep breath.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 850,
+      "y": 1200,
+      "width": 820,
+      "height": 140
+    }
+  ],
+  "slide_07": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:20px; font-weight:700;'><strong>POP! POP! POP!</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2000,
+      "y": 1200,
+      "width": 820,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Bubbles floated through the air,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>everywhere! Pink ones, square</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>ones, even one shaped like a cat!</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2100,
+      "y": 1300,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_08": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Then a friendly ghost floated by.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It wore a silly bowtie and said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&quot;Peekaboo!&quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 1300,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_09": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>More ghosts appeared!</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>They weren't scary, they</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>danced, spun, and did silly tricks.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> clapped</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and giggled.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2500,
+      "y": 1100,
+      "width": 820,
+      "height": 260
+    }
+  ],
+  "slide_10": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A ghost gave</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a giant feather.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 600,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Ready for the tickle</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>tunnel?&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> it asked.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 400,
+      "y": 850,
+      "width": 820,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>nodded and crawled inside!</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 600,
+      "y": 1050,
+      "width": 820,
+      "height": 140
+    }
+  ],
+  "slide_11": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Inside the tunnel were soft pillows</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and tickly feathers.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2600,
+      "y": 850,
+      "width": 820,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Music played while</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> laughed</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and bounced along.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2750,
+      "y": 1000,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_12": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>At the end of the tunnel,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>glowing pumpkins lined the floor.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 350,
+      "y": 600,
+      "width": 820,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Each pumpkin had a</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>funny face, and one winked!</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 800,
+      "y": 1400,
+      "width": 820,
+      "height": 140
+    }
+  ],
+  "slide_13": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Game time!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> shouted the ghosts.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>They played ghost tag, pumpkin</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>peekaboo, and candy toss!</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2300,
+      "y": 800,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_14": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Then it was time for treats.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> got</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>star-shaped cookies, marshmallow</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>moons, and a cupcake with a</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>jellybean ghost on top!</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 800,
+      "y": 500,
+      "width": 820,
+      "height": 260
+    }
+  ],
+  "slide_15": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>As the sun began to set, the ghosts</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>gathered to wave goodbye.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Come back next</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Halloween!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> they sang.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1900,
+      "y": 950,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_16": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> skipped home,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>heart full of giggles and hands full of</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>treats. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;It really was the</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>happiest haunted house!&quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 700,
+      "y": 1200,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_17": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:28px; font-weight:700; color:#ffffff;'>A Story That</span></p><p align='center'><span style='font-size:28px; font-weight:700; color:#ffffff;'>Becomes A Memory</span></p></body></html>",
+      "global_font": 3.5,
+      "x": 300,
+      "y": 80,
+      "width": 1100,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>Because They Won't Be Little Forever<br></span></p><br></body></html>",
+      "global_font": 2.4,
+      "x": 394,
+      "y": 400,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>I was created to hold on</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>and slow time, just a little.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 594,
+      "y": 470,
+      "width": 900,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>I was created with their name</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and their imagination</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stitched into every page.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 505,
+      "y": 600,
+      "width": 900,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>There are many worlds to explore,</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and each WonderWraps title</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>becomes an adventure crafted</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;around your little one.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 460,
+      "y": 800,
+      "width": 900,
+      "height": 400
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>I'm the adventure</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>only your child can live.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 594,
+      "y": 1060,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>And I promise, I'll be a favorite.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 494,
+      "y": 1180,
+      "width": 900,
+      "height": 100
+    }
+  ]
+}

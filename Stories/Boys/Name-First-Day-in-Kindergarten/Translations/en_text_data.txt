@@ -1,0 +1,404 @@
+{
+  "slide_01": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#00bcd4; font-size:26pt; font-weight:700;'><strong>[*NAME*]</strong></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 500,
+      "y": 50,
+      "width": 700,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#00bcd4; font-size:14pt; font-weight:700;'><strong>First Day in</strong></span></p><p align='center'><span style='color:#00bcd4; font-size:22pt; font-weight:700;'><strong>Kindergarten</strong></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 200,
+      "y": 200,
+      "width": 1200,
+      "height": 800
+    }
+  ],
+  "slide_02": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> woke up early,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>feeling something special</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>in the air.</span></p></body></html>",
+      "global_font": 2.9,
+      "x": 120,
+      "y": 800,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Today was not like other days,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>today was his very first day in</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>kindergarten. He stretched,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>yawned, and smiled a little.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A big adventure was waiting.</span></p></body></html>",
+      "global_font": 2.9,
+      "x": 1900,
+      "y": 1100,
+      "width": 820,
+      "height": 280
+    }
+  ],
+  "slide_03": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He ate breakfast slowly,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>thinking about what the</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>day would be like. There</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>might be blocks and books.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 300,
+      "y": 1150,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Maybe even painting or</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>singing. And maybe, just</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>maybe, he'd meet a new friend.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 900,
+      "y": 1350,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_04": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>After getting dressed in his</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>favorite shirt and comfy shoes,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> looked at his backpack</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>by the door.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 700,
+      "y": 1300,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It was packed and ready to go,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>filled with crayons, a notebook,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and a snack.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2000,
+      "y": 1350,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_05": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>On the way to school,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>looked out the window.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 300,
+      "y": 900,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The streets passed by quickly,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>but inside, his tummy felt a</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>little jumpy. He wasn't sure if it</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>was nerves or excitement, or</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>maybe both.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 800,
+      "y": 1150,
+      "width": 820,
+      "height": 260
+    }
+  ],
+  "slide_06": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>When he arrived,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> saw lots of</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>children coming through</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>the big red doors.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1000,
+      "y": 1200,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Some were talking, some were quiet,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and some were already laughing.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He held onto his backpack tightly</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and stepped forward.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2400,
+      "y": 1200,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_07": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A smiling teacher greeted him with a</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>cheerful, </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Hello, Anas! I'm so glad</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>you're here!&quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 500,
+      "y":900,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Her voice was kind,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and her eyes sparkled.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 600,
+      "y": 1200,
+      "width": 820,
+      "height": 140
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>felt a little more brave</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>after hearing her words.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1800,
+      "y": 1300,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_08": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Inside the classroom,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>everything looked colorful</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and bright. There were</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>shelves of books, bins of</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>toys, and names on cubbies.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2100,
+      "y": 800,
+      "width": 820,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He found his own name</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and hung up his</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>backpack carefully.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2600,
+      "y": 1250,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_09": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Children were building</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>towers, drawing pictures,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and exploring puzzles.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 1200,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> stood still for a moment,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>then walked over to a table with</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>blocks.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 850,
+      "y": 1320,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A boy nearby asked,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Wanna build a rocket together?&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'><em>Anas smiled and nodded.</em></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2500,
+      "y": 1340,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_10": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The teacher gently rang a</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>bell, and all the children</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>gathered on the soft rug.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 100,
+      "y": 1100,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She held up a colorful book</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>with a bright, inviting cover.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1000,
+      "y": 1400,
+      "width": 820,
+      "height": 140
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;It's the story of a little boy</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>who felt shy on his first day,&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'><em>she said.</em></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2300,
+      "y": 400,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> sat quietly on the floor,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>holding his own book, feeling a</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>little braver with every word.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2500,
+      "y": 700,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_11": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Next came art time.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Big brushes, bright colors,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and lots of paper.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 1100,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> painted a rainbow</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and a tiny house with stars</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>above it.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 900,
+      "y": 1300,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>When he finished, the teacher said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;That's beautiful.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Let's hang it up!&quot;</strong></span></p></body></html>",
+      "global_font": 2.9,
+      "x": 2000,
+      "y": 80,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_12": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>During snack time, </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> sat at a</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>round table and opened his lunchbox.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Two kids next to him were talking</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>about their pets.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 300,
+      "y": 1200,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> quietly listened, then</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>asked,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Do fish count as pets?&quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2100,
+      "y": 1100,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>They both laughed and said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Yes!&quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2300,
+      "y": 1400,
+      "width": 820,
+      "height": 140
+    }
+  ],
+  "slide_13": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Outside, the playground</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>was full of running feet</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and cheerful shouts.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 500,
+      "y": 150,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> climbed the ladder</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and went down the slide, again and again.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 600,
+      "y": 1200,
+      "width": 820,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He ran after a ball, kicked it gently,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and smiled when it rolled back.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 800,
+      "y": 1400,
+      "width": 820,
+      "height": 160
+    }
+  ],
+  "slide_14": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Back inside, the class did</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>music time with shakers</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and drums.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1900,
+      "y": 600,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> tapped</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>to the beat and even sang a little.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The room was full of sound,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>laughter, and rhythm.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2200,
+      "y": 1200,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_15": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The teacher gathered</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>everyone again and said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;You were all amazing today.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Kindergarten is even better</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>with you here.&quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 650,
+      "y": 1100,
+      "width": 820,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>felt proud. He had</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>done it. The whole day!</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1850,
+      "y": 1300,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_16": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>When it was time to go,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> picked up his</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>backpack and smiled.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 500,
+      "y": 950,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He had played, painted,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>laughed, and learned.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>And best of all, he couldn't</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>wait to come back tomorrow.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 800,
+      "y": 1300,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_17": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:28px; font-weight:700; color:#ffffff;'>A Story That</span></p><p align='center'><span style='font-size:28px; font-weight:700; color:#ffffff;'>Becomes A Memory</span></p></body></html>",
+      "global_font": 3.5,
+      "x": 300,
+      "y": 80,
+      "width": 1100,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>Because They Won't Be Little Forever<br></span></p><br></body></html>",
+      "global_font": 2.4,
+      "x": 394,
+      "y": 400,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>I was created to hold on</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>and slow time, just a little.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 594,
+      "y": 470,
+      "width": 900,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>I was created with their name</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and their imagination</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stitched into every page.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 505,
+      "y": 600,
+      "width": 900,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>There are many worlds to explore,</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and each MAGICAL STORY title</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>becomes an adventure crafted</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;around your little one.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 460,
+      "y": 800,
+      "width": 900,
+      "height": 400
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>I'm the adventure</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>only your child can live.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 594,
+      "y": 1060,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>And I promise, I'll be a favorite.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 494,
+      "y": 1190,
+      "width": 900,
+      "height": 100
+    }
+  ]
+}
