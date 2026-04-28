@@ -289,7 +289,7 @@
       "height": 260
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>There are many worlds to explore,</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and each WonderWraps title</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>becomes an adventure crafted</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;around your little one.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>There are many worlds to explore,</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and each <strong> MAGICAL STORY  </strong> title</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>becomes an adventure crafted</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;around your little one.<br></span></p><br></body></html>",
       "global_font": 2.2,
       "x": 460,
       "y": 800,

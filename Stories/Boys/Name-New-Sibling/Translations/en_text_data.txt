@@ -323,20 +323,20 @@
   ],
   "slide_14": [
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong>[*Name*]</strong> sang songs to the baby, funny songs about socks and frogs.</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong>[*Name*]</strong> sang songs to the baby,</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>funny songs about socks and frogs.</span></p></body></html>",
       "global_font": 2.5,
       "x": 2099,
       "y": 246,
       "width": 950,
-      "height": 106
+      "height": 506
     },
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>He made silly faces. The baby giggled and drooled. <strong>[*Name*]</strong> giggled too. &quot;You're not so bad,&quot; <em>he said</em>.</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>He made silly faces. </span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'> The baby giggled and drooled.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'> <strong>[*Name*]</strong> giggled too. </span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'> &quot;You're not so bad,&quot; <em>he said</em>.</span></p></body></html>",
       "global_font": 2.3,
-      "x": 2173,
-      "y": 508,
+      "x": 2273,
+      "y": 500,
       "width": 1100,
-      "height": 104
+      "height": 504
     }
   ],
   "slide_15": [
@@ -367,12 +367,12 @@
   ],
   "slide_16": [
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>Now, <strong>[*Name*]</strong> and his baby sibling do everything together. They read stories, splash in puddles, and laugh at bubbles.</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>Now, <strong>[*Name*]</strong> and his baby </span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>sibling do everything together. </span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>They read stories, splash </span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>in puddles, and laugh at bubbles.</span></p></body></html>",
       "global_font": 2.9,
       "x": 320,
-      "y": 1380,
+      "y": 1280,
       "width": 1500,
-      "height": 101
+      "height": 601
     },
     {
       "html": "<html><head/><body><p align='center'><span style=' font-size:14pt; color:#deddda;'>[*Name*] says,</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'><strong>&quot;Being a big brother is the best job ever!&quot;</strong></span></p></body></html>",

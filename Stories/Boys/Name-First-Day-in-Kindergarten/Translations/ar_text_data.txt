@@ -1,0 +1,388 @@
+{
+  "slide_01": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#00bcd4; font-size:26pt; font-weight:700;'><strong>[*الاسم*]</strong></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 500,
+      "y": 0,
+      "width": 700,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#00bcd4; font-size:14pt; font-weight:700;'><strong>اليوم الأول في</strong></span></p><p align='center'><span style='color:#00bcd4; font-size:22pt; font-weight:700;'><strong>الروضة</strong></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 200,
+      "y": 150,
+      "width": 1200,
+      "height": 800
+    }
+  ],
+  "slide_02": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> ,استيقظ [*الاسم*] مبكرًا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> وكان يشعر أن هناك  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.شيئًا مميزًا في الجو </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>لم يكن هذا اليوم مثل  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> باقي الأيام، فاليوم هو  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .هو أول يوم له في الروضة </span></p></body></html>",
+      "global_font": 2.9,
+      "x": 2050,
+      "y": 800,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.تمدد، وتثاءب، وابتسم قليلًا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.مغامرة كبيرة كانت بانتظاره </span></p></body></html>",
+      "global_font": 2.9,
+      "x": 613,
+      "y": 1200,
+      "width": 820,
+      "height": 280
+    }
+  ],
+  "slide_03": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,تناول فطوره ببطء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .وهو يفكر كيف سيكون يومه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,قد تكون هناك مكعبات وكتب  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وربما رسم أو غناء </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2100,
+      "y": 1150,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>…وربما… وربما فقط </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.سيلتقي بصديق جديد </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1500,
+      "y": 1350,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_04": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> بعد أن ارتدى قميصه المفضل  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> وحذاءه المريح، نظر [*الاسم*]  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .إلى حقيبته بجانب الباب </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1750,
+      "y": 1400,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,كانت جاهزة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,مليئة بالألوان </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .ودفتر، ووجبة خفيفة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 300,
+      "y": 1350,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_05": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,في الطريق إلى المدرسة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,نظر [*الاسم*] من النافذة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2250,
+      "y": 900,
+      "width": 820,
+      "height": 380
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> ,كانت الشوارع تمر بسرعة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>…لكن بداخله كان يشعر بشيء من التوتر </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أو ربما الحماس… أو الاثنين معًا </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1950,
+      "y": 1200,
+      "width": 820,
+      "height": 660
+    }
+  ],
+  "slide_06": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> عندما وصل، رأى [*الاسم*] الكثير من  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .الأطفال يدخلون من الأبواب الحمراء الكبيرة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.بعضهم يتحدث، وبعضهم هادئ، وبعضهم يضحك </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1400,
+      "y": 1350,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,أمسك حقيبته بقوة</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .وتقدم للأمام </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 113,
+      "y": 1200,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_07": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:استقبلته المعلمة بابتسامة وقالت  &quot;!مرحبًا يا [*الاسم*]! أنا سعيدة جدًا بوجودك  &quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2013,
+      "y": 900,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.كان صوتها لطيفًا، وعيناها تلمعان </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1913,
+      "y": 1200,
+      "width": 820,
+      "height": 140
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>شعر [*الاسم*] بشجاعة  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أكبر بعد كلماتها </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 713,
+      "y": 1300,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_08": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.في داخل الفصل، كان كل شيء ملونًا ومشرقًا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.هناك رفوف كتب، وصناديق ألعاب، وأسماء على الخزائن </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 400,
+      "y": 800,
+      "width": 820,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وجد اسمه وعلق حقيبته بعناية </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 0,
+      "y": 1250,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_09": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,كان الأطفال يبنون أبراجًا  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ويرسمون، ويلعبون بالألغاز </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2300,
+      "y": 1300,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,وقف [*الاسم*] قليلًا  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ثم ذهب إلى طاولة فيها مكعبات </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1663,
+      "y": 1400,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:سأله ولد بجانبه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> &quot;تحب نبني صاروخ سوا؟ &quot; </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ابتسم [*الاسم*] وهز رأسه بالموافقة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 13,
+      "y": 1350,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_10": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,رنّت المعلمة الجرس بلطف  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.واجتمع الأطفال على السجادة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2413,
+      "y": 1100,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:رفعت كتابًا ملونًا وقالت  &quot;.هذه قصة عن ولد كان خجولًا في يومه الأول  &quot; .جلس [*الاسم*] بهدوء، وهو يشعر بشجاعة أكبر مع كل كلمة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1513,
+      "y": 1400,
+      "width": 820,
+      "height": 140
+    }
+  ],
+  "slide_11": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ثم جاء وقت الرسم </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,فرش كبيرة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .وأوراق كثيرة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2313,
+      "y": 1100,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>رسم [*الاسم*] قوس قزح </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وبيتًا صغيرًا مع نجوم فوقه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وعندما انتهى، قالت المعلمة  &quot;!رائع </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1613,
+      "y": 1300,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!سنعلقه  &quot;</span></p></body></html>",
+      "global_font": 2.9,
+      "x": 513,
+      "y": 80,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_12": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,في وقت الوجبة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> جلس [*الاسم*] على طاولة  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .دائرية وفتح علبة طعامه </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2200,
+      "y": 1250,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.كان طفلان بجانبه يتحدثان عن حيواناتهم الأليفة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 413,
+      "y": 1100,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:استمع [*الاسم*]، ثم سأل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> &quot;هل السمك يُعتبر حيوانًا أليفًا؟ &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> :ضحكا وقالا  &quot;!نعم &quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 213,
+      "y": 1300,
+      "width": 820,
+      "height": 140
+    }
+  ],
+  "slide_13": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.في الخارج، كان الملعب مليئًا بالحركة والضحك </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2013,
+      "y": 250,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.تسلق [*الاسم*] السلم ونزل من الزحليقة مرارًا </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1913,
+      "y": 1200,
+      "width": 820,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,ركض خلف كرة وركلها بلطف</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وابتسم عندما عادت إليه </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1713,
+      "y": 1400,
+      "width": 820,
+      "height": 160
+    }
+  ],
+  "slide_14": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.في الداخل مرة أخرى، كان وقت الموسيقى </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.هزازات وطبول وأصوات جميلة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 613,
+      "y": 600,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.بدأ [*الاسم*] يصفق على الإيقاع، وغنّى قليلًا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.كان المكان مليئًا بالمرح والضحك </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 313,
+      "y": 1200,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_15": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:جمعت المعلمة الأطفال وقالت  &quot;.كنتم رائعين اليوم. الروضة أجمل بوجودكم  &quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1863,
+      "y": 1100,
+      "width": 820,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.شعر [*الاسم*] بالفخر </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!لقد نجح! أكمل اليوم كله </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 663,
+      "y": 1300,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_16": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,عندما حان وقت العودة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.حمل [*الاسم*] حقيبته وابتسم </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> ,لقد لعب، ورسم </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>  .وضحك، وتعلم  </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2013,
+      "y": 950,
+      "width": 820,
+      "height": 580
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> وأجمل شيء… أنه لم </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.يستطع الانتظار للعودة غدًا </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1713,
+      "y": 1300,
+      "width": 820,
+      "height": 520
+    }
+  ],
+  "slide_17": [
+ {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:30px;font-weight:700;'>  <strong> قصة تتحول إلى ذكرى </strong><br></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 200,
+      "y": 200,
+      "width": 1200,
+      "height": 320
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>لأنهم لن يبقوا صغارًا إلى الأبد<br></span></p></body></html>",
+      "global_font": 2.9,
+      "x": 360,
+      "y": 400,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>لقد صُنعت لأحفظ اللحظات</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.وأبطئ الزمن قليلًا <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 200,
+      "y": 470,
+      "width": 900,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>صُنعت بخيالهم وأسمائهم</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.في كل صفحة <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 350,
+      "y": 620,
+      "width": 900,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>,هناك عوالم كثيرة لاكتشافها </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;وكل قصة مغامرة خاصة</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.بطفلك </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 360,
+      "y": 800,
+      "width": 900,
+      "height": 400
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>...أنا المغامرة التي لا يعيشها إلا طفلك </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'><br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 294,
+      "y": 1060,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.وأعدك، سأكون القصة المفضلة <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 394,
+      "y": 1170,
+      "width": 900,
+      "height": 100
+    }
+  ]
+}

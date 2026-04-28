@@ -302,67 +302,59 @@
   ],
   "slide_17": [
     {
-      "html": "<html><head/><body><p align='center'><span style=' font-size:13pt; color:#ffffff;'><strong>A Story That Becomes A Memory</strong></span></p></body></html>",
-      "global_font": 2.9,
-      "x": 400,
-      "y": 302,
-      "width": 1000,
-      "height": 100
-    },
-    {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:13pt; color: #000000;'>Because They Won't Be Little Forever</span></p></body></html>",
-      "global_font": 2.3,
-      "x":550,
-      "y": 450,
-      "width": 1000,
-      "height": 200
-    },
-      {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:13pt; color: #000000;'>I was created to hold on</span></p><p align='left'><span style=' font-size:13pt; color: #000000;'> and slow time, just a little.</span></p></body></html>",
-      "global_font": 2.0,
-      "x":650,
-      "y": 520,
-      "width": 1000,
-      "height": 100
-    },
-    {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:13pt; color: #000000;'> I was created with their name </span></p></body></html>",
-      "global_font": 2.0,
-      "x":600,
-      "y": 630,
-      "width": 1000,
-      "height": 100
-    },
-    {
-      "html": "<html><head/><body><p align='center'><span style=' font-size:13pt; color: #000000;'>  and their imagination </span></p><p align='center'><span style=' font-size:13pt; color: #000000;'> stitched into every page.</span></p></body></html>",
-      "global_font": 2.0,
-      "x":400,
-      "y": 690,
-      "width": 1000,
+      "html": "<html><head/><body><p align='center'><span style='font-size:28px; font-weight:700; color:#ffffff;'>A Story That</span></p><p align='center'><span style='font-size:28px; font-weight:700; color:#ffffff;'>Becomes A Memory</span></p></body></html>",
+      "global_font": 3.5,
+      "x": 300,
+      "y": 80,
+      "width": 1100,
       "height": 200
     },
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:13pt;  color: #000000;'> There are many worlds to explore, </span></p><p align='left'><span style=' font-size:13pt; color: #000000;'> and each <strong> MAGICAL STORY  </strong> title </span></p><p align='left'><span style=' font-size:13pt; color: #000000;'> becomes an adventure crafted </span></p><p align='left'><span style=' font-size:13pt; color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; around your little one.</span></p></body></html>",
-      "global_font": 1.9,
-      "x":600,
-      "y": 820,
-      "width": 1000,
-      "height": 300
-    },
-    {
-      "html": "<html><head/><body><p align='center'><span style=' font-size:13pt;  color: #000000;'> I'm the adventure </span></p><p align='center'><span style=' font-size:13pt; color: #000000;'> only your child can live.</span></p></body></html>",
-      "global_font": 2.0,
-      "x":400,
-      "y": 1030,
-      "width": 1000,
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>Because They Won't Be Little Forever<br></span></p><br></body></html>",
+      "global_font": 2.4,
+      "x": 394,
+      "y": 400,
+      "width": 900,
       "height": 100
     },
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:13pt;  color: #000000;'>  And I promise, I'll be a favorite.</span></p></body></html>",
-      "global_font": 2.0,
-      "x":600,
-      "y": 1150,
-      "width": 1000,
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>I was created to hold on</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>and slow time, just a little.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 594,
+      "y": 470,
+      "width": 900,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>I was created with their name</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and their imagination</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stitched into every page.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 505,
+      "y": 600,
+      "width": 900,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>There are many worlds to explore,</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and each <strong> MAGICAL STORY  </strong> title</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>becomes an adventure crafted</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;around your little one.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 460,
+      "y": 800,
+      "width": 900,
+      "height": 400
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>I'm the adventure</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>only your child can live.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 594,
+      "y": 1060,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>And I promise, I'll be a favorite.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 494,
+      "y": 1190,
+      "width": 900,
       "height": 100
     }
   ]

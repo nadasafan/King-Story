@@ -249,7 +249,7 @@
       "height": 200
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>Because They Won't Be Little Forever<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>Because They Won't Be Little Forever<br></span></p><br></body></html>",
       "global_font": 2.4,
       "x": 394,
       "y": 400,
@@ -257,7 +257,7 @@
       "height": 100
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>I was created to hold on</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>and slow time, just a little.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>I was created to hold on</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>and slow time, just a little.<br></span></p><br></body></html>",
       "global_font": 2.2,
       "x": 594,
       "y": 470,
@@ -265,7 +265,7 @@
       "height": 220
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>I was created with their name</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and their imagination</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stitched into every page.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>I was created with their name</span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and their imagination</span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stitched into every page.<br></span></p><br></body></html>",
       "global_font": 2.2,
       "x": 505,
       "y": 600,
@@ -273,7 +273,7 @@
       "height": 260
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>There are many worlds to explore,</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and each WonderWraps title</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>becomes an adventure crafted</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;around your little one.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>There are many worlds to explore,</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and each MAGICAL STORY title</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>becomes an adventure crafted</span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;around your little one.<br></span></p><br></body></html>",
       "global_font": 2.2,
       "x": 460,
       "y": 800,
@@ -281,15 +281,15 @@
       "height": 400
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>I'm the adventure</span></p><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>only your child can live.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>I'm the adventure </span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>only your child can live.<br></span></p><br></body></html>",
       "global_font": 2.2,
       "x": 594,
-      "y": 1060,
+      "y": 1050,
       "width": 900,
       "height": 100
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color:#000000;'>And I promise, I'll be a favorite.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>And I promise, I'll be a favorite.<br></span></p><br></body></html>",
       "global_font": 2.2,
       "x": 494,
       "y": 1180,

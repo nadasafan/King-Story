@@ -1,0 +1,220 @@
+{
+  "slide_01": [
+    {
+      "global_font": 3.9,
+      "x": 200,
+      "y": 0,
+      "width": 1200,
+      "height": 400,
+      "html": "<html><head/><body><p align='center'><span style='color:#2c2c2c; font-size:18pt;'>سوبر</span></p><p align='center'><span style='color:#2c2c2c; font-size:26pt; font-weight:700;'><strong>[*الاسم*]</strong></span></p><p align='center'><span style='color:#2c2c2c; font-size:18pt;'>والتنين</span></p></body></html>"
+    }
+  ],
+  "slide_02": [
+    {
+      "global_font": 2.8,
+      "x": -180,
+      "y": 100,
+      "width": 820,
+      "height": 280,
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>في قرية ميدوبروك، كان سوبر </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong></span><span style='color:#ffffff; font-size:14px;'> .بطلاً </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.كان يملك سمعاً خارقاً وعضلات قوية </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong></span><span style='color:#ffffff; font-size:14px;'> ,كان يحب مساعدة الجميع </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.مثل إنقاذ القطط أو رفع الأشياء الثقيلة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.كان أهل القرية يحبونه، وهو كان يحب مساعدتهم </span></p></body></html>"
+    }
+  ],
+  "slide_03": [
+    {
+      "global_font": 2.8,
+      "x": 1600,
+      "y": 1250,
+      "width": 820,
+      "height": 240,
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.في صباح مشمس، كان الجميع يعمل في حدائقهم </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>...فجأة أظلمت السماء. نظر أهل القرية للأعلى ورأوا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.تنيناً! حلّق منخفضاً وأجنحته الكبيرة طارت الأوراق في كل مكان </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.خاف الأهل وركضوا إلى بيوتهم </span></p></body></html>"
+    }
+  ],
+  "slide_04": [
+    {
+      "global_font": 2.8,
+      "x": 1600,
+      "y": 1250,
+      "width": 820,
+      "height": 240,
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>كان سوبر </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong></span><span style='color:#ffffff; font-size:14px;'> .يتدرب على القفز حين سمع الضوضاء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.استمع جيداً وسمع خطوات التنين وهمسات الأهل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong></span><span style='color:#ffffff; font-size:14px;'> .طار نحو القرية ورأى التنين جالساً وحيداً </span></p></body></html>"
+    }
+  ],
+  "slide_05": [
+    {
+      "global_font": 2.8,
+      "x": 1700,
+      "y": 1300,
+      "width": 820,
+      "height": 200,
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.هذا التنين لم يكن مخيفاً. كانت له عيون كبيرة سعيدة وابتسامة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>التنين أراد فقط اللعب. حطّ بلطف في ساحة القرية</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ونظر حوله، لكن الجميع كان مختبئاً </span></p></body></html>"
+    }
+  ],
+  "slide_06": [
+    {
+      "global_font": 2.8,
+      "x": -180,
+      "y": 1150,
+      "width": 820,
+      "height": 300,
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> :اقترب من التنين وقال </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong> &quot;مرحباً! أنا [*الاسم*]. ما الذي جاء بك هنا؟ &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>:ابتسم التنين وقال </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> &quot;مرحباً يا [*الاسم*]! أنا شرارة. كنت أطير زمناً طويلاً</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أبحث عن أصدقاء. لكن الجميع دائماً يهرب </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أريد فقط اللعب وتكوين صداقات  &quot;</span></p></body></html>"
+    }
+  ],
+  "slide_07": [
+    {
+      "global_font": 2.8,
+      "x": 1300,
+      "y": 1200,
+      "width": 820,
+      "height": 340,
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> .سمع بسمعه الخارق أن شرارة حزين </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:أراد المساعدة. قال  </span><span style='color:#ffffff; font-size:14px;'> &quot;.لا بأس يا شرارة. سأكلم الأهل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.سيرون أنك طيب  &quot;</span><span style='color:#ffffff; font-size:14px;'> ذهب </span><span style='color:#ffffff; font-size:14px; font-style:italic;'>[*الاسم*]</span><span style='color:#ffffff; font-size:14px; font-style:italic;'> .لكل بيت وطلب من الناس الخروج </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> &quot;,لا تخافوا  &quot;</span><span style='color:#ffffff; font-size:14px;'> قال </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong></span><span style='color:#ffffff; font-size:14px;'></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> &quot;.شرارة تنين ودود. يريد فقط أن يكوّن أصدقاء  &quot;</span></p></body></html>"
+    }
+  ],
+  "slide_08": [
+    {
+      "global_font": 2.8,
+      "x": 280,
+      "y": 1250,
+      "width": 820,
+      "height": 240,
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>ببطء خرج الأهل من بيوتهم. كانوا لا يزالون خائفين قليلاً</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>لكنهم وثقوا بـ</span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong></span><span style='color:#ffffff; font-size:14px;'>.وقفوا في الساحة بعيداً قليلاً عن التنين </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong></span><span style='color:#ffffff; font-size:14px;'> :قال </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong> &quot;.شرارة، حدّثهم عن نفسك  &quot;</strong></span></p></body></html>"
+    }
+  ],
+  "slide_09": [
+    {
+      "global_font": 2.8,
+      "x": 900,
+      "y": 600,
+      "width": 820,
+      "height": 360,
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:ابتسم شرارة وقال </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> &quot;.كنت أعيش على جبل بعيد مع تنانين أخرى </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.لكنهم طاروا جميعاً بحثاً عن مغامرات </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.بقيت وحيداً منذ ذلك الحين </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أريد فقط تكوين أصدقاء ومساعدة الناس </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أعدكم أنني لن أؤذي أحداً  &quot;</span></p></body></html>"
+    }
+  ],
+  "slide_10": [
+    {
+      "global_font": 2.8,
+      "x": 1700,
+      "y": 1250,
+      "width": 820,
+      "height": 240,
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.استمع الأهل وبدأوا يشعرون بالشفقة على شرارة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:طفل شجاع أمسك بكرة وسأل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong> &quot;هل تريد أن تلعب الإلقاء والإمساك؟ &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أضاءت عينا شرارة  </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong> &quot;!نعم، أحبّ ذلك  &quot;</strong></span><span style='color:#ffffff; font-size:14px;'> .قال </span></p></body></html>"
+    }
+  ],
+  "slide_11": [
+    {
+      "global_font": 2.8,
+      "x": 1600,
+      "y": 1250,
+      "width": 820,
+      "height": 240,
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.رمى الطفل الكرة عالياً. أمسك بها شرارة بنفخة من جناحيه وردّها </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.سرعان ما انضم المزيد من الأطفال ضاحكين ولاعبين </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ابتسم الكبار ورأوا أن شرارة لطيف. بعضهم لعب أيضاً </span></p></body></html>"
+    }
+  ],
+  "slide_12": [
+    {
+      "global_font": 2.8,
+      "x": 380,
+      "y": 150,
+      "width": 820,
+      "height": 200,
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.حين بدأت الشمس بالغروب ازداد البرد. أراد الأهل إشعال نار </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.قبل أن يفعلوا، ساعد شرارة بإطلاق لهيب صغير على الخشب </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.انبهر الأهل وفرحوا </span></p></body></html>"
+    }
+  ],
+  "slide_13": [
+    {
+      "global_font": 2.8,
+      "x":1900,
+      "y": 100,
+      "width": 820,
+      "height": 220,
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.تلك الليلة جلس الجميع حول النار يتقاسمون الطعام والقصص </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.روى شرارة قصص مغامراته. شارك الأهل حكايات قريتهم </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong></span><span style='color:#ffffff; font-size:14px;'> .ابتسم لأن الجميع كان سعيداً </span></p></body></html>"
+    }
+  ],
+  "slide_14": [
+    {
+      "global_font": 2.8,
+      "x": 1800,
+      "y": 1250,
+      "width": 820,
+      "height": 240,
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>بعد ذلك اليوم، أصبح شرارة جزءاً من القرية. كان يزورهم كثيراً</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.يلعب مع الأطفال ويساعد بقوته أو لهيبه الصغير </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.لم يعد الأهل خائفين، ولم يعد شرارة وحيداً </span></p></body></html>"
+    }
+  ],
+  "slide_15": [
+    {
+      "global_font": 2.8,
+      "x": 280,
+      "y": 1300,
+      "width": 820,
+      "height": 200,
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>أما سوبر </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong></span><span style='color:#ffffff; font-size:14px;'> فقد أدرك أنه</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>لم يكتفِ بإنقاذ الموقف فحسب، بل أحضر</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.صداقة جديدة وبهجة إلى القرية </span></p></body></html>"
+    }
+  ],
+  "slide_16": [
+    {
+      "global_font": 2.8,
+      "x": 280,
+      "y": 100,
+      "width": 820,
+      "height": 660,
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>أصبحا أعز الأصدقاء،</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>عاهدا بعضهما على مساعدة</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>المحتاجين والحفاظ على قريتهم</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>آمنة وسعيدة للأبد.</span></p></body></html>"
+    }
+  ],
+  "slide_17": [
+ {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:30px;font-weight:700;'>  <strong> قصة تتحول إلى ذكرى </strong><br></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 200,
+      "y": 200,
+      "width": 1200,
+      "height": 320
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>لأنهم لن يبقوا صغارًا إلى الأبد<br></span></p></body></html>",
+      "global_font": 2.9,
+      "x": 360,
+      "y": 400,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>لقد صُنعت لأحفظ اللحظات</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.وأبطئ الزمن قليلًا <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 200,
+      "y": 470,
+      "width": 900,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>صُنعت بخيالهم وأسمائهم</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.في كل صفحة <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 350,
+      "y": 620,
+      "width": 900,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>,هناك عوالم كثيرة لاكتشافها </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;وكل قصة مغامرة خاصة</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.بطفلك </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 360,
+      "y": 800,
+      "width": 900,
+      "height": 400
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>...أنا المغامرة التي لا يعيشها إلا طفلك </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'><br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 294,
+      "y": 1060,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.وأعدك، سأكون القصة المفضلة <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 394,
+      "y": 1170,
+      "width": 900,
+      "height": 100
+    }
+  ]
+}

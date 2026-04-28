@@ -1,0 +1,316 @@
+{
+  "slide_01": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#c8a96e; font-size:22pt; font-weight:700;'><strong>ابتسامة</strong></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 200,
+      "y": 100,
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#c8a96e; font-size:26pt; font-weight:700;'><strong>[*الاسم*]</strong></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 400,
+      "y": 250,
+      "width": 700,
+      "height": 160
+    }
+  ],
+  "slide_02": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.كان هناك ولد صغير اسمه [*الاسم*] </span></p></body></html>",
+      "global_font": 2.9,
+      "x": 350,
+      "y": 1150,
+      "width": 820,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.كانت لديه أبهى ابتسامة في كل المدينة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.كانت ابتسامته كبيرة جدًا، كأنها أشعة شمس في يوم غائم </span></p></body></html>",
+      "global_font": 2.9,
+      "x": 200,
+      "y": 1250,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_03": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:كلما ابتسم [*الاسم*]  لم يستطع الناس إلا أن يبتسموا له. كان جيرانه يقولون &quot;!ابتسامتك تجعل يومي أجمل &quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2100,
+      "y": 900,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_04": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> ,في صباح أحد الأيام،استيقظ [*الاسم*]   </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .وتمدد، ونظر إلى الخارج </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.كانت الشمس تشرق بقوة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 663,
+      "y": 500,
+      "width": 820,
+      "height": 420
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قال &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!إنه اليوم المثالي لننشر الابتسامات </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 513,
+      "y": 850,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_05": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.خرج [*الاسم*] إلى الخارج ونظر حوله </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2263,
+      "y": 1050,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,كانت الشمس دافئة على خديه  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.والنسيم يداعب أنفه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,ابتسم بأوسع ما يستطيع </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .وشعر وكأن العالم كله يبتسم له</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2063,
+      "y": 1200,
+      "width": 820,
+      "height": 380
+    }
+  ],
+  "slide_06": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,بينما كان [*الاسم*] يمشي في الحديقة  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.لاحظ زهرة لم تتفتح بعد </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:انحنى نحوها، وابتسم، وقال &quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 500,
+      "y": 1150,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!مرحبًا أيتها الزهرة الصغيرة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!ستتفتحين قريبًا، أنا متأكد </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 0,
+      "y": 1370,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_07": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:بدأت الزهرة تتفتح ببطء، كأن ابتسامة [*الاسم*] أعطتها الشجاعة لتتفتح. قال وهو يصفق &quot;!كنت أعلم أنك تستطيعين ذلك &quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 513,
+      "y": 300,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_08": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .واصل [*الاسم*] طريقه ولاحظ بركة ماء تعكس أشعة الشمس </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.انحنى ونظر إليها مبتسمًا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ابتسم انعكاسه له </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2213,
+      "y": 300,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:ضحك وقال &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!حتى البرك يمكن أن تبدو سعيدة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 513,
+      "y": 1300,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_09": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.حمل النسيم اللطيف ابتسامة [*الاسم*] عبر الحقول </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.تمايلت الأشجار برفق، وكأنها تلوّح له </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:نادى &quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 400,
+      "y": 250,
+      "width": 820,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!صباح الخير يا أشجار </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وكانت ابتسامته مشرقة كعادتها </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 0,
+      "y": 500,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_10": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وأثناء سيره، رأى [*الاسم*] سنجابًا  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .صغيرًا يطل من خلف شجرة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2113,
+      "y": 1250,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,منحه ابتسامة ودودة  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.فحرّك السنجاب أنفه واقترب بخفة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 613,
+      "y": 1150,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_11": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>شارك [*الاسم*] قطعة من شطيرته  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قال &quot;مع السنجا</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2263,
+      "y": 500,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>الجميع يستحق قليلًا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .من أشعة الشمس </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>أصدر السنجاب أصواتًا سعيدة  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>. ثم قفز عائدًا إلى الأشجار </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 613,
+      "y": 480,
+      "width": 820,
+      "height": 580
+    }
+  ],
+  "slide_12": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,كانت الشمس الآن عالية في السماء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>. وامتد ظل [*الاسم*] طويلًا على الأرض </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:لوّح لظله وقال &quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 1000,
+      "width": 820,
+      "height": 480
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!أنت تبتسم أيضًا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ثم أخذ يقفز ويمشي بمرح على الطريق </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 0,
+      "y": 1250,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_13": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,بحلول الوقت الذي عاد فيه [*الاسم*] إلى المنزل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.بدا العالم أكثر إشراقًا </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1950,
+      "y": 800,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,تفتحت الأزهار، وتمايلت الأشجار </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>. وحتى الهواء بدا أخف </span></p></body></html>",
+      "global_font": 2.8,
+      "x": -200,
+      "y": 300,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_14": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,عندما دخل [*الاسم*] إلى المنزل  &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>: ابتسمت أمه وقالت &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!يبدو أنك قضيت يومًا رائعًا </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2200,
+      "y": 300,
+      "width": 820,
+      "height": 420
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قال &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!نعم، لقد شاركت ابتسامتي مع العالم </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 0,
+      "y": 1050,
+      "width": 820,
+      "height": 580
+    }
+  ],
+  "slide_15": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:احتضنته أمه بقوة وقالت &quot;.لأن ابتسامتك مثل أشعة الشمس، تجعل كل شيء أفضل &quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1713,
+      "y": 1000,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_16": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>ومنذ ذلك اليوم، حرص [*الاسم*] دائمًا على </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>  ,مشاركة ابتسامته المشرقة. لأنه مثل الشمس </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.يمكن لقليل من اللطف أن يجعل العالم كله يتوهج </span></p></body></html>",
+      "global_font": 2.5,
+      "x": 200,
+      "y": 150,
+      "width": 820,
+      "height": 580
+    }
+  ],
+  "slide_17": [
+ {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:30px;font-weight:700;'>  <strong>  قصة تتحول إلى ذكرى </strong><br></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 200,
+      "y": 200,
+      "width": 1200,
+      "height": 320
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>لأنهم لن يبقوا صغارًا إلى الأبد<br></span></p></body></html>",
+      "global_font": 2.9,
+      "x": 360,
+      "y": 400,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>لقد صُنعت لأحفظ اللحظات</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.وأبطئ الزمن قليلًا <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 200,
+      "y": 470,
+      "width": 900,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>صُنعت بخيالهم وأسمائهم</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.في كل صفحة <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 350,
+      "y": 620,
+      "width": 900,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>,هناك عوالم كثيرة لاكتشافها </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;وكل قصة مغامرة خاصة</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.بطفلك </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 360,
+      "y": 800,
+      "width": 900,
+      "height": 400
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>...أنا المغامرة التي لا يعيشها إلا طفلك </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'><br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 294,
+      "y": 1060,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.وأعدك، سأكون القصة المفضلة <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 394,
+      "y": 1170,
+      "width": 900,
+      "height": 100
+    }
+  ]
+}

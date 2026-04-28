@@ -1,0 +1,220 @@
+{
+  "slide_01": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#2c2c2c; font-size:18pt;'>Super</span></p><p align='center'><span style='color:#2c2c2c; font-size:26pt; font-weight:700;'><strong>[*NAME*]</strong></span></p><p align='center'><span style='color:#2c2c2c; font-size:18pt;'>and the Dragon</span></p></body></html>",
+      "global_font": 3.9,
+      "x": 200,
+      "y": 80,
+      "width": 1200,
+      "height": 400
+    }
+  ],
+  "slide_02": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>In the village of Meadowbrook, Super </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>was a hero. He had super hearing and strong muscles.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> loved helping everyone, like rescuing cats</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>or lifting heavy things. The villagers liked him,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and <strong>[*NAME*]</strong> liked helping them.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1900,
+      "y": 100,
+      "width": 820,
+      "height": 280
+    }
+  ],
+  "slide_03": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>One sunny day, everyone was working in their gardens.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Suddenly, the sky got dark. The villagers looked up and saw</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a dragon! It flew low, and its big wings made the leaves blow</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>everywhere. The villagers got scared and ran to their homes.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 150,
+      "y": 1250,
+      "width": 820,
+      "height": 240
+    }
+  ],
+  "slide_04": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Super </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> was practicing his jumps when</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>he heard the noise. He listened and heard the dragon walking</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and the villagers whispering. <strong>[*NAME*]</strong> flew to the village</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and saw the dragon sitting by itself.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 150,
+      "y": 1250,
+      "width": 820,
+      "height": 240
+    }
+  ],
+  "slide_05": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>This dragon wasn't scary. It had big, happy eyes and a smile.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The dragon just wanted to play. It gently landed in the village</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>square and looked around, but everyone was hiding.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 150,
+      "y": 1300,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_06": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> walked up to the dragon and said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Hi! I'm <strong>[*NAME*]</strong>. Why are you here?&quot;</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> The dragon smiled</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>and said,</span><span style='color:#ffffff; font-size:14px;'> &quot;Hi, <strong>[*NAME*]</strong>! I'm Spark. I've been flying for</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a long time, looking for friends. But everyone always runs</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>away. I just want to play and make friends.&quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1800,
+      "y": 1250,
+      "width": 820,
+      "height": 300
+    }
+  ],
+  "slide_07": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> could hear that Spark was sad.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>He wanted to help.</span><span style='color:#ffffff; font-size:14px;'> &quot;It's okay, Spark. I'll talk to the villagers.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>They'll see that you're nice.&quot; </span><span style='color:#ffffff; font-size:14px; font-style:italic;'><strong>[*NAME*]</strong> went to each house</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>and asked the people to come outside.</span><span style='color:#ffffff; font-size:14px;'> &quot;Don't be afraid,&quot;</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> said. &quot;Spark is a friendly dragon.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He just wants to make friends.&quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 150,
+      "y": 1200,
+      "width": 820,
+      "height": 340
+    }
+  ],
+  "slide_08": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Slowly, the villagers came out of their homes. They were still</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a little scared but trusted <strong>[*NAME*]</strong>. They stood in the square,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a little far from the dragon. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Spark, tell them about yourself.&quot;</strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1900,
+      "y": 1250,
+      "width": 820,
+      "height": 240
+    }
+  ],
+  "slide_09": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Spark smiled and said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;I lived on a faraway</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>mountain with other dragons.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>But they all flew away to find</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>adventures. I've been alone</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>since then. I just want to make</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>friends and help people.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>I promise I won't hurt anyone.&quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1000,
+      "y": 600,
+      "width": 820,
+      "height": 360
+    }
+  ],
+  "slide_10": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The villagers listened and started to feel sorry</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>for Spark. One brave child held a ball and asked,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Do you want to play catch?&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Spark's eyes lit up. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Yes, I'd love to!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> he said.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 150,
+      "y": 1250,
+      "width": 820,
+      "height": 240
+    }
+  ],
+  "slide_11": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The child threw the ball high in the air. Spark caught it with</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a puff from his wings and threw it back. Soon, more children</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>joined the game, laughing and playing. The grown-ups smiled</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and saw that Spark was gentle. Some grown-ups even played, too.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 150,
+      "y": 1250,
+      "width": 820,
+      "height": 240
+    }
+  ],
+  "slide_12": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>When the sun started to set, it got cold. The villagers wanted</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>to make a fire. Before they could, Spark helped by blowing</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a little flame onto the wood. The villagers were amazed and happy.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1800,
+      "y": 150,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_13": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>That night, everyone sat by the fire, sharing food and stories.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Spark told stories about his adventures. The villagers shared</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>stories about their village. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> smiled because</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>everyone was happy.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 150,
+      "y": 100,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_14": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>After that day, Spark was a part of the village. He visited often,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>played with the kids, and helped with his dragon strength</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>or a little flame. The villagers were not scared anymore,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and Spark was not lonely.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 150,
+      "y": 1250,
+      "width": 820,
+      "height": 240
+    }
+  ],
+  "slide_15": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>And as for Super </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'>, he knew he</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>had done more than just save the day, he had brought</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>new friendship and joy to the village.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1900,
+      "y": 1300,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_16": [
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>They became the best of friends,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'> promising to always help</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>those in need and keep their </span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>village safe and happy forever.</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2200,
+      "y": 100,
+      "width": 820,
+      "height": 660
+    }
+  ],
+  "slide_17": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='font-size:28px; font-weight:700; color:#ffffff;'>A Story That</span></p><p align='center'><span style='font-size:28px; font-weight:700; color:#ffffff;'>Becomes A Memory</span></p></body></html>",
+      "global_font": 3.5,
+      "x": 300,
+      "y": 80,
+      "width": 1100,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>Because They Won't Be Little Forever<br></span></p><br></body></html>",
+      "global_font": 2.4,
+      "x": 394,
+      "y": 400,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>I was created to hold on</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>and slow time, just a little.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 594,
+      "y": 470,
+      "width": 900,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>I was created with their name</span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and their imagination</span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stitched into every page.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 505,
+      "y": 600,
+      "width": 900,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>There are many worlds to explore,</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and each MAGICAL STORY title</span></p><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>becomes an adventure crafted</span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;around your little one.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 460,
+      "y": 800,
+      "width": 900,
+      "height": 400
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>I'm the adventure </span></p><p style='text-align:left;'><span style='font-size:18px; color: #000000;'>only your child can live.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 594,
+      "y": 1050,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:left;'><span style='font-size:18px;color: #000000;'>And I promise, I'll be a favorite.<br></span></p><br></body></html>",
+      "global_font": 2.2,
+      "x": 494,
+      "y": 1180,
+      "width": 900,
+      "height": 100
+    }
+  ]
+}

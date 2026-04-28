@@ -1,0 +1,399 @@
+{
+  "slide_01": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#aadd00; font-size:26pt; font-weight:700;'><strong>[*الاسم*]</strong></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 600,
+      "y": 350,
+      "width": 700,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#aadd00; font-size:14pt; font-weight:700;'><strong>!الديناصورات محتاجة مساعدتك </strong></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 200,
+      "y": 550,
+      "width": 1400,
+      "height": 800
+    }
+  ],
+  "slide_02": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>كان [*الاسم*] طفل فضولي </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>  عنده 6 سنين، وكان بيحب يدبدب </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> .زي ديناصور تي-ريكس في جنينته   </span></p></body></html>",
+      "global_font": 2.1,
+      "x": 828,
+      "y": 350,
+      "width": 820,
+      "height": 500
+    }
+  ],
+  "slide_03": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>,في يوم مشمس </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> ,وهو بيحفر جنب الشجرة الكبيرة</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> .لقى حجر لامع على شكل أثر قدم ديناصور</span></p></body></html>",
+      "global_font": 2.1,
+      "x": 28,
+      "y": 400,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_04": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:قال بدهشة وعينيه واسعة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>&quot;واو! هو ده حفرية؟&quot;</span></p></body></html>",
+      "global_font": 2.1,
+      "x": 778,
+      "y": 300,
+      "width": 820,
+      "height": 160
+    }
+  ],
+  "slide_05": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:بالليل، حط الحجر تحت المخدة وقال </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>&quot;!يا ريت أقابل ديناصورات حقيقية &quot;.وبدأ ينام </span></p></body></html>",
+      "global_font": 2.1,
+      "x": 100,
+      "y": 800,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_06": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>,وهو نايم، الحجر بدأ ينور</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> .والغرفه اتملت بضوء سحري </span></p></body></html>",
+      "global_font": 2.1,
+      "x": 928,
+      "y": 850,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_07": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>فتح عينيه لقى نفسه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> في غابة خضرا مليانة  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> .أشجار عالية وأصوات غريبة</span></p></body></html>",
+      "global_font": 2.1,
+      "x": 1100,
+      "y": 600,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:قال بخوف </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> &quot;أنا فين؟&quot;</span></p></body></html>",
+      "global_font": 2.1,
+      "x": 600,
+      "y": 750,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>وفجأة طلع ديناصور لطيف </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> :من ورا الشجر وقال &quot;!أهلاً! أنا توبي </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>!أهلاً بيك في وادي الديناصورات &quot;</span></p></body></html>",
+      "global_font": 2.1,
+      "x": 200,
+      "y": 750,
+      "width": 820,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:اتصدم [*الاسم*] وقال&quot; !ديناصورات    </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> بتتكلم؟&quot; ياه! ده حلم جميل </span></p></body></html>",
+      "global_font": 2.1,
+      "x": -350,
+      "y": 850,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_08": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>,توبي خد [*الاسم*] لجوه الوادي</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> وقابلوا بيلا (ديناصور طويل ولطيف) </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> .وستيلا (مرحة)، وريكسي (تي-ريكس صغير وشجاع) </span></p></body></html>",
+      "global_font": 1.9,
+      "x": 1100,
+      "y": 100,
+      "width": 820,
+      "height": 560
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>[*الاسم*] :سأل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>&quot;مالكوا قلقانين ليه؟&quot;</span></p></body></html>",
+      "global_font": 2.1,
+      "x": -400,
+      "y": 200,
+      "width": 820,
+      "height": 480
+    }
+  ],
+  "slide_09": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:بيلا قالت بهدوء &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>&quot;.عاصفة كبيرة وقعت الشجر وقفلت النهر &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:وستيلا قالت &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>&quot;!في ديناصورات محبوسة ومش لاقية مية &quot;</span></p></body></html>",
+      "global_font": 2.1,
+      "x": 728,
+      "y": 100,
+      "width": 820,
+      "height": 680
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:وقف [*الاسم*] بثقة وقال </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>&quot;!مافيش مشكلة يا أصحاب </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>!هنحلها مع بعض! يلا نساعد &quot;</span></p></body></html>",
+      "global_font": 2.1,
+      "x": 28,
+      "y": 700,
+      "width": 820,
+      "height": 520
+    }
+  ],
+  "slide_10": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>.أول حاجة: طريق مقفول بأغصان تقيلة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:قال [*الاسم*] &quot;.لازم نشيلها علشان الصغيرين يعدوا &quot;</span></p></body></html>",
+      "global_font": 1.9,
+      "x": 1100,
+      "y": 150,
+      "width": 820,
+      "height": 280
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> توبي استخدم جسمه القوي يشيل  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>.الأغصان الكبيرة، و[*الاسم*] شال الصغير </span></p></body></html>",
+      "global_font": 1.9,
+      "x": 100,
+      "y": 800,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:قال [*الاسم*] وهو بيصفق </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>&quot;!برافو يا توبي! أنت قوي جداً &quot;</span></p></body></html>",
+      "global_font": 1.9,
+      "x": -300,
+      "y": 900,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_11": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>,بعد كده راحوا للنهر &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> .وكان في شجرة كبيرة واقعة قافلة المية</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>,بيلا مدّت رقبتها الطويلة وشالت الأغصان </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> :و[*الاسم*] كان بيوجهها  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    </span></p></body></html>",
+      "global_font": 1.9,
+      "x": 1150,
+      "y": 500,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>&quot;!شوية شمال... أيوه كده &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>&quot;!نجحنا &quot; .قالها وهو مبسوط </span></p></body></html>",
+      "global_font": 1.9,
+      "x": -400,
+      "y": 250,
+      "width": 820,
+      "height": 280
+    }
+  ],
+  "slide_12": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>!والمية رجعت تجري تاني </span></p></body></html>",
+      "global_font": 2.1,
+      "x": 78,
+      "y": 100,
+      "width": 820,
+      "height": 140
+    }
+  ],
+  "slide_13": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> في طريق تاني، لقوا صخرة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>.كبيرة حابسة ديناصورات صغيرة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:ستيلا قالت &quot;!أنا هساعد &quot;</span></p></body></html>",
+      "global_font": 1.9,
+      "x": 1150,
+      "y": 200,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>[*الاسم*] :غنى &quot;,ادفعي ادفعي</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> !بهدوء مش بسرعة  &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>.ستيلا زقت الصخرة وحررتهم </span></p></body></html>",
+      "global_font": 1.9,
+      "x": 1050,
+      "y": 400,
+      "width": 820,
+      "height": 240
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>!يلا برافو يا ستيلا &quot;قال [*الاسم*]</span></p></body></html>",
+      "global_font": 1.9,
+      "x": -300,
+      "y": 850,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_14": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>[*الاسم*] وريكسي  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>  سمعوا صوت حد بيصرخ</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>  !في ديناصور غرقان في الطين </span></p></body></html>",
+      "global_font": 1.9,
+      "x": 600,
+      "y": 400,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>,ريكسي جري بسرعة  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> :و[*الاسم*] مد عصاية وقال</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>&quot;!امسك يا صاحبي &quot;</span></p></body></html>",
+      "global_font": 1.9,
+      "x": -300,
+      "y": 800,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_15": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> بسرعة ريكسي </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>,وذكاء [*الاسم*]  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>!أنقذوا الديناصور </span></p></body></html>",
+      "global_font": 1.9,
+      "x": 1100,
+      "y": 450,
+      "width": 820,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:قال [*الاسم*] </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>&quot;!واو يا ريكسي! أنت رائع &quot;</span></p></body></html>",
+      "global_font": 1.9,
+      "x": -400,
+      "y": 150,
+      "width": 820,
+      "height": 160
+    }
+  ],
+  "slide_16": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>,مع غروب الشمس، كانوا ساعدوا الكل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> .وفتحوا الطرق، ورجعوا المية</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>.الديناصورات اتجمعت وهي فرحانة </span></p></body></html>",
+      "global_font": 1.8,
+      "x": 708,
+      "y": 100,
+      "width": 820,
+      "height": 480
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:قال [*الاسم*] &quot;!نجحنا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> !التعاون بيكسب دايماً&quot;</span></p></body></html>",
+      "global_font": 1.8,
+      "x": 38,
+      "y": 100,
+      "width": 820,
+      "height": 280
+    }
+  ],
+  "slide_17": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:بيلا قالت بابتسامة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>&quot;!أنت بطل حقيقي يا [*الاسم*] &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:توبي قال &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> &quot;.ما كناش هنقدر من غيرك &quot;</span></p></body></html>",
+      "global_font": 1.9,
+      "x": 1000,
+      "y": 250,
+      "width": 820,
+      "height": 540
+    }
+  ],
+  "slide_18": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>بالليل، [*الاسم*]  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> قعد مع أصحابه  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:تحت النجوم وقال </span></p></body></html>",
+      "global_font": 1.9,
+      "x": 800,
+      "y": 100,
+      "width": 820,
+      "height": 280
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>...اتعلمت كتير النهارده  &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>توبي علمني القوة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> ,وبيلا التعاون، وستيلا الشجاعة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> &quot; وريكسي السرعة في التفكير </span></p></body></html>",
+      "global_font": 1.9,
+      "x": -400,
+      "y": 200,
+      "width": 820,
+      "height": 280
+    }
+  ],
+  "slide_19": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:بيلا قالت &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> وأنت علمتنا  &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>&quot;.مانستسلمش أبداً </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:وقالوا له &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>هتفضل دايماً جزء &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>&quot;.من وادي الديناصورات </span></p></body></html>",
+      "global_font": 1.9,
+      "x": 100,
+      "y": 200,
+      "width": 820,
+      "height": 280
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>[*الاسم*] .حس بدفء وفرح </span></p></body></html>",
+      "global_font": 1.9,
+      "x": -300,
+      "y": 400,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_20": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>,فجأة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> .الحجر بدأ ينور تاني </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:قال [*الاسم*] بحزن &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'> &quot;...ده وقت الرجوع &quot;</span></p></body></html>",
+      "global_font": 1.9,
+      "x": 100,
+      "y": 100,
+      "width": 820,
+      "height": 540
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:حضن كل أصحابه وقال </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>&quot;!هتوحشوني &quot;</span></p></body></html>",
+      "global_font": 1.9,
+      "x": -500,
+      "y": 300,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_21": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>.وفجأة… رجع سريره، والحجر في إيده </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>.بص من الشباك وشاف طائر لامع شبه توبي </span></p></body></html>",
+      "global_font": 1.9,
+      "x": 1100,
+      "y": 150,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>:قال بابتسامة &quot;...يمكن ماكنش حلم &quot;</span></p></body></html>",
+      "global_font": 1.9,
+      "x": -200,
+      "y": 800,
+      "width": 820,
+      "height": 280
+    }
+  ],
+  "slide_22": [
+ {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:26px;font-weight:700;'>  <strong> قصة تتحول لذكرى جميلة</strong><br></span></p></body></html>",
+      "global_font": 3.5,
+      "x": 400,
+      "y": 300,
+      "width": 1100,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color: #000000;'>.لأن الأطفال مش بيفضلوا صغيرين على طول</span></p></body></html>",
+      "global_font": 2.9,
+      "x": 400,
+      "y": 600,
+      "width": 1200,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color: #000000;'>.القصة دي معمولِة مخصوص بعالم خيال طفلك</span></p></body></html>",
+      "global_font": 2.9,
+      "x": 400,
+      "y": 750,
+      "width": 1200,
+      "height": 300
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style=' font-size:14pt; color: #000000;'> ... مليانة مغامرات </span></p><p align='center'><span style=' font-size:14pt; color: #000000;'> .ومليانة حب </span></p></body></html>",
+      "global_font": 2.9,
+      "x": 550,
+      "y": 900,
+      "width": 1000,
+      "height": 500
+    },
+
+    {
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt;  color: #000000;'> &quot;روح [*الاسم*]  الشجاعة &quot;</span></p></body></html>",
+      "global_font": 2.9,
+      "x": 300,
+      "y": 1150,
+      "width": 1000,
+      "height": 500
+    }
+  ]
+}

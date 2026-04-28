@@ -1,0 +1,300 @@
+{
+  "slide_01": [
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#ff6b00; font-size:26pt; font-weight:700;'><strong>[*الاسم*]</strong></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 500,
+      "y": 200,
+      "width": 700,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p align='center'><span style='color:#ff6b00; font-size:20pt; font-weight:700;'><strong>بيت الأشباح السعيد</strong></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 200,
+      "y": 350,
+      "width": 1200,
+      "height": 800
+    }
+  ],
+  "slide_02": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.كان صباح الهالوين مشرقًا ومنعشًا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أغلق [*الاسم*] سحاب زيه التنكري وابتسم ابتسامة كبيرة </span></p></body></html>",
+      "global_font": 2.9,
+      "x": 2363,
+      "y": 200,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قال بحماس</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;!اليوم سأذهب في مغامرة الهالوين &quot;</span></p></body></html>",
+      "global_font": 2.9,
+      "x": 2213,
+      "y": 500,
+      "width": 820,
+      "height": 480
+    }
+  ],
+  "slide_03": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.حمل [*الاسم*] دلو الحلوى في يده ومشى في الشارع </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.كانت هناك قرعيات مزينة، وزينات جميلة، وجيران لطفاء في كل مكان </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 213,
+      "y": 1200,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_04": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,في نهاية الطريق تمامًا   </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.رأى [*الاسم*] بيتًا لم يره من قبل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!كان ملتويًا وطويلًا ويبدو مضحكًا قليلًا </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1613,
+      "y": 1100,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_05": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:كانت هناك لافتة ملوّنة أمامه مكتوب عليها &quot;!مرحبًا بكم في بيت الأشباح السعيد &quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 200,
+      "y": 400,
+      "width": 820,
+      "height": 200
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>همس [*الاسم*]:&quot;هل أدخل؟&quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 100,
+      "y": 650,
+      "width": 820,
+      "height": 140
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:ثم قال بحماس &quot;!نعم &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .وتسلل إلى الداخل على أطراف أصابعه </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 0,
+      "y": 850,
+      "width": 820,
+      "height": 340
+    }
+  ],
+  "slide_06": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>...انفتح الباب ببطء </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2363,
+      "y": 200,
+      "width": 820,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أطلّ [*الاسم*] إلى الداخل وأخذ نفسًا عميقًا </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1663,
+      "y": 1200,
+      "width": 820,
+      "height": 140
+    }
+  ],
+  "slide_07": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:20px; font-weight:700;'><strong>!بوب! بوب! بوب </strong></span></p></body></html>",
+      "global_font": 2.8,
+      "x": 513,
+      "y": 1200,
+      "width": 820,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!فقاعات تطفو في الهواء في كل مكان </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!فقاعات وردية، وأخرى مربعة، وحتى فقاعة على شكل قطة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 413,
+      "y": 1300,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_08": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ثم مرّ شبح لطيف يطفو في الهواء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:كان يرتدي ربطة عنق مضحكة وقال  &quot;!مفاجأة &quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2313,
+      "y": 1300,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_09": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!ظهرت أشباح أكثر </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>لم تكن مخيفة, بل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>  كانت ترقص وتدور  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وتقوم بحركات مضحكة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.صفّق [*الاسم*] وضحك </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 13,
+      "y": 1100,
+      "width": 820,
+      "height": 260
+    }
+  ],
+  "slide_10": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أعطى أحد الأشباح ل[*الاسم*] ريشة كبيرة </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2313,
+      "y": 600,
+      "width": 820,
+      "height": 180
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وقال &quot;هل أنت مستعد لنفق الضحك؟&quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2113,
+      "y": 850,
+      "width": 820,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!هزّ [*الاسم*] رأسه وبدأ يزحف إلى الداخل </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1913,
+      "y": 1050,
+      "width": 820,
+      "height": 140
+    }
+  ],
+  "slide_11": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> :داخل النفق كانت هناك  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .وسائد ناعمة وريش يسبب الضحك </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 250,
+      "y": 700,
+      "width": 820,
+      "height": 160
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> كانت الموسيقى تعزف بينما يضحك  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.[*الاسم*] ويقفز في الطريق</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 80,
+      "y": 900,
+      "width": 820,
+      "height": 180
+    }
+  ],
+  "slide_12": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> في نهاية النفق، كانت قرعيات  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.مضيئة مصطفة على الأرض </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 2163,
+      "y": 600,
+      "width": 820,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,كل قرعة لها وجه مضحك </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!وإحداها غمزت بعينها </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1713,
+      "y": 1400,
+      "width": 820,
+      "height": 240
+    }
+  ],
+  "slide_13": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:صرخت الأشباح &quot;!حان وقت اللعب &quot;!لعبوا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>   مطاردة الأشباح، والغميضة بالقرع، ورمي الحلوى </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 300,
+      "y": 850,
+      "width": 820,
+      "height": 200
+    }
+  ],
+  "slide_14": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ثم حان وقت الحلوى </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!حصل [*الاسم*] على:بسكويت على شكل نجوم، ومارشميلو على شكل أقمار، وكب كيك عليه شبح من حبات الجيلي </span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1713,
+      "y": 500,
+      "width": 820,
+      "height": 260
+    }
+  ],
+  "slide_15": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,عندما بدأت الشمس تغرب</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.تجمعت الأشباح لتوديع [*الاسم*] </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:غنّوا معًا &quot;!عد إلينا في الهالوين القادم &quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 613,
+      "y": 950,
+      "width": 820,
+      "height": 420
+    }
+  ],
+  "slide_16": [
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.عاد [*الاسم*] إلى البيت وهو يقفز من الفرح، قلبه مليء بالضحك، ويداه مليئتان بالحلوى </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وقال &quot;!لقد كان حقًا أسعد بيت أشباح &quot;</span></p></body></html>",
+      "global_font": 2.8,
+      "x": 1813,
+      "y": 1200,
+      "width": 820,
+      "height": 220
+    }
+  ],
+  "slide_17": [
+ {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:24px;font-weight:700;'>  <strong> قصة تتحول إلى ذكرى </strong><br></span></p></body></html>",
+      "global_font": 3.9,
+      "x": 250,
+      "y": 200,
+      "width": 900,
+      "height": 320
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>لأنهم لن يبقوا صغارًا إلى الأبد<br></span></p></body></html>",
+      "global_font": 2.9,
+      "x": 360,
+      "y": 400,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>لقد صُنعت لأحفظ اللحظات</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.وأبطئ الزمن قليلًا <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 200,
+      "y": 470,
+      "width": 900,
+      "height": 220
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>صُنعت بخيالهم وأسمائهم</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.في كل صفحة <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 350,
+      "y": 620,
+      "width": 900,
+      "height": 260
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>,هناك عوالم كثيرة لاكتشافها </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;وكل قصة مغامرة خاصة</span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.بطفلك </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 360,
+      "y": 800,
+      "width": 900,
+      "height": 400
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>...أنا المغامرة التي لا يعيشها إلا طفلك </span></p><p style='text-align:right;'><span style='color:#000000;font-size:18px;'><br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 294,
+      "y": 1060,
+      "width": 900,
+      "height": 100
+    },
+    {
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#000000;font-size:18px;'>.وأعدك، سأكون القصة المفضلة <br></span></p></body></html>",
+      "global_font": 2.5,
+      "x": 394,
+      "y": 1170,
+      "width": 900,
+      "height": 100
+    }
+  ]
+}
