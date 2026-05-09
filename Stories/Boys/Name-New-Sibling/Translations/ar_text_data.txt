@@ -135,7 +135,7 @@
       "height": 860
     },
     {
-      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#ffffff;'><strong>&quot;.سيحب هذا الطفل المكان هنا &quot;</strong></span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'> <span style=' font-size:14pt; color:#deddda;'><em>.قال [*الاسم*] </em></span></p></body></html>",
+      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#ffffff;'> <span style=' font-size:14pt; color:#deddda;'><em>:قال [*الاسم*] </em></span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'><strong>&quot;.سيحب هذا الطفل المكان هنا &quot;</strong></span></p></body></html>",
       "global_font": 2.7,
       "x": 0,
       "y": 1080,
@@ -150,7 +150,7 @@
       "x": 2480,
       "y": 180,
       "width": 720,
-      "height": 140
+      "height": 340
     },
     {
       "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#ffffff;'><strong>[*الاسم*]</strong></span> <span style=' font-size:14pt; color:#deddda;'>.بقي مع جدته، التي صنعت له فطائر على شكل قلوب </span></p></body></html>",
@@ -158,15 +158,15 @@
       "x": 2500,
       "y": 420,
       "width": 480,
-      "height": 200
+      "height": 400
     },
     {
-      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#deddda;'>&quot;!أعتقد أن الطفل قادم &quot;</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'><strong>[*الاسم*]</strong></span> <span style=' font-size:14pt; color:#deddda;'>.صرخ </span></p></body></html>",
+      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#ffffff;'> <span style=' font-size:14pt; color:#deddda;'><em>:قال [*الاسم*] </em></span></p><p align='center'><span style=' font-size:14pt; color:#deddda;'>&quot;!أعتقد أن الطفل قادم &quot;</span></p></p></body></html>",
       "global_font": 2.7,
       "x": 2260,
       "y": 1280,
       "width": 720,
-      "height": 160
+      "height": 360
     }
   ],
   "slide_10": [
@@ -197,12 +197,12 @@
   ],
   "slide_11": [
     {
-      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>,عندما عادت أمه إلى المنزل </span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>نظر <strong>[*الاسم*]</strong> .إلى السري </span></p></body></html>",
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>,عندما عادت أمه إلى المنزل </span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>نظر <strong>[*الاسم*]</strong>  .إلى السرير</span></p></body></html>",
       "global_font": 2.5,
       "x": 2660,
       "y": 200,
-      "width": 520,
-      "height": 200
+      "width": 900,
+      "height": 2600
     },
     {
       "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>...كان هناك الطفل </span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>.صغيرًا ومنكمشًا، ملفوفًا في بطانية ناعمة </span></p></body></html>",
@@ -213,7 +213,7 @@
       "height": 200
     },
     {
-      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#ffffff;'><strong>[*الاسم*]</strong></span> <span style=' font-size:14pt; color:#deddda;'><em>همس:</em></span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'> &quot;.مرحبًا يا صغيري. أنا أخوك [*الاسم*] </span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>.أنت لطيف جدًا &quot;</span></p></body></html>",
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#ffffff;'><strong>[*الاسم*]</strong></span> <span style=' font-size:14pt; color:#deddda;'><em>:همس </em></span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'> &quot;.مرحبًا يا صغيري. أنا أخوك [*الاسم*] </span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>.أنت لطيف جدًا &quot;</span></p></body></html>",
       "global_font": 2.45,
       "x": 2360,
       "y": 1080,
@@ -327,7 +327,7 @@
   ],
   "slide_16": [
     {
-      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'>الآن، يفعل <strong>[*الاسم*]</strong>.وأخوه الصغير كل شيء معًا: يقرآن القصص، ويرشّان الماء في البرك، ويضحكان على الفقاعات </span></p></body></html>",
+      "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong>الآن، يفعل <strong>[*الاسم*]</strong>.وأخوه الصغير كل شيء معًا: يقرآن القصص، ويرشّان الماء في البرك، ويضحكان على الفقاعات </strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2200,
       "y": 1180,
@@ -335,16 +335,16 @@
       "height": 300
     },
     {
-      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#deddda;'>قال <strong>[*الاسم*]</strong>:</span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'><strong>&quot;!أن تكون أخًا أكبر هو أفضل عمل في العالم &quot;</strong></span></p></body></html>",
-      "global_font": 2.65,
+      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#deddda;'>قال <strong>[*الاسم*]</strong> </span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'><strong>&quot;!أن تكون أخًا أكبر هو أفضل عمل في العالم &quot;</strong></span></p></body></html>",
+      "global_font": 2.6,
       "x": 980,
       "y": 120,
       "width": 720,
       "height": 200
     },
     {
-      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#deddda;'>.أما الطفل… فكان يبتسم ويصدر أصواتًا صغيرة </span></p></body></html>",
-      "global_font": 2.6,
+      "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#deddda;'><strong>.أما الطفل… فكان يبتسم ويصدر أصواتًا صغيرة </strong> </span></p></body></html>",
+      "global_font": 2.4,
       "x": 980,
       "y": 420,
       "width": 580,

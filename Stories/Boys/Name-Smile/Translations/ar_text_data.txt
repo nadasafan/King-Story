@@ -165,7 +165,7 @@
   ],
   "slide_11": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>شارك [*الاسم*] قطعة من شطيرته  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قال &quot;مع السنجا</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>شارك [*الاسم*] قطعة من شطيرته  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قال &quot; مع السنجاب  </span></p></body></html>",
       "global_font": 2.8,
       "x": 2263,
       "y": 500,

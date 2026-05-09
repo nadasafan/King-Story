@@ -26,7 +26,7 @@
       "y": 1250,
       "width": 820,
       "height": 240,
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.في صباح مشمس، كان الجميع يعمل في حدائقهم </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>...فجأة أظلمت السماء. نظر أهل القرية للأعلى ورأوا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.تنيناً! حلّق منخفضاً وأجنحته الكبيرة طارت الأوراق في كل مكان </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.خاف الأهل وركضوا إلى بيوتهم </span></p></body></html>"
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.في صباح مشمس، كان الجميع يعمل في حدائقهم </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>...فجأة أظلمت السماء. نظر أهل القرية للأعلى ورأوا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.تنيناً! حلّق منخفضاً بأجنحته الكبيرة , فطارت الأوراق في كل مكان </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.خاف الأهل وركضوا إلى بيوتهم </span></p></body></html>"
     }
   ],
   "slide_04": [
@@ -96,7 +96,7 @@
       "y": 1250,
       "width": 820,
       "height": 240,
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.استمع الأهل وبدأوا يشعرون بالشفقة على شرارة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:طفل شجاع أمسك بكرة وسأل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong> &quot;هل تريد أن تلعب الإلقاء والإمساك؟ &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أضاءت عينا شرارة  </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong> &quot;!نعم، أحبّ ذلك  &quot;</strong></span><span style='color:#ffffff; font-size:14px;'> .قال </span></p></body></html>"
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.استمع الأهل وبدأوا يشعرون بالشفقة على شرارة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:طفل شجاع أمسك بكرة وسأل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong> &quot;هل تريد أن تلعب الإلقاء والإمساك؟ &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أضاءت عينا شرارة  </span><span style='color:#ffffff; font-size:14px; font-weight:700;'> :قال <strong> &quot;!نعم، أحبّ ذلك  &quot;</strong></span><span style='color:#ffffff; font-size:14px;'></span></p></body></html>"
     }
   ],
   "slide_11": [
@@ -164,7 +164,7 @@
       "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:30px;font-weight:700;'>  <strong> قصة تتحول إلى ذكرى </strong><br></span></p></body></html>",
       "global_font": 3.9,
       "x": 200,
-      "y": 200,
+      "y": 150,
       "width": 1200,
       "height": 320
     },

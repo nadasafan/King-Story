@@ -27,7 +27,7 @@
       "height": 320
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;...هذه هي اللحظة &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.همس </span></p><br><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;عملية الاستكشاف</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>!تبدأ الآن &quot;</strong></span><span style='color:#ffffff; font-size:14px;'> ,وانطلق بين الأشجار</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.مستعدًا لأي شيء &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:همس </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;...هذه هي اللحظة &quot;</strong></span></p><br><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;عملية الاستكشاف</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>!تبدأ الآن &quot;</strong></span><span style='color:#ffffff; font-size:14px;'> ,وانطلق بين الأشجار</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.مستعدًا لأي شيء &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.9,
       "x": -200,
       "y": 900,
@@ -81,7 +81,7 @@
   ],
   "slide_05": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:25px; font-weight:700;'><strong>!ووش! بيب! كليك </strong></span></p><br><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أضاءت عينا الروبوت باللون الأزرق &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,جلس ببطء &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:نظر حوله وقال &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>مرحبًا. أنا <strong>FLK-31.</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.كنت متوقفًا لمدة 72 عامًا &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.اكتمل إعادة التشغيل &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:25px; font-weight:700;'><strong>!ووش! بيب! كليك </strong></span></p><br><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أضاءت عينا الروبوت باللون الأزرق &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,جلس ببطء &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:نظر حوله وقال &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>FLK-31</strong> مرحبًا أنا &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.اكتملت إعادة التشغيل &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .كنت متوقفًا لعدة أعوام &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.8,
       "x": 1800,
       "y": 100,
@@ -99,7 +99,7 @@
   ],
   "slide_06": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;أنا</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong><strong>[*الاسم*]</strong>&quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.قال الصبي </span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.قال الصبي </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;أنا</strong><strong><strong>[*الاسم*]</strong>&quot;</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2400,
       "y": 280,
@@ -115,7 +115,7 @@
       "height": 580
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;تعرف أن الأرض</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>تدور بسرعة كبيرة؟&quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قال <strong>[*الاسم*]</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قال <strong>[*الاسم*]</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;تعرف أن الأرض</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>تدور بسرعة كبيرة؟&quot;</span></p></body></html>",
       "global_font": 2.8,
       "x": 700,
       "y": 260,
@@ -123,7 +123,7 @@
       "height": 560
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;.بالفعل &quot; .رد الروبوت </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;بسرعة تزيد عن 1600 كيلومتر</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!في الساعة قرب خط الاستواء &quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot; .رد الروبوت &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;بسرعة تزيد عن 1600 كيلومتر</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!في الساعة  &quot;</span></p></body></html>",
       "global_font": 2.8,
       "x": 0,
       "y": 1350,
@@ -209,7 +209,7 @@
       "height": 440
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;هذا ليس</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>على أي خريطة&quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>همس <strong>[*الاسم*]</strong>.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>همس <strong>[*الاسم*]</strong>.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;هذا ليس</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>على أي خريطة&quot;</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 1600,
       "y": 600,
@@ -217,7 +217,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;,هذا باب إطلاق &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قال FLK-31 </span></p><br><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>بقايا من   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .عصر الفضاء على الأرض &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قال FLK-31 </span></p><br><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;,هذا باب إطلاق &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>بقايا من   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .عصر الفضاء على الأرض &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.8,
       "x": 500,
       "y": 1140,
@@ -243,7 +243,7 @@
       "height": 520
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;مرحبًا بك في</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,محطة منسية &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قال FLK-31 </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قد يكون عمرها  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أكثر من 100 عام &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قال FLK-31 </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;مرحبًا بك في</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,محطة منسية &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قد يكون عمرها  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.أكثر من 100 عام &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.8,
       "x": -200,
       "y": 520,
@@ -387,7 +387,7 @@
       "height": 120
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.رأى ضوءًا خافتًا أمامه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;ها هي</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!نواة الطاقة &quot;</strong></span><span style='color:#ffffff; font-size:14px;'> .همس </span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.رأى ضوءًا خافتًا أمامه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> :همس </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;ها هي</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!نواة الطاقة &quot;</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 300,
       "y": 200,
@@ -471,7 +471,7 @@
       "height": 560
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;هل تعتقد أن هناك</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>أماكن أخرى مثل هذه؟&quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>سأل <strong>[*الاسم*]</strong>.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;.بالتأكيد &quot;</strong></span><span style='color:#ffffff; font-size:14px;'> .قال الروبوت &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;الكون مليء بالعجائب</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.المخفية &quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>سأل <strong>[*الاسم*]</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;هل تعتقد أن هناك</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>أماكن أخرى مثل هذه؟&quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;.بالتأكيد &quot;</strong></span><span style='color:#ffffff; font-size:14px;'> .قال الروبوت &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;الكون مليء بالعجائب</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.المخفية &quot;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.8,
       "x": 1500,
       "y": 800,

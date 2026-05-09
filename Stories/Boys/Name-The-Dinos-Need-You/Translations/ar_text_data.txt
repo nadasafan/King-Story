@@ -209,7 +209,7 @@
       "height": 240
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>!يلا برافو يا ستيلا &quot;قال [*الاسم*]</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:13px;'>  !قال [*الاسم*] : يلا برافو يا ستيلا  </span></p></body></html>",
       "global_font": 1.9,
       "x": -300,
       "y": 850,

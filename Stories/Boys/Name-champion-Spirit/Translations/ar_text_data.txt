@@ -70,7 +70,7 @@
       "height": 280
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,من على الخط، كان الكابتن ماتيو بيتفرج بهدوء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.إيديه متقاطعة وبيبتسم &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;.عنده قلب أسد»، قال في نفسه </strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,من على الخط، كان الكابتن ماتيو بيتفرج بهدوء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.إيديه متقاطعة وبيبتسم &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;  ,قال في نفسه:  عنده قلب أسد &quot; </strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 50,
       "y": 1320,
