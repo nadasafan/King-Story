@@ -328,7 +328,7 @@
   "slide_16": [
     {
       "html": "<html><head/><body dir='rtl'><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong>الآن، يفعل <strong>[*الاسم*]</strong>.وأخوه الصغير كل شيء معًا: يقرآن القصص، ويرشّان الماء في البرك، ويضحكان على الفقاعات </strong></span></p></body></html>",
-      "global_font": 2.8,
+      "global_font": 2.5,
       "x": 2200,
       "y": 1180,
       "width": 780,
@@ -336,7 +336,7 @@
     },
     {
       "html": "<html><head/><body dir='rtl'><p align='center'><span style=' font-size:14pt; color:#deddda;'>قال <strong>[*الاسم*]</strong> </span></p><p align='center'><span style=' font-size:14pt; color:#ffffff;'><strong>&quot;!أن تكون أخًا أكبر هو أفضل عمل في العالم &quot;</strong></span></p></body></html>",
-      "global_font": 2.6,
+      "global_font": 2.5,
       "x": 980,
       "y": 120,
       "width": 720,
