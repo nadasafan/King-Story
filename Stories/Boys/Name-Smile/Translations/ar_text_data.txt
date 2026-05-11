@@ -67,15 +67,15 @@
     {
       "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.خرج [*الاسم*] إلى الخارج ونظر حوله </span></p></body></html>",
       "global_font": 2.8,
-      "x": 2263,
-      "y": 1050,
+      "x": 2200,
+      "y": 1100,
       "width": 820,
       "height": 220
     },
     {
       "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,كانت الشمس دافئة على خديه  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.والنسيم يداعب أنفه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,ابتسم بأوسع ما يستطيع </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .وشعر وكأن العالم كله يبتسم له</span></p></body></html>",
       "global_font": 2.8,
-      "x": 2063,
+      "x": 2000,
       "y": 1200,
       "width": 820,
       "height": 380
@@ -201,10 +201,10 @@
   ],
   "slide_13": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,بحلول الوقت الذي عاد فيه [*الاسم*] إلى المنزل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.بدا العالم أكثر إشراقًا </span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> بحلول الوقت الذي عاد فيه [*الاسم*]   </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.إلى المنزل , بدا العالم أكثر إشراقًا </span></p></body></html>",
       "global_font": 2.8,
-      "x": 1950,
-      "y": 800,
+      "x": 1750,
+      "y": 650,
       "width": 820,
       "height": 220
     },
