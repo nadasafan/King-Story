@@ -127,7 +127,7 @@
       "height": 213
     },
     {
-      "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>He landed his rocker with a thud and stepped into<br/>the soft, glowing moon dust.<br/></span><span style=' font-size:14pt; color:#ffffff;'>&quot;I made it,&quot;</span><span style=' font-size:10pt; color:#deddda;'><br/>he whispered, amazed. But wait-the ground was<br/>starring to glimmer and shake!</span></p></body></html>",
+      "html": "<html><head/><body><p align='center'><span style=' font-size:10pt; color:#deddda;'>He landed his rocker with a thud and stepped into<br/>the soft, glowing moon dust.<br/></span><span style=' font-size:14pt; color:#ffffff;'>I made it,</span><span style=' font-size:10pt; color:#deddda;'><br/>he whispered, amazed. But wait-the ground was<br/>starring to glimmer and shake!</span></p></body></html>",
       "global_font": 2.9,
       "x": 2015,
       "y": 622,

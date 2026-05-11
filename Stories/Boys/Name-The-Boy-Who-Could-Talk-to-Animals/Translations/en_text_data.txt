@@ -29,7 +29,7 @@
   ],
   "slide_03": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>One morning,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> ran</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>into the kitchen and said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Kidi can talk!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>One morning,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> ran</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>into the kitchen and said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Kidi can talk!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 250,
       "y": 800,
@@ -37,7 +37,7 @@
       "height": 220
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>His sisters burst out laughing.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Dogs don't talk,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Omar,&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>his older sister said.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>His sisters burst out laughing.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Dogs don't talk,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Omar,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>his older sister said.</span></p></body></html>",
       "global_font": 2.8,
       "x": 1700,
       "y": 100,
@@ -55,7 +55,7 @@
   ],
   "slide_04": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Kidi barked, </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Don't worry</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>about them. Let's go to</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>the park! I heard</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>something strange</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>there yesterday.&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>Omar's eyes widened.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Kidi barked, </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Don't worry</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>about them. Let's go to</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>the park! I heard</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>something strange</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>there yesterday.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>Omar's eyes widened.</span></p></body></html>",
       "global_font": 2.8,
       "x": 2000,
       "y": 100,
@@ -63,7 +63,7 @@
       "height": 300
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;That sounds</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>exciting! What</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>did you hear?&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>Kidi's ears perked up.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>That sounds</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>exciting! What</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>did you hear?</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>Kidi's ears perked up.</span></p></body></html>",
       "global_font": 2.8,
       "x": 2500,
       "y": 600,
@@ -71,7 +71,7 @@
       "height": 220
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;The animals there are</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>worried about</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>something... Want to</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>check it out?&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>The animals there are</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>worried about</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>something... Want to</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>check it out?</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2650,
       "y": 1100,
@@ -81,7 +81,7 @@
   ],
   "slide_05": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]'s</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> heart</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>jumped with excitement.</span></p><br><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong>&quot;Yes! Maybe if we</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong>figure it out, my</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong>family will finally</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong>believe you can talk!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]'s</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> heart</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>jumped with excitement.</span></p><br><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong>Yes! Maybe if we</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong>figure it out, my</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong>family will finally</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong>believe you can talk!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 250,
       "y": 500,
@@ -99,7 +99,7 @@
   ],
   "slide_06": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>When they arrived at the park,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Kidi's</strong></span><span style='color:#ffffff; font-size:14px;'> nose started twitching.</span></p><br><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Something smells weird,&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>he said, leading Omar towards the playground.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>When they arrived at the park,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Kidi's</strong></span><span style='color:#ffffff; font-size:14px;'> nose started twitching.</span></p><br><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Something smells weird,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>he said, leading Omar towards the playground.</span></p></body></html>",
       "global_font": 2.8,
       "x": 1900,
       "y": 300,
@@ -117,7 +117,7 @@
   ],
   "slide_07": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;What's wrong?&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>Omar asked.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>What's wrong?</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>Omar asked.</span></p></body></html>",
       "global_font": 2.8,
       "x": 150,
       "y": 400,
@@ -125,7 +125,7 @@
       "height": 140
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>The pigeons blinked in surprise.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;You can</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>understand us?&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>The pigeons blinked in surprise.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>You can</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>understand us?</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 1900,
       "y": 400,
@@ -133,7 +133,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Yes!&quot;</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> said Omar.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Tell me what's</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>going on.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Yes!</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> said Omar.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Tell me what's</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>going on.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2400,
       "y": 600,
@@ -141,7 +141,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Someone's been stealing our</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>breadcrumbs,&quot;</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> one pigeon cooed.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Usually, people leave crumbs, but</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>lately, they're gone before we can eat!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Someone's been stealing our</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>breadcrumbs,</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> one pigeon cooed.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Usually, people leave crumbs, but</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>lately, they're gone before we can eat!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2400,
       "y": 1000,
@@ -151,7 +151,7 @@
   ],
   "slide_08": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;That's odd,&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>Kidi barked.</span></p><br><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;We need to find</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>out who's taking</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>all the food!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>That's odd,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>Kidi barked.</span></p><br><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>We need to find</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>out who's taking</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>all the food!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 250,
       "y": 600,
@@ -177,7 +177,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;This sounds</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>serious!&quot;</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> Kidi said.</span></p><br><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong>&quot;We need to come back</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong>tonight to catch the thief!&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Omar agreed. It was time to solve the mystery!</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>This sounds</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>serious!</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> Kidi said.</span></p><br><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong>We need to come back</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong>tonight to catch the thief!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Omar agreed. It was time to solve the mystery!</span></p></body></html>",
       "global_font": 2.8,
       "x": 1900,
       "y": 700,
@@ -195,7 +195,7 @@
       "height": 220
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;I think I can hear</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>something,&quot;</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> Kidi whispered,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>his ears twitching.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>I think I can hear</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>something,</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> Kidi whispered,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>his ears twitching.</span></p></body></html>",
       "global_font": 2.8,
       "x": 1900,
       "y": 150,
@@ -213,7 +213,7 @@
   ],
   "slide_11": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;It's a raccoon!&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Omar said as loud as he could</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>as they stepped out of their hiding spot.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>It's a raccoon!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Omar said as loud as he could</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>as they stepped out of their hiding spot.</span></p></body></html>",
       "global_font": 2.8,
       "x": 150,
       "y": 100,
@@ -221,7 +221,7 @@
       "height": 380
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>The raccoon froze, startled.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;I-I wasn't stealing!&quot;</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> the scared raccoon said.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;I was just trying to find food for my family.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>We don't have enough food and</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>my children are very hungry.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>The raccoon froze, startled.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>I-I wasn't stealing!</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> the scared raccoon said.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>I was just trying to find food for my family.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>We don't have enough food and</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>my children are very hungry.</strong></span></p></body></html>",
       "global_font": 2.5,
       "x": 2300,
       "y": 100,
@@ -231,7 +231,7 @@
   ],
   "slide_12": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> and </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Kidi</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>looked at each other with</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>understanding. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;We get it,&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Omar said gently.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> and </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Kidi</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>looked at each other with</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>understanding. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>We get it,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Omar said gently.</span></p></body></html>",
       "global_font": 2.8,
       "x": 800,
       "y": 100,
@@ -239,7 +239,7 @@
       "height": 220
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;But if you take all the food, the</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>other animals and their families</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>won't have anything to eat. Let's</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>figure out a way to help everyone.&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>The raccoon sighed with regret.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>But if you take all the food, the</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>other animals and their families</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>won't have anything to eat. Let's</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>figure out a way to help everyone.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>The raccoon sighed with regret.</span></p></body></html>",
       "global_font": 2.8,
       "x": 2400,
       "y": 200,
@@ -247,7 +247,7 @@
       "height": 280
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;I didn't think of that... I just</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>didn't know what else to do.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>I didn't think of that... I just</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>didn't know what else to do.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2550,
       "y": 600,
@@ -273,7 +273,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Sharing is</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>caring&quot;,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>Kidi said...</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Sharing is</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>caring,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>Kidi said...</span></p></body></html>",
       "global_font": 2.8,
       "x": 2000,
       "y": 500,
@@ -291,7 +291,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;You saved</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>the day!&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>the pigeons cooed.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>You saved</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>the day!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>the pigeons cooed.</span></p></body></html>",
       "global_font": 2.8,
       "x": 1100,
       "y": 300,
@@ -299,7 +299,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Thanks for</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>bringing us</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>together,&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>squeaked the squirrels.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Thanks for</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>bringing us</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>together,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>squeaked the squirrels.</span></p></body></html>",
       "global_font": 2.8,
       "x": 1900,
       "y": 100,
@@ -307,7 +307,7 @@
       "height": 200
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>Kidi wagged his tail proudly.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;We make a great team,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Omar!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>Kidi wagged his tail proudly.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>We make a great team,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Omar!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2500,
       "y": 350,
@@ -325,7 +325,7 @@
       "height": 260
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:18px; font-weight:700;'><strong>&quot;Kidi and I solved</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:18px; font-weight:700;'><strong>the mystery of the</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:18px; font-weight:700;'><strong>missing crumbs!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:18px; font-weight:700;'><strong>We even got all the</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:18px; font-weight:700;'><strong>animals to work</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:18px; font-weight:700;'><strong>together!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> he said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>beaming. His family listened,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>amazed by his story.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:18px; font-weight:700;'><strong>Kidi and I solved</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:18px; font-weight:700;'><strong>the mystery of the</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:18px; font-weight:700;'><strong>missing crumbs!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:18px; font-weight:700;'><strong>We even got all the</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:18px; font-weight:700;'><strong>animals to work</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:18px; font-weight:700;'><strong>together!</strong></span><span style='color:#ffffff; font-size:14px;'> he said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>beaming. His family listened,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>amazed by his story.</span></p></body></html>",
       "global_font": 2.5,
       "x": 2650,
       "y": 300,

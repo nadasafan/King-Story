@@ -27,7 +27,7 @@
       "height": 200
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Today, I'm going on a</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Halloween adventure!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Today, I'm going on a</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Halloween adventure!</strong></span></p></body></html>",
       "global_font": 2.9,
       "x": 300,
       "y": 500,
@@ -57,7 +57,7 @@
   ],
   "slide_05": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A colorful sign stood outside:</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Welcome to the Happy</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Haunted House!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A colorful sign stood outside:</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Welcome to the Happy</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Haunted House!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2400,
       "y": 400,
@@ -65,7 +65,7 @@
       "height": 200
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;Should I go in?&quot;</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> whispered.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Should I go in?</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> whispered.</span></p></body></html>",
       "global_font": 2.8,
       "x": 2500,
       "y": 650,
@@ -73,7 +73,7 @@
       "height": 140
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Yes!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> they shouted,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and tiptoed inside.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Yes!</strong></span><span style='color:#ffffff; font-size:14px;'> they shouted,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and tiptoed inside.</span></p></body></html>",
       "global_font": 2.8,
       "x": 2600,
       "y": 850,
@@ -119,7 +119,7 @@
   ],
   "slide_08": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Then a friendly ghost floated by.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It wore a silly bowtie and said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&quot;Peekaboo!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Then a friendly ghost floated by.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It wore a silly bowtie and said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Peekaboo!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 200,
       "y": 1300,
@@ -147,7 +147,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Ready for the tickle</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>tunnel?&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> it asked.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Ready for the tickle</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>tunnel?</strong></span><span style='color:#ffffff; font-size:14px;'> it asked.</span></p></body></html>",
       "global_font": 2.8,
       "x": 400,
       "y": 850,
@@ -201,7 +201,7 @@
   ],
   "slide_13": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Game time!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> shouted the ghosts.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>They played ghost tag, pumpkin</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>peekaboo, and candy toss!</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Game time!</strong></span><span style='color:#ffffff; font-size:14px;'> shouted the ghosts.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>They played ghost tag, pumpkin</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>peekaboo, and candy toss!</span></p></body></html>",
       "global_font": 2.8,
       "x": 2300,
       "y": 800,
@@ -221,7 +221,7 @@
   ],
   "slide_15": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>As the sun began to set, the ghosts</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>gathered to wave goodbye.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Come back next</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Halloween!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> they sang.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>As the sun began to set, the ghosts</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>gathered to wave goodbye.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Come back next</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Halloween!</strong></span><span style='color:#ffffff; font-size:14px;'> they sang.</span></p></body></html>",
       "global_font": 2.8,
       "x": 1900,
       "y": 950,
@@ -231,7 +231,7 @@
   ],
   "slide_16": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> skipped home,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>heart full of giggles and hands full of</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>treats. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;It really was the</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>happiest haunted house!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> skipped home,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>heart full of giggles and hands full of</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>treats. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>It really was the</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>happiest haunted house!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 700,
       "y": 1200,

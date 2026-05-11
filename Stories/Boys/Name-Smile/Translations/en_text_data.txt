@@ -37,7 +37,7 @@
   ],
   "slide_03": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Whenever </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> smiled,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>people couldn't help but smile back.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Your smile makes my day!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> his</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>neighbors would say.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Whenever </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> smiled,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>people couldn't help but smile back.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Your smile makes my day!</strong></span><span style='color:#ffffff; font-size:14px;'> his</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>neighbors would say.</span></p></body></html>",
       "global_font": 2.8,
       "x": 350,
       "y": 820,
@@ -55,7 +55,7 @@
       "height": 220
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The sun was shining</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>brightly. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;It's the</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>perfect day to spread</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>some smiles!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> he said.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The sun was shining</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>brightly. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>It's the</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>perfect day to spread</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>some smiles!</strong></span><span style='color:#ffffff; font-size:14px;'> he said.</span></p></body></html>",
       "global_font": 2.8,
       "x": 2000,
       "y": 850,
@@ -91,7 +91,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He leaned down, smiled,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and said, </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Hello, little flower!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>You'll bloom soon, I just know it!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He leaned down, smiled,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and said, </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Hello, little flower!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>You'll bloom soon, I just know it!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2600,
       "y": 1370,
@@ -101,7 +101,7 @@
   ],
   "slide_07": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The flower slowly opened its petals,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>as if </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]'S</strong></span><span style='color:#ffffff; font-size:14px;'> smile gave</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>it the courage to bloom.<strong>&quot;I knew</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>you could do it!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> he said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>clapping his hands.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The flower slowly opened its petals,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>as if </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]'S</strong></span><span style='color:#ffffff; font-size:14px;'> smile gave</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>it the courage to bloom.<strong>I knew</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>you could do it!</strong></span><span style='color:#ffffff; font-size:14px;'> he said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>clapping his hands.</span></p></body></html>",
       "global_font": 2.8,
       "x": 2000,
       "y": 200,
@@ -119,7 +119,7 @@
       "height": 220
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>His reflection smiled back at</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>him. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Even puddles can</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>look happy!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> he giggled.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>His reflection smiled back at</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>him. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Even puddles can</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>look happy!</strong></span><span style='color:#ffffff; font-size:14px;'> he giggled.</span></p></body></html>",
       "global_font": 2.8,
       "x": 2000,
       "y": 1300,
@@ -137,7 +137,7 @@
       "height": 260
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Good morning,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>trees!&quot;</strong></span><span style='color:#ffffff; font-size:14px;'> he called, his</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>smile as bright as ever.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Good morning,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>trees!</strong></span><span style='color:#ffffff; font-size:14px;'> he called, his</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>smile as bright as ever.</span></p></body></html>",
       "global_font": 2.8,
       "x": 2600,
       "y": 500,
@@ -165,7 +165,7 @@
   ],
   "slide_11": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> shared</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a piece of his sandwich with</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>the squirrel. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Everyone deserves</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>a little sunshine,&quot;</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> he said.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> shared</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a piece of his sandwich with</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>the squirrel. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Everyone deserves</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>a little sunshine,</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> he said.</span></p></body></html>",
       "global_font": 2.8,
       "x": 250,
       "y": 500,
@@ -191,7 +191,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He waved at his shadow.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;You're smiling too!&quot;</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> he</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>said, hopping and skipping</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>along the path.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He waved at his shadow.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>You're smiling too!</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> he</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>said, hopping and skipping</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>along the path.</span></p></body></html>",
       "global_font": 2.8,
       "x": 2600,
       "y": 1250,
@@ -219,7 +219,7 @@
   ],
   "slide_14": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>When </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>walked into the house, his mom</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>smiled and said, </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;You look like</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>you've had a wonderful day!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>When </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>walked into the house, his mom</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>smiled and said, </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>You look like</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>you've had a wonderful day!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 150,
       "y": 300,
@@ -227,7 +227,7 @@
       "height": 220
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;I did,&quot;</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> he said.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;I shared my smile</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>with the world!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>I did,</strong></span><span style='color:#ffffff; font-size:14px; font-style:italic;'> he said.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>I shared my smile</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>with the world!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2750,
       "y": 1000,
@@ -237,7 +237,7 @@
   ],
   "slide_15": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>His mom hugged him tightly. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;That's</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>because your smile is like sunshine.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>It makes everything better.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>His mom hugged him tightly. </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>That's</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>because your smile is like sunshine.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>It makes everything better.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 800,
       "y": 1000,

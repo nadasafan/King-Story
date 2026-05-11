@@ -27,7 +27,7 @@
       "height": 486
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قالت بحماس  <strong>&quot;!إنها أرض العجائب! لا أستطيع الانتظار &quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قالت بحماس  <strong>!إنها أرض العجائب! لا أستطيع الانتظار </strong></span></p></body></html>",
       "global_font": 2.9,
       "x": 2075,
       "y": 1440,
@@ -75,7 +75,7 @@
   ],
   "slide_06": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:18px;'>,مرت سحابة ناعمة تطفو في السماء </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:18px;'>&quot;!اصعدي على ظهري لنطير في السماء &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:18px;'>,كانت فضية لامعة وناعمة كالهواء </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:18px;'>.صديقة تستطيع أن تأخذها إلى أي مكان </span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff;font-size:18px;'>,مرت سحابة ناعمة تطفو في السماء </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:18px;'>!اصعدي على ظهري لنطير في السماء </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:18px;'>,كانت فضية لامعة وناعمة كالهواء </span></p><p style='text-align:right;'><span style='color:#ffffff;font-size:18px;'>.صديقة تستطيع أن تأخذها إلى أي مكان </span></p></body></html>",
       "global_font": 2.5,
       "x": 1904,
       "y": 1200,
@@ -221,7 +221,7 @@
       "height": 218
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>استلقت <strong><strong>[*الاسم*]</strong> </strong> ,على العشب بين الزهور </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وهي تدندن لحناً يسمعه الحقل كله </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><em>.تنهدت </em><strong>&quot;,يا له من يوم رائع &quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>استلقت <strong><strong>[*الاسم*]</strong> </strong> ,على العشب بين الزهور </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وهي تدندن لحناً يسمعه الحقل كله </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><em>.تنهدت </em><strong>,يا له من يوم رائع </strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 200,
       "y": 377,
@@ -239,7 +239,7 @@
       "height": 218
     },
     {
-      "html": "<html><head/><body><div style='text-align:right;'><span style='color:#ffffff;font-size:14px;'> :همست <strong>&quot;,يا أرض العجائب &quot;</strong> </span></div><div style='text-align:right;'><span style='color:#ffffff;font-size:14px;'><strong>&quot;!سأعود غدًا بالتأكيد &quot;</strong></span></div></body></html>",
+      "html": "<html><head/><body><div style='text-align:right;'><span style='color:#ffffff;font-size:14px;'> :همست <strong>,يا أرض العجائب </strong> </span></div><div style='text-align:right;'><span style='color:#ffffff;font-size:14px;'><strong>!سأعود غدًا بالتأكيد </strong></span></div></body></html>",
       "global_font": 2.8,
       "x": 2231,
       "y": 1437,

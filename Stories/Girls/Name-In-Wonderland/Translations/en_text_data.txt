@@ -27,7 +27,7 @@
       "height": 486
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;It's Wonderland!&quot; she said. <strong>&quot;I can't wait!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It's Wonderland! she said. <strong>I can't wait!</strong></span></p></body></html>",
       "global_font": 2.9,
       "x": 200,
       "y": 1440,
@@ -75,7 +75,7 @@
   ],
   "slide_06": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>A fluffy cloud came floating by,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>&quot;Climb on my back, let's ride the sky!&quot;</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>It shimmered silver, soft as air,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>a friend who could take her anywhere.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>A fluffy cloud came floating by,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>Climb on my back, let's ride the sky!</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>It shimmered silver, soft as air,</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>a friend who could take her anywhere.</span></p></body></html>",
       "global_font": 2.5,
       "x": 200,
       "y": 1300,
@@ -221,7 +221,7 @@
       "height": 218
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She lay in the grass, with flowers near,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>humming a tune the whole field could hear.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;What a perfect day,&quot;</strong> <em>she sighed.</em></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She lay in the grass, with flowers near,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>humming a tune the whole field could hear.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>What a perfect day,</strong> <em>she sighed.</em></span></p></body></html>",
       "global_font": 2.8,
       "x": 2000,
       "y": 377,
@@ -239,7 +239,7 @@
       "height": 218
     },
     {
-      "html": "<html><head/><body><div style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>&quot;Wonderland,&quot;</strong> she whispered,</span></div><div style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>&quot;I'll be back tomorrow, I know!&quot;</strong></span></div></body></html>",
+      "html": "<html><head/><body><div style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>Wonderland,</strong> she whispered,</span></div><div style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>I'll be back tomorrow, I know!</strong></span></div></body></html>",
       "global_font": 2.8,
       "x": 162,
       "y": 1437,

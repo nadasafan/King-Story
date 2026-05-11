@@ -55,7 +55,7 @@
       "height": 100
     },
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong>«لا تقلقي»</strong> <em>.همسَ [*الاسم*] بلطف </em></span></p><p align='right'><span style=' font-size:12pt; color:#ffffff;'><em>&quot;.سأساعدُكِ في العودةِ إلى منزلِك &quot;</em></span><br></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong>«لا تقلقي»</strong> <em>.همسَ [*الاسم*] بلطف </em></span></p><p align='right'><span style=' font-size:12pt; color:#ffffff;'><em>.سأساعدُكِ في العودةِ إلى منزلِك </em></span><br></p></body></html>",
       "global_font": 2.64,
       "x": 400,
       "y": 690,
@@ -119,7 +119,7 @@
       "height": 216
     },
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong>&quot;خُذْ هذه</strong></span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>,الحجرة  &quot; <em>.قالَ الدب </em></span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong>خُذْ هذه</strong></span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>,الحجرة   <em>.قالَ الدب </em></span></p></body></html>",
       "global_font": 2.5,
       "x": 318,
       "y": 1072,
@@ -127,7 +127,7 @@
       "height": 177
     },
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong> &quot;ستمنحُ النجمةَ</strong></span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'><strong>.الشجاعةَ التي تحتاجُها </strong></span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong> ستمنحُ النجمةَ</strong></span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'><strong>.الشجاعةَ التي تحتاجُها </strong></span></p></body></html>",
       "global_font": 2.5,
       "x": 318,
       "y": 1272,
@@ -171,7 +171,7 @@
       "height": 322
     },
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong> &quot;,هذا سيساعدُ النجمةَ على الطيرانِ عاليًا </strong></span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;.قالَ الأرنبُ بحماس </span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong> ,هذا سيساعدُ النجمةَ على الطيرانِ عاليًا </strong></span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;.قالَ الأرنبُ بحماس </span></p></body></html>",
       "global_font": 2.6,
       "x": 76,
       "y": 765,
@@ -235,7 +235,7 @@
       "height": 106
     },
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong>&quot;.تستطيعينَ فعلَها </strong></span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong>,أنتِ قويَّة </strong></span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong>,مضيئةٌ وشجاعة </strong></span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong>,سأبقى هنا أراقبُك </span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong>.لن تكوني وحدَك &quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong>.تستطيعينَ فعلَها </strong></span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong>,أنتِ قويَّة </strong></span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong>,مضيئةٌ وشجاعة </strong></span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong>,سأبقى هنا أراقبُك </span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'><strong>.لن تكوني وحدَك </strong></span></p></body></html>",
       "global_font": 2.5,
       "x": 234,
       "y": 358,

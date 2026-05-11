@@ -47,6 +47,44 @@ def _short(s: str, n: int = 160) -> str:
     return s if len(s) <= n else s[:n] + "..."
 
 
+def _html_has_dark_text(html: str) -> bool:
+    """
+    Detect dark text colors in HTML; used to skip the drop-shadow effect
+    on labels where a black shadow would create visible ghosting (e.g. black
+    text on a light background — final-page memory card).
+    """
+    if not html:
+        return False
+    for hex_color in re.findall(r"color\s*:\s*#([0-9a-fA-F]{3,8})", html):
+        h = hex_color
+        if len(h) == 3:
+            h = "".join(c * 2 for c in h)
+        if len(h) >= 6:
+            try:
+                r = int(h[0:2], 16)
+                g = int(h[2:4], 16)
+                b = int(h[4:6], 16)
+                if (r + g + b) / 3 < 128:
+                    return True
+            except ValueError:
+                continue
+    for m in re.finditer(r"color\s*:\s*rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)", html):
+        try:
+            r, g, b = int(m.group(1)), int(m.group(2)), int(m.group(3))
+            if (r + g + b) / 3 < 128:
+                return True
+        except ValueError:
+            continue
+    if re.search(
+        r"color\s*:\s*(black|navy|maroon|darkblue|darkred|darkgreen|midnightblue|"
+        r"darkslategray|dimgray|#000(?![0-9a-fA-F]))",
+        html,
+        re.IGNORECASE,
+    ):
+        return True
+    return False
+
+
 # =========================
 # Load info.txt map
 # =========================
@@ -250,7 +288,7 @@ def process_single_image_worker(args):
             item = QGraphicsTextItem()
             item.setDocument(doc)
 
-            if ENABLE_TEXT_SHADOW:
+            if ENABLE_TEXT_SHADOW and not _html_has_dark_text(html):
                 eff = QGraphicsDropShadowEffect()
                 eff.setBlurRadius(int(SHADOW_BLUR_RADIUS))
                 eff.setColor(QColor(*SHADOW_COLOR))

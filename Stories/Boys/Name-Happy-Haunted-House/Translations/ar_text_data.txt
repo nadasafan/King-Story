@@ -27,7 +27,7 @@
       "height": 200
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قال بحماس</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;!اليوم سأذهب في مغامرة الهالوين &quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:قال بحماس</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!اليوم سأذهب في مغامرة الهالوين </span></p></body></html>",
       "global_font": 2.9,
       "x": 2213,
       "y": 500,
@@ -57,7 +57,7 @@
   ],
   "slide_05": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:كانت هناك لافتة ملوّنة أمامه مكتوب عليها &quot;!مرحبًا بكم في بيت الأشباح السعيد &quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:كانت هناك لافتة ملوّنة أمامه مكتوب عليها !مرحبًا بكم في بيت الأشباح السعيد </span></p></body></html>",
       "global_font": 2.8,
       "x": 200,
       "y": 400,
@@ -65,7 +65,7 @@
       "height": 200
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>همس [*الاسم*]:&quot;هل أدخل؟&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>همس [*الاسم*]:هل أدخل؟</span></p></body></html>",
       "global_font": 2.8,
       "x": 100,
       "y": 650,
@@ -73,7 +73,7 @@
       "height": 140
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:ثم قال بحماس &quot;!نعم &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .وتسلل إلى الداخل على أطراف أصابعه </span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:ثم قال بحماس !نعم </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .وتسلل إلى الداخل على أطراف أصابعه </span></p></body></html>",
       "global_font": 2.8,
       "x": 0,
       "y": 850,
@@ -119,7 +119,7 @@
   ],
   "slide_08": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ثم مرّ شبح لطيف يطفو في الهواء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:كان يرتدي ربطة عنق مضحكة وقال  &quot;!مفاجأة &quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ثم مرّ شبح لطيف يطفو في الهواء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:كان يرتدي ربطة عنق مضحكة وقال  !مفاجأة </span></p></body></html>",
       "global_font": 2.8,
       "x": 2313,
       "y": 1300,
@@ -147,7 +147,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وقال &quot;هل أنت مستعد لنفق الضحك؟&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وقال هل أنت مستعد لنفق الضحك؟</span></p></body></html>",
       "global_font": 2.8,
       "x": 2113,
       "y": 850,
@@ -201,7 +201,7 @@
   ],
   "slide_13": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:صرخت الأشباح &quot;!حان وقت اللعب &quot;!لعبوا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>   مطاردة الأشباح، والغميضة بالقرع، ورمي الحلوى </span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:صرخت الأشباح !حان وقت اللعب !لعبوا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>   مطاردة الأشباح، والغميضة بالقرع، ورمي الحلوى </span></p></body></html>",
       "global_font": 2.8,
       "x": 300,
       "y": 850,
@@ -221,7 +221,7 @@
   ],
   "slide_15": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,عندما بدأت الشمس تغرب</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.تجمعت الأشباح لتوديع [*الاسم*] </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:غنّوا معًا &quot;!عد إلينا في الهالوين القادم &quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,عندما بدأت الشمس تغرب</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.تجمعت الأشباح لتوديع [*الاسم*] </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:غنّوا معًا !عد إلينا في الهالوين القادم </span></p></body></html>",
       "global_font": 2.8,
       "x": 613,
       "y": 950,
@@ -231,7 +231,7 @@
   ],
   "slide_16": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.عاد [*الاسم*] إلى البيت وهو يقفز من الفرح، قلبه مليء بالضحك، ويداه مليئتان بالحلوى </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وقال &quot;!لقد كان حقًا أسعد بيت أشباح &quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.عاد [*الاسم*] إلى البيت وهو يقفز من الفرح، قلبه مليء بالضحك، ويداه مليئتان بالحلوى </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وقال !لقد كان حقًا أسعد بيت أشباح </span></p></body></html>",
       "global_font": 2.8,
       "x": 1813,
       "y": 1200,

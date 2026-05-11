@@ -109,7 +109,7 @@
   ],
   "slide_07": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A smiling teacher greeted him with a</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>cheerful, </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Hello, Anas! I'm so glad</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>you're here!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A smiling teacher greeted him with a</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>cheerful, </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Hello, Anas! I'm so glad</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>you're here!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 500,
       "y":900,
@@ -169,7 +169,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A boy nearby asked,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Wanna build a rocket together?&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'><em>Anas smiled and nodded.</em></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A boy nearby asked,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Wanna build a rocket together?</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'><em>Anas smiled and nodded.</em></span></p></body></html>",
       "global_font": 2.8,
       "x": 2500,
       "y": 1340,
@@ -195,7 +195,7 @@
       "height": 140
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;It's the story of a little boy</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>who felt shy on his first day,&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'><em>she said.</em></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>It's the story of a little boy</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>who felt shy on his first day,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-style:italic;'><em>she said.</em></span></p></body></html>",
       "global_font": 2.8,
       "x": 2300,
       "y": 400,
@@ -229,7 +229,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>When he finished, the teacher said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;That's beautiful.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Let's hang it up!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>When he finished, the teacher said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>That's beautiful.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Let's hang it up!</strong></span></p></body></html>",
       "global_font": 2.9,
       "x": 2000,
       "y": 80,
@@ -247,7 +247,7 @@
       "height": 220
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> quietly listened, then</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>asked,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Do fish count as pets?&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:14px;'> quietly listened, then</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>asked,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Do fish count as pets?</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2100,
       "y": 1100,
@@ -255,7 +255,7 @@
       "height": 200
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>They both laughed and said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Yes!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>They both laughed and said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Yes!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2300,
       "y": 1400,
@@ -309,7 +309,7 @@
   ],
   "slide_15": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The teacher gathered</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>everyone again and said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;You were all amazing today.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Kindergarten is even better</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>with you here.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The teacher gathered</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>everyone again and said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>You were all amazing today.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Kindergarten is even better</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>with you here.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 650,
       "y": 1100,

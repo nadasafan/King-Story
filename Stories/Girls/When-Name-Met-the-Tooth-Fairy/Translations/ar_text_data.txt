@@ -19,7 +19,7 @@
       "height": 398
     },
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#ffffff;'>اهتزت، اهتزت وترقصت قليلاً!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br><span style=' font-size:14pt; color:#f6f5f4;'>أصبحت عينا  [*الاسم*] كبيرتان مثل القمر.</span><br><span style=' font-size:14pt; color:#f6f5f4;'>&quot;لماذا سني يهز؟&quot; همست بخوف.</span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#ffffff;'>اهتزت، اهتزت وترقصت قليلاً!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br><span style=' font-size:14pt; color:#f6f5f4;'>أصبحت عينا  [*الاسم*] كبيرتان مثل القمر.</span><br><span style=' font-size:14pt; color:#f6f5f4;'>لماذا سني يهز؟ همست بخوف.</span></p></body></html>",
       "global_font": 2.3,
       "x": 2084,
       "y": 480,
@@ -29,7 +29,7 @@
   ],
   "slide_03": [
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>ذهبت إلى المرآة وفتحت فمها.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>كان هناك، سن صغير يهز بلطف.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>بدا مثل الأسنان الأخرى، لكنه كان يتحرك.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>شعرت <strong> [*الاسم*]</strong> بخوف قليل.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>&quot;ماذا لو سقط السن؟&quot; سألت.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>&quot;هل سيؤلم كثيراً؟&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>ذهبت إلى المرآة وفتحت فمها.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>كان هناك، سن صغير يهز بلطف.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>بدا مثل الأسنان الأخرى، لكنه كان يتحرك.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>شعرت <strong> [*الاسم*]</strong> بخوف قليل.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>ماذا لو سقط السن؟ سألت.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>هل سيؤلم كثيراً؟&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.3,
       "x": 0,
       "y": 100,
@@ -39,7 +39,7 @@
   ],
   "slide_04": [
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#ffffff;'>في الملعب، رأت صديقها ماكس.</span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>كان لديه فراغ كبير في ابتسامته.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>&quot;أين سنك؟&quot; سألته.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>&quot;سقط الأسبوع الماضي!&quot; ضحك ماكس.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>&quot;لم يؤلم على الإطلاق، أعدك!&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>رمشت <strong> [*الاسم*]</strong> وفكرت في ذلك.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#ffffff;'>في الملعب، رأت صديقها ماكس.</span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>كان لديه فراغ كبير في ابتسامته.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>أين سنك؟ سألته.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>سقط الأسبوع الماضي! ضحك ماكس.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>لم يؤلم على الإطلاق، أعدك!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>رمشت <strong> [*الاسم*]</strong> وفكرت في ذلك.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.3,
       "x": -500,
       "y": 900,
@@ -57,7 +57,7 @@
       "height": 264
     },
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#f6f5f4;'>&quot;فقدت الاثنتين!&quot; ضحكت ليلا.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#f6f5f4;'>&quot;تركت لي جنية السن عملة براقة.&quot;</span></p><p align='right'><span style=' font-size:14pt; color:#f6f5f4;'>تنفست <strong> [*الاسم*]</strong> بدهشة.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#f6f5f4;'>&quot;جنية حقيقية؟&quot; سألت برفق.</span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#f6f5f4;'>فقدت الاثنتين! ضحكت ليلا.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#f6f5f4;'>تركت لي جنية السن عملة براقة.</span></p><p align='right'><span style=' font-size:14pt; color:#f6f5f4;'>تنفست <strong> [*الاسم*]</strong> بدهشة.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#f6f5f4;'>جنية حقيقية؟ سألت برفق.</span></p></body></html>",
       "global_font": 2.3,
       "x": 244,
       "y": 1212,
@@ -75,7 +75,7 @@
       "height": 400
     },
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>&quot;ربما جميع الناس تسقط أسنانهم،&quot; قالت.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>لمست السن برفق وابتسمت.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>&quot;ربما سني جاهز أيضاً.&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>ربما جميع الناس تسقط أسنانهم، قالت.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>لمست السن برفق وابتسمت.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>ربما سني جاهز أيضاً.</span></p></body></html>",
       "global_font": 2.2,
       "x": -187,
       "y": 550,
@@ -85,7 +85,7 @@
   ],
   "slide_07": [
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>تسلقت <strong> [*الاسم*]</strong> إلى السرير، تفكر بهدوء في</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>سنها.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>كانت لا تزال تهز، لكنها لم تعد خائفة.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>استلقت وعانقت أرنبها الناعم.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>&quot;آمل أن تزور جنية السن الأحلام،&quot;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>همست. كانت غرفتها هادئة ومريحة.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>أغلقت عينيها ونامت.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>تسلقت <strong> [*الاسم*]</strong> إلى السرير، تفكر بهدوء في</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>سنها.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>كانت لا تزال تهز، لكنها لم تعد خائفة.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>استلقت وعانقت أرنبها الناعم.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>آمل أن تزور جنية السن الأحلام،</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>همست. كانت غرفتها هادئة ومريحة.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>أغلقت عينيها ونامت.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.2,
       "x": 845,
       "y": 999,
@@ -103,7 +103,7 @@
       "height": 416
     },
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>&quot;مرحبا، <strong> [*الاسم*],</strong>&quot; قالت الجنية برفق.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>&quot;أنا جنية السن.&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>مرحبا، <strong> [*الاسم*],</strong> قالت الجنية برفق.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>أنا جنية السن.</span></p></body></html>",
       "global_font": 2.3,
       "x": 1918,
       "y": 510,
@@ -113,7 +113,7 @@
   ],
   "slide_09": [
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>أمسكت الجنية بيد <strong> [*الاسم*]</strong>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>&quot;لنذهب في مغامرة سحرية،&quot;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'> قالت. طارا معاً فوق &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>الأسطح والأشجار.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>أمسكت الجنية بيد <strong> [*الاسم*]</strong>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>لنذهب في مغامرة سحرية،</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'> قالت. طارا معاً فوق &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>الأسطح والأشجار.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.3,
       "x": 519,
       "y": 80,
@@ -139,7 +139,7 @@
       "height": 300
     },
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>كل واحدة تلمع مثل نجم صغير.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>&quot;هذه حديقة الابتسامات الشجاعة،&quot; قالت الجنية.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>&quot;حيث تأتي الأسنان الأولى للراحة.&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>كل واحدة تلمع مثل نجم صغير.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>هذه حديقة الابتسامات الشجاعة، قالت الجنية.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>حيث تأتي الأسنان الأولى للراحة.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.3,
       "x": 230,
       "y": 472,
@@ -157,7 +157,7 @@
       "height": 444
     },
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'> البعض كان لديهم فجوات صغيرة</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'> حيث كانت الأسنان موجود. </span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>لوحوا ل <strong> [*الاسم*]</strong> والتفوا</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>في التألق. &quot;كانوا جميعاً شجعاناً،</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>مثلك تماماً،&quot; قالت الجنية.</span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'> البعض كان لديهم فجوات صغيرة</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'> حيث كانت الأسنان موجود. </span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>لوحوا ل <strong> [*الاسم*]</strong> والتفوا</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>في التألق. كانوا جميعاً شجعاناً،</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>مثلك تماماً، قالت الجنية.</span></p></body></html>",
       "global_font": 2.3,
       "x": 434,
       "y": 100,
@@ -167,7 +167,7 @@
   ],
   "slide_12": [
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>ابتسمت <strong> [*الاسم*]</strong> بعرض في الحلم.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>لمست سنها الهزاز برفق.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>الجنية ترمش وهمست،&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>&quot;ستعرفين متى سنك جاهزة.&quot;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>فوقهما، السماء تدور مع اللون والنجوم.</span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>ابتسمت <strong> [*الاسم*]</strong> بعرض في الحلم.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>لمست سنها الهزاز برفق.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>الجنية ترمش وهمست،&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>ستعرفين متى سنك جاهزة.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>فوقهما، السماء تدور مع اللون والنجوم.</span></p></body></html>",
       "global_font": 2.3,
       "x": 1934,
       "y": 108,
@@ -193,7 +193,7 @@
       "height": 300
     },
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>&quot;أعتقد أنني جاهزة،&quot; قالت برفق.</span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>جلست، تشعر بالهدوء والقوة.</span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>أعتقد أنني جاهزة، قالت برفق.</span></p><p align='right'><span style=' font-size:14pt; color:#ffffff;'>جلست، تشعر بالهدوء والقوة.</span></p></body></html>",
       "global_font": 2.3,
       "x": 134,
       "y": 1400,
@@ -221,7 +221,7 @@
   ],
   "slide_15": [
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>وضعت <strong> [*الاسم*]</strong> السن الصغير</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>تحت وسادتها. شعر قلبها</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>بالفخر والفرح. الغرفة كانت</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>هادئة وسلمية. همست،</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>&quot;شكراً لك، جنية السن.&quot;</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>ثم استلقت على وسادتها.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>وعادت إلى النوم العميق.</span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>وضعت <strong> [*الاسم*]</strong> السن الصغير</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>تحت وسادتها. شعر قلبها</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>بالفخر والفرح. الغرفة كانت</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>هادئة وسلمية. همست،</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>شكراً لك، جنية السن.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>ثم استلقت على وسادتها.</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>وعادت إلى النوم العميق.</span></p></body></html>",
       "global_font": 2.3,
       "x": -100,
       "y": 121,
@@ -239,7 +239,7 @@
       "height": 278
     },
     {
-      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>لمست أصابعها شيئاً مستديراً</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>وأملساً. كانت عملة براقة، مثل في</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>حلمها! أمسكتها بقوة وهمست،</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>&quot;كنت شجاعة.&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p align='right'><span style=' font-size:14pt; color:#deddda;'>لمست أصابعها شيئاً مستديراً</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>وأملساً. كانت عملة براقة، مثل في</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>حلمها! أمسكتها بقوة وهمست،</span></p><p align='right'><span style=' font-size:14pt; color:#deddda;'>كنت شجاعة.</span></p></body></html>",
       "global_font": 2.3,
       "x": 1534,
       "y": 1280,

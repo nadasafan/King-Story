@@ -53,7 +53,7 @@
       "height": 331
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;No wings?&quot; she whispered. Even the wind was gone<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fairyland felt quiet and a little bit sad.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Buki poked a flower gently. &quot;Maybe they're shy today,&quot;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>he whispered, then he accidentally sneezed and tumbled</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;backward into a bush.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>No wings? she whispered. Even the wind was gone<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fairyland felt quiet and a little bit sad.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Buki poked a flower gently. Maybe they're shy today,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>he whispered, then he accidentally sneezed and tumbled</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;backward into a bush.<br></span></p><br></body></html>",
       "global_font": 2.3,
       "x": 2146,
       "y": 682,
@@ -71,7 +71,7 @@
       "height": 368
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;She helps the tree grow wings.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Without her, the tree cannot wake up.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>And without her, the wind is gone too.&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buki gasped and floated up.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>'Missing? Should we put up posters?<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I make great posters!'<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; She helps the tree grow wings.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Without her, the tree cannot wake up.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>And without her, the wind is gone too.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buki gasped and floated up.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>'Missing? Should we put up posters?<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I make great posters!'<br></span></p><br></body></html>",
       "global_font": 2.3,
       "x": 2614,
       "y": 922,
@@ -81,7 +81,7 @@
   ],
   "slide_05": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;I will find her!&quot; said <strong>[*Name*]</strong><br></span><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; She packed her glow berries to help her see,<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>her little wind bell to bring hope, and one lucky feather.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I will find her! said <strong>[*Name*]</strong><br></span><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; She packed her glow berries to help her see,<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>her little wind bell to bring hope, and one lucky feather.<br></span></p><br></body></html>",
       "global_font": 2.3,
       "x": 308,
       "y": 1058,
@@ -99,7 +99,7 @@
   ],
   "slide_06": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot; She flew into the Whispering Woods.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>But the woods were not whispering anymore.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; No leaves moved. No sounds came.</span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  She flew into the Whispering Woods.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>But the woods were not whispering anymore.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; No leaves moved. No sounds came.</span></p><br></body></html>",
       "global_font": 2.3,
       "x": 2039,
       "y": 1173,
@@ -107,7 +107,7 @@
       "height": 298
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Everything was still. A soft butterfly landed on her hand.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &quot;The Wind Spirit didn't leave,' it whispered.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &quot;She was taken by someone bad.&quot;</span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Everything was still. A soft butterfly landed on her hand.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  The Wind Spirit didn't leave,' it whispered.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  She was taken by someone bad.</span></p><br></body></html>",
       "global_font": 2.3,
       "x": 1940,
       "y": 1374,
@@ -117,7 +117,7 @@
   ],
   "slide_07": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp;Suddenly, golden leaves flew all around her.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; They spun in a fast circle. Then they spoke!<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &quot;She was stolen by the Dark Shusher,&quot; they said.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp;Suddenly, golden leaves flew all around her.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; They spun in a fast circle. Then they spoke!<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> She was stolen by the Dark Shusher, they said.<br></span></p><br></body></html>",
       "global_font": 2.3,
       "x": 2210,
       "y": 66,
@@ -125,7 +125,7 @@
       "height": 310
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;He locked her up. He wants Fairyland to be silent<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>forever.&quot;[*Name*]</strong> felt a little scared,<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; but she knew she had to help. Buki shivered.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &quot;The Dark Shusher? I hope he's allergic to me!&quot;<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>He locked her up. He wants Fairyland to be silent<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>forever.[*Name*]</strong> felt a little scared,<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; but she knew she had to help. Buki shivered.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; The Dark Shusher? I hope he's allergic to me!<br></span></p><br></body></html>",
       "global_font": 2.3,
       "x": 2179,
       "y": 325,
@@ -135,7 +135,7 @@
   ],
   "slide_08": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>A big dragon made of clouds flew down from the sky. He had kind<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; eyes and soft wings. &quot;She is in the Cave of Silence,&quot; he said.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>A big dragon made of clouds flew down from the sky. He had kind<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; eyes and soft wings. She is in the Cave of Silence, he said.<br></span></p><br></body></html>",
       "global_font": 2.3,
       "x": 1848,
       "y": 76,
@@ -143,7 +143,7 @@
       "height": 230
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;The Dark Shusher keeps her there. But here, take this.&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>He gave her a new wind bell. &quot;It only rings when you really believe.&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>[*Name*]</strong> held it tight. &quot;I believe, &quot; she said.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The Dark Shusher keeps her there. But here, take this.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>He gave her a new wind bell. It only rings when you really believe.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>[*Name*]</strong> held it tight. I believe,  she said.<br></span></p><br></body></html>",
       "global_font": 2.3,
       "x": 1795,
       "y": 256,
@@ -153,7 +153,7 @@
   ],
   "slide_09": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The cave was cold, dark, and quiet. No wind, no sound,<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; no light. She walked in slowly with her glowberries.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; She looked around and whispered, &quot;I believe in you.&quot;<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; Her voice stayed. It did not disappear.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  She smiled. The wind could still hear her.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The cave was cold, dark, and quiet. No wind, no sound,<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; no light. She walked in slowly with her glowberries.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; She looked around and whispered, I believe in you.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; Her voice stayed. It did not disappear.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  She smiled. The wind could still hear her.<br></span></p><br></body></html>",
       "global_font": 2.3,
       "x": 1963,
       "y": 103,
@@ -163,7 +163,7 @@
   ],
   "slide_10": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Inside the cave stood a tall stone man. He held a glowing jar.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; Inside, something sparkled, &quot;She is mine now,&quot; he said,<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;She brings noise. I like quiet.&quot;<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Inside the cave stood a tall stone man. He held a glowing jar.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; Inside, something sparkled, She is mine now, he said,<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; She brings noise. I like quiet.<br></span></p><br></body></html>",
       "global_font": 2.3,
       "x": 234,
       "y": 124,
@@ -171,7 +171,7 @@
       "height": 310
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>[*Name*]</strong> stepped closer. &quot;The wind is not bad,&quot; she said.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &quot; It brings music, laughter, and life. &quot; Buki peeked from behind her.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;And tickles! Don't forget the tickles!&quot;<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>[*Name*]</strong> stepped closer. The wind is not bad, she said.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>  It brings music, laughter, and life.  Buki peeked from behind her.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; And tickles! Don't forget the tickles!<br></span></p><br></body></html>",
       "global_font": 2.3,
       "x": 1841,
       "y": 87,
@@ -181,7 +181,7 @@
   ],
   "slide_11": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;You can't keep the wind in a jar,&quot; she said.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;It helps flowers grow. It helps fairies dream.&quot; She rang her bell.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DING! The jar cracked, WHOOSH! The wind burst free!<br></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; You can't keep the wind in a jar, she said.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>It helps flowers grow. It helps fairies dream. She rang her bell.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DING! The jar cracked, WHOOSH! The wind burst free!<br></span></p></body></html>",
       "global_font": 2.3,
       "x": 189,
       "y": 96,
@@ -189,7 +189,7 @@
       "height": 266
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>[*NAME*]</strong> flew outside with Buki.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; The Dark Shusher followed, but in the sunlight, he faded.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>With a soft shhh, he disappeared. As he vanished, his voice </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;whispered, &quot;I will come back...&quot;<br></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>[*NAME*]</strong> flew outside with Buki.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; The Dark Shusher followed, but in the sunlight, he faded.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>With a soft shhh, he disappeared. As he vanished, his voice </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;whispered, I will come back...<br></span></p></body></html>",
       "global_font": 2.3,
       "x": 1912,
       "y": 127,
@@ -197,7 +197,7 @@
       "height": 330
     },
     {
-      "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Buki blinked.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&quot;Whoa! Remind me never to skip sunscreen again!&quot;<br></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:center;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Buki blinked.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Whoa! Remind me never to skip sunscreen again!<br></span></p></body></html>",
       "global_font": 2.3,
       "x": 1973,
       "y": 436,
@@ -207,7 +207,7 @@
   ],
   "slide_12": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The Wind Spirit twirled in the air, free <br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; at last.&quot;You came for me,&quot; she said.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;I'm free again!&quot;<br></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The Wind Spirit twirled in the air, free <br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; at last.You came for me, she said.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I'm free again!<br></span></p></body></html>",
       "global_font": 2.3,
       "x": 205,
       "y": 991,
@@ -243,7 +243,7 @@
   ],
   "slide_14": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Two shiny wings floated down from the tree.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;They sparkled in the sunlight.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &quot;These are for you,&quot; said the Wind Spirit.<br><br><br></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Two shiny wings floated down from the tree.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;They sparkled in the sunlight.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; These are for you, said the Wind Spirit.<br><br><br></span></p></body></html>",
       "global_font": 2.3,
       "x": 155,
       "y": 962,
@@ -251,7 +251,7 @@
       "height": 266
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &quot;You were brave. You believed.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>And you brought back the wind.&quot;</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*Name*]</strong> smiled big.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The wings were perfect.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Buki sniffled, pretending not to cry.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;I'm just allergic to sparkles.&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; You were brave. You believed.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>And you brought back the wind.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*Name*]</strong> smiled big.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The wings were perfect.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Buki sniffled, pretending not to cry.</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I'm just allergic to sparkles.</span></p></body></html>",
       "global_font": 2.3,
       "x": 238,
       "y": 1192,
@@ -271,7 +271,7 @@
   ],
   "slide_16": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Down below, the Wind Spirit sang in the trees.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot; Thank you, &quot; <strong>[*Name*]</strong> whispered.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp; &nbsp; &nbsp; &nbsp; The wind whispered back, &quot;You believed.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>You listened. You set me free.&quot; Buki zipped <br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; by, upside down.&quot;I believed too, mostly that <br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I'd survive all this flying!&quot;<br></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Down below, the Wind Spirit sang in the trees.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Thank you,  <strong>[*Name*]</strong> whispered.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> &nbsp; &nbsp; &nbsp; &nbsp; The wind whispered back, You believed.<br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>You listened. You set me free. Buki zipped <br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp; &nbsp; by, upside down.I believed too, mostly that <br></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I'd survive all this flying!<br></span></p></body></html>",
       "global_font": 2.3,
       "x": 2309,
       "y": 16,

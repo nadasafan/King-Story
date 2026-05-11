@@ -39,7 +39,7 @@
   ],
   "slide_04": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;Wow</strong></span><span style='color:#ffffff; font-size:13px;'>, is this a </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>fossil?&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>he wondered, eyes wide.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Wow</strong></span><span style='color:#ffffff; font-size:13px;'>, is this a </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>fossil?</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>he wondered, eyes wide.</span></p></body></html>",
       "global_font": 2.1,
       "x": 450,
       "y": 300,
@@ -49,7 +49,7 @@
   ],
   "slide_05": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>That night, he tucked it under his pillow.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;I wish I could meet real dinosaurs,&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-style:italic;'><em>he whispered, drifting off to sleep.</em></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>That night, he tucked it under his pillow.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>I wish I could meet real dinosaurs,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-style:italic;'><em>he whispered, drifting off to sleep.</em></span></p></body></html>",
       "global_font": 2.1,
       "x": 1100,
       "y": 700,
@@ -77,7 +77,7 @@
       "height": 220
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;Where am I?&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>he whispered,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>heart thumping.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Where am I?</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>he whispered,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>heart thumping.</span></p></body></html>",
       "global_font": 2.1,
       "x": 550,
       "y": 750,
@@ -85,7 +85,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>From behind the ferns</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>came a cheerful Stegosaurus</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>with shiny plates. </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;Hi, I'm Toby!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Welcome to Dino Valley!&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-style:italic;'><em>he said, smiling wide.</em></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>From behind the ferns</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>came a cheerful Stegosaurus</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>with shiny plates. </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Hi, I'm Toby!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Welcome to Dino Valley!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-style:italic;'><em>he said, smiling wide.</em></span></p></body></html>",
       "global_font": 2.1,
       "x": 1000,
       "y": 700,
@@ -93,7 +93,7 @@
       "height": 260
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px; font-style:italic;'> gasped,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>&quot;Dinosaurs... that talk?</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>Yipidoo—this must be</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>a dream come true!&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px; font-style:italic;'> gasped,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>Dinosaurs... that talk?</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>Yipidoo—this must be</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>a dream come true!</span></p></body></html>",
       "global_font": 2.1,
       "x": 1600,
       "y": 800,
@@ -111,7 +111,7 @@
       "height": 260
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;What's wrong?&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-style:italic;'>Omar asked,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-style:italic;'>noticing their worried looks.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>What's wrong?</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-style:italic;'>Omar asked,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-style:italic;'>noticing their worried looks.</span></p></body></html>",
       "global_font": 2.1,
       "x": 1600,
       "y": 200,
@@ -121,7 +121,7 @@
   ],
   "slide_09": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;A big storm knocked down trees,&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-style:italic;'>Bella explained softly,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;and blocked the river.&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-style:italic;'>Stella added, </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;Some dinos are</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>trapped and can't get any water!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>A big storm knocked down trees,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-style:italic;'>Bella explained softly,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>and blocked the river.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-style:italic;'>Stella added, </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Some dinos are</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>trapped and can't get any water!</strong></span></p></body></html>",
       "global_font": 2.1,
       "x": 500,
       "y": 100,
@@ -129,7 +129,7 @@
       "height": 280
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px;'> stood tall.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;No worries, friends!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>We'll fix this together.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Hip hip hooray for helping!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px;'> stood tall.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>No worries, friends!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>We'll fix this together.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Hip hip hooray for helping!</strong></span></p></body></html>",
       "global_font": 2.1,
       "x": 1200,
       "y": 700,
@@ -139,7 +139,7 @@
   ],
   "slide_10": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>First stop: a path blocked</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>by heavy branches.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;We must move these so</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>smaller dinos can pass,&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px; font-style:italic;'> said.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>First stop: a path blocked</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>by heavy branches.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>We must move these so</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>smaller dinos can pass,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px; font-style:italic;'> said.</span></p></body></html>",
       "global_font": 1.9,
       "x": 200,
       "y": 80,
@@ -155,7 +155,7 @@
       "height": 220
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>&quot;Wow, Toby, you're</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>strong as can be!&quot;</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px;'> clapped.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>Wow, Toby, you're</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>strong as can be!</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px;'> clapped.</span></p></body></html>",
       "global_font": 1.9,
       "x": 1600,
       "y": 850,
@@ -173,7 +173,7 @@
       "height": 220
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>Bella stretched her long neck</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>to lift branches off, while</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px;'> guided her.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;A little to the left... yes!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>We did it!&quot;</strong></span><span style='color:#ffffff; font-size:13px; font-style:italic;'> he cried.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>Bella stretched her long neck</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>to lift branches off, while</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px;'> guided her.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>A little to the left... yes!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>We did it!</strong></span><span style='color:#ffffff; font-size:13px; font-style:italic;'> he cried.</span></p></body></html>",
       "global_font": 1.9,
       "x": 1550,
       "y": 250,
@@ -201,7 +201,7 @@
       "height": 200
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;I'll help,&quot;</strong></span><span style='color:#ffffff; font-size:13px; font-style:italic;'> Stella said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>lowering her horns.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;Push, push, no need to rush!&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px;'> sang.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>I'll help,</strong></span><span style='color:#ffffff; font-size:13px; font-style:italic;'> Stella said,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>lowering her horns.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Push, push, no need to rush!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px;'> sang.</span></p></body></html>",
       "global_font": 1.9,
       "x": 150,
       "y": 400,
@@ -209,7 +209,7 @@
       "height": 240
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>Stella shoved the boulder</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>aside, freeing the little dinos.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;Hooray, Stella!&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px;'> cheered.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>Stella shoved the boulder</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>aside, freeing the little dinos.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Hooray, Stella!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px;'> cheered.</span></p></body></html>",
       "global_font": 1.9,
       "x": 1550,
       "y": 750,
@@ -227,7 +227,7 @@
       "height": 200
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>Rexy dashed with fast feet,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>and </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>held out a sturdy branch.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;Grab on, friend!&quot;</strong></span><span style='color:#ffffff; font-size:13px;'> he called.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>Rexy dashed with fast feet,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>and </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>held out a sturdy branch.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Grab on, friend!</strong></span><span style='color:#ffffff; font-size:13px;'> he called.</span></p></body></html>",
       "global_font": 1.9,
       "x": 1500,
       "y": 800,
@@ -245,7 +245,7 @@
       "height": 220
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;Wow, Rexy, you're amazing!&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px; font-style:italic;'> said.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Wow, Rexy, you're amazing!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px; font-style:italic;'> said.</span></p></body></html>",
       "global_font": 1.9,
       "x": 1600,
       "y": 200,
@@ -263,7 +263,7 @@
       "height": 280
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;We did it!&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>exclaimed. </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;Teamwork</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>saves the day—</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>hip hip hooray!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>We did it!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>exclaimed. </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Teamwork</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>saves the day—</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>hip hip hooray!</strong></span></p></body></html>",
       "global_font": 1.8,
       "x": 1190,
       "y": 100,
@@ -273,7 +273,7 @@
   ],
   "slide_17": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>Bella beamed. </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;You're a true</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>hero, Omar!&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>Toby nodded. </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;We couldn't</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>have done it without you.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>Bella beamed. </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>You're a true</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>hero, Omar!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>Toby nodded. </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>We couldn't</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>have done it without you.</strong></span></p></body></html>",
       "global_font": 1.9,
       "x": 130,
       "y": 350,
@@ -283,7 +283,7 @@
   ],
   "slide_18": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>That night </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>sat with his dino pal</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>under twinkling stars.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;I learned so much</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>today,&quot;</strong></span><span style='color:#ffffff; font-size:13px; font-style:italic;'> he said.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>That night </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>sat with his dino pal</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>under twinkling stars.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>I learned so much</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>today,</strong></span><span style='color:#ffffff; font-size:13px; font-style:italic;'> he said.</span></p></body></html>",
       "global_font": 1.9,
       "x": 400,
       "y": 100,
@@ -291,7 +291,7 @@
       "height": 280
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;Toby</strong></span><span style='color:#ffffff; font-size:13px;'> taught me strength,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Bella</strong></span><span style='color:#ffffff; font-size:13px;'> showed me teamwork,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Stella</strong></span><span style='color:#ffffff; font-size:13px;'> was so brave, and </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Rexy</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>reminded me to think fast.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Yay</strong></span><span style='color:#ffffff; font-size:13px;'> for dino lessons!&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Toby</strong></span><span style='color:#ffffff; font-size:13px;'> taught me strength,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Bella</strong></span><span style='color:#ffffff; font-size:13px;'> showed me teamwork,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Stella</strong></span><span style='color:#ffffff; font-size:13px;'> was so brave, and </span><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Rexy</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>reminded me to think fast.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Yay</strong></span><span style='color:#ffffff; font-size:13px;'> for dino lessons!</span></p></body></html>",
       "global_font": 1.9,
       "x": 1600,
       "y": 200,
@@ -301,7 +301,7 @@
   ],
   "slide_19": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;And you showed us</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>to never give up,&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-style:italic;'>Bella whispered.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;You'll always be</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>part of Dino Valley.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>And you showed us</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>to never give up,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-style:italic;'>Bella whispered.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>You'll always be</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>part of Dino Valley.</strong></span></p></body></html>",
       "global_font": 1.9,
       "x": 1100,
       "y": 300,
@@ -319,7 +319,7 @@
   ],
   "slide_20": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>Suddenly, the glowing footprint</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>began to shine even brighter.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;It's time to go home,&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px; font-style:italic;'> realized sadly.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>Suddenly, the glowing footprint</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>began to shine even brighter.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>It's time to go home,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>[*NAME*]</strong></span><span style='color:#ffffff; font-size:13px; font-style:italic;'> realized sadly.</span></p></body></html>",
       "global_font": 1.9,
       "x": 1150,
       "y": 100,
@@ -327,7 +327,7 @@
       "height": 240
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>He gave each dinosaur a hug.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;I'll miss you all, but I'll never</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>forget this adventure!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>He gave each dinosaur a hug.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>I'll miss you all, but I'll never</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>forget this adventure!</strong></span></p></body></html>",
       "global_font": 1.9,
       "x": 1650,
       "y": 300,
@@ -345,7 +345,7 @@
       "height": 200
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>He peered out the window,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>spotting a bird with shimmering</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>feathers, just like Toby's plates.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>&quot;Maybe it wasn't just a dream...&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-style:italic;'><em>he whispered, smiling wide.</em></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>He peered out the window,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>spotting a bird with shimmering</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px;'>feathers, just like Toby's plates.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-weight:700;'><strong>Maybe it wasn't just a dream...</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:13px; font-style:italic;'><em>he whispered, smiling wide.</em></span></p></body></html>",
       "global_font": 1.9,
       "x": 1400,
       "y": 700,

@@ -35,7 +35,7 @@
       "height": 480
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;This year,&quot;</strong> <em>he whispered,</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;I'll make my country</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>proud.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>This year,</strong> <em>he whispered,</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>I'll make my country</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>proud.</strong></span></p></body></html>",
       "global_font": 2.9,
       "x": 900,
       "y": 1150,
@@ -69,7 +69,7 @@
       "height": 280
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>From the sideline, Coach Mateo</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>watched quietly, arms crossed</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and smiling. <strong>&quot;You've got the</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>heart of a lion,&quot; he thought.</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>From the sideline, Coach Mateo</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>watched quietly, arms crossed</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and smiling. <strong>You've got the</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>heart of a lion, he thought.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2500,
       "y": 1300,
@@ -129,7 +129,7 @@
       "height": 160
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The football rolled away, but his</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>thoughts were stuck on one thing:</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;Please let me be okay...&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The football rolled away, but his</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>thoughts were stuck on one thing:</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>Please let me be okay...</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2500,
       "y": 1350,
@@ -147,7 +147,7 @@
       "height": 140
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><em>&quot;It's a bad sprain,&quot; he said.</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><em>&quot;You need to rest. No football for now.&quot;</em></span></p><br><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No football?</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No final?</span></p><br><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*NAME*]</strong>'s heart dropped</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;like a stone.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><em>It's a bad sprain, he said.</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><em>You need to rest. No football for now.</em></span></p><br><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No football?</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No final?</span></p><br><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*NAME*]</strong>'s heart dropped</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;like a stone.</span></p></body></html>",
       "global_font": 2.8,
       "x": 2500,
       "y": 100,
@@ -173,7 +173,7 @@
       "height": 320
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;I'm sorry, kid,&quot;</strong> <em>he said softly.</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;We can't take any chances with your healing.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>You might not be ready in time.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>I'm sorry, kid,</strong> <em>he said softly.</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>We can't take any chances with your healing.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>You might not be ready in time.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 300,
       "y": 900,
@@ -191,7 +191,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Tears stung his eyes.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Then, from deep inside, a quiet voice said:</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;Don't give up.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Tears stung his eyes.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Then, from deep inside, a quiet voice said:</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>Don't give up.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 1800,
       "y": 180,
@@ -201,7 +201,7 @@
   ],
   "slide_09": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The next morning,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> sat up.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He looked at his leg, then at his football.</span></p><br><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&quot;I can still be part of this,&quot;</strong> <em>he said.</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&quot;I can still grow stronger.&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><br></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With his parents' help, he began slow</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gentle stretches, balance drills, tiny kicks.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The next morning,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> sat up.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He looked at his leg, then at his football.</span></p><br><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>I can still be part of this,</strong> <em>he said.</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>I can still grow stronger.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><br></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With his parents' help, he began slow</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gentle stretches, balance drills, tiny kicks.</span></p></body></html>",
       "global_font": 2.8,
       "x": 400,
       "y": 200,
@@ -245,7 +245,7 @@
       "height": 160
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;I've been careful.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>I've worked hard. I</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>feel ready,&quot;</strong> <em>he said.</em></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>I've been careful.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>I've worked hard. I</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>feel ready,</strong> <em>he said.</em></span></p></body></html>",
       "global_font": 2.8,
       "x": 1100,
       "y": 420,
@@ -253,7 +253,7 @@
       "height": 200
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;Even if I don't play,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>I want to be with the team.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>I want to stand beside them.&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Even if I don't play,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>I want to be with the team.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>I want to stand beside them.</span></p></body></html>",
       "global_font": 2.8,
       "x": 2000,
       "y": 160,
@@ -261,7 +261,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Coach looked into his eyes for a long time.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He saw the fire, the love, the heart.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And then he smiled.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&quot;You're in. But promise</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>you'll stop if it hurts.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Coach looked into his eyes for a long time.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>He saw the fire, the love, the heart.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And then he smiled.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>You're in. But promise</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>you'll stop if it hurts.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2300,
       "y": 1160,
@@ -333,7 +333,7 @@
       "height": 260
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;I didn't give up,&quot;</strong> <em>he said.</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'>&nbsp;</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;Even when it was hard.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>And I didn't rush,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>because healing matters.&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>That made him a true champion.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>I didn't give up,</strong> <em>he said.</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'>&nbsp;</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>Even when it was hard.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>And I didn't rush,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>because healing matters.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>That made him a true champion.</span></p></body></html>",
       "global_font": 2.9,
       "x": 1800,
       "y": 160,

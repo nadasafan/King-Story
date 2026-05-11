@@ -19,7 +19,7 @@
   ],
   "slide_02": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It was <strong>[*NAME*]'s</strong> very first time at the zoo.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>[*NAME*] looked up at the big gates with wide, excited eyes.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><br><strong>&quot;Wow!&quot;</strong> she said. <strong>&quot;So many animals are waiting for me!&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She learned that zoos are special places where animals</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>from all over the world can live safely.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It was <strong>[*NAME*]'s</strong> very first time at the zoo.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>[*NAME*] looked up at the big gates with wide, excited eyes.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><br><strong>Wow!</strong> she said. <strong>So many animals are waiting for me!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She learned that zoos are special places where animals</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>from all over the world can live safely.</span></p></body></html>",
       "global_font": 2.9,
       "x": 1800,
       "y": 200,
@@ -29,7 +29,7 @@
   ],
   "slide_03": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;Eee-eee! Ooo-ooo!&quot;</strong> The monkeys swung and played in the trees.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> laughed at their funny faces.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She learned that monkeys love playing tag and chase, just like kids do!</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Eee-eee! Ooo-ooo!</strong> The monkeys swung and played in the trees.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> laughed at their funny faces.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She learned that monkeys love playing tag and chase, just like kids do!</span></p></body></html>",
       "global_font": 2.91,
       "x": 200,
       "y": 1250,
@@ -49,7 +49,7 @@
   ],
   "slide_05": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>Bright parrots flew above</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]'s</strong> head, squawking loudly.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>She learned that some parrots can copy sounds</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>and even say words like <strong>&quot;Hello!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>Bright parrots flew above</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]'s</strong> head, squawking loudly.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>She learned that some parrots can copy sounds</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>and even say words like <strong>Hello!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 200,
       "y": 1100,
@@ -69,7 +69,7 @@
   ],
   "slide_07": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>&quot;Raaaawr!&quot;</strong> The tiger roared so loud that</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> jumped!</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>She learned that a tiger's roar can be</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>heard from very far away.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>Raaaawr!</strong> The tiger roared so loud that</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> jumped!</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>She learned that a tiger's roar can be</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>heard from very far away.</span></p></body></html>",
       "global_font": 2.8,
       "x": 200,
       "y": 1250,
@@ -149,7 +149,7 @@
   ],
   "slide_15": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>&quot;Ribbit!&quot;</strong> Frogs hopped from lily pad to lily pad.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> learned that some frogs can</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>jump so far, it's like jumping over the dinner table!</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>Ribbit!</strong> Frogs hopped from lily pad to lily pad.</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> learned that some frogs can</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>jump so far, it's like jumping over the dinner table!</span></p></body></html>",
       "global_font": 2.8,
       "x": 250,
       "y": 1200,

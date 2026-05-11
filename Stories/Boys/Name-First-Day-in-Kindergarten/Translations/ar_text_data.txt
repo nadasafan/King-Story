@@ -109,7 +109,7 @@
   ],
   "slide_07": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:استقبلته المعلمة بابتسامة وقالت  &quot;!مرحبًا يا [*الاسم*]! أنا سعيدة جدًا بوجودك  &quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:استقبلته المعلمة بابتسامة وقالت  !مرحبًا يا [*الاسم*]! أنا سعيدة جدًا بوجودك  </span></p></body></html>",
       "global_font": 2.8,
       "x": 2013,
       "y": 900,
@@ -169,7 +169,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:سأله ولد بجانبه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> &quot;تحب نبني صاروخ سوا؟ &quot; </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ابتسم [*الاسم*] وهز رأسه بالموافقة </span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:سأله ولد بجانبه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> تحب نبني صاروخ سوا؟  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.ابتسم [*الاسم*] وهز رأسه بالموافقة </span></p></body></html>",
       "global_font": 2.8,
       "x": 13,
       "y": 1350,
@@ -187,7 +187,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:رفعت كتابًا ملونًا وقالت  &quot;.هذه قصة عن ولد كان خجولًا في يومه الأول  &quot; .جلس [*الاسم*] بهدوء، وهو يشعر بشجاعة أكبر مع كل كلمة </span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:رفعت كتابًا ملونًا وقالت  .هذه قصة عن ولد كان خجولًا في يومه الأول   .جلس [*الاسم*] بهدوء، وهو يشعر بشجاعة أكبر مع كل كلمة </span></p></body></html>",
       "global_font": 2.8,
       "x": 1513,
       "y": 1400,
@@ -205,7 +205,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>رسم [*الاسم*] قوس قزح </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وبيتًا صغيرًا مع نجوم فوقه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وعندما انتهى، قالت المعلمة  &quot;!رائع </span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>رسم [*الاسم*] قوس قزح </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وبيتًا صغيرًا مع نجوم فوقه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وعندما انتهى، قالت المعلمة  !رائع </span></p></body></html>",
       "global_font": 2.8,
       "x": 1613,
       "y": 1300,
@@ -213,7 +213,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!سنعلقه  &quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!سنعلقه  </span></p></body></html>",
       "global_font": 2.9,
       "x": 513,
       "y": 80,
@@ -239,7 +239,7 @@
       "height": 200
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:استمع [*الاسم*]، ثم سأل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> &quot;هل السمك يُعتبر حيوانًا أليفًا؟ &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> :ضحكا وقالا  &quot;!نعم &quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:استمع [*الاسم*]، ثم سأل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> هل السمك يُعتبر حيوانًا أليفًا؟ </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> :ضحكا وقالا  !نعم </span></p></body></html>",
       "global_font": 2.8,
       "x": 213,
       "y": 1300,
@@ -293,7 +293,7 @@
   ],
   "slide_15": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:جمعت المعلمة الأطفال وقالت  &quot;.كنتم رائعين اليوم. الروضة أجمل بوجودكم  &quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:جمعت المعلمة الأطفال وقالت  .كنتم رائعين اليوم. الروضة أجمل بوجودكم  </span></p></body></html>",
       "global_font": 2.8,
       "x": 1863,
       "y": 1100,

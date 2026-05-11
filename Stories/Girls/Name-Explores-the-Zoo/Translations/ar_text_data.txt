@@ -19,7 +19,7 @@
   ],
   "slide_02": [
     {
-      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>كانت هذه أول مرة تزور فيها <strong>[*الاسم*]</strong> .حديقة الحيوانات </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>نظرت <strong>[*الاسم*]</strong> .إلى البوابة الكبيرة بعينين واسعتين مليئتين بالحماس <br></span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'><br>:قالت  &quot;!واو! هناك الكثير من الحيوانات بانتظاري&quot;</span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>:وتعلمت أن حدائق الحيوانات هي </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>  .أماكن خاصة تعيش فيها الحيوانات من جميع أنحاء العالم بأمان </span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>كانت هذه أول مرة تزور فيها <strong>[*الاسم*]</strong> .حديقة الحيوانات </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>نظرت <strong>[*الاسم*]</strong> .إلى البوابة الكبيرة بعينين واسعتين مليئتين بالحماس <br></span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'><br>:قالت  !واو! هناك الكثير من الحيوانات بانتظاري</span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>:وتعلمت أن حدائق الحيوانات هي </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>  .أماكن خاصة تعيش فيها الحيوانات من جميع أنحاء العالم بأمان </span></p></body></html>",
       "global_font": 2.9,
       "x": -500,
       "y": 250,
@@ -29,7 +29,7 @@
   ],
   "slide_03": [
     {
-      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>&quot;!إييي-إييي! أوو-أوو &quot;</span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>.كانت القرود تتأرجح وتلعب بين الأشجار </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>ضحكت <strong>[*الاسم*]</strong>.من وجهها المضحك </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>!وتعلمت أن القرود تحب لعب المطاردة والاختباء، تمامًا مثل الأطفال </span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>!إييي-إييي! أوو-أوو </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>.كانت القرود تتأرجح وتلعب بين الأشجار </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>ضحكت <strong>[*الاسم*]</strong>.من وجهها المضحك </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>!وتعلمت أن القرود تحب لعب المطاردة والاختباء، تمامًا مثل الأطفال </span></p></body></html>",
       "global_font": 2.91,
       "x": 1890,
       "y": 1250,
@@ -49,7 +49,7 @@
   ],
   "slide_05": [
     {
-      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>حلّقت الببغاوات الملوّنة فوق رأس <strong>[*الاسم*]</strong> .وهي تصرخ بصوت عالٍ </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>وتعلمت أن بعض الببغاوات يمكنها تقليد الأصوات وحتى قول كلمات مثل !&quot;مرحبًا&quot; </span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>حلّقت الببغاوات الملوّنة فوق رأس <strong>[*الاسم*]</strong> .وهي تصرخ بصوت عالٍ </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>وتعلمت أن بعض الببغاوات يمكنها تقليد الأصوات وحتى قول كلمات مثل !مرحبًا </span></p></body></html>",
       "global_font": 2.8,
       "x": 1850,
       "y": 1300,
@@ -69,7 +69,7 @@
   ],
   "slide_07": [
     {
-      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>&quot;ررراااو!&quot;</span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>زأر النمر بصوت عالٍ جدًا حتى قفزت </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'> <strong>[*الاسم*]</strong> من المفاجأة! وتعلمت أن زئير النمر </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'> يمكن سماعه من مسافة بعيدة جدًا</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>ررراااو!</span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'>زأر النمر بصوت عالٍ جدًا حتى قفزت </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'> <strong>[*الاسم*]</strong> من المفاجأة! وتعلمت أن زئير النمر </span></p><p style='text-align: right;'><span style='color:#ffffff;font-size:14px;'> يمكن سماعه من مسافة بعيدة جدًا</span></p></body></html>",
       "global_font": 2.8,
       "x": 2200,
       "y": 1260,

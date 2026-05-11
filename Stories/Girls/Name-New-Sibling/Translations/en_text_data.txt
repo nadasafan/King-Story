@@ -37,7 +37,7 @@
   ],
   "slide_03": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>One morning, <strong>Mommy</strong> sat down</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and said,&quot;<strong>[*NAME*]</strong>,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>we have some exciting news!&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<strong>[*NAME*]</strong>'s eyes grew big.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;Are we getting a puppy?&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>One morning, <strong>Mommy</strong> sat down</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and said,<strong>[*NAME*]</strong>,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>we have some exciting news!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<strong>[*NAME*]</strong>'s eyes grew big.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Are we getting a puppy?</span></p></body></html>",
       "global_font": 2.91,
       "x": 263,
       "y": 950,
@@ -45,7 +45,7 @@
       "height": 224
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><em>Mommy laughed.</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;No, you're going to be a big sister!&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><em>Mommy laughed.</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>No, you're going to be a big sister!</span></p></body></html>",
       "global_font": 2.97,
       "x": 600,
       "y": 1300,
@@ -55,7 +55,7 @@
   ],
   "slide_04": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;A baby?&quot; <em>[*NAME*] asked.</em><br><br></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Like, a real tiny baby with</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tiny toes?&quot; <em>Mommy nodded.</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Yes! A real tiny baby just for us.&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A baby? <em>[*NAME*] asked.</em><br><br></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like, a real tiny baby with</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tiny toes? <em>Mommy nodded.</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yes! A real tiny baby just for us.</span></p></body></html>",
       "global_font": 2.8,
       "x": 293,
       "y": 258,
@@ -75,7 +75,7 @@
   ],
   "slide_06": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>&quot;Don't worry,&quot; <em>said Mommy.</em></span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>&quot;The baby will have their own bed</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>and their own toys. And you'll</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>be the superhero Big Sister!&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>Don't worry, <em>said Mommy.</em></span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>The baby will have their own bed</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>and their own toys. And you'll</span></p><p style='text-align:left;'><span style='color:#ffffff;font-size:18px;'>be the superhero Big Sister!</span></p></body></html>",
       "global_font": 2.63,
       "x": 2200,
       "y": 200,
@@ -93,7 +93,7 @@
   ],
   "slide_07": [
     {
-      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> ran</span></p><p><span style='color:#ffffff;font-size:14px;'>to tell her teddy bear.<br><br></span></p><p><span style='color:#ffffff;font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Guess what, Teddy? A baby is coming!</span></p><p><span style='color:#ffffff;font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I hope the baby likes dance parties</span></p><p><span style='color:#ffffff;font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and ketchup on spaghetti!&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> ran</span></p><p><span style='color:#ffffff;font-size:14px;'>to tell her teddy bear.<br><br></span></p><p><span style='color:#ffffff;font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Guess what, Teddy? A baby is coming!</span></p><p><span style='color:#ffffff;font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I hope the baby likes dance parties</span></p><p><span style='color:#ffffff;font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and ketchup on spaghetti!</span></p></body></html>",
       "global_font": 2.8,
       "x": 493,
       "y":558,
@@ -111,7 +111,7 @@
       "height": 218
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She even picked out a soft teddy</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>bear and a book with animals.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;This baby is going to love it here,&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><em>she said.</em></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She even picked out a soft teddy</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>bear and a book with animals.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>This baby is going to love it here,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><em>she said.</em></span></p></body></html>",
       "global_font": 2.8,
       "x": 2390,
       "y": 1250,
@@ -129,7 +129,7 @@
       "height": 282
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;I think the baby is coming!&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><em>[*NAME*] shouted.</em></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>I think the baby is coming!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><em>[*NAME*] shouted.</em></span></p></body></html>",
       "global_font": 2.8,
       "x": 400,
       "y": 767,
@@ -147,7 +147,7 @@
       "height": 233
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&quot;<strong>[*NAME*],</strong> you have</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a baby sibling! Baby has tiny</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>fingers and a super loud cry!&quot;<br></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*],</strong> you have</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a baby sibling! Baby has tiny</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>fingers and a super loud cry!<br></span></p></body></html>",
       "global_font": 2.8,
       "x": 2123,
       "y": 1200,
@@ -155,7 +155,7 @@
       "height": 161
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> jumped up and</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>down. <strong>&quot;I'm a Big Sister! Hooray!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> jumped up and</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>down. <strong>I'm a Big Sister! Hooray!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2318,
       "y":1446,
@@ -173,7 +173,7 @@
       "height": 282
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> <em>whispered,</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;Hello, baby. I'm your sister,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]. You're kind of cute.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> <em>whispered,</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Hello, baby. I'm your sister,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]. You're kind of cute.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2200,
       "y": 750,
@@ -183,7 +183,7 @@
   ],
   "slide_12": [
     {
-      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>But the baby cried. A lot.</span></p><p><span style='color:#ffffff;font-size:14px;'>The baby cried when it felt hungry.</span></p><p><span style='color:#ffffff;font-size:14px;'>The baby cried when it felt sleepy.</span></p><p><span style='color:#ffffff;font-size:14px;'>The baby even cried when it had hiccups!<br><br></span></p><p><span style='color:#ffffff;font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*NAME*]</strong> covered her ears</span></p><p><span style='color:#ffffff;font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with a bunny hat. <strong>&quot;Waa waa waa!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>But the baby cried. A lot.</span></p><p><span style='color:#ffffff;font-size:14px;'>The baby cried when it felt hungry.</span></p><p><span style='color:#ffffff;font-size:14px;'>The baby cried when it felt sleepy.</span></p><p><span style='color:#ffffff;font-size:14px;'>The baby even cried when it had hiccups!<br><br></span></p><p><span style='color:#ffffff;font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*NAME*]</strong> covered her ears</span></p><p><span style='color:#ffffff;font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with a bunny hat. <strong>Waa waa waa!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2175,
       "y": 930,
@@ -193,7 +193,7 @@
   ],
   "slide_13": [
     {
-      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>Then one day, the baby looked up at</span></p><p><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> and smiled!</span></p><p><span style='color:#ffffff;font-size:14px;'><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*NAME*]</strong> gasped.</span></p><p><span style='color:#ffffff;font-size:14px;'><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;The baby likes me! Really likes me!&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p><span style='color:#ffffff;font-size:14px;'>Then one day, the baby looked up at</span></p><p><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> and smiled!</span></p><p><span style='color:#ffffff;font-size:14px;'><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*NAME*]</strong> gasped.</span></p><p><span style='color:#ffffff;font-size:14px;'><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The baby likes me! Really likes me!</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 358,
       "y": 900,
@@ -211,7 +211,7 @@
   ],
   "slide_14": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> sang happy songs</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>to the baby, funny songs about socks</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and frogs. She made silly faces.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The baby giggled and drooled.<br></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*NAME*]</strong> giggled too.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;You're not so bad,&quot;</strong> she said.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> sang happy songs</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>to the baby, funny songs about socks</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and frogs. She made silly faces.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The baby giggled and drooled.<br></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*NAME*]</strong> giggled too.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You're not so bad,</strong> she said.</span></p></body></html>",
       "global_font": 2.8,
       "x": 2079,
       "y": 473,
@@ -229,7 +229,7 @@
       "height": 218
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;Good night, baby,&quot;</strong> <em>she whispered.</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Mommy gave her a big hug.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;You're doing an amazing job.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Good night, baby,</strong> <em>she whispered.</em></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Mommy gave her a big hug.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>You're doing an amazing job.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2300,
       "y": 377,
@@ -247,7 +247,7 @@
       "height": 218
     },
     {
-      "html": "<html><head/><body><div style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> says, <strong>&quot;Being a big</strong></span></div><div style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>sister is the best job ever!&quot;</strong> And the baby?</span></div><div style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>The baby just coos and smiles.</span></div></body></html>",
+      "html": "<html><head/><body><div style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>[*NAME*]</strong> says, <strong>Being a big</strong></span></div><div style='text-align:left;'><span style='color:#ffffff;font-size:14px;'><strong>sister is the best job ever!</strong> And the baby?</span></div><div style='text-align:left;'><span style='color:#ffffff;font-size:14px;'>The baby just coos and smiles.</span></div></body></html>",
       "global_font": 2.8,
       "x": 752,
       "y": 467,

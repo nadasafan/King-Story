@@ -16,7 +16,7 @@
       "y": 500,
       "width": 820,
       "height": 280,
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong> </span><span style='color:#ffffff; font-size:14px;'>  كان ولدًا فضوليًا يحب  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .أن يطرح الكثير من الأسئلة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وفي يومٍ من الأيام تساءل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;ماذا يفعل الناس</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>عندما يكبرون؟&quot;</strong></span></p></body></html>"
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong> </span><span style='color:#ffffff; font-size:14px;'>  كان ولدًا فضوليًا يحب  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .أن يطرح الكثير من الأسئلة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وفي يومٍ من الأيام تساءل </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>ماذا يفعل الناس</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>عندما يكبرون؟</strong></span></p></body></html>"
     },
     {
       "global_font": 2.8,
@@ -34,7 +34,7 @@
       "y": 1200,
       "width": 820,
       "height": 280,
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>كانت أول محطة لـ</span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong> </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> في المستشفى، حيث التقى  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .بالدكتورة سارة  أنا أساعد المرضى  &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>&quot;.ليشعروا بتحسن</span><span style='color:#ffffff; font-size:14px;'> .قالت له </span></p></body></html>"
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>كانت أول محطة لـ</span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong> </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> في المستشفى، حيث التقى  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .بالدكتورة سارة  أنا أساعد المرضى  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-style:italic;'>.ليشعروا بتحسن</span><span style='color:#ffffff; font-size:14px;'> .قالت له </span></p></body></html>"
     },
     {
       "global_font": 2.8,
@@ -42,7 +42,7 @@
       "y": 150,
       "width": 820,
       "height": 180,
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;,الأطباء يفحصون القلب </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>,ويعطون الدواء </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!ويتأكدون أن الناس بصحة جيدة &quot;</strong></span></p></body></html>"
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>,الأطباء يفحصون القلب </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>,ويعطون الدواء </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!ويتأكدون أن الناس بصحة جيدة </strong></span></p></body></html>"
     },
     {
       "global_font": 2.8,
@@ -68,7 +68,7 @@
       "y": 1200,
       "width": 820,
       "height": 220,
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;تخيل رجال الإطفاء يسرعون </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>لإطفاء الحرائق</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!وإنقاذ الناس من الخطر &quot;</strong></P></body></html>"
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>تخيل رجال الإطفاء يسرعون </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>لإطفاء الحرائق</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!وإنقاذ الناس من الخطر </strong></P></body></html>"
     }
   ],
   "slide_05": [
@@ -78,7 +78,7 @@
       "y": 1150,
       "width": 820,
       "height": 300,
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>في مركز </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>الشرطة</strong></span><span style='color:#ffffff; font-size:14px;'>، جرّب </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong> </span><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .ارتداء قبعة الشرطة وحمل شارة صغيرة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وتخيل نفسه ينظم حركة المرور.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;رجال الشرطة يحافظون على أمان  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!المدينة ويساعدون الناس عند الحاجة &quot;</span></p></body></html>"
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>في مركز </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>الشرطة</strong></span><span style='color:#ffffff; font-size:14px;'>، جرّب </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong> </span><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> .ارتداء قبعة الشرطة وحمل شارة صغيرة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>وتخيل نفسه ينظم حركة المرور.</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>رجال الشرطة يحافظون على أمان  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!المدينة ويساعدون الناس عند الحاجة </span></p></body></html>"
     }
   ],
   "slide_06": [
@@ -96,7 +96,7 @@
       "y": 1300,
       "width": 820,
       "height": 180,
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-style:italic;'> .قال بابتسامة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;,الخبازون يصنعون الكعك </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!والخبز، والحلويات اللذيذة &quot;</strong></span></p></body></html>"
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-style:italic;'> .قال بابتسامة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>,الخبازون يصنعون الكعك </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!والخبز، والحلويات اللذيذة </strong></span></p></body></html>"
     }
   ],
   "slide_07": [
@@ -106,7 +106,7 @@
       "y": 600,
       "width": 820,
       "height": 280,
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>في موقع </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>العمل </strong></span><span style='color:#ffffff; font-size:14px;'> .لوّح له السيد جاك البنّاء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;قال : نحن نبني البيوت     </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!والمدارس والملاعب &quot;</strong></span></p></body></html>"
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>في موقع </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>العمل </strong></span><span style='color:#ffffff; font-size:14px;'> .لوّح له السيد جاك البنّاء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>قال : نحن نبني البيوت     </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!والمدارس والملاعب </strong></span></p></body></html>"
     },
     {
       "global_font": 2.8,
@@ -132,7 +132,7 @@
       "y": 800,
       "width": 820,
       "height": 220,
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-style:italic;'> .قالت &quot;</span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong> أنا أساعد الناس  </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong> في العثور على القصص</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!وتعلم أشياء جديدة &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong> </span><span style='color:#ffffff; font-size:14px;'> .أحب رائحة الكتب واختار كتابًا ليقرأه  </span></p></body></html>"
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-style:italic;'> .قالت </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong> أنا أساعد الناس  </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong> في العثور على القصص</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!وتعلم أشياء جديدة </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong> </span><span style='color:#ffffff; font-size:14px;'> .أحب رائحة الكتب واختار كتابًا ليقرأه  </span></p></body></html>"
     }
   ],
   "slide_09": [
@@ -160,7 +160,7 @@
       "y": 1200,
       "width": 820,
       "height": 200,
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> :قال بفخر &quot;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>المعلمون يساعدون الأطفال</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>على تعلم الرياضيات والقراءة</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!والكثير من الأشياء الممتعة &quot;</strong></span></p></body></html>"
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'> :قال بفخر </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>المعلمون يساعدون الأطفال</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>على تعلم الرياضيات والقراءة</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!والكثير من الأشياء الممتعة </strong></span></p></body></html>"
     }
   ],
   "slide_11": [
@@ -178,7 +178,7 @@
       "y": 1100,
       "width": 820,
       "height": 580,
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-style:italic;'> :قال &quot;</span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>,أنا أتأكد من أن السيارات </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>والحافلات، والدراجات</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!تعمل بشكل صحيح &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong> </span><span style='color:#ffffff; font-size:14px;'> شاهد</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>كيف يستخدم المفتاح</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.لشد أحد المسامير </span></p></body></html>"
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-style:italic;'> :قال </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>,أنا أتأكد من أن السيارات </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>والحافلات، والدراجات</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!تعمل بشكل صحيح </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong> </span><span style='color:#ffffff; font-size:14px;'> شاهد</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>كيف يستخدم المفتاح</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.لشد أحد المسامير </span></p></body></html>"
     }
   ],
   "slide_12": [
@@ -188,7 +188,7 @@
       "y": 150,
       "width": 820,
       "height": 320,
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>رحلة إلى حديقة الحيوانات</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>جعلت </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong> </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وجهاً لوجه مع الحيوانات </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:أطعم زرافة جزرة مقرمشة وفكر </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;حراس حديقة الحيوانات يعتنون بالحيوانات</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!ويجعلونها سعيدة وصحية </span></p></body></html>"
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>رحلة إلى حديقة الحيوانات</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>جعلت </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong> </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وجهاً لوجه مع الحيوانات </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:أطعم زرافة جزرة مقرمشة وفكر </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>حراس حديقة الحيوانات يعتنون بالحيوانات</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!ويجعلونها سعيدة وصحية </span></p></body></html>"
     }
   ],
   "slide_13": [
@@ -206,7 +206,7 @@
       "y": 1200,
       "width": 820,
       "height": 260,
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-style:italic;'> :قال &quot;</span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong> أنا أقود الطائرات</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!وأنقل الناس إلى أماكن بعيدة &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong> </span><span style='color:#ffffff; font-size:14px;'> جلس في مقعد الطيار</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وتظاهر بقيادة الطائرة </span></p></body></html>"
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-style:italic;'> :قال </span><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong> أنا أقود الطائرات</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!وأنقل الناس إلى أماكن بعيدة </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong> </span><span style='color:#ffffff; font-size:14px;'> جلس في مقعد الطيار</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وتظاهر بقيادة الطائرة </span></p></body></html>"
     }
   ],
   "slide_14": [
@@ -226,7 +226,7 @@
       "y": 1200,
       "width": 820,
       "height": 260,
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;!لا أعرف بعد &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong> </span><span style='color:#ffffff; font-size:14px;'> .ضحك </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,ربما سأكون طبيبًا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!أو رجل إطفاء، أو طيارًا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!أو ربما... كل ذلك </span></p></body></html>"
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!لا أعرف بعد </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>[*الاسم*]</strong> </span><span style='color:#ffffff; font-size:14px;'> .ضحك </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,ربما سأكون طبيبًا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!أو رجل إطفاء، أو طيارًا </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>!أو ربما... كل ذلك </span></p></body></html>"
     }
   ],
   "slide_16": [
@@ -244,7 +244,7 @@
       "y": 300,
       "width": 820,
       "height": 280,
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;يمكنني أن أصبح</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!أي شيء أريده &quot;</strong></span><span style='color:#ffffff; font-size:14px;'> .فكر </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;,كل ما عليّ هو أن أتعلم </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>,وأحلم </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!وأستكشف &quot;</strong></span></p></body></html>"
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>يمكنني أن أصبح</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!أي شيء أريده </strong></span><span style='color:#ffffff; font-size:14px;'> .فكر </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>,كل ما عليّ هو أن أتعلم </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>,وأحلم </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>!وأستكشف </strong></span></p></body></html>"
     }
   ],
   "slide_17": [

@@ -36,7 +36,7 @@
       "height": 280
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'>:همس لنفسه &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;.السنة دي… هخلّي بلدي تفخر بيا &quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'>:همس لنفسه &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>.السنة دي… هخلّي بلدي تفخر بيا </strong></span></p></body></html>",
       "global_font": 2.9,
       "x": 1600,
       "y": 1130,
@@ -70,7 +70,7 @@
       "height": 280
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,من على الخط، كان الكابتن ماتيو بيتفرج بهدوء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.إيديه متقاطعة وبيبتسم &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;  ,قال في نفسه:  عنده قلب أسد &quot; </strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,من على الخط، كان الكابتن ماتيو بيتفرج بهدوء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.إيديه متقاطعة وبيبتسم &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>  ,قال في نفسه:  عنده قلب أسد  </strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 50,
       "y": 1320,
@@ -130,7 +130,7 @@
       "height": 220
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>....الكورة بعدت &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:لكن كل تفكيره كان في حاجة واحدة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;....يارب أكون بخير &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>....الكورة بعدت &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:لكن كل تفكيره كان في حاجة واحدة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>....يارب أكون بخير &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 80,
       "y": 1250,
@@ -148,7 +148,7 @@
       "height": 100
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><em>&quot;.دي التواء شديد &quot;</em></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><em>&quot;.لازم ترتاح. مفيش كورة دلوقتي &quot;</em></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>مفيش كورة؟  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>مفيش نهائي؟ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قلب <strong>[*الاسم*]</strong> .وقع كأنه حجر &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><em>.دي التواء شديد </em></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><em>.لازم ترتاح. مفيش كورة دلوقتي </em></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>مفيش كورة؟  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>مفيش نهائي؟ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>قلب <strong>[*الاسم*]</strong> .وقع كأنه حجر &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.8,
       "x": -250,
       "y": 150,
@@ -174,7 +174,7 @@
       "height": 100
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>:قال بهدوء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;...أنا آسف يا بطل &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;.مش هنقدر نغامر بصحتك &quot;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;.ممكن ما تكونش جاهز في الوقت &quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'>:قال بهدوء </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>...أنا آسف يا بطل </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.مش هنقدر نغامر بصحتك </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.ممكن ما تكونش جاهز في الوقت </strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2000,
       "y": 920,
@@ -192,7 +192,7 @@
       "height": 180
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.الدموع لمعت في عينيه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:لكن من جواه، صوت هادي قال </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;.ما تستسلمش &quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.الدموع لمعت في عينيه </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:لكن من جواه، صوت هادي قال </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>.ما تستسلمش </strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 580,
       "y": 80,
@@ -202,7 +202,7 @@
   ],
   "slide_09": [
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,تاني يوم الصبح &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>[*الاسم*]</strong> .قعد &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.بصّ على رجله… وبعدين على الكورة </span></p><br><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;.أنا لسه أقدر أكون جزء من ده &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;.ولسه أقدر أبقى أقوى &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:بمساعدة أهله، بدأ تمارين خفيفة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.تمدد بسيط، توازن، وتسديدات صغيرة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,تاني يوم الصبح &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'><strong>[*الاسم*]</strong> .قعد &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.بصّ على رجله… وبعدين على الكورة </span></p><br><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.أنا لسه أقدر أكون جزء من ده &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.ولسه أقدر أبقى أقوى &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:بمساعدة أهله، بدأ تمارين خفيفة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.تمدد بسيط، توازن، وتسديدات صغيرة &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></body></html>",
       "global_font": 2.8,
       "x": 750,
       "y": 160,
@@ -254,7 +254,7 @@
       "height": 240
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;,أنا كنت حريص </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>, واتدرّبت كويس </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>.وحاسس إني جاهز &quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>,أنا كنت حريص </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>, واتدرّبت كويس </strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>.وحاسس إني جاهز </strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 1350,
       "y": 420,
@@ -262,7 +262,7 @@
       "height": 280
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&quot;,حتى لو مش هلعب </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.عايز أبقى مع الفريق </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.عايز أقف جنبهم &quot;</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>,حتى لو مش هلعب </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.عايز أبقى مع الفريق </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.عايز أقف جنبهم </span></p></body></html>",
       "global_font": 2.8,
       "x": 380,
       "y": 160,
@@ -270,7 +270,7 @@
       "height": 280
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>...الكابتن بص في عينيه شوية طويلة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وشاف الحماس، والحب &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وبعدين ابتسم وقال &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>&quot;....إنت معانا &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.بس أوعدني توقف لو حسيت بألم &quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>...الكابتن بص في عينيه شوية طويلة </span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وشاف الحماس، والحب &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>:وبعدين ابتسم وقال &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>....إنت معانا &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px; font-weight:700;'><strong>.بس أوعدني توقف لو حسيت بألم </strong></span></p></body></html>",
       "global_font": 2.8,
       "x": -100,
       "y": 1100,
@@ -342,7 +342,7 @@
       "height":580
     },
     {
-      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;أنا ما استسلمتش &quot;</strong> <em>.قال </em></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>&quot;.حتى لما كان صعب &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>,وما استعجلتش &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>.لأن الشفاء مهم &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وده اللي خلاه بطل حقيقي </span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>أنا ما استسلمتش </strong> <em>.قال </em></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>.حتى لما كان صعب &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>,وما استعجلتش &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:16px; font-weight:700;'><strong>.لأن الشفاء مهم &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p><p style='text-align:right;'><span style='color:#ffffff; font-size:14px;'>.وده اللي خلاه بطل حقيقي </span></p></body></html>",
       "global_font": 2.8,
       "x": 500,
       "y": 160,

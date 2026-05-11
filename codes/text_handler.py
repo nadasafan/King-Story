@@ -96,6 +96,51 @@ def _dprint(msg: str):
         print(msg)
 
 
+def _html_has_dark_text(html: str) -> bool:
+    """
+    Detect whether the HTML defines dark text colors (where a black drop-shadow
+    would create visible ghosting/blur). Returns True if ANY span/p uses a dark
+    color, so we know to skip the shadow effect on this label.
+
+    Covers:
+      - #000, #000000 and any hex with avg brightness < 128
+      - named: black, navy, maroon, darkblue, darkred, darkgreen, etc.
+    """
+    if not html:
+        return False
+    # Hex colors
+    for hex_color in re.findall(r"color\s*:\s*#([0-9a-fA-F]{3,8})", html):
+        h = hex_color
+        if len(h) == 3:
+            h = "".join(c * 2 for c in h)
+        if len(h) >= 6:
+            try:
+                r = int(h[0:2], 16)
+                g = int(h[2:4], 16)
+                b = int(h[4:6], 16)
+                if (r + g + b) / 3 < 128:
+                    return True
+            except ValueError:
+                continue
+    # rgb()/rgba()
+    for m in re.finditer(r"color\s*:\s*rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)", html):
+        try:
+            r, g, b = int(m.group(1)), int(m.group(2)), int(m.group(3))
+            if (r + g + b) / 3 < 128:
+                return True
+        except ValueError:
+            continue
+    # Named dark colors
+    if re.search(
+        r"color\s*:\s*(black|navy|maroon|darkblue|darkred|darkgreen|midnightblue|"
+        r"darkslategray|dimgray|#000(?![0-9a-fA-F]))",
+        html,
+        re.IGNORECASE,
+    ):
+        return True
+    return False
+
+
 def _short(s: str, n: int = 180) -> str:
     s = (s or "").replace("\n", " ").replace("\r", " ").strip()
     return s if len(s) <= n else s[:n] + "..."
@@ -474,12 +519,14 @@ def _render_html_to_qimage(
     item.setDefaultTextColor(QColor(255, 255, 255, 255))
     item.setPos(0, 0)  # ثابت بدون إزاحة
 
-    if shadow:
+    if shadow and not _html_has_dark_text(html):
         eff = QGraphicsDropShadowEffect()
         eff.setBlurRadius(int(blur_radius))
         eff.setColor(QColor(*shadow_color_rgba))
         eff.setOffset(int(shadow_offset[0]), int(shadow_offset[1]))
         item.setGraphicsEffect(eff)
+    elif shadow:
+        _dprint("[Render] Skipping shadow: dark text detected (avoids ghosting on light backgrounds)")
 
     scene = QGraphicsScene()
     scene.addItem(item)

@@ -57,7 +57,7 @@
       "height": 100
     },
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong>&quot;Don't worry,&quot;</strong> <em>[*Name*] whispers kindly.</em></span></p><p align='left'><span style=' font-size:12pt; color:#ffffff;'><em>&quot;I'll help you find your way back home.&quot;</em></span><br></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong>Don't worry,</strong> <em>[*Name*] whispers kindly.</em></span></p><p align='left'><span style=' font-size:12pt; color:#ffffff;'><em>I'll help you find your way back home.</em></span><br></p></body></html>",
       "global_font": 2.64,
       "x": 1734,
       "y": 690,
@@ -122,7 +122,7 @@
       "height": 216
     },
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong>&quot;Here, take this</strong></span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>stone,&quot;<em>says the bear.</em></span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong>Here, take this</strong></span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>stone,<em>says the bear.</em></span></p></body></html>",
       "global_font": 2.5,
       "x": 2016,
       "y": 1072,
@@ -130,7 +130,7 @@
       "height": 177
     },
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong>&quot;It will give the star</strong></span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'><strong> the courage it needs.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong>It will give the star</strong></span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'><strong> the courage it needs.</strong></span></p></body></html>",
       "global_font": 2.5,
       "x": 2016,
       "y": 1272,
@@ -176,7 +176,7 @@
       "height": 322
     },   
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong>&quot; This will help the star soar high,&quot;</strong></span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;the rabbit says with excitement.</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong> This will help the star soar high,</strong></span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;the rabbit says with excitement.</span></p></body></html>",
       "global_font": 2.6,
       "x": 2258,
       "y": 765,
@@ -245,7 +245,7 @@
       "height": 106
     },
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong>&quot;You can do it.</strong></span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong> You are strong,</strong></span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong> bright, and brave.</strong></span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong> I'll be here watching,</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong> so you won't be alone.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong>You can do it.</strong></span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong> You are strong,</strong></span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong> bright, and brave.</strong></span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong> I'll be here watching,</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong> so you won't be alone.</strong></span></p></body></html>",
       "global_font": 2.5,
       "x": 2000,
       "y": 358,

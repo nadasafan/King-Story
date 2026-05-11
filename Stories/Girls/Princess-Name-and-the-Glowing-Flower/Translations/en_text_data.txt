@@ -47,7 +47,7 @@
       "height": 240
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When she drew near,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the flower spoke!</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&quot;Dear Princess [*NAME*],</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>your heart is kind and beautiful.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>I have been waiting for you.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>The garden animals need your help.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When she drew near,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the flower spoke!</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Dear Princess [*NAME*],</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>your heart is kind and beautiful.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>I have been waiting for you.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>The garden animals need your help.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2400,
       "y": 600,
@@ -57,7 +57,7 @@
   ],
   "slide_05": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> was amazed </span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>she had never spoken with a </span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>flower before.She promised:<br> <strong>&quot;I will help the animals.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>What must I do?&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> was amazed </span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>she had never spoken with a </span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>flower before.She promised:<br> <strong>I will help the animals.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>What must I do?</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 200,
       "y": 730,
@@ -65,7 +65,7 @@
       "height": 260
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The flower glowed brightly.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;Show the animals love and </strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>compassion.<strong>Your first challenge </strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>awaits<strong>beside the oak tree.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The flower glowed brightly.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Show the animals love and </strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>compassion.<strong>Your first challenge </strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>awaits<strong>beside the oak tree.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 1800,
       "y": 1130,
@@ -75,7 +75,7 @@
   ],
   "slide_06": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> walked to the great oak tree.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>There she found a tiny bird crying on a low branch.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She asked gently: <strong>&quot;What is wrong, little one?&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The bird replied: <strong>&quot;I have lost my home!&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;I do not know where my nest is.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> walked to the great oak tree.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>There she found a tiny bird crying on a low branch.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She asked gently: <strong>What is wrong, little one?</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The bird replied: <strong>I have lost my home!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>I do not know where my nest is.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 300,
       "y": 790,
@@ -85,7 +85,7 @@
   ],
   "slide_07": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She held the bird</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and brought it close.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She told it: <strong>&quot;Do not worry,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>I will help you find your nest.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She held the bird</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>and brought it close.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She told it: <strong>Do not worry,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>I will help you find your nest.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 200,
       "y": 900,
@@ -105,7 +105,7 @@
   ],
   "slide_09": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> placed the bird in its nest.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It chirped with joy: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<strong>&quot;Thank you!&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Those words filled <strong>[*NAME*]</strong>'s heart</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'> with warmth,and she understood <br> how wonderful it is to help others.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> placed the bird in its nest.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It chirped with joy: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<strong>Thank you!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Those words filled <strong>[*NAME*]</strong>'s heart</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'> with warmth,and she understood <br> how wonderful it is to help others.</span></p></body></html>",
       "global_font": 2.8,
       "x": 200,
       "y": 300,
@@ -115,7 +115,7 @@
   ],
   "slide_10": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The glowing flower appeared once more.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It said: <strong>&quot;You have shown love and care.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Your next challenge is by the fountain.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The glowing flower appeared once more.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It said: <strong>You have shown love and care.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Your next challenge is by the fountain.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 200,
       "y": 610,
@@ -125,7 +125,7 @@
   ],
   "slide_11": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By the fountain,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> saw a beautiful peacock</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>staring at its reflection on the water's surface.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&quot;I am the most beautiful.&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It said, fanning its feathers proudly.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By the fountain,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> saw a beautiful peacock</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>staring at its reflection on the water's surface.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>I am the most beautiful.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It said, fanning its feathers proudly.</span></p></body></html>",
       "global_font": 2.8,
       "x": 200,
       "y": 400,
@@ -135,7 +135,7 @@
   ],
   "slide_12": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*NAME*]</strong> smiled.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She said:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>&quot;You are beautiful,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>but beauty becomes greater </strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>when you share it.<strong>Will you help me <br> gather feathers to warm a nest?&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*NAME*]</strong> smiled.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>She said:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>You are beautiful,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>but beauty becomes greater </strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>when you share it.<strong>Will you help me <br> gather feathers to warm a nest?</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2300,
       "y": 200,
@@ -145,7 +145,7 @@
   ],
   "slide_13": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The peacock hesitated.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It asked: <strong>&quot;Why should I do that?&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> answered:</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;Sharing makes us truly beautiful.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>When we help others,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>we shine from the inside and out.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The peacock hesitated.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>It asked: <strong>Why should I do that?</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> answered:</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Sharing makes us truly beautiful.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>When we help others,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>we shine from the inside and out.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 200,
       "y": 600,
@@ -155,7 +155,7 @@
   ],
   "slide_14": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The peacock thought for a moment,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>then plucked a few feathers.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It said: <strong>&quot;Here you go.&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> thanked it and carried</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'> the feathers to the nest.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The peacock thought for a moment,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>then plucked a few feathers.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It said: <strong>Here you go.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> thanked it and carried</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'> the feathers to the nest.</span></p></body></html>",
       "global_font": 2.8,
       "x": 400,
       "y": 300,
@@ -165,7 +165,7 @@
   ],
   "slide_15": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The glowing flower appeared again.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&quot;You have shown kindness</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>and taught the peacock </strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>the value of sharing.Your last <br> challenge awaits among the flower bushes.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The glowing flower appeared again.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>You have shown kindness</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>and taught the peacock </strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>the value of sharing.Your last <br> challenge awaits among the flower bushes.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 750,
       "y": 560,
@@ -175,7 +175,7 @@
   ],
   "slide_16": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Among the flower bushes,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a tiny squirrel was trembling.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&quot;What is wrong?&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> asked with tenderness.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>Among the flower bushes,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>a tiny squirrel was trembling.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>What is wrong?</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> asked with tenderness.</span></p></body></html>",
       "global_font": 2.8,
       "x": 200,
       "y": 430,
@@ -183,7 +183,7 @@
       "height": 260
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;I am afraid to climb the tree</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>to get my food.&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The squirrel replied, and added:</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&quot;What if I fall?&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>I am afraid to climb the tree</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>to get my food.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The squirrel replied, and added:</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>What if I fall?</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2100,
       "y": 1100,
@@ -193,7 +193,7 @@
   ],
   "slide_17": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*NAME*]</strong> knelt beside the squirrel.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;Courage does not mean you feel no fear </strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>it means you try even when you are afraid.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Let us climb together.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*NAME*]</strong> knelt beside the squirrel.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Courage does not mean you feel no fear </strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>it means you try even when you are afraid.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Let us climb together.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2200,
       "y": 200,
@@ -203,7 +203,7 @@
   ],
   "slide_18": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As they climbed,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> spotted a glowing mark</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;on the tree trunk.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The squirrel pointed to it:</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&quot;What is that?&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>it asked, trembling.</span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As they climbed,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>[*NAME*]</strong> spotted a glowing mark</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;on the tree trunk.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The squirrel pointed to it:</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>What is that?</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>it asked, trembling.</span></p></body></html>",
       "global_font": 2.8,
       "x": 700,
       "y": 200,
@@ -221,7 +221,7 @@
   ],
   "slide_19": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A hidden compartment opened,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>revealing a magical key inside.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;This must open something important.&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>she said, her voice full of wonder.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;Sometimes, you find answers</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>when you act with courage.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>A hidden compartment opened,</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>revealing a magical key inside.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>This must open something important.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>she said, her voice full of wonder.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>Sometimes, you find answers</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>when you act with courage.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 2400,
       "y": 260,
@@ -231,7 +231,7 @@
   ],
   "slide_20": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The squirrel found a pile of acorns </span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at the top.It cried: <strong>&quot;I did it!&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*NAME*]</strong> smiled.<strong>&quot;You see? </strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>You are braver than you think.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The squirrel found a pile of acorns </span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at the top.It cried: <strong>I did it!</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*NAME*]</strong> smiled.<strong>You see? </strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>You are braver than you think.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 700,
       "y": 420,
@@ -241,7 +241,7 @@
   ],
   "slide_21": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The glowing flower returned.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&quot;You have shown love,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>kindness, and courage.&quot;</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It told her, then added:</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>&quot;You are a truly beautiful princess.&quot;</strong></span></p></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>The glowing flower returned.</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>You have shown love,</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>kindness, and courage.</strong></span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It told her, then added:</span></p><p style='text-align:left;'><span style='color:#ffffff; font-size:14px;'><strong>You are a truly beautiful princess.</strong></span></p></body></html>",
       "global_font": 2.8,
       "x": 800,
       "y": 500,

@@ -19,7 +19,7 @@
       "height": 398
     },
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#ffffff;'>Wiggle, wiggle it danced a little!</span><br><span style=' font-size:14pt; color:#f6f5f4;'>Her eyes grew big and round like the moon.</span><br><span style=' font-size:14pt; color:#f6f5f4;'>&quot;Why is my tooth shaking?&quot; she whispered.</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#ffffff;'>Wiggle, wiggle it danced a little!</span><br><span style=' font-size:14pt; color:#f6f5f4;'>Her eyes grew big and round like the moon.</span><br><span style=' font-size:14pt; color:#f6f5f4;'>Why is my tooth shaking? she whispered.</span></p></body></html>",
       "global_font": 2.3,
       "x": 250,
       "y": 480,
@@ -29,7 +29,7 @@
   ],
   "slide_03": [
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>She went to the mirror and opened her mouth.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>There it was, a tiny tooth wobbling.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>It looked just like the others, but it moved.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong>[*Name*]</strong> felt a little scared.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&quot;What if it falls out?&quot; she asked.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&quot;Will it hurt a lot?&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>She went to the mirror and opened her mouth.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>There it was, a tiny tooth wobbling.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>It looked just like the others, but it moved.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong>[*Name*]</strong> felt a little scared.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>What if it falls out? she asked.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>Will it hurt a lot?</span></p></body></html>",
       "global_font": 2.3,
       "x": 1954,
       "y": 100,
@@ -39,7 +39,7 @@
   ],
   "slide_04": [
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#ffffff;'>At the playground, she saw her friend Max.</span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>He had a big gap in his smile.</span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>&quot;Where is your tooth?&quot; she asked him.</span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>&quot;It fell out last week!&quot; Max laughed.</span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>&quot;It didn't hurt at all, I promise.&quot;</span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'><strong>[*Name*]</strong> blinked and thought about that.</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#ffffff;'>At the playground, she saw her friend Max.</span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>He had a big gap in his smile.</span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>Where is your tooth? she asked him.</span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>It fell out last week! Max laughed.</span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>It didn't hurt at all, I promise.</span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'><strong>[*Name*]</strong> blinked and thought about that.</span></p></body></html>",
       "global_font": 2.4,
       "x": 2000,
       "y": 1000,
@@ -57,7 +57,7 @@
       "height": 264
     },
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#f6f5f4;'>&quot;I lost both!&quot; Lila giggled.</span></p><p align='left'><span style=' font-size:14pt; color:#f6f5f4;'>&quot;The Tooth Fairy left &quot;me a shiny coin.&quot;</span></p><p align='left'><span style=' font-size:14pt; color:#f6f5f4;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*Name*]</strong> gasped with wonder.</span></p><p align='left'><span style=' font-size:14pt; color:#f6f5f4;'>&quot;A real fairy?&quot; she asked softly.</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#f6f5f4;'>I lost both! Lila giggled.</span></p><p align='left'><span style=' font-size:14pt; color:#f6f5f4;'>The Tooth Fairy left me a shiny coin.</span></p><p align='left'><span style=' font-size:14pt; color:#f6f5f4;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*Name*]</strong> gasped with wonder.</span></p><p align='left'><span style=' font-size:14pt; color:#f6f5f4;'>A real fairy? she asked softly.</span></p></body></html>",
       "global_font": 2.4,
       "x": 1890,
       "y": 1212,
@@ -75,7 +75,7 @@
       "height": 300
     },
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>&quot;Maybe everyone's teeth fall out,&quot;</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>she said.She touched it gently and</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>smiled.&quot;Maybe mine is ready too.&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>Maybe everyone's teeth fall out,</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>she said.She touched it gently and</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>smiled.Maybe mine is ready too.</span></p></body></html>",
       "global_font": 2.3,
       "x": 2491,
       "y": 550,
@@ -85,7 +85,7 @@
   ],
   "slide_07": [
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong>[*Name*]</strong> climbed into bed, thinking quietly</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about her tooth.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>It still wiggled, but she didn't </span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;feel afraid anymore.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>She got into bed and hugged her soft bunny.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&quot;I hope the Tooth Fairy visits dreams,&quot;</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>she whispered. Her room was quiet and cozy.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>She closed her eyes and fell asleep.</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'><strong>[*Name*]</strong> climbed into bed, thinking quietly</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about her tooth.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>It still wiggled, but she didn't </span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;feel afraid anymore.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>She got into bed and hugged her soft bunny.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>I hope the Tooth Fairy visits dreams,</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>she whispered. Her room was quiet and cozy.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>She closed her eyes and fell asleep.</span></p></body></html>",
       "global_font": 2.3,
       "x": 706,
       "y": 950,
@@ -103,7 +103,7 @@
       "height": 416
     },
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>&quot;Hello, <strong>[*Name*],</strong>&quot; said the fairy softly.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;I'm the Tooth Fairy.&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>Hello, <strong>[*Name*],</strong> said the fairy softly.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm the Tooth Fairy.</span></p></body></html>",
       "global_font": 2.3,
       "x": 216,
       "y": 572,
@@ -113,7 +113,7 @@
   ],
   "slide_09": [
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The fairy held <strong>[*Name*]</strong>'s hand.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&quot;Let's go on a magical adventure,&quot;</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>she said. Together, they floated above</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rooftops and trees.</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The fairy held <strong>[*Name*]</strong>'s hand.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>Let's go on a magical adventure,</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>she said. Together, they floated above</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rooftops and trees.</span></p></body></html>",
       "global_font": 2.3,
       "x": 1815,
       "y": 80,
@@ -139,7 +139,7 @@
       "height": 300
     },
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each one sparkled like a tiny star.</span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>&quot;This is the Garden of Brave Smiles,&quot; said the fairy.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;It's where first teeth come to rest.&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each one sparkled like a tiny star.</span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>This is the Garden of Brave Smiles, said the fairy.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It's where first teeth come to rest.</span></p></body></html>",
       "global_font": 2.2,
       "x": 1804,
       "y": 472,
@@ -157,7 +157,7 @@
       "height": 344
     },
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>Some had little gaps where teeth had once been.</span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>They waved at <strong>[*Name*]</strong> and twirled</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>in the sparkles. &quot;They were all brave,</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>just like you,&quot; said the fairy.</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>Some had little gaps where teeth had once been.</span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>They waved at <strong>[*Name*]</strong> and twirled</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>in the sparkles. They were all brave,</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>just like you, said the fairy.</span></p></body></html>",
       "global_font": 2.3,
       "x": 2000,
       "y": 100,
@@ -167,7 +167,7 @@
   ],
   "slide_12": [
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*Name*]</strong> smiled wide in the dream.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;She touched her wiggly tooth gently.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fairy winked and whispered,</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;You'll know when your tooth is ready.&quot;</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>Above them, the sky swirled with color and stars.</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*Name*]</strong> smiled wide in the dream.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;She touched her wiggly tooth gently.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fairy winked and whispered,</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You'll know when your tooth is ready.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>Above them, the sky swirled with color and stars.</span></p></body></html>",
       "global_font": 2.3,
       "x": 200,
       "y": 108,
@@ -193,7 +193,7 @@
       "height": 300
     },
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>&quot;I think I'm ready,&quot; she said softly.</span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>She sat up, feeling calm and strong.</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>I think I'm ready, she said softly.</span></p><p align='left'><span style=' font-size:14pt; color:#ffffff;'>She sat up, feeling calm and strong.</span></p></body></html>",
       "global_font": 2.3,
       "x": 2200,
       "y": 1350,
@@ -221,7 +221,7 @@
   ],
   "slide_15": [
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*Name*]</strong> placed the tiny</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>tooth under her pillow. Her heart felt</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>full of pride and joy. The room was</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>quiet and peaceful. She whispered,</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Thank you, Tooth Fairy.&quot;</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>Then she snuggled into her pillow.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>And drifted back into sweet sleep.</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[*Name*]</strong> placed the tiny</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>tooth under her pillow. Her heart felt</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>full of pride and joy. The room was</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>quiet and peaceful. She whispered,</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thank you, Tooth Fairy.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>Then she snuggled into her pillow.</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>And drifted back into sweet sleep.</span></p></body></html>",
       "global_font": 2.3,
       "x": 2050,
       "y": 221,
@@ -239,7 +239,7 @@
       "height": 278
     },
     {
-      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>Her fingers touched something round</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>and smooth. It was a shiny coin, just like in</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>her dream! She held it tight and whispered,</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;I was brave.&quot;</span></p></body></html>",
+      "html": "<html><head/><body><p align='left'><span style=' font-size:14pt; color:#deddda;'>Her fingers touched something round</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>and smooth. It was a shiny coin, just like in</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>her dream! She held it tight and whispered,</span></p><p align='left'><span style=' font-size:14pt; color:#deddda;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I was brave.</span></p></body></html>",
       "global_font": 2.3,
       "x": 800,
       "y": 1280,

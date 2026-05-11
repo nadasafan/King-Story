@@ -53,7 +53,7 @@
       "height": 200
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;Oh no,&quot;</strong> <em>she said gently,</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><em>and crawled in carefully to help.</em><br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>Oh no,</strong> <em>she said gently,</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><em>and crawled in carefully to help.</em><br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 2500,
       "y": 1110,
@@ -71,7 +71,7 @@
       "height": 300
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You're safe now,&quot;</strong> <em>she whispered.</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><em>The cat purred and curled in her lap.</em><br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>You're safe now,</strong> <em>she whispered.</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><em>The cat purred and curled in her lap.</em><br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 2100,
       "y": 750,
@@ -79,7 +79,7 @@
       "height": 300
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You're very kind,&quot;</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>it seemed to say with its eyes.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>You're very kind,</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>it seemed to say with its eyes.<br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 2300,
       "y": 980,
@@ -97,7 +97,7 @@
       "height": 380
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;I've seen this before,&quot;</strong> </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>she whispered.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>I've seen this before,</strong> </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>she whispered.<br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 2300,
       "y": 620,
@@ -105,7 +105,7 @@
       "height": 220
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Princess <strong>[*Name*]</strong> remembered a line </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>from the golden book in her lap:</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>When the light flickers on tiny </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>wings, follow it, and you'll answer </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>the call.&quot;</strong><br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Princess <strong>[*Name*]</strong> remembered a line </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>from the golden book in her lap:</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>When the light flickers on tiny </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>wings, follow it, and you'll answer </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>the call.</strong><br></span></p><br></body></html>",
       "global_font": 2.5,
       "x": 2400,
       "y": 770,
@@ -113,7 +113,7 @@
       "height": 420
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;Someone needs help,&quot;</strong> </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>she said.<strong>&quot;I'm ready.&quot;</strong><br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>Someone needs help,</strong> </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>she said.<strong>I'm ready.</strong><br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 2600,
       "y": 1220,
@@ -131,7 +131,7 @@
       "height": 200
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;I try to help,&quot;</strong> <em>the bunny sighed,</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;but I'm too small and too slow.</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>I always mess things up.&quot;</strong><br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>I try to help,</strong> <em>the bunny sighed,</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>but I'm too small and too slow.</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>I always mess things up.</strong><br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 2100,
       "y": 280,
@@ -147,7 +147,7 @@
       "height": 120
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;Being small doesn't mean </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> you aren't strong,&quot;</strong> <em>she said kindly.</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You notice things others don't.</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>That's a special kind of strength.&quot;</strong><br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>Being small doesn't mean </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> you aren't strong,</strong> <em>she said kindly.</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>You notice things others don't.</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>That's a special kind of strength.</strong><br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 2300,
       "y": 690,
@@ -165,7 +165,7 @@
       "height": 600
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;I did it!&quot;</strong> <em>he said proudly.</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You helped me believe </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> in myself!&quot;</strong><br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>I did it!</strong> <em>he said proudly.</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>You helped me believe </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> in myself!</strong><br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 2000,
       "y": 280,
@@ -173,7 +173,7 @@
       "height": 300
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Princess <strong>[*Name*]</strong> smiled.<strong>&quot;Sometimes,</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> the smallest hearts are the bravest.&quot;</strong><br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Princess <strong>[*Name*]</strong> smiled.<strong>Sometimes,</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> the smallest hearts are the bravest.</strong><br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 2100,
       "y": 620,
@@ -191,7 +191,7 @@
       "height": 200
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;I used to feel graceful,&quot;</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><em>the swan whispered.</em><br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>I used to feel graceful,</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><em>the swan whispered.</em><br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 1800,
       "y": 980,
@@ -199,7 +199,7 @@
       "height": 150
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;I made some mistakes,</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>and now I don't feel special anymore.&quot;</strong><br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>I made some mistakes,</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>and now I don't feel special anymore.</strong><br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 1900,
       "y": 1160,
@@ -217,7 +217,7 @@
       "height": 120
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;Mistakes don't make us less </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> beautiful,&quot;</strong> she said softly.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>Mistakes don't make us less </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> beautiful,</strong> she said softly.<br></span></p><br></body></html>",
       "global_font": 2.3,
       "x": 290,
       "y": 580,
@@ -225,7 +225,7 @@
       "height": 250
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;They help us grow.</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>Your light is still inside </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>you, waiting to return.&quot;</strong><br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>They help us grow.</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>Your light is still inside </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>you, waiting to return.</strong><br></span></p><br></body></html>",
       "global_font": 2.3,
       "x": 490,
       "y": 880,
@@ -241,7 +241,7 @@
       "height": 150
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You reminded </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> me who I am,&quot;</strong> </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> the swan said.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>You reminded </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> me who I am,</strong> </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> the swan said.<br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 1900,
       "y": 890,
@@ -277,7 +277,7 @@
   ],
   "slide_11": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;I can't hold on!&quot;</strong> <em>she cried.</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Just then, hoofbeats echoed. <strong>Luma!</strong><br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>I can't hold on!</strong> <em>she cried.</em></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>Just then, hoofbeats echoed. <strong>Luma!</strong><br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 590,
       "y": 280,
@@ -355,7 +355,7 @@
       "height": 280
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You were chosen </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>because of your </strong> </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> heart,&quot;</strong> it said softly.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>You were chosen </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>because of your </strong> </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> heart,</strong> it said softly.<br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 300,
       "y": 400,
@@ -363,7 +363,7 @@
       "height": 350
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You listened when others felt </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>small.You stayed brave when </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>things got hard.you helped</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> others believe in themselves.&quot;</strong><br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>You listened when others felt </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>small.You stayed brave when </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>things got hard.you helped</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> others believe in themselves.</strong><br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 2100,
       "y": 880,
@@ -389,7 +389,7 @@
       "height": 380
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You helped others be </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> brave,&quot;</strong> it said.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>You helped others be </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> brave,</strong> it said.<br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 2400,
       "y": 1300,
@@ -425,7 +425,7 @@
   ],
   "slide_17": [
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The dragonfly hovered still, its voice </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> steady and clear:<strong>&quot;Remember this,</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> forever and always.&quot;</strong>It looked into</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> her eyes.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>The dragonfly hovered still, its voice </span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> steady and clear:<strong>Remember this,</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong> forever and always.</strong>It looked into</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'> her eyes.<br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 1800,
       "y": 410,
@@ -433,7 +433,7 @@
       "height": 220
     },
     {
-      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>&quot;You are the one </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>We all needed,&quot;</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>the dragonfly whispered,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>glowing in the air.<br></span></p><br></body></html>",
+      "html": "<html><head/><body><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>You are the one </strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'><strong>We all needed,</strong></span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>the dragonfly whispered,</span></p><p style='text-align:left;'><span style='color:hsl(0, 0%, 100%); font-size:14px;'>glowing in the air.<br></span></p><br></body></html>",
       "global_font": 2.9,
       "x": 2100,
       "y": 690,
